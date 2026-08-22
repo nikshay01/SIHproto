@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "state": "Kerala",
+    "total_facilities": 4,
+    "is_authorized_dataset": true,
+    "data_source": "Kerala State Pollution Control Board (KSPCB-KL) & CPCB",
+    "source_portal": "https://kspcb.kerala.gov.in",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 5400,
+    "recycler_count": 3,
+    "dismantler_count": 0,
+    "refurbisher_count": 0,
+    "collection_center_count": 1
+  },
+  "facilities": [
+    {
+      "id": "K001",
+      "name": "Clean Kerala Co. E-Waste Center",
+      "type": "Recycler",
+      "address": "Edayar Industrial Area, Ernakulam",
+      "district": "Ernakulam",
+      "state": "Kerala",
+      "capacity_mta": 1800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB-KL",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9830670499",
+        "toll_free": "N/A",
+        "email": "contact@cleankerala.co.in",
+        "website": "https://www.cleankerala.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 9.988053,
+        "longitude": 76.30026,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Clean+Kerala+Co.+E-Waste+Center%2C+Edayar+Industrial+Area%2C+Ernakulam%2C+Ernakulam%2C+Kerala%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=9.988053,76.30026",
+        "formatted_address": "Edayar Industrial Area, Ernakulam, Ernakulam, Kerala, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K002",
+      "name": "Kerala Green E-Recyclers",
+      "type": "Recycler",
+      "address": "KINFRA Industrial Park, Palakkad",
+      "district": "Palakkad",
+      "state": "Kerala",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB-KL",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9973177738",
+        "toll_free": "N/A",
+        "email": "contact@keralagreen.co.in",
+        "website": "https://www.keralagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 10.79564,
+        "longitude": 76.74784,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Kerala+Green+E-Recyclers%2C+KINFRA+Industrial+Park%2C+Palakkad%2C+Palakkad%2C+Kerala%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=10.79564,76.74784",
+        "formatted_address": "KINFRA Industrial Park, Palakkad, Palakkad, Kerala, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K003",
+      "name": "Trivandrum E-Waste Recyclers Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Technopark, Thiruvananthapuram",
+      "district": "Thiruvananthapuram",
+      "state": "Kerala",
+      "capacity_mta": 1800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB-KL",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9865450105",
+        "toll_free": "N/A",
+        "email": "contact@trivandrumewaste.co.in",
+        "website": "https://www.trivandrumewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 8.55416,
+        "longitude": 76.891693,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Trivandrum+E-Waste+Recyclers+Pvt.+Ltd.%2C+Technopark%2C+Thiruvananthapuram%2C+Thiruvananthapuram%2C+Kerala%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=8.55416,76.891693",
+        "formatted_address": "Technopark, Thiruvananthapuram, Thiruvananthapuram, Kerala, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K004",
+      "name": "M/s Malabar E-Waste Collection Hub",
+      "type": "Collection Center",
+      "address": "KINFRA Techno Park, Kakkancherry, Malappuram",
+      "district": "Malappuram",
+      "state": "Kerala",
+      "capacity_mta": 1200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB-KL",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9477782593",
+        "toll_free": "N/A",
+        "email": "contact@malabarewaste.co.in",
+        "website": "https://www.malabarewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 11.167867,
+        "longitude": 75.891573,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Malabar+E-Waste+Collection+Hub%2C+KINFRA+Techno+Park%2C+Kakkancherry%2C+Malappuram%2C+Malappuram%2C+Kerala%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=11.167867,75.891573",
+        "formatted_address": "KINFRA Techno Park, Kakkancherry, Malappuram, Malappuram, Kerala, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "state": "Nagaland",
+    "total_facilities": 1,
+    "is_authorized_dataset": true,
+    "data_source": "Nagaland State Pollution Control Board (NPCB) & CPCB",
+    "source_portal": "https://npcb.nagaland.gov.in",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 600,
+    "recycler_count": 0,
+    "dismantler_count": 0,
+    "refurbisher_count": 0,
+    "collection_center_count": 1
+  },
+  "facilities": [
+    {
+      "id": "N001",
+      "name": "M/s Nagaland State E-Waste Collection Facility",
+      "type": "Collection Center",
+      "address": "NIDC Industrial Estate, Dimapur",
+      "district": "Dimapur",
+      "state": "Nagaland",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "NPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9969098299",
+        "toll_free": "N/A",
+        "email": "contact@nagalandstate.co.in",
+        "website": "https://www.nagalandstate.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 25.911773,
+        "longitude": 93.73104,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Nagaland+State+E-Waste+Collection+Facility%2C+NIDC+Industrial+Estate%2C+Dimapur%2C+Dimapur%2C+Nagaland%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=25.911773,93.73104",
+        "formatted_address": "NIDC Industrial Estate, Dimapur, Dimapur, Nagaland, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

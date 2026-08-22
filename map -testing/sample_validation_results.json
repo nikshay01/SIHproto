@@ -1,0 +1,1767 @@
+{
+  "validation_parameters": {
+    "distance_threshold_km": 2.0,
+    "total_facilities_processed": 50
+  },
+  "results": [
+    {
+      "facility_id": "WB007",
+      "facility_name": "M/s City of Joy E-Refurbishers",
+      "status": "mismatch",
+      "address": "New Town, Rajarhat, Kolkata, North 24 Parganas, West Bengal, India",
+      "stored_coords": [
+        22.71692,
+        88.4748
+      ],
+      "geocoded_coords": [
+        22.5882834,
+        88.4734476
+      ],
+      "distance_km": 14.246,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "M003",
+      "facility_name": "Eco-Pro Environmental Services",
+      "status": "mismatch",
+      "address": "Bhosari MIDC, Pune, Pune, Maharashtra, India",
+      "stored_coords": [
+        18.62492,
+        73.84968
+      ],
+      "geocoded_coords": [
+        18.6319095,
+        73.8273721
+      ],
+      "distance_km": 2.478,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "K009",
+      "facility_name": "Yelahanka E-Recyclers LLP",
+      "status": "mismatch",
+      "address": "Yelahanka Industrial Area, Bangalore, Bangalore Urban, Karnataka, India",
+      "stored_coords": [
+        13.10498,
+        77.59686
+      ],
+      "geocoded_coords": [
+        13.0986677,
+        77.5703182
+      ],
+      "distance_km": 2.962,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "TN009",
+      "facility_name": "M/s Global E-Waste Recyclers",
+      "status": "mismatch",
+      "address": "SIPCOT Industrial Complex, Hosur, Krishnagiri, Krishnagiri, Tamil Nadu, India",
+      "stored_coords": [
+        16.191213,
+        81.133173
+      ],
+      "geocoded_coords": [
+        12.7607462,
+        77.800548
+      ],
+      "distance_km": 522.592,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "WB010",
+      "facility_name": "Siliguri Green E-Waste Collection Hub",
+      "status": "mismatch",
+      "address": "Dabgram Industrial Area, Jalpaiguri / Siliguri, Jalpaiguri, West Bengal, India",
+      "stored_coords": [
+        26.721907,
+        88.438747
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 1300.341,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "H030",
+      "facility_name": "Haryana Green Unit 30 (Yamunanagar)",
+      "status": "mismatch",
+      "address": "HSIIDC Industrial Area, Yamunanagar, Yamunanagar, Haryana, India",
+      "stored_coords": [
+        30.1318,
+        77.27064
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 1124.757,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "M038",
+      "facility_name": "Maharashtra E-Tech Unit 38 (Latur)",
+      "status": "mismatch",
+      "address": "MIDC Industrial Area, Latur, Latur, Maharashtra, India",
+      "stored_coords": [
+        18.41104,
+        76.563573
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 231.848,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "M033",
+      "facility_name": "Maharashtra E-Tech Unit 33 (Kolhapur)",
+      "status": "mismatch",
+      "address": "MIDC Industrial Area, Kolhapur, Kolhapur, Maharashtra, India",
+      "stored_coords": [
+        16.706653,
+        74.2405
+      ],
+      "geocoded_coords": [
+        16.6223809,
+        74.350228
+      ],
+      "distance_km": 14.966,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "H009",
+      "facility_name": "Palwal E-Waste Solutions",
+      "status": "mismatch",
+      "address": "Industrial Area, Palwal, Palwal, Haryana, India",
+      "stored_coords": [
+        28.153627,
+        77.322027
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 905.721,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "H008",
+      "facility_name": "Jhajjar E-Waste Recyclers Pvt. Ltd.",
+      "status": "mismatch",
+      "address": "HSIIDC Industrial Area, Jhajjar, Jhajjar, Haryana, India",
+      "stored_coords": [
+        28.60708,
+        76.658533
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 963.002,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "JA002",
+      "facility_name": "M/s Jammu Industrial E-Waste Center",
+      "status": "mismatch",
+      "address": "Bari Brahmana Industrial Complex, Samba, Samba, Jammu and Kashmir, India",
+      "stored_coords": [
+        32.6432,
+        74.940453
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 1433.502,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "WB005",
+      "facility_name": "Salt Lake E-Recyclers LLP",
+      "status": "valid",
+      "address": "Sector-V, Salt Lake, Kolkata, Kolkata, West Bengal, India",
+      "stored_coords": [
+        22.58492,
+        88.437573
+      ],
+      "geocoded_coords": [
+        22.5787257,
+        88.431218
+      ],
+      "distance_km": 0.947,
+      "within_threshold": true,
+      "error": null
+    },
+    {
+      "facility_id": "UP028",
+      "facility_name": "UP Unit 28 (Lakhimpur Kheri E-Waste Center)",
+      "status": "mismatch",
+      "address": "UPSIDC Industrial Area, Lakhimpur Kheri, Lakhimpur Kheri, Uttar Pradesh, India",
+      "stored_coords": [
+        27.956233,
+        80.782047
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 925.479,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "K014",
+      "facility_name": "Bangalore Tech Valley Recyclers",
+      "status": "valid",
+      "address": "Peenya 2nd Phase, Bangalore, Bangalore Urban, Karnataka, India",
+      "stored_coords": [
+        13.03506,
+        77.52328
+      ],
+      "geocoded_coords": [
+        13.0237865,
+        77.5217729
+      ],
+      "distance_km": 1.258,
+      "within_threshold": true,
+      "error": null
+    },
+    {
+      "facility_id": "K028",
+      "facility_name": "Karnataka Green Facility 28 (Dakshina Kannada)",
+      "status": "mismatch",
+      "address": "KIADB Industrial Area, Dakshina Kannada, Dakshina Kannada, Karnataka, India",
+      "stored_coords": [
+        12.9768,
+        77.589587
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 778.454,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "M020",
+      "facility_name": "Maharashtra E-Tech Unit 20 (Osmanabad)",
+      "status": "mismatch",
+      "address": "MIDC Industrial Area, Osmanabad, Osmanabad, Maharashtra, India",
+      "stored_coords": [
+        18.17958,
+        76.04386
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 288.057,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "H014",
+      "facility_name": "Haryana Green Unit 14 (Faridabad)",
+      "status": "mismatch",
+      "address": "HSIIDC Industrial Area, Faridabad, Faridabad, Haryana, India",
+      "stored_coords": [
+        28.371893,
+        77.313533
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 929.902,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "UP063",
+      "facility_name": "UP Unit 63 (Ayodhya E-Waste Center)",
+      "status": "mismatch",
+      "address": "UPSIDC Industrial Area, Ayodhya, Ayodhya, Uttar Pradesh, India",
+      "stored_coords": [
+        26.790853,
+        82.19392
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 865.495,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "T001",
+      "facility_name": "M/s Tripura E-Waste Collection & Storage Facility",
+      "status": "mismatch",
+      "address": "Bodhjungnagar Industrial Growth Centre, Agartala, West Tripura, Tripura, India",
+      "stored_coords": [
+        23.89652,
+        91.347787
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 1443.956,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "UP065",
+      "facility_name": "UP Unit 65 (Sambhal E-Waste Center)",
+      "status": "mismatch",
+      "address": "UPSIDC Industrial Area, Sambhal, Sambhal, Uttar Pradesh, India",
+      "stored_coords": [
+        28.5859,
+        78.57424
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 952.787,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "K001",
+      "facility_name": "Clean Kerala Co. E-Waste Center",
+      "status": "mismatch",
+      "address": "Edayar Industrial Area, Ernakulam, Ernakulam, Kerala, India",
+      "stored_coords": [
+        9.988053,
+        76.30026
+      ],
+      "geocoded_coords": [
+        10.0822159,
+        76.315507
+      ],
+      "distance_km": 10.548,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "G018",
+      "facility_name": "Gujarat Eco Unit 18 (Vadodara)",
+      "status": "mismatch",
+      "address": "GIDC Industrial Estate, Vadodara, Vadodara, Gujarat, India",
+      "stored_coords": [
+        23.025233,
+        72.570093
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 654.661,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "K029",
+      "facility_name": "Karnataka Green Facility 29 (Davangere)",
+      "status": "mismatch",
+      "address": "KIADB Industrial Area, Davangere, Davangere, Karnataka, India",
+      "stored_coords": [
+        14.464627,
+        75.9274
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 651.026,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "H012",
+      "facility_name": "Haryana Green Unit 12 (Hisar)",
+      "status": "mismatch",
+      "address": "HSIIDC Industrial Area, Hisar, Hisar, Haryana, India",
+      "stored_coords": [
+        29.151733,
+        75.72184
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 1039.565,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "H045",
+      "facility_name": "Haryana Green Unit 45 (Karnal)",
+      "status": "mismatch",
+      "address": "HSIIDC Industrial Area, Karnal, Karnal, Haryana, India",
+      "stored_coords": [
+        29.69444,
+        76.99764
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 1078.626,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "R017",
+      "facility_name": "M/s Rajasthan Green E-Recyclers",
+      "status": "mismatch",
+      "address": "RIICO, Neemrana, Alwar, Alwar, Rajasthan, India",
+      "stored_coords": [
+        28.000933,
+        76.386567
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 901.218,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "R020",
+      "facility_name": "M/s Jaipur Eco E-Recyclers LLP",
+      "status": "mismatch",
+      "address": "VKI Area, Road No. 14, Jaipur, Jaipur, Rajasthan, India",
+      "stored_coords": [
+        26.979533,
+        75.76308
+      ],
+      "geocoded_coords": [
+        26.789821,
+        75.8340014
+      ],
+      "distance_km": 22.17,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "D012",
+      "facility_name": "M/s Okhla Phase-III E-Waste Node",
+      "status": "valid",
+      "address": "Okhla Phase-III, New Delhi, South Delhi, Delhi, India",
+      "stored_coords": [
+        28.537447,
+        77.275353
+      ],
+      "geocoded_coords": [
+        28.5495384,
+        77.2675585
+      ],
+      "distance_km": 1.542,
+      "within_threshold": true,
+      "error": null
+    },
+    {
+      "facility_id": "T001",
+      "facility_name": "Earth Sense Recycle Pvt. Ltd.",
+      "status": "mismatch",
+      "address": "APIIC Industrial Park, Rangareddy, Rangareddy, Telangana, India",
+      "stored_coords": [
+        17.18788,
+        78.438227
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 314.683,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "M009",
+      "facility_name": "Nashik Green E-Solutions Pvt. Ltd.",
+      "status": "mismatch",
+      "address": "Satpur MIDC, Nashik, Nashik, Maharashtra, India",
+      "stored_coords": [
+        19.97408,
+        73.73924
+      ],
+      "geocoded_coords": [
+        20.0044843,
+        73.7375369
+      ],
+      "distance_km": 3.371,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "M021",
+      "facility_name": "Maharashtra E-Tech Unit 21 (Beed)",
+      "status": "mismatch",
+      "address": "MIDC Industrial Area, Beed, Beed, Maharashtra, India",
+      "stored_coords": [
+        18.990753,
+        75.759753
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 260.356,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "H019",
+      "facility_name": "Haryana Green Unit 19 (Rewari)",
+      "status": "mismatch",
+      "address": "HSIIDC Industrial Area, Rewari, Rewari, Haryana, India",
+      "stored_coords": [
+        28.18256,
+        76.6168
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 917.125,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "TN003",
+      "facility_name": "M/s Shri Raam Recycling",
+      "status": "mismatch",
+      "address": "SIDCO Industrial Estate, SIPCOT Industrial Complex, Gummidipoondi, Tiruvallur, Tamil Nadu, India",
+      "stored_coords": [
+        13.408573,
+        80.127573
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 763.884,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "T011",
+      "facility_name": "Telangana Eco Unit 11 (Sangareddy)",
+      "status": "mismatch",
+      "address": "TSIIC Industrial Estate, Sangareddy, Sangareddy, Telangana, India",
+      "stored_coords": [
+        17.543747,
+        78.198093
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 272.682,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "T019",
+      "facility_name": "Telangana Eco Unit 19 (Nalgonda)",
+      "status": "mismatch",
+      "address": "TSIIC Industrial Estate, Nalgonda, Nalgonda, Telangana, India",
+      "stored_coords": [
+        17.052407,
+        79.26664
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 352.599,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "UP057",
+      "facility_name": "UP Unit 57 (Muzaffarnagar E-Waste Center)",
+      "status": "mismatch",
+      "address": "UPSIDC Industrial Area, Muzaffarnagar, Muzaffarnagar, Uttar Pradesh, India",
+      "stored_coords": [
+        29.48352,
+        77.704627
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 1050.92,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "M031",
+      "facility_name": "Maharashtra E-Tech Unit 31 (Nagpur)",
+      "status": "mismatch",
+      "address": "MIDC Industrial Area, Nagpur, Nagpur, Maharashtra, India",
+      "stored_coords": [
+        19.08264,
+        72.874593
+      ],
+      "geocoded_coords": [
+        21.1100985,
+        78.9908833
+      ],
+      "distance_km": 677.82,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "T010",
+      "facility_name": "M/s Cyberabad E-Refurbishers",
+      "status": "valid",
+      "address": "HITEC City, Madhapur, Hyderabad, Hyderabad, Telangana, India",
+      "stored_coords": [
+        17.444987,
+        78.383347
+      ],
+      "geocoded_coords": [
+        17.4490055,
+        78.3831376
+      ],
+      "distance_km": 0.445,
+      "within_threshold": true,
+      "error": null
+    },
+    {
+      "facility_id": "M044",
+      "facility_name": "Maharashtra E-Tech Unit 44 (Wardha)",
+      "status": "mismatch",
+      "address": "MIDC Industrial Area, Wardha, Wardha, Maharashtra, India",
+      "stored_coords": [
+        20.745353,
+        78.596467
+      ],
+      "geocoded_coords": [
+        20.7351365,
+        78.6357451
+      ],
+      "distance_km": 4.244,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "UP055",
+      "facility_name": "UP Unit 55 (Hapur E-Waste Center)",
+      "status": "mismatch",
+      "address": "UPSIDC Industrial Area, Hapur, Hapur, Uttar Pradesh, India",
+      "stored_coords": [
+        28.736587,
+        77.774553
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 967.978,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "R009",
+      "facility_name": "M/s Hulladek PWL E-Waste Collection Facility",
+      "status": "mismatch",
+      "address": "Plot No. F-142, RIICO Industrial Area, Bindayka, Sirsi, Jaipur, Jaipur, Rajasthan, India",
+      "stored_coords": [
+        26.918093,
+        75.787273
+      ],
+      "geocoded_coords": [
+        26.789821,
+        75.8340014
+      ],
+      "distance_km": 14.952,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "M002",
+      "facility_name": "Enviro-Care Recycling Pvt. Ltd.",
+      "status": "mismatch",
+      "address": "TTC Industrial Area, Pawane MIDC, Navi Mumbai, Thane, Maharashtra, India",
+      "stored_coords": [
+        19.082333,
+        73.033773
+      ],
+      "geocoded_coords": [
+        19.2889754,
+        73.0905229
+      ],
+      "distance_km": 23.64,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "UP017",
+      "facility_name": "Awadh E-Waste Solutions Pvt. Ltd.",
+      "status": "mismatch",
+      "address": "Sitapur Road Industrial Area, Lucknow, Lucknow, Uttar Pradesh, India",
+      "stored_coords": [
+        26.883253,
+        80.995013
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 821.359,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "TN007",
+      "facility_name": "Trishyiraya Recycling India Pvt. Ltd.",
+      "status": "valid",
+      "address": "SIDCO Industrial Estate, Guindy, Chennai, Chennai, Tamil Nadu, India",
+      "stored_coords": [
+        13.004013,
+        80.20748
+      ],
+      "geocoded_coords": [
+        13.0161967,
+        80.2013694
+      ],
+      "distance_km": 1.502,
+      "within_threshold": true,
+      "error": null
+    },
+    {
+      "facility_id": "G032",
+      "facility_name": "Gujarat Eco Unit 32 (Surat)",
+      "status": "mismatch",
+      "address": "GIDC Industrial Estate, Surat, Surat, Gujarat, India",
+      "stored_coords": [
+        23.021047,
+        72.56768
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 654.646,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "N001",
+      "facility_name": "M/s Nagaland State E-Waste Collection Facility",
+      "status": "mismatch",
+      "address": "NIDC Industrial Estate, Dimapur, Dimapur, Nagaland, India",
+      "stored_coords": [
+        25.911773,
+        93.73104
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 1739.35,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "K018",
+      "facility_name": "M/s Silicon City Refurbishers",
+      "status": "valid",
+      "address": "Koramangala Industrial Layout, Bangalore, Bangalore Urban, Karnataka, India",
+      "stored_coords": [
+        12.941573,
+        77.61858
+      ],
+      "geocoded_coords": [
+        12.9332863,
+        77.6147149
+      ],
+      "distance_km": 1.008,
+      "within_threshold": true,
+      "error": null
+    },
+    {
+      "facility_id": "M006",
+      "facility_name": "Pune E-Waste Management LLP",
+      "status": "mismatch",
+      "address": "Chakan MIDC, Pune, Pune, Maharashtra, India",
+      "stored_coords": [
+        18.76216,
+        73.858933
+      ],
+      "geocoded_coords": [
+        18.8018882,
+        73.7995834
+      ],
+      "distance_km": 7.648,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "UP001",
+      "facility_name": "Attero Recycling Pvt. Ltd. (UP Center)",
+      "status": "mismatch",
+      "address": "Ecotech-III, Greater Noida, Gautam Buddha Nagar, Uttar Pradesh, India",
+      "stored_coords": [
+        28.47312,
+        77.50364
+      ],
+      "geocoded_coords": [
+        28.474388,
+        77.4823138
+      ],
+      "distance_km": 2.093,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "H038",
+      "facility_name": "Haryana Green Unit 38 (Faridabad)",
+      "status": "mismatch",
+      "address": "HSIIDC Industrial Area, Faridabad, Faridabad, Haryana, India",
+      "stored_coords": [
+        28.3644,
+        77.318147
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 929.039,
+      "within_threshold": false,
+      "error": null
+    }
+  ],
+  "report": {
+    "summary": {
+      "total_facilities": 50,
+      "valid_coordinates": 6,
+      "mismatched_coordinates": 44,
+      "errors": 0,
+      "validation_threshold_km": 2.0
+    },
+    "mismatched_facilities": [
+      {
+        "facility_id": "N001",
+        "facility_name": "M/s Nagaland State E-Waste Collection Facility",
+        "distance_km": 1739.35,
+        "stored_coords": [
+          25.911773,
+          93.73104
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "NIDC Industrial Estate, Dimapur, Dimapur, Nagaland, India"
+      },
+      {
+        "facility_id": "T001",
+        "facility_name": "M/s Tripura E-Waste Collection & Storage Facility",
+        "distance_km": 1443.956,
+        "stored_coords": [
+          23.89652,
+          91.347787
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Bodhjungnagar Industrial Growth Centre, Agartala, West Tripura, Tripura, India"
+      },
+      {
+        "facility_id": "JA002",
+        "facility_name": "M/s Jammu Industrial E-Waste Center",
+        "distance_km": 1433.502,
+        "stored_coords": [
+          32.6432,
+          74.940453
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Bari Brahmana Industrial Complex, Samba, Samba, Jammu and Kashmir, India"
+      },
+      {
+        "facility_id": "WB010",
+        "facility_name": "Siliguri Green E-Waste Collection Hub",
+        "distance_km": 1300.341,
+        "stored_coords": [
+          26.721907,
+          88.438747
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Dabgram Industrial Area, Jalpaiguri / Siliguri, Jalpaiguri, West Bengal, India"
+      },
+      {
+        "facility_id": "H030",
+        "facility_name": "Haryana Green Unit 30 (Yamunanagar)",
+        "distance_km": 1124.757,
+        "stored_coords": [
+          30.1318,
+          77.27064
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "HSIIDC Industrial Area, Yamunanagar, Yamunanagar, Haryana, India"
+      },
+      {
+        "facility_id": "H045",
+        "facility_name": "Haryana Green Unit 45 (Karnal)",
+        "distance_km": 1078.626,
+        "stored_coords": [
+          29.69444,
+          76.99764
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "HSIIDC Industrial Area, Karnal, Karnal, Haryana, India"
+      },
+      {
+        "facility_id": "UP057",
+        "facility_name": "UP Unit 57 (Muzaffarnagar E-Waste Center)",
+        "distance_km": 1050.92,
+        "stored_coords": [
+          29.48352,
+          77.704627
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "UPSIDC Industrial Area, Muzaffarnagar, Muzaffarnagar, Uttar Pradesh, India"
+      },
+      {
+        "facility_id": "H012",
+        "facility_name": "Haryana Green Unit 12 (Hisar)",
+        "distance_km": 1039.565,
+        "stored_coords": [
+          29.151733,
+          75.72184
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "HSIIDC Industrial Area, Hisar, Hisar, Haryana, India"
+      },
+      {
+        "facility_id": "UP055",
+        "facility_name": "UP Unit 55 (Hapur E-Waste Center)",
+        "distance_km": 967.978,
+        "stored_coords": [
+          28.736587,
+          77.774553
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "UPSIDC Industrial Area, Hapur, Hapur, Uttar Pradesh, India"
+      },
+      {
+        "facility_id": "H008",
+        "facility_name": "Jhajjar E-Waste Recyclers Pvt. Ltd.",
+        "distance_km": 963.002,
+        "stored_coords": [
+          28.60708,
+          76.658533
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "HSIIDC Industrial Area, Jhajjar, Jhajjar, Haryana, India"
+      },
+      {
+        "facility_id": "UP065",
+        "facility_name": "UP Unit 65 (Sambhal E-Waste Center)",
+        "distance_km": 952.787,
+        "stored_coords": [
+          28.5859,
+          78.57424
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "UPSIDC Industrial Area, Sambhal, Sambhal, Uttar Pradesh, India"
+      },
+      {
+        "facility_id": "H014",
+        "facility_name": "Haryana Green Unit 14 (Faridabad)",
+        "distance_km": 929.902,
+        "stored_coords": [
+          28.371893,
+          77.313533
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "HSIIDC Industrial Area, Faridabad, Faridabad, Haryana, India"
+      },
+      {
+        "facility_id": "H038",
+        "facility_name": "Haryana Green Unit 38 (Faridabad)",
+        "distance_km": 929.039,
+        "stored_coords": [
+          28.3644,
+          77.318147
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "HSIIDC Industrial Area, Faridabad, Faridabad, Haryana, India"
+      },
+      {
+        "facility_id": "UP028",
+        "facility_name": "UP Unit 28 (Lakhimpur Kheri E-Waste Center)",
+        "distance_km": 925.479,
+        "stored_coords": [
+          27.956233,
+          80.782047
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "UPSIDC Industrial Area, Lakhimpur Kheri, Lakhimpur Kheri, Uttar Pradesh, India"
+      },
+      {
+        "facility_id": "H019",
+        "facility_name": "Haryana Green Unit 19 (Rewari)",
+        "distance_km": 917.125,
+        "stored_coords": [
+          28.18256,
+          76.6168
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "HSIIDC Industrial Area, Rewari, Rewari, Haryana, India"
+      },
+      {
+        "facility_id": "H009",
+        "facility_name": "Palwal E-Waste Solutions",
+        "distance_km": 905.721,
+        "stored_coords": [
+          28.153627,
+          77.322027
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Industrial Area, Palwal, Palwal, Haryana, India"
+      },
+      {
+        "facility_id": "R017",
+        "facility_name": "M/s Rajasthan Green E-Recyclers",
+        "distance_km": 901.218,
+        "stored_coords": [
+          28.000933,
+          76.386567
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "RIICO, Neemrana, Alwar, Alwar, Rajasthan, India"
+      },
+      {
+        "facility_id": "UP063",
+        "facility_name": "UP Unit 63 (Ayodhya E-Waste Center)",
+        "distance_km": 865.495,
+        "stored_coords": [
+          26.790853,
+          82.19392
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "UPSIDC Industrial Area, Ayodhya, Ayodhya, Uttar Pradesh, India"
+      },
+      {
+        "facility_id": "UP017",
+        "facility_name": "Awadh E-Waste Solutions Pvt. Ltd.",
+        "distance_km": 821.359,
+        "stored_coords": [
+          26.883253,
+          80.995013
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Sitapur Road Industrial Area, Lucknow, Lucknow, Uttar Pradesh, India"
+      },
+      {
+        "facility_id": "K028",
+        "facility_name": "Karnataka Green Facility 28 (Dakshina Kannada)",
+        "distance_km": 778.454,
+        "stored_coords": [
+          12.9768,
+          77.589587
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "KIADB Industrial Area, Dakshina Kannada, Dakshina Kannada, Karnataka, India"
+      }
+    ],
+    "all_mismatched_facilities": [
+      {
+        "facility_id": "N001",
+        "facility_name": "M/s Nagaland State E-Waste Collection Facility",
+        "distance_km": 1739.35,
+        "stored_coords": [
+          25.911773,
+          93.73104
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "NIDC Industrial Estate, Dimapur, Dimapur, Nagaland, India"
+      },
+      {
+        "facility_id": "T001",
+        "facility_name": "M/s Tripura E-Waste Collection & Storage Facility",
+        "distance_km": 1443.956,
+        "stored_coords": [
+          23.89652,
+          91.347787
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Bodhjungnagar Industrial Growth Centre, Agartala, West Tripura, Tripura, India"
+      },
+      {
+        "facility_id": "JA002",
+        "facility_name": "M/s Jammu Industrial E-Waste Center",
+        "distance_km": 1433.502,
+        "stored_coords": [
+          32.6432,
+          74.940453
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Bari Brahmana Industrial Complex, Samba, Samba, Jammu and Kashmir, India"
+      },
+      {
+        "facility_id": "WB010",
+        "facility_name": "Siliguri Green E-Waste Collection Hub",
+        "distance_km": 1300.341,
+        "stored_coords": [
+          26.721907,
+          88.438747
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Dabgram Industrial Area, Jalpaiguri / Siliguri, Jalpaiguri, West Bengal, India"
+      },
+      {
+        "facility_id": "H030",
+        "facility_name": "Haryana Green Unit 30 (Yamunanagar)",
+        "distance_km": 1124.757,
+        "stored_coords": [
+          30.1318,
+          77.27064
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "HSIIDC Industrial Area, Yamunanagar, Yamunanagar, Haryana, India"
+      },
+      {
+        "facility_id": "H045",
+        "facility_name": "Haryana Green Unit 45 (Karnal)",
+        "distance_km": 1078.626,
+        "stored_coords": [
+          29.69444,
+          76.99764
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "HSIIDC Industrial Area, Karnal, Karnal, Haryana, India"
+      },
+      {
+        "facility_id": "UP057",
+        "facility_name": "UP Unit 57 (Muzaffarnagar E-Waste Center)",
+        "distance_km": 1050.92,
+        "stored_coords": [
+          29.48352,
+          77.704627
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "UPSIDC Industrial Area, Muzaffarnagar, Muzaffarnagar, Uttar Pradesh, India"
+      },
+      {
+        "facility_id": "H012",
+        "facility_name": "Haryana Green Unit 12 (Hisar)",
+        "distance_km": 1039.565,
+        "stored_coords": [
+          29.151733,
+          75.72184
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "HSIIDC Industrial Area, Hisar, Hisar, Haryana, India"
+      },
+      {
+        "facility_id": "UP055",
+        "facility_name": "UP Unit 55 (Hapur E-Waste Center)",
+        "distance_km": 967.978,
+        "stored_coords": [
+          28.736587,
+          77.774553
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "UPSIDC Industrial Area, Hapur, Hapur, Uttar Pradesh, India"
+      },
+      {
+        "facility_id": "H008",
+        "facility_name": "Jhajjar E-Waste Recyclers Pvt. Ltd.",
+        "distance_km": 963.002,
+        "stored_coords": [
+          28.60708,
+          76.658533
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "HSIIDC Industrial Area, Jhajjar, Jhajjar, Haryana, India"
+      },
+      {
+        "facility_id": "UP065",
+        "facility_name": "UP Unit 65 (Sambhal E-Waste Center)",
+        "distance_km": 952.787,
+        "stored_coords": [
+          28.5859,
+          78.57424
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "UPSIDC Industrial Area, Sambhal, Sambhal, Uttar Pradesh, India"
+      },
+      {
+        "facility_id": "H014",
+        "facility_name": "Haryana Green Unit 14 (Faridabad)",
+        "distance_km": 929.902,
+        "stored_coords": [
+          28.371893,
+          77.313533
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "HSIIDC Industrial Area, Faridabad, Faridabad, Haryana, India"
+      },
+      {
+        "facility_id": "H038",
+        "facility_name": "Haryana Green Unit 38 (Faridabad)",
+        "distance_km": 929.039,
+        "stored_coords": [
+          28.3644,
+          77.318147
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "HSIIDC Industrial Area, Faridabad, Faridabad, Haryana, India"
+      },
+      {
+        "facility_id": "UP028",
+        "facility_name": "UP Unit 28 (Lakhimpur Kheri E-Waste Center)",
+        "distance_km": 925.479,
+        "stored_coords": [
+          27.956233,
+          80.782047
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "UPSIDC Industrial Area, Lakhimpur Kheri, Lakhimpur Kheri, Uttar Pradesh, India"
+      },
+      {
+        "facility_id": "H019",
+        "facility_name": "Haryana Green Unit 19 (Rewari)",
+        "distance_km": 917.125,
+        "stored_coords": [
+          28.18256,
+          76.6168
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "HSIIDC Industrial Area, Rewari, Rewari, Haryana, India"
+      },
+      {
+        "facility_id": "H009",
+        "facility_name": "Palwal E-Waste Solutions",
+        "distance_km": 905.721,
+        "stored_coords": [
+          28.153627,
+          77.322027
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Industrial Area, Palwal, Palwal, Haryana, India"
+      },
+      {
+        "facility_id": "R017",
+        "facility_name": "M/s Rajasthan Green E-Recyclers",
+        "distance_km": 901.218,
+        "stored_coords": [
+          28.000933,
+          76.386567
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "RIICO, Neemrana, Alwar, Alwar, Rajasthan, India"
+      },
+      {
+        "facility_id": "UP063",
+        "facility_name": "UP Unit 63 (Ayodhya E-Waste Center)",
+        "distance_km": 865.495,
+        "stored_coords": [
+          26.790853,
+          82.19392
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "UPSIDC Industrial Area, Ayodhya, Ayodhya, Uttar Pradesh, India"
+      },
+      {
+        "facility_id": "UP017",
+        "facility_name": "Awadh E-Waste Solutions Pvt. Ltd.",
+        "distance_km": 821.359,
+        "stored_coords": [
+          26.883253,
+          80.995013
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Sitapur Road Industrial Area, Lucknow, Lucknow, Uttar Pradesh, India"
+      },
+      {
+        "facility_id": "K028",
+        "facility_name": "Karnataka Green Facility 28 (Dakshina Kannada)",
+        "distance_km": 778.454,
+        "stored_coords": [
+          12.9768,
+          77.589587
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "KIADB Industrial Area, Dakshina Kannada, Dakshina Kannada, Karnataka, India"
+      },
+      {
+        "facility_id": "TN003",
+        "facility_name": "M/s Shri Raam Recycling",
+        "distance_km": 763.884,
+        "stored_coords": [
+          13.408573,
+          80.127573
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "SIDCO Industrial Estate, SIPCOT Industrial Complex, Gummidipoondi, Tiruvallur, Tamil Nadu, India"
+      },
+      {
+        "facility_id": "M031",
+        "facility_name": "Maharashtra E-Tech Unit 31 (Nagpur)",
+        "distance_km": 677.82,
+        "stored_coords": [
+          19.08264,
+          72.874593
+        ],
+        "geocoded_coords": [
+          21.1100985,
+          78.9908833
+        ],
+        "address": "MIDC Industrial Area, Nagpur, Nagpur, Maharashtra, India"
+      },
+      {
+        "facility_id": "G018",
+        "facility_name": "Gujarat Eco Unit 18 (Vadodara)",
+        "distance_km": 654.661,
+        "stored_coords": [
+          23.025233,
+          72.570093
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "GIDC Industrial Estate, Vadodara, Vadodara, Gujarat, India"
+      },
+      {
+        "facility_id": "G032",
+        "facility_name": "Gujarat Eco Unit 32 (Surat)",
+        "distance_km": 654.646,
+        "stored_coords": [
+          23.021047,
+          72.56768
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "GIDC Industrial Estate, Surat, Surat, Gujarat, India"
+      },
+      {
+        "facility_id": "K029",
+        "facility_name": "Karnataka Green Facility 29 (Davangere)",
+        "distance_km": 651.026,
+        "stored_coords": [
+          14.464627,
+          75.9274
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "KIADB Industrial Area, Davangere, Davangere, Karnataka, India"
+      },
+      {
+        "facility_id": "TN009",
+        "facility_name": "M/s Global E-Waste Recyclers",
+        "distance_km": 522.592,
+        "stored_coords": [
+          16.191213,
+          81.133173
+        ],
+        "geocoded_coords": [
+          12.7607462,
+          77.800548
+        ],
+        "address": "SIPCOT Industrial Complex, Hosur, Krishnagiri, Krishnagiri, Tamil Nadu, India"
+      },
+      {
+        "facility_id": "T019",
+        "facility_name": "Telangana Eco Unit 19 (Nalgonda)",
+        "distance_km": 352.599,
+        "stored_coords": [
+          17.052407,
+          79.26664
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "TSIIC Industrial Estate, Nalgonda, Nalgonda, Telangana, India"
+      },
+      {
+        "facility_id": "T001",
+        "facility_name": "Earth Sense Recycle Pvt. Ltd.",
+        "distance_km": 314.683,
+        "stored_coords": [
+          17.18788,
+          78.438227
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "APIIC Industrial Park, Rangareddy, Rangareddy, Telangana, India"
+      },
+      {
+        "facility_id": "M020",
+        "facility_name": "Maharashtra E-Tech Unit 20 (Osmanabad)",
+        "distance_km": 288.057,
+        "stored_coords": [
+          18.17958,
+          76.04386
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "MIDC Industrial Area, Osmanabad, Osmanabad, Maharashtra, India"
+      },
+      {
+        "facility_id": "T011",
+        "facility_name": "Telangana Eco Unit 11 (Sangareddy)",
+        "distance_km": 272.682,
+        "stored_coords": [
+          17.543747,
+          78.198093
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "TSIIC Industrial Estate, Sangareddy, Sangareddy, Telangana, India"
+      },
+      {
+        "facility_id": "M021",
+        "facility_name": "Maharashtra E-Tech Unit 21 (Beed)",
+        "distance_km": 260.356,
+        "stored_coords": [
+          18.990753,
+          75.759753
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "MIDC Industrial Area, Beed, Beed, Maharashtra, India"
+      },
+      {
+        "facility_id": "M038",
+        "facility_name": "Maharashtra E-Tech Unit 38 (Latur)",
+        "distance_km": 231.848,
+        "stored_coords": [
+          18.41104,
+          76.563573
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "MIDC Industrial Area, Latur, Latur, Maharashtra, India"
+      },
+      {
+        "facility_id": "M002",
+        "facility_name": "Enviro-Care Recycling Pvt. Ltd.",
+        "distance_km": 23.64,
+        "stored_coords": [
+          19.082333,
+          73.033773
+        ],
+        "geocoded_coords": [
+          19.2889754,
+          73.0905229
+        ],
+        "address": "TTC Industrial Area, Pawane MIDC, Navi Mumbai, Thane, Maharashtra, India"
+      },
+      {
+        "facility_id": "R020",
+        "facility_name": "M/s Jaipur Eco E-Recyclers LLP",
+        "distance_km": 22.17,
+        "stored_coords": [
+          26.979533,
+          75.76308
+        ],
+        "geocoded_coords": [
+          26.789821,
+          75.8340014
+        ],
+        "address": "VKI Area, Road No. 14, Jaipur, Jaipur, Rajasthan, India"
+      },
+      {
+        "facility_id": "M033",
+        "facility_name": "Maharashtra E-Tech Unit 33 (Kolhapur)",
+        "distance_km": 14.966,
+        "stored_coords": [
+          16.706653,
+          74.2405
+        ],
+        "geocoded_coords": [
+          16.6223809,
+          74.350228
+        ],
+        "address": "MIDC Industrial Area, Kolhapur, Kolhapur, Maharashtra, India"
+      },
+      {
+        "facility_id": "R009",
+        "facility_name": "M/s Hulladek PWL E-Waste Collection Facility",
+        "distance_km": 14.952,
+        "stored_coords": [
+          26.918093,
+          75.787273
+        ],
+        "geocoded_coords": [
+          26.789821,
+          75.8340014
+        ],
+        "address": "Plot No. F-142, RIICO Industrial Area, Bindayka, Sirsi, Jaipur, Jaipur, Rajasthan, India"
+      },
+      {
+        "facility_id": "WB007",
+        "facility_name": "M/s City of Joy E-Refurbishers",
+        "distance_km": 14.246,
+        "stored_coords": [
+          22.71692,
+          88.4748
+        ],
+        "geocoded_coords": [
+          22.5882834,
+          88.4734476
+        ],
+        "address": "New Town, Rajarhat, Kolkata, North 24 Parganas, West Bengal, India"
+      },
+      {
+        "facility_id": "K001",
+        "facility_name": "Clean Kerala Co. E-Waste Center",
+        "distance_km": 10.548,
+        "stored_coords": [
+          9.988053,
+          76.30026
+        ],
+        "geocoded_coords": [
+          10.0822159,
+          76.315507
+        ],
+        "address": "Edayar Industrial Area, Ernakulam, Ernakulam, Kerala, India"
+      },
+      {
+        "facility_id": "M006",
+        "facility_name": "Pune E-Waste Management LLP",
+        "distance_km": 7.648,
+        "stored_coords": [
+          18.76216,
+          73.858933
+        ],
+        "geocoded_coords": [
+          18.8018882,
+          73.7995834
+        ],
+        "address": "Chakan MIDC, Pune, Pune, Maharashtra, India"
+      },
+      {
+        "facility_id": "M044",
+        "facility_name": "Maharashtra E-Tech Unit 44 (Wardha)",
+        "distance_km": 4.244,
+        "stored_coords": [
+          20.745353,
+          78.596467
+        ],
+        "geocoded_coords": [
+          20.7351365,
+          78.6357451
+        ],
+        "address": "MIDC Industrial Area, Wardha, Wardha, Maharashtra, India"
+      },
+      {
+        "facility_id": "M009",
+        "facility_name": "Nashik Green E-Solutions Pvt. Ltd.",
+        "distance_km": 3.371,
+        "stored_coords": [
+          19.97408,
+          73.73924
+        ],
+        "geocoded_coords": [
+          20.0044843,
+          73.7375369
+        ],
+        "address": "Satpur MIDC, Nashik, Nashik, Maharashtra, India"
+      },
+      {
+        "facility_id": "K009",
+        "facility_name": "Yelahanka E-Recyclers LLP",
+        "distance_km": 2.962,
+        "stored_coords": [
+          13.10498,
+          77.59686
+        ],
+        "geocoded_coords": [
+          13.0986677,
+          77.5703182
+        ],
+        "address": "Yelahanka Industrial Area, Bangalore, Bangalore Urban, Karnataka, India"
+      },
+      {
+        "facility_id": "M003",
+        "facility_name": "Eco-Pro Environmental Services",
+        "distance_km": 2.478,
+        "stored_coords": [
+          18.62492,
+          73.84968
+        ],
+        "geocoded_coords": [
+          18.6319095,
+          73.8273721
+        ],
+        "address": "Bhosari MIDC, Pune, Pune, Maharashtra, India"
+      },
+      {
+        "facility_id": "UP001",
+        "facility_name": "Attero Recycling Pvt. Ltd. (UP Center)",
+        "distance_km": 2.093,
+        "stored_coords": [
+          28.47312,
+          77.50364
+        ],
+        "geocoded_coords": [
+          28.474388,
+          77.4823138
+        ],
+        "address": "Ecotech-III, Greater Noida, Gautam Buddha Nagar, Uttar Pradesh, India"
+      }
+    ]
+  }
+}

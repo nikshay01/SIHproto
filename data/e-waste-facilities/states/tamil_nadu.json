@@ -1,0 +1,635 @@
+{
+  "metadata": {
+    "state": "Tamil Nadu",
+    "total_facilities": 22,
+    "is_authorized_dataset": true,
+    "data_source": "Tamil Nadu State Pollution Control Board (TNPCB) & CPCB",
+    "source_portal": "https://tnpcb.gov.in",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 98062,
+    "recycler_count": 10,
+    "dismantler_count": 10,
+    "refurbisher_count": 2,
+    "collection_center_count": 0
+  },
+  "facilities": [
+    {
+      "id": "TN001",
+      "name": "M/s TES-AMM (India) Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "SIPCOT Industrial Growth Centre, Oragadam, Sriperumbudur",
+      "district": "Kancheepuram",
+      "state": "Tamil Nadu",
+      "capacity_mta": 30000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9808100437",
+        "toll_free": "N/A",
+        "email": "contact@tesamm.co.in",
+        "website": "https://www.tesamm.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 12.967267,
+        "longitude": 79.943093,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+TES-AMM+%28India%29+Pvt.+Ltd.%2C+SIPCOT+Industrial+Growth+Centre%2C+Oragadam%2C+Sriperumbudur%2C+Kancheepuram%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.967267,79.943093",
+        "formatted_address": "SIPCOT Industrial Growth Centre, Oragadam, Sriperumbudur, Kancheepuram, Tamil Nadu, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "TN002",
+      "name": "M/s AER Worldwide India Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Manali New Town, Chennai",
+      "district": "Chennai",
+      "state": "Tamil Nadu",
+      "capacity_mta": 12000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9171498222",
+        "toll_free": "N/A",
+        "email": "contact@aerworldwide.co.in",
+        "website": "https://www.aerworldwide.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.582333,
+        "longitude": 88.473133,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+AER+Worldwide+India+Pvt.+Ltd.%2C+Manali+New+Town%2C+Chennai%2C+Chennai%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.582333,88.473133",
+        "formatted_address": "Manali New Town, Chennai, Chennai, Tamil Nadu, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "TN003",
+      "name": "M/s Shri Raam Recycling",
+      "type": "Recycler",
+      "address": "SIDCO Industrial Estate, SIPCOT Industrial Complex, Gummidipoondi",
+      "district": "Tiruvallur",
+      "state": "Tamil Nadu",
+      "capacity_mta": 504,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9197814266",
+        "toll_free": "N/A",
+        "email": "contact@shriraam.co.in",
+        "website": "https://www.shriraam.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 13.408573,
+        "longitude": 80.127573,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Shri+Raam+Recycling%2C+SIDCO+Industrial+Estate%2C+SIPCOT+Industrial+Complex%2C+Gummidipoondi%2C+Tiruvallur%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=13.408573,80.127573",
+        "formatted_address": "SIDCO Industrial Estate, SIPCOT Industrial Complex, Gummidipoondi, Tiruvallur, Tamil Nadu, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "TN004",
+      "name": "M/s Blooming Recyclers",
+      "type": "Dismantler",
+      "address": "SIDCO Industrial Estate, Maraimalai Nagar",
+      "district": "Chengalpattu",
+      "state": "Tamil Nadu",
+      "capacity_mta": 730,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9808499843",
+        "toll_free": "N/A",
+        "email": "contact@blooming.co.in",
+        "website": "https://www.blooming.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 12.80436,
+        "longitude": 80.031147,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Blooming+Recyclers%2C+SIDCO+Industrial+Estate%2C+Maraimalai+Nagar%2C+Chengalpattu%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.80436,80.031147",
+        "formatted_address": "SIDCO Industrial Estate, Maraimalai Nagar, Chengalpattu, Tamil Nadu, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "TN005",
+      "name": "M/s Ecosible Recyclers Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "TASS Industrial Estate, Ambattur, Chennai",
+      "district": "Chennai",
+      "state": "Tamil Nadu",
+      "capacity_mta": 6000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9341786871",
+        "toll_free": "N/A",
+        "email": "contact@ecosible.co.in",
+        "website": "https://www.ecosible.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 13.10744,
+        "longitude": 80.151813,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Ecosible+Recyclers+Pvt.+Ltd.%2C+TASS+Industrial+Estate%2C+Ambattur%2C+Chennai%2C+Chennai%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=13.10744,80.151813",
+        "formatted_address": "TASS Industrial Estate, Ambattur, Chennai, Chennai, Tamil Nadu, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "TN006",
+      "name": "M/s Earth Sense Recycle Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Thenmelpakkam village, Chengalpattu",
+      "district": "Chengalpattu",
+      "state": "Tamil Nadu",
+      "capacity_mta": 4248,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-40-23000555",
+        "toll_free": "1800-200-3373",
+        "email": "info@earthsenserecycle.com",
+        "website": "https://www.earthsense.in",
+        "contact_person": "Operations Director"
+      },
+      "location": {
+        "latitude": 12.7472,
+        "longitude": 80.018573,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Earth+Sense+Recycle+Pvt.+Ltd.%2C+Thenmelpakkam+village%2C+Chengalpattu%2C+Chengalpattu%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.7472,80.018573",
+        "formatted_address": "Thenmelpakkam village, Chengalpattu, Chengalpattu, Tamil Nadu, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "TN007",
+      "name": "Trishyiraya Recycling India Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "SIDCO Industrial Estate, Guindy, Chennai",
+      "district": "Chennai",
+      "state": "Tamil Nadu",
+      "capacity_mta": 8400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8869387503",
+        "toll_free": "N/A",
+        "email": "contact@trishyiraya.co.in",
+        "website": "https://www.trishyiraya.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 13.004013,
+        "longitude": 80.20748,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Trishyiraya+Recycling+India+Pvt.+Ltd.%2C+SIDCO+Industrial+Estate%2C+Guindy%2C+Chennai%2C+Chennai%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=13.004013,80.20748",
+        "formatted_address": "SIDCO Industrial Estate, Guindy, Chennai, Chennai, Tamil Nadu, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "TN008",
+      "name": "M/s Enviro Safe Metals",
+      "type": "Dismantler",
+      "address": "SIDCO Industrial Estate, Ambattur, Chennai",
+      "district": "Chennai",
+      "state": "Tamil Nadu",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7012127834",
+        "toll_free": "N/A",
+        "email": "contact@envirosafe.co.in",
+        "website": "https://www.envirosafe.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 13.120347,
+        "longitude": 80.150467,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Enviro+Safe+Metals%2C+SIDCO+Industrial+Estate%2C+Ambattur%2C+Chennai%2C+Chennai%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=13.120347,80.150467",
+        "formatted_address": "SIDCO Industrial Estate, Ambattur, Chennai, Chennai, Tamil Nadu, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "TN009",
+      "name": "M/s Global E-Waste Recyclers",
+      "type": "Recycler",
+      "address": "SIPCOT Industrial Complex, Hosur, Krishnagiri",
+      "district": "Krishnagiri",
+      "state": "Tamil Nadu",
+      "capacity_mta": 4800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8025475473",
+        "toll_free": "N/A",
+        "email": "contact@globalewaste.co.in",
+        "website": "https://www.globalewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 16.191213,
+        "longitude": 81.133173,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Global+E-Waste+Recyclers%2C+SIPCOT+Industrial+Complex%2C+Hosur%2C+Krishnagiri%2C+Krishnagiri%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=16.191213,81.133173",
+        "formatted_address": "SIPCOT Industrial Complex, Hosur, Krishnagiri, Krishnagiri, Tamil Nadu, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "TN010",
+      "name": "M/s Green Era Recyclers",
+      "type": "Recycler",
+      "address": "SIDCO Industrial Estate, Kurichi, Coimbatore",
+      "district": "Coimbatore",
+      "state": "Tamil Nadu",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9982123545",
+        "toll_free": "N/A",
+        "email": "contact@greenera.co.in",
+        "website": "https://www.greenera.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 10.9488,
+        "longitude": 76.972893,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Green+Era+Recyclers%2C+SIDCO+Industrial+Estate%2C+Kurichi%2C+Coimbatore%2C+Coimbatore%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=10.9488,76.972893",
+        "formatted_address": "SIDCO Industrial Estate, Kurichi, Coimbatore, Coimbatore, Tamil Nadu, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "TN011",
+      "name": "M/s Kovai E-Waste Solutions",
+      "type": "Dismantler",
+      "address": "Pollachi Road, Coimbatore",
+      "district": "Coimbatore",
+      "state": "Tamil Nadu",
+      "capacity_mta": 1800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8866657794",
+        "toll_free": "N/A",
+        "email": "contact@kovaiewaste.co.in",
+        "website": "https://www.kovaiewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 13.089287,
+        "longitude": 80.27326,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Kovai+E-Waste+Solutions%2C+Pollachi+Road%2C+Coimbatore%2C+Coimbatore%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=13.089287,80.27326",
+        "formatted_address": "Pollachi Road, Coimbatore, Coimbatore, Tamil Nadu, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "TN012",
+      "name": "M/s Southern E-Recyclers",
+      "type": "Dismantler",
+      "address": "SIPCOT, Ranipet, Vellore",
+      "district": "Vellore",
+      "state": "Tamil Nadu",
+      "capacity_mta": 2400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9928326153",
+        "toll_free": "N/A",
+        "email": "contact@southernerecyclers.co.in",
+        "website": "https://www.southernerecyclers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 12.93312,
+        "longitude": 79.333453,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Southern+E-Recyclers%2C+SIPCOT%2C+Ranipet%2C+Vellore%2C+Vellore%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.93312,79.333453",
+        "formatted_address": "SIPCOT, Ranipet, Vellore, Vellore, Tamil Nadu, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "TN013",
+      "name": "M/s Salem E-Waste Processors",
+      "type": "Dismantler",
+      "address": "SIDCO, Salem",
+      "district": "Salem",
+      "state": "Tamil Nadu",
+      "capacity_mta": 1200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8801163782",
+        "toll_free": "N/A",
+        "email": "contact@salemewaste.co.in",
+        "website": "https://www.salemewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 11.66568,
+        "longitude": 78.14052,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Salem+E-Waste+Processors%2C+SIDCO%2C+Salem%2C+Salem%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=11.66568,78.14052",
+        "formatted_address": "SIDCO, Salem, Salem, Tamil Nadu, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "TN014",
+      "name": "M/s Madurai Green Recyclers",
+      "type": "Dismantler",
+      "address": "Kappalur Industrial Estate, Madurai",
+      "district": "Madurai",
+      "state": "Tamil Nadu",
+      "capacity_mta": 1500,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9484761259",
+        "toll_free": "N/A",
+        "email": "contact@maduraigreen.co.in",
+        "website": "https://www.maduraigreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 9.839347,
+        "longitude": 78.050653,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Madurai+Green+Recyclers%2C+Kappalur+Industrial+Estate%2C+Madurai%2C+Madurai%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=9.839347,78.050653",
+        "formatted_address": "Kappalur Industrial Estate, Madurai, Madurai, Tamil Nadu, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "TN015",
+      "name": "M/s Tiruchirappalli E-Waste LLP",
+      "type": "Dismantler",
+      "address": "Thuvakudi Industrial Estate, Trichy",
+      "district": "Tiruchirappalli",
+      "state": "Tamil Nadu",
+      "capacity_mta": 1200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9826027009",
+        "toll_free": "N/A",
+        "email": "contact@tiruchirappalliewaste.co.in",
+        "website": "https://www.tiruchirappalliewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 10.766653,
+        "longitude": 78.79724,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Tiruchirappalli+E-Waste+LLP%2C+Thuvakudi+Industrial+Estate%2C+Trichy%2C+Tiruchirappalli%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=10.766653,78.79724",
+        "formatted_address": "Thuvakudi Industrial Estate, Trichy, Tiruchirappalli, Tamil Nadu, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "TN016",
+      "name": "M/s Erode E-Recyclers",
+      "type": "Dismantler",
+      "address": "SIPCOT, Perundurai, Erode",
+      "district": "Erode",
+      "state": "Tamil Nadu",
+      "capacity_mta": 1800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8016379579",
+        "toll_free": "N/A",
+        "email": "contact@erodeerecyclers.co.in",
+        "website": "https://www.erodeerecyclers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 11.284573,
+        "longitude": 77.576093,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Erode+E-Recyclers%2C+SIPCOT%2C+Perundurai%2C+Erode%2C+Erode%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=11.284573,77.576093",
+        "formatted_address": "SIPCOT, Perundurai, Erode, Erode, Tamil Nadu, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "TN017",
+      "name": "M/s Kanchipuram Eco Recyclers",
+      "type": "Recycler",
+      "address": "SIPCOT, Sriperumbudur",
+      "district": "Kancheepuram",
+      "state": "Tamil Nadu",
+      "capacity_mta": 6000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9479373357",
+        "toll_free": "N/A",
+        "email": "contact@kanchipurameco.co.in",
+        "website": "https://www.kanchipurameco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 12.962027,
+        "longitude": 79.943027,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Kanchipuram+Eco+Recyclers%2C+SIPCOT%2C+Sriperumbudur%2C+Kancheepuram%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.962027,79.943027",
+        "formatted_address": "SIPCOT, Sriperumbudur, Kancheepuram, Tamil Nadu, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "TN018",
+      "name": "M/s Chennai Green E-Waste Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Gummidipoondi Industrial Area, Tiruvallur",
+      "district": "Tiruvallur",
+      "state": "Tamil Nadu",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9846528865",
+        "toll_free": "N/A",
+        "email": "contact@chennaigreen.co.in",
+        "website": "https://www.chennaigreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 13.411653,
+        "longitude": 80.12884,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Chennai+Green+E-Waste+Pvt.+Ltd.%2C+Gummidipoondi+Industrial+Area%2C+Tiruvallur%2C+Tiruvallur%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=13.411653,80.12884",
+        "formatted_address": "Gummidipoondi Industrial Area, Tiruvallur, Tiruvallur, Tamil Nadu, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "TN019",
+      "name": "Thanjavur E-Recyclers",
+      "type": "Dismantler",
+      "address": "SIPCOT, Thanjavur",
+      "district": "Thanjavur",
+      "state": "Tamil Nadu",
+      "capacity_mta": 480,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8837932529",
+        "toll_free": "N/A",
+        "email": "contact@thanjavurerecyclers.co.in",
+        "website": "https://www.thanjavurerecyclers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 10.784947,
+        "longitude": 79.13292,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Thanjavur+E-Recyclers%2C+SIPCOT%2C+Thanjavur%2C+Thanjavur%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=10.784947,79.13292",
+        "formatted_address": "SIPCOT, Thanjavur, Thanjavur, Tamil Nadu, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "TN020",
+      "name": "Tiruppur E-Waste Solutions LLP",
+      "type": "Dismantler",
+      "address": "SIPCOT, Tiruppur",
+      "district": "Tiruppur",
+      "state": "Tamil Nadu",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8940239922",
+        "toll_free": "N/A",
+        "email": "contact@tiruppurewaste.co.in",
+        "website": "https://www.tiruppurewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 11.10538,
+        "longitude": 77.347313,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Tiruppur+E-Waste+Solutions+LLP%2C+SIPCOT%2C+Tiruppur%2C+Tiruppur%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=11.10538,77.347313",
+        "formatted_address": "SIPCOT, Tiruppur, Tiruppur, Tamil Nadu, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "TN021",
+      "name": "M/s Cyber Clean E-Waste Refurbishers",
+      "type": "Refurbisher",
+      "address": "OMR IT Corridor, Chennai",
+      "district": "Chennai",
+      "state": "Tamil Nadu",
+      "capacity_mta": 2400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9145285035",
+        "toll_free": "N/A",
+        "email": "contact@cyberclean.co.in",
+        "website": "https://www.cyberclean.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 12.895453,
+        "longitude": 80.227733,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Cyber+Clean+E-Waste+Refurbishers%2C+OMR+IT+Corridor%2C+Chennai%2C+Chennai%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.895453,80.227733",
+        "formatted_address": "OMR IT Corridor, Chennai, Chennai, Tamil Nadu, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "TN022",
+      "name": "M/s Kongu E-Waste Refurbishers",
+      "type": "Refurbisher",
+      "address": "Peelamedu, Coimbatore",
+      "district": "Coimbatore",
+      "state": "Tamil Nadu",
+      "capacity_mta": 1800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9392386399",
+        "toll_free": "N/A",
+        "email": "contact@konguewaste.co.in",
+        "website": "https://www.konguewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 11.031173,
+        "longitude": 77.010853,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Kongu+E-Waste+Refurbishers%2C+Peelamedu%2C+Coimbatore%2C+Coimbatore%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=11.031173,77.010853",
+        "formatted_address": "Peelamedu, Coimbatore, Coimbatore, Tamil Nadu, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

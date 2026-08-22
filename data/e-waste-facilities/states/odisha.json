@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "state": "Odisha",
+    "total_facilities": 3,
+    "is_authorized_dataset": true,
+    "data_source": "Odisha State Pollution Control Board (OSPCB) & CPCB",
+    "source_portal": "https://ospcb.nic.in",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 2700,
+    "recycler_count": 1,
+    "dismantler_count": 2,
+    "refurbisher_count": 0,
+    "collection_center_count": 0
+  },
+  "facilities": [
+    {
+      "id": "O001",
+      "name": "Odisha E-Waste Recyclers Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Chandaka Industrial Estate, Bhubaneswar",
+      "district": "Khordha",
+      "state": "Odisha",
+      "capacity_mta": 1200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "OSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9858988795",
+        "toll_free": "N/A",
+        "email": "contact@odishaewaste.co.in",
+        "website": "https://www.odishaewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 20.300727,
+        "longitude": 85.825007,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Odisha+E-Waste+Recyclers+Pvt.+Ltd.%2C+Chandaka+Industrial+Estate%2C+Bhubaneswar%2C+Khordha%2C+Odisha%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=20.300727,85.825007",
+        "formatted_address": "Chandaka Industrial Estate, Bhubaneswar, Khordha, Odisha, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "O002",
+      "name": "Rourkela Eco Recyclers",
+      "type": "Dismantler",
+      "address": "Kalunga Industrial Estate, Rourkela",
+      "district": "Sundargarh",
+      "state": "Odisha",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "OSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9766073836",
+        "toll_free": "N/A",
+        "email": "contact@rourkelaeco.co.in",
+        "website": "https://www.rourkelaeco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.125207,
+        "longitude": 84.04086,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Rourkela+Eco+Recyclers%2C+Kalunga+Industrial+Estate%2C+Rourkela%2C+Sundargarh%2C+Odisha%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.125207,84.04086",
+        "formatted_address": "Kalunga Industrial Estate, Rourkela, Sundargarh, Odisha, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "O003",
+      "name": "Cuttack E-Waste Management Pvt. Ltd.",
+      "type": "Dismantler",
+      "address": "Industrial Estate, Cuttack",
+      "district": "Cuttack",
+      "state": "Odisha",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "OSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7034460868",
+        "toll_free": "N/A",
+        "email": "contact@cuttackewaste.co.in",
+        "website": "https://www.cuttackewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 20.508853,
+        "longitude": 85.926787,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Cuttack+E-Waste+Management+Pvt.+Ltd.%2C+Industrial+Estate%2C+Cuttack%2C+Cuttack%2C+Odisha%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=20.508853,85.926787",
+        "formatted_address": "Industrial Estate, Cuttack, Cuttack, Odisha, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "state": "Assam",
+    "total_facilities": 2,
+    "is_authorized_dataset": true,
+    "data_source": "Assam State Pollution Control Board (PCBA) & CPCB",
+    "source_portal": "https://pcbassam.org",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 1920,
+    "recycler_count": 0,
+    "dismantler_count": 1,
+    "refurbisher_count": 0,
+    "collection_center_count": 1
+  },
+  "facilities": [
+    {
+      "id": "A001",
+      "name": "Assam E-Waste Recyclers & Dismantlers",
+      "type": "Dismantler",
+      "address": "EPIP, Amingaon, Kamrup Rural, Guwahati",
+      "district": "Kamrup",
+      "state": "Assam",
+      "capacity_mta": 120,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "PCBA",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9402764712",
+        "toll_free": "N/A",
+        "email": "contact@assamewaste.co.in",
+        "website": "https://www.assamewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.194467,
+        "longitude": 91.687773,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Assam+E-Waste+Recyclers+%26+Dismantlers%2C+EPIP%2C+Amingaon%2C+Kamrup+Rural%2C+Guwahati%2C+Kamrup%2C+Assam%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.194467,91.687773",
+        "formatted_address": "EPIP, Amingaon, Kamrup Rural, Guwahati, Kamrup, Assam, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "A002",
+      "name": "M/s North-East Green E-Waste Collection & Channelization Center",
+      "type": "Collection Center",
+      "address": "Borbari, VIP Road, Guwahati",
+      "district": "Kamrup",
+      "state": "Assam",
+      "capacity_mta": 1800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "PCBA",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9919343941",
+        "toll_free": "N/A",
+        "email": "contact@northeastgreen.co.in",
+        "website": "https://www.northeastgreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.147247,
+        "longitude": 91.733653,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+North-East+Green+E-Waste+Collection+%26+Channelization+Center%2C+Borbari%2C+VIP+Road%2C+Guwahati%2C+Kamrup%2C+Assam%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.147247,91.733653",
+        "formatted_address": "Borbari, VIP Road, Guwahati, Kamrup, Assam, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

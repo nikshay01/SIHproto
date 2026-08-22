@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Waste Facility Coordinate Validator</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNY9z6-mstGPMOZlEEZwaDqY8Hm5W5WVA&libraries=geometry"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .valid { background-color: #d4edda; }
+        .mismatch { background-color: #f8d7da; }
+        .error { background-color: #fff3cd; }
+        .progress { margin: 20px 0; }
+        #results { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>E-Waste Facility Coordinate Validator</h1>
+    <p>Validating facility coordinates using Google Maps JavaScript API</p>
+
+    <div class="progress">
+        <p>Status: <span id="status">Ready to start</span></p>
+        <p>Progress: <span id="progress">0/0</span> facilities processed</p>
+    </div>
+
+    <div id="results">
+        <h2>Validation Results</h2>
+        <table id="results-table">
+            <thead>
+                <tr>
+                    <th>Facility ID</th>
+                    <th>Facility Name</th>
+                    <th>Status</th>
+                    <th>Distance (km)</th>
+                    <th>Stored Coordinates</th>
+                    <th>Google Maps Coordinates</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        // Configuration
+        const DISTANCE_THRESHOLD_KM = 2.0;
+        const DATA_FILE = 'data/e-waste-facilities/all_facilities_fixed.json'; // Path relative to where you open this file
+
+        // State
+        let facilities = [];
+        let results = [];
+        let processedCount = 0;
+
+        // Haversine distance calculation
+        function calculateDistance(lat1, lng1, lat2, lng2) {
+            const toRad = (value) => value * Math.PI / 180;
+            const R = 6371; // Earth's radius in km
+
+            const dLat = toRad(lat2 - lat1);
+            const dLng = toRad(lng2 - lng1);
+            const a =
+                Math.sin(dLat/2) * Math.sin(dLat/2) +
+                Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) *
+                Math.sin(dLng/2) * Math.sin(dLng/2);
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+            return R * c;
+        }
+
+        // Extract address for geocoding
+        function extractAddress(facility) {
+            // Try to use the formatted_address if available
+            if (facility.location && facility.location.formatted_address) {
+                return facility.location.formatted_address;
+            }
+
+            // Otherwise construct address from components
+            const addressParts = [];
+
+            if (facility.address && facility.address.trim()) {
+                let address = facility.address.trim();
+                // Handle common patterns like "Mindi (V), Gajuwaka (M), Visakhapatnam"
+                addressParts.push(address);
+            }
+
+            if (facility.district && facility.district.trim()) {
+                addressParts.push(facility.district.trim());
+            }
+
+            if (facility.state && facility.state.trim()) {
+                addressParts.push(facility.state.trim());
+            }
+
+            // Add country for better geocoding accuracy in India
+            addressParts.push("India");
+
+            return addressParts.filter(part => part).join(', ');
+        }
+
+        // Geocode address using Google Maps Geocoding Service
+        function geocodeAddress(address, callback) {
+            const geocoder = new google.maps.Geocoder();
+            geocoder.geocode({'address': address}, (results, status) => {
+                if (status === 'OK' && results.length > 0) {
+                    const location = results[0].geometry.location;
+                    callback(null, {
+                        latitude: location.lat(),
+                        longitude: location.lng(),
+                        formatted_address: results[0].formatted_address
+                    });
+                } else {
+                    callback(status || 'UNKNOWN_ERROR', null);
+                }
+            });
+        }
+
+        // Load facility data
+        async function loadData() {
+            try {
+                const response = await fetch(DATA_FILE);
+                if (!response.ok) {
+                    throw new Error(`Failed to load data: ${response.status}`);
+                }
+                const data = await response.json();
+
+                // Handle different possible JSON structures
+                if (typeof data === 'object' && data.all_facilities) {
+                    facilities = data.all_facilities;
+                } else if (Array.isArray(data)) {
+                    facilities = data;
+                } else {
+                    throw new Error('Unexpected JSON structure');
+                }
+
+                document.getElementById('status').textContent = `Loaded ${facilities.length} facilities`;
+                document.getElementById('progress').textContent = `0/${facilities.length} facilities processed`;
+
+                return true;
+            } catch (error) {
+                document.getElementById('status').textContent = `Error loading data: ${error.message}`;
+                console.error(error);
+                return false;
+            }
+        }
+
+        // Process a single facility
+        async function processFacility(facility, index) {
+            return new Promise((resolve) => {
+                setTimeout(() => {
+                    const facilityId = facility.id || 'unknown';
+                    const facilityName = facility.name || 'Unknown Facility';
+
+                    // Update progress
+                    document.getElementById('status').textContent =
+                        `Processing facility ${index + 1}/${facilities.length}: ${facilityId}`;
+                    document.getElementById('progress').textContent =
+                        `${index}/${facilities.length} facilities processed`;
+
+                    // Extract address for geocoding
+                    const address = extractAddress(facility);
+                    if (!address) {
+                        resolve({
+                            facility_id: facilityId,
+                            facility_name: facilityName,
+                            status: 'error',
+                            error: 'Could not extract address',
+                            stored_coords: null,
+                            google_maps_coords: null,
+                            distance_km: null,
+                            within_threshold: null
+                        });
+                        return;
+                    }
+
+                    // Get stored coordinates
+                    const storedCoords = getStoredCoordinates(facility);
+                    if (!storedCoords) {
+                        resolve({
+                            facility_id: facilityId,
+                            facility_name: facilityName,
+                            status: 'error',
+                            error: 'Could not extract stored coordinates',
+                            address: address,
+                            stored_coords: null,
+                            google_maps_coords: null,
+                            distance_km: null,
+                            within_threshold: null
+                        });
+                        return;
+                    }
+
+                    // Geocode the address
+                    geocodeAddress(address, (error, geocodedResult) => {
+                        if (error) {
+                            resolve({
+                                facility_id: facilityId,
+                                facility_name: facilityName,
+                                status: 'error',
+                                error: `Google Maps geocoding failed: ${error}`,
+                                address: address,
+                                stored_coords: storedCoords,
+                                google_maps_coords: null,
+                                distance_km: null,
+                                within_threshold: null
+                            });
+                        } else {
+                            // Extract coordinates from Google Maps result
+                            const googleMapsCoords = [geocodedResult.latitude, geocodedResult.longitude];
+
+                            // Calculate distance
+                            const distanceKm = calculateDistance(
+                                storedCoords[0], storedCoords[1],
+                                googleMapsCoords[0], googleMapsCoords[1]
+                            );
+
+                            const withinThreshold = distanceKm <= DISTANCE_THRESHOLD_KM;
+                            const status = withinThreshold ? 'valid' : 'mismatch';
+
+                            resolve({
+                                facility_id: facilityId,
+                                facility_name: facilityName,
+                                status: status,
+                                address: address,
+                                stored_coords: storedCoords,
+                                google_maps_coords: googleMapsCoords,
+                                google_maps_address: geocodedResult.formatted_address,
+                                distance_km: parseFloat(distanceKm.toFixed(3)),
+                                within_threshold: withinThreshold,
+                                error: null
+                            });
+                        }
+                    });
+                }, index * 100); // Stagger requests to avoid rate limiting
+            });
+        }
+
+        // Get stored coordinates from facility
+        function getStoredCoordinates(facility) {
+            try {
+                if (facility.location) {
+                    const lat = facility.location.latitude;
+                    const lng = facility.location.longitude;
+                    if (lat !== null && lat !== undefined && lng !== null && lng !== undefined) {
+                        return [parseFloat(lat), parseFloat(lng)];
+                    }
+                }
+            } catch (error) {
+                console.warn(`Could not parse coordinates for facility ${facility.id || 'unknown'}: ${error.message}`);
+            }
+            return null;
+        }
+
+        // Update results table
+        function updateResultsTable() {
+            const tbody = document.getElementById('table-body');
+            tbody.innerHTML = ''; // Clear existing rows
+
+            results.forEach(result => {
+                const tr = document.createElement('tr');
+
+                // Set row class based on status
+                if (result.status === 'valid') {
+                    tr.className = 'valid';
+                } else if (result.status === 'mismatch') {
+                    tr.className = 'mismatch';
+                } else {
+                    tr.className = 'error';
+                }
+
+                tr.innerHTML = `
+                    <td>${result.facility_id}</td>
+                    <td>${result.facility_name}</td>
+                    <td>${result.status}</td>
+                    <td>${result.distance_km !== null ? result.distance_km : 'N/A'}</td>
+                    <td>${result.stored_coords ? `[${result.stored_coords.join(', ')}]` : 'N/A'}</td>
+                    <td>${result.google_maps_coords ? `[${result.google_maps_coords.join(', ')}]` : 'N/A'}</td>
+                `;
+
+                tbody.appendChild(tr);
+            });
+        }
+
+        // Main validation function
+        async function runValidation() {
+            document.getElementById('status').textContent = 'Loading data...';
+
+            const dataLoaded = await loadData();
+            if (!dataLoaded) {
+                return;
+            }
+
+            results = [];
+            processedCount = 0;
+
+            // Process all facilities
+            for (let i = 0; i < facilities.length; i++) {
+                const result = await processFacility(facilities[i], i);
+                results.push(result);
+                processedCount = i + 1;
+
+                // Update progress
+                document.getElementById('status').textContent =
+                    `Processed ${processedCount}/${facilities.length} facilities`;
+                document.getElementById('progress').textContent =
+                    `${processedCount}/${facilities.length} facilities processed`;
+
+                // Update table every 10 facilities to avoid too many DOM updates
+                if (processedCount % 10 === 0 || processedCount === facilities.length) {
+                    updateResultsTable();
+                }
+            }
+
+            // Final update
+            updateResultsTable();
+
+            // Show summary
+            const validCount = results.filter(r => r.status === 'valid').length;
+            const mismatchCount = results.filter(r => r.status === 'mismatch').length;
+            const errorCount = results.filter(r => r.status === 'error').length;
+
+            alert(`Validation Complete!\n\n` +
+                  `Total facilities: ${facilities.length}\n` +
+                  `Valid coordinates: ${validCount}\n` +
+                  `Mismatched coordinates: ${mismatchCount}\n` +
+                  `Errors: ${errorCount}\n` +
+                  `Validation threshold: ${DISTANCE_THRESHOLD_KM} km`);
+
+            document.getElementById('status').textContent = 'Validation complete!';
+        }
+
+        // Start validation when page loads
+        window.onload = runValidation;
+    </script>
+</body>
+</html>

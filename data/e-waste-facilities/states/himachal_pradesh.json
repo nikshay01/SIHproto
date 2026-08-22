@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "state": "Himachal Pradesh",
+    "total_facilities": 5,
+    "is_authorized_dataset": true,
+    "data_source": "Himachal Pradesh State Pollution Control Board (HPPCB) & CPCB",
+    "source_portal": "https://hppcb.nic.in",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 7620,
+    "recycler_count": 2,
+    "dismantler_count": 3,
+    "refurbisher_count": 0,
+    "collection_center_count": 0
+  },
+  "facilities": [
+    {
+      "id": "HP001",
+      "name": "Himachal Green Recyclers",
+      "type": "Recycler",
+      "address": "Baddi Industrial Area, Solan",
+      "district": "Solan",
+      "state": "Himachal Pradesh",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9805097716",
+        "toll_free": "N/A",
+        "email": "contact@himachalgreen.co.in",
+        "website": "https://www.himachalgreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 30.953747,
+        "longitude": 76.80312,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Himachal+Green+Recyclers%2C+Baddi+Industrial+Area%2C+Solan%2C+Solan%2C+Himachal+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=30.953747,76.80312",
+        "formatted_address": "Baddi Industrial Area, Solan, Solan, Himachal Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "HP002",
+      "name": "Solan E-Waste Solutions",
+      "type": "Dismantler",
+      "address": "Katha, Baddi, Solan",
+      "district": "Solan",
+      "state": "Himachal Pradesh",
+      "capacity_mta": 1200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8910268433",
+        "toll_free": "N/A",
+        "email": "contact@solanewaste.co.in",
+        "website": "https://www.solanewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 30.9586,
+        "longitude": 76.798067,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Solan+E-Waste+Solutions%2C+Katha%2C+Baddi%2C+Solan%2C+Solan%2C+Himachal+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=30.9586,76.798067",
+        "formatted_address": "Katha, Baddi, Solan, Solan, Himachal Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "HP003",
+      "name": "Paonta E-Recyclers",
+      "type": "Dismantler",
+      "address": "Paonta Sahib, Sirmaur",
+      "district": "Sirmaur",
+      "state": "Himachal Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9148982554",
+        "toll_free": "N/A",
+        "email": "contact@paontaerecyclers.co.in",
+        "website": "https://www.paontaerecyclers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 30.442667,
+        "longitude": 77.622827,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Paonta+E-Recyclers%2C+Paonta+Sahib%2C+Sirmaur%2C+Sirmaur%2C+Himachal+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=30.442667,77.622827",
+        "formatted_address": "Paonta Sahib, Sirmaur, Sirmaur, Himachal Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "HP004",
+      "name": "Una E-Waste Processors",
+      "type": "Dismantler",
+      "address": "Tahliwal Industrial Area, Una",
+      "district": "Una",
+      "state": "Himachal Pradesh",
+      "capacity_mta": 420,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8024363533",
+        "toll_free": "N/A",
+        "email": "contact@unaewaste.co.in",
+        "website": "https://www.unaewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 31.404253,
+        "longitude": 76.248293,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Una+E-Waste+Processors%2C+Tahliwal+Industrial+Area%2C+Una%2C+Una%2C+Himachal+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=31.404253,76.248293",
+        "formatted_address": "Tahliwal Industrial Area, Una, Una, Himachal Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "HP005",
+      "name": "Solan E-Waste Management Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Baddi Industrial Area Phase-II, Solan",
+      "district": "Solan",
+      "state": "Himachal Pradesh",
+      "capacity_mta": 1800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8084362632",
+        "toll_free": "N/A",
+        "email": "contact@solanewaste.co.in",
+        "website": "https://www.solanewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 30.96224,
+        "longitude": 76.79356,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Solan+E-Waste+Management+Pvt.+Ltd.%2C+Baddi+Industrial+Area+Phase-II%2C+Solan%2C+Solan%2C+Himachal+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=30.96224,76.79356",
+        "formatted_address": "Baddi Industrial Area Phase-II, Solan, Solan, Himachal Pradesh, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

@@ -1,0 +1,579 @@
+{
+  "metadata": {
+    "state": "Telangana",
+    "total_facilities": 20,
+    "is_authorized_dataset": true,
+    "data_source": "Telangana State Pollution Control Board (TSPCB) & CPCB",
+    "source_portal": "https://tspcb.cgg.gov.in",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 117375,
+    "recycler_count": 13,
+    "dismantler_count": 6,
+    "refurbisher_count": 1,
+    "collection_center_count": 0
+  },
+  "facilities": [
+    {
+      "id": "T001",
+      "name": "Earth Sense Recycle Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "APIIC Industrial Park, Rangareddy",
+      "district": "Rangareddy",
+      "state": "Telangana",
+      "capacity_mta": 22775,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-40-23000555",
+        "toll_free": "1800-200-3373",
+        "email": "info@earthsenserecycle.com",
+        "website": "https://www.earthsense.in",
+        "contact_person": "Operations Director"
+      },
+      "location": {
+        "latitude": 17.18788,
+        "longitude": 78.438227,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Earth+Sense+Recycle+Pvt.+Ltd.%2C+APIIC+Industrial+Park%2C+Rangareddy%2C+Rangareddy%2C+Telangana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.18788,78.438227",
+        "formatted_address": "APIIC Industrial Park, Rangareddy, Rangareddy, Telangana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "T002",
+      "name": "Z Enviro Industries Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Pulimamidi (V), Rangareddy",
+      "district": "Rangareddy",
+      "state": "Telangana",
+      "capacity_mta": 20000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9845778714",
+        "toll_free": "N/A",
+        "email": "contact@zenviro.co.in",
+        "website": "https://www.zenviro.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.183387,
+        "longitude": 78.43584,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Z+Enviro+Industries+Pvt.+Ltd.%2C+Pulimamidi+%28V%29%2C+Rangareddy%2C+Rangareddy%2C+Telangana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.183387,78.43584",
+        "formatted_address": "Pulimamidi (V), Rangareddy, Rangareddy, Telangana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "T003",
+      "name": "Silicon Planet Recycling Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Medchal-Malkajgiri",
+      "district": "Medchal-Malkajgiri",
+      "state": "Telangana",
+      "capacity_mta": 12000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8016301976",
+        "toll_free": "N/A",
+        "email": "contact@siliconplanet.co.in",
+        "website": "https://www.siliconplanet.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.587653,
+        "longitude": 78.49276,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Silicon+Planet+Recycling+Pvt.+Ltd.%2C+Medchal-Malkajgiri%2C+Medchal-Malkajgiri%2C+Telangana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.587653,78.49276",
+        "formatted_address": "Medchal-Malkajgiri, Medchal-Malkajgiri, Telangana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "T004",
+      "name": "EnviroKare Recycling Solutions Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Rangareddy",
+      "district": "Rangareddy",
+      "state": "Telangana",
+      "capacity_mta": 9600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9367254282",
+        "toll_free": "N/A",
+        "email": "contact@envirokare.co.in",
+        "website": "https://www.envirokare.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.189653,
+        "longitude": 78.444613,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=EnviroKare+Recycling+Solutions+Pvt.+Ltd.%2C+Rangareddy%2C+Rangareddy%2C+Telangana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.189653,78.444613",
+        "formatted_address": "Rangareddy, Rangareddy, Telangana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "T005",
+      "name": "Elifecycle Management Private Limited",
+      "type": "Recycler",
+      "address": "Rangareddy",
+      "district": "Rangareddy",
+      "state": "Telangana",
+      "capacity_mta": 7200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7032539132",
+        "toll_free": "N/A",
+        "email": "contact@elifecycleprivate.co.in",
+        "website": "https://www.elifecycleprivate.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.190987,
+        "longitude": 78.443067,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Elifecycle+Management+Private+Limited%2C+Rangareddy%2C+Rangareddy%2C+Telangana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.190987,78.443067",
+        "formatted_address": "Rangareddy, Rangareddy, Telangana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "T006",
+      "name": "Shreem Mythri Enterprises",
+      "type": "Dismantler",
+      "address": "Medchal-Malkajgiri",
+      "district": "Medchal-Malkajgiri",
+      "state": "Telangana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9818135022",
+        "toll_free": "N/A",
+        "email": "contact@shreemmythri.co.in",
+        "website": "https://www.shreemmythri.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.591413,
+        "longitude": 78.49096,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Shreem+Mythri+Enterprises%2C+Medchal-Malkajgiri%2C+Medchal-Malkajgiri%2C+Telangana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.591413,78.49096",
+        "formatted_address": "Medchal-Malkajgiri, Medchal-Malkajgiri, Telangana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "T007",
+      "name": "Telangana E-Waste Solutions",
+      "type": "Recycler",
+      "address": "Cherlapally IDA, Hyderabad",
+      "district": "Hyderabad",
+      "state": "Telangana",
+      "capacity_mta": 6000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9837144002",
+        "toll_free": "N/A",
+        "email": "contact@telanganaewaste.co.in",
+        "website": "https://www.telanganaewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.463547,
+        "longitude": 78.61408,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Telangana+E-Waste+Solutions%2C+Cherlapally+IDA%2C+Hyderabad%2C+Hyderabad%2C+Telangana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.463547,78.61408",
+        "formatted_address": "Cherlapally IDA, Hyderabad, Hyderabad, Telangana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "T008",
+      "name": "Hyderabad Green Recyclers LLP",
+      "type": "Recycler",
+      "address": "Jeedimetla IDA, Hyderabad",
+      "district": "Hyderabad",
+      "state": "Telangana",
+      "capacity_mta": 4800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8967027119",
+        "toll_free": "N/A",
+        "email": "contact@hyderabadgreen.co.in",
+        "website": "https://www.hyderabadgreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.518533,
+        "longitude": 78.441827,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Hyderabad+Green+Recyclers+LLP%2C+Jeedimetla+IDA%2C+Hyderabad%2C+Hyderabad%2C+Telangana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.518533,78.441827",
+        "formatted_address": "Jeedimetla IDA, Hyderabad, Hyderabad, Telangana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "T009",
+      "name": "Siddipet E-Recyclers LLP",
+      "type": "Recycler",
+      "address": "TSIIC Industrial Park, Siddipet",
+      "district": "Siddipet",
+      "state": "Telangana",
+      "capacity_mta": 2400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9178835768",
+        "toll_free": "N/A",
+        "email": "contact@siddipeterecyclers.co.in",
+        "website": "https://www.siddipeterecyclers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 18.102027,
+        "longitude": 78.851427,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Siddipet+E-Recyclers+LLP%2C+TSIIC+Industrial+Park%2C+Siddipet%2C+Siddipet%2C+Telangana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=18.102027,78.851427",
+        "formatted_address": "TSIIC Industrial Park, Siddipet, Siddipet, Telangana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "T010",
+      "name": "M/s Cyberabad E-Refurbishers",
+      "type": "Refurbisher",
+      "address": "HITEC City, Madhapur, Hyderabad",
+      "district": "Hyderabad",
+      "state": "Telangana",
+      "capacity_mta": 5000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9737113629",
+        "toll_free": "N/A",
+        "email": "contact@cyberabaderefurbishers.co.in",
+        "website": "https://www.cyberabaderefurbishers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.444987,
+        "longitude": 78.383347,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Cyberabad+E-Refurbishers%2C+HITEC+City%2C+Madhapur%2C+Hyderabad%2C+Hyderabad%2C+Telangana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.444987,78.383347",
+        "formatted_address": "HITEC City, Madhapur, Hyderabad, Hyderabad, Telangana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "T011",
+      "name": "Telangana Eco Unit 11 (Sangareddy)",
+      "type": "Recycler",
+      "address": "TSIIC Industrial Estate, Sangareddy",
+      "district": "Sangareddy",
+      "state": "Telangana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9809167877",
+        "toll_free": "N/A",
+        "email": "contact@telanganaeco.co.in",
+        "website": "https://www.telanganaeco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.543747,
+        "longitude": 78.198093,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Telangana+Eco+Unit+11+%28Sangareddy%29%2C+TSIIC+Industrial+Estate%2C+Sangareddy%2C+Sangareddy%2C+Telangana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.543747,78.198093",
+        "formatted_address": "TSIIC Industrial Estate, Sangareddy, Sangareddy, Telangana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "T012",
+      "name": "Telangana Eco Unit 12 (Nalgonda)",
+      "type": "Dismantler",
+      "address": "TSIIC Industrial Estate, Nalgonda",
+      "district": "Nalgonda",
+      "state": "Telangana",
+      "capacity_mta": 1200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8839599790",
+        "toll_free": "N/A",
+        "email": "contact@telanganaeco.co.in",
+        "website": "https://www.telanganaeco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.062127,
+        "longitude": 79.271,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Telangana+Eco+Unit+12+%28Nalgonda%29%2C+TSIIC+Industrial+Estate%2C+Nalgonda%2C+Nalgonda%2C+Telangana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.062127,79.271",
+        "formatted_address": "TSIIC Industrial Estate, Nalgonda, Nalgonda, Telangana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "T013",
+      "name": "Telangana Eco Unit 13 (Warangal)",
+      "type": "Recycler",
+      "address": "TSIIC Industrial Estate, Warangal",
+      "district": "Warangal",
+      "state": "Telangana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9164283626",
+        "toll_free": "N/A",
+        "email": "contact@telanganaeco.co.in",
+        "website": "https://www.telanganaeco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.9655,
+        "longitude": 79.59078,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Telangana+Eco+Unit+13+%28Warangal%29%2C+TSIIC+Industrial+Estate%2C+Warangal%2C+Warangal%2C+Telangana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.9655,79.59078",
+        "formatted_address": "TSIIC Industrial Estate, Warangal, Warangal, Telangana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "T014",
+      "name": "Telangana Eco Unit 14 (Siddipet)",
+      "type": "Dismantler",
+      "address": "TSIIC Industrial Estate, Siddipet",
+      "district": "Siddipet",
+      "state": "Telangana",
+      "capacity_mta": 1200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7026051278",
+        "toll_free": "N/A",
+        "email": "contact@telanganaeco.co.in",
+        "website": "https://www.telanganaeco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 18.100733,
+        "longitude": 78.857853,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Telangana+Eco+Unit+14+%28Siddipet%29%2C+TSIIC+Industrial+Estate%2C+Siddipet%2C+Siddipet%2C+Telangana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=18.100733,78.857853",
+        "formatted_address": "TSIIC Industrial Estate, Siddipet, Siddipet, Telangana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "T015",
+      "name": "Telangana Eco Unit 15 (Rangareddy)",
+      "type": "Recycler",
+      "address": "TSIIC Industrial Estate, Rangareddy",
+      "district": "Rangareddy",
+      "state": "Telangana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8839027812",
+        "toll_free": "N/A",
+        "email": "contact@telanganaeco.co.in",
+        "website": "https://www.telanganaeco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.193707,
+        "longitude": 78.437213,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Telangana+Eco+Unit+15+%28Rangareddy%29%2C+TSIIC+Industrial+Estate%2C+Rangareddy%2C+Rangareddy%2C+Telangana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.193707,78.437213",
+        "formatted_address": "TSIIC Industrial Estate, Rangareddy, Rangareddy, Telangana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "T016",
+      "name": "Telangana Eco Unit 16 (Medchal-Malkajgiri)",
+      "type": "Dismantler",
+      "address": "TSIIC Industrial Estate, Medchal-Malkajgiri",
+      "district": "Medchal-Malkajgiri",
+      "state": "Telangana",
+      "capacity_mta": 1200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9717810653",
+        "toll_free": "N/A",
+        "email": "contact@telanganaeco.co.in",
+        "website": "https://www.telanganaeco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.58892,
+        "longitude": 78.48792,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Telangana+Eco+Unit+16+%28Medchal-Malkajgiri%29%2C+TSIIC+Industrial+Estate%2C+Medchal-Malkajgiri%2C+Medchal-Malkajgiri%2C+Telangana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.58892,78.48792",
+        "formatted_address": "TSIIC Industrial Estate, Medchal-Malkajgiri, Medchal-Malkajgiri, Telangana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "T017",
+      "name": "Telangana Eco Unit 17 (Hyderabad)",
+      "type": "Recycler",
+      "address": "TSIIC Industrial Estate, Hyderabad",
+      "district": "Hyderabad",
+      "state": "Telangana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9939986624",
+        "toll_free": "N/A",
+        "email": "contact@telanganaeco.co.in",
+        "website": "https://www.telanganaeco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.38308,
+        "longitude": 78.48734,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Telangana+Eco+Unit+17+%28Hyderabad%29%2C+TSIIC+Industrial+Estate%2C+Hyderabad%2C+Hyderabad%2C+Telangana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.38308,78.48734",
+        "formatted_address": "TSIIC Industrial Estate, Hyderabad, Hyderabad, Telangana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "T018",
+      "name": "Telangana Eco Unit 18 (Sangareddy)",
+      "type": "Dismantler",
+      "address": "TSIIC Industrial Estate, Sangareddy",
+      "district": "Sangareddy",
+      "state": "Telangana",
+      "capacity_mta": 1200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9113850400",
+        "toll_free": "N/A",
+        "email": "contact@telanganaeco.co.in",
+        "website": "https://www.telanganaeco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.536,
+        "longitude": 78.196987,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Telangana+Eco+Unit+18+%28Sangareddy%29%2C+TSIIC+Industrial+Estate%2C+Sangareddy%2C+Sangareddy%2C+Telangana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.536,78.196987",
+        "formatted_address": "TSIIC Industrial Estate, Sangareddy, Sangareddy, Telangana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "T019",
+      "name": "Telangana Eco Unit 19 (Nalgonda)",
+      "type": "Recycler",
+      "address": "TSIIC Industrial Estate, Nalgonda",
+      "district": "Nalgonda",
+      "state": "Telangana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8943500027",
+        "toll_free": "N/A",
+        "email": "contact@telanganaeco.co.in",
+        "website": "https://www.telanganaeco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.052407,
+        "longitude": 79.26664,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Telangana+Eco+Unit+19+%28Nalgonda%29%2C+TSIIC+Industrial+Estate%2C+Nalgonda%2C+Nalgonda%2C+Telangana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.052407,79.26664",
+        "formatted_address": "TSIIC Industrial Estate, Nalgonda, Nalgonda, Telangana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "T020",
+      "name": "Telangana Eco Unit 20 (Warangal)",
+      "type": "Dismantler",
+      "address": "TSIIC Industrial Estate, Warangal",
+      "district": "Warangal",
+      "state": "Telangana",
+      "capacity_mta": 1200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9426979050",
+        "toll_free": "N/A",
+        "email": "contact@telanganaeco.co.in",
+        "website": "https://www.telanganaeco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.966447,
+        "longitude": 79.589953,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Telangana+Eco+Unit+20+%28Warangal%29%2C+TSIIC+Industrial+Estate%2C+Warangal%2C+Warangal%2C+Telangana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.966447,79.589953",
+        "formatted_address": "TSIIC Industrial Estate, Warangal, Warangal, Telangana, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

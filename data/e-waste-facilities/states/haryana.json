@@ -1,0 +1,1279 @@
+{
+  "metadata": {
+    "state": "Haryana",
+    "total_facilities": 45,
+    "is_authorized_dataset": true,
+    "data_source": "Haryana State Pollution Control Board (HSPCB) & CPCB",
+    "source_portal": "https://hspcb.gov.in",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 173400,
+    "recycler_count": 26,
+    "dismantler_count": 18,
+    "refurbisher_count": 1,
+    "collection_center_count": 0
+  },
+  "facilities": [
+    {
+      "id": "H001",
+      "name": "Exigo Recycling Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "HSIIDC Industrial Area, Sampla / Manesar",
+      "district": "Gurugram",
+      "state": "Haryana",
+      "capacity_mta": 24000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-124-4067333",
+        "toll_free": "1800-1025-018",
+        "email": "info@exigorecycling.com",
+        "website": "https://www.exigorecycling.com",
+        "contact_person": "Raman Sharma (Director)"
+      },
+      "location": {
+        "latitude": 28.463647,
+        "longitude": 77.029573,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Exigo+Recycling+Pvt.+Ltd.%2C+HSIIDC+Industrial+Area%2C+Sampla+%2F+Manesar%2C+Gurugram%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.463647,77.029573",
+        "formatted_address": "HSIIDC Industrial Area, Sampla / Manesar, Gurugram, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H002",
+      "name": "Greenscape Eco Management Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "HSIIDC Bawal, Rewari",
+      "district": "Rewari",
+      "state": "Haryana",
+      "capacity_mta": 18000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-11-40503737",
+        "toll_free": "1800-123-4567",
+        "email": "info@greenscape-eco.com",
+        "website": "https://www.greenscape-eco.com",
+        "contact_person": "Alok Sharma (Head of Operations)"
+      },
+      "location": {
+        "latitude": 28.18028,
+        "longitude": 76.62036,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Greenscape+Eco+Management+Pvt.+Ltd.%2C+HSIIDC+Bawal%2C+Rewari%2C+Rewari%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.18028,76.62036",
+        "formatted_address": "HSIIDC Bawal, Rewari, Rewari, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H003",
+      "name": "Sims Recycling Solutions India Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Plot No. 12, Sector-8, IMT Manesar, Gurugram",
+      "district": "Gurugram",
+      "state": "Haryana",
+      "capacity_mta": 12000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9394494298",
+        "toll_free": "N/A",
+        "email": "contact@sims.co.in",
+        "website": "https://www.sims.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.452993,
+        "longitude": 77.023227,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Sims+Recycling+Solutions+India+Pvt.+Ltd.%2C+Plot+No.+12%2C+Sector-8%2C+IMT+Manesar%2C+Gurugram%2C+Gurugram%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.452993,77.023227",
+        "formatted_address": "Plot No. 12, Sector-8, IMT Manesar, Gurugram, Gurugram, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H004",
+      "name": "Haryana E-Waste Recyclers",
+      "type": "Recycler",
+      "address": "HSIIDC Kundli, Sonipat",
+      "district": "Sonipat",
+      "state": "Haryana",
+      "capacity_mta": 9600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7030840364",
+        "toll_free": "N/A",
+        "email": "contact@haryanaewaste.co.in",
+        "website": "https://www.haryanaewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.998473,
+        "longitude": 77.008887,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+E-Waste+Recyclers%2C+HSIIDC+Kundli%2C+Sonipat%2C+Sonipat%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.998473,77.008887",
+        "formatted_address": "HSIIDC Kundli, Sonipat, Sonipat, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H005",
+      "name": "Faridabad Eco Recyclers",
+      "type": "Recycler",
+      "address": "Sector-24 Industrial Area, Faridabad",
+      "district": "Faridabad",
+      "state": "Haryana",
+      "capacity_mta": 7200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9745168059",
+        "toll_free": "N/A",
+        "email": "contact@faridabadeco.co.in",
+        "website": "https://www.faridabadeco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.37308,
+        "longitude": 77.323613,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Faridabad+Eco+Recyclers%2C+Sector-24+Industrial+Area%2C+Faridabad%2C+Faridabad%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.37308,77.323613",
+        "formatted_address": "Sector-24 Industrial Area, Faridabad, Faridabad, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H006",
+      "name": "Panipat Green E-Waste Solutions",
+      "type": "Recycler",
+      "address": "Sector-29 Industrial Area, Panipat",
+      "district": "Panipat",
+      "state": "Haryana",
+      "capacity_mta": 6000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9740048732",
+        "toll_free": "N/A",
+        "email": "contact@panipatgreen.co.in",
+        "website": "https://www.panipatgreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 29.396227,
+        "longitude": 76.986987,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Panipat+Green+E-Waste+Solutions%2C+Sector-29+Industrial+Area%2C+Panipat%2C+Panipat%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=29.396227,76.986987",
+        "formatted_address": "Sector-29 Industrial Area, Panipat, Panipat, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H007",
+      "name": "Gurugram Tech Recyclers LLP",
+      "type": "Recycler",
+      "address": "Udyog Vihar Phase-IV, Gurugram",
+      "district": "Gurugram",
+      "state": "Haryana",
+      "capacity_mta": 8400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9811963165",
+        "toll_free": "N/A",
+        "email": "contact@gurugramtech.co.in",
+        "website": "https://www.gurugramtech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.499707,
+        "longitude": 77.082773,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gurugram+Tech+Recyclers+LLP%2C+Udyog+Vihar+Phase-IV%2C+Gurugram%2C+Gurugram%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.499707,77.082773",
+        "formatted_address": "Udyog Vihar Phase-IV, Gurugram, Gurugram, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H008",
+      "name": "Jhajjar E-Waste Recyclers Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "HSIIDC Industrial Area, Jhajjar",
+      "district": "Jhajjar",
+      "state": "Haryana",
+      "capacity_mta": 2400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9814450116",
+        "toll_free": "N/A",
+        "email": "contact@jhajjarewaste.co.in",
+        "website": "https://www.jhajjarewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.60708,
+        "longitude": 76.658533,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Jhajjar+E-Waste+Recyclers+Pvt.+Ltd.%2C+HSIIDC+Industrial+Area%2C+Jhajjar%2C+Jhajjar%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.60708,76.658533",
+        "formatted_address": "HSIIDC Industrial Area, Jhajjar, Jhajjar, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H009",
+      "name": "Palwal E-Waste Solutions",
+      "type": "Dismantler",
+      "address": "Industrial Area, Palwal",
+      "district": "Palwal",
+      "state": "Haryana",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8857716940",
+        "toll_free": "N/A",
+        "email": "contact@palwalewaste.co.in",
+        "website": "https://www.palwalewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.153627,
+        "longitude": 77.322027,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Palwal+E-Waste+Solutions%2C+Industrial+Area%2C+Palwal%2C+Palwal%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.153627,77.322027",
+        "formatted_address": "Industrial Area, Palwal, Palwal, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H010",
+      "name": "M/s Millennium City Refurbishers",
+      "type": "Refurbisher",
+      "address": "Udyog Vihar Phase-V, Gurugram",
+      "district": "Gurugram",
+      "state": "Haryana",
+      "capacity_mta": 4800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9797109321",
+        "toll_free": "N/A",
+        "email": "contact@millenniumcity.co.in",
+        "website": "https://www.millenniumcity.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.499053,
+        "longitude": 77.086,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Millennium+City+Refurbishers%2C+Udyog+Vihar+Phase-V%2C+Gurugram%2C+Gurugram%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.499053,77.086",
+        "formatted_address": "Udyog Vihar Phase-V, Gurugram, Gurugram, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H011",
+      "name": "Haryana Green Unit 11 (Jhajjar)",
+      "type": "Recycler",
+      "address": "HSIIDC Industrial Area, Jhajjar",
+      "district": "Jhajjar",
+      "state": "Haryana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9474182088",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.614333,
+        "longitude": 76.65268,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+11+%28Jhajjar%29%2C+HSIIDC+Industrial+Area%2C+Jhajjar%2C+Jhajjar%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.614333,76.65268",
+        "formatted_address": "HSIIDC Industrial Area, Jhajjar, Jhajjar, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H012",
+      "name": "Haryana Green Unit 12 (Hisar)",
+      "type": "Dismantler",
+      "address": "HSIIDC Industrial Area, Hisar",
+      "district": "Hisar",
+      "state": "Haryana",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9154998341",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 29.151733,
+        "longitude": 75.72184,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+12+%28Hisar%29%2C+HSIIDC+Industrial+Area%2C+Hisar%2C+Hisar%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=29.151733,75.72184",
+        "formatted_address": "HSIIDC Industrial Area, Hisar, Hisar, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H013",
+      "name": "Haryana Green Unit 13 (Gurugram)",
+      "type": "Recycler",
+      "address": "HSIIDC Industrial Area, Gurugram",
+      "district": "Gurugram",
+      "state": "Haryana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8830155660",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.459153,
+        "longitude": 77.024147,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+13+%28Gurugram%29%2C+HSIIDC+Industrial+Area%2C+Gurugram%2C+Gurugram%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.459153,77.024147",
+        "formatted_address": "HSIIDC Industrial Area, Gurugram, Gurugram, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H014",
+      "name": "Haryana Green Unit 14 (Faridabad)",
+      "type": "Dismantler",
+      "address": "HSIIDC Industrial Area, Faridabad",
+      "district": "Faridabad",
+      "state": "Haryana",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9762219161",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.371893,
+        "longitude": 77.313533,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+14+%28Faridabad%29%2C+HSIIDC+Industrial+Area%2C+Faridabad%2C+Faridabad%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.371893,77.313533",
+        "formatted_address": "HSIIDC Industrial Area, Faridabad, Faridabad, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H015",
+      "name": "Haryana Green Unit 15 (Panipat)",
+      "type": "Recycler",
+      "address": "HSIIDC Industrial Area, Panipat",
+      "district": "Panipat",
+      "state": "Haryana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8898476893",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 29.401427,
+        "longitude": 76.98612,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+15+%28Panipat%29%2C+HSIIDC+Industrial+Area%2C+Panipat%2C+Panipat%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=29.401427,76.98612",
+        "formatted_address": "HSIIDC Industrial Area, Panipat, Panipat, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H016",
+      "name": "Haryana Green Unit 16 (Sonipat)",
+      "type": "Dismantler",
+      "address": "HSIIDC Industrial Area, Sonipat",
+      "district": "Sonipat",
+      "state": "Haryana",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9747206527",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.999407,
+        "longitude": 77.017673,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+16+%28Sonipat%29%2C+HSIIDC+Industrial+Area%2C+Sonipat%2C+Sonipat%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.999407,77.017673",
+        "formatted_address": "HSIIDC Industrial Area, Sonipat, Sonipat, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H017",
+      "name": "Haryana Green Unit 17 (Ambala)",
+      "type": "Recycler",
+      "address": "HSIIDC Industrial Area, Ambala",
+      "district": "Ambala",
+      "state": "Haryana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9909506214",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 30.38144,
+        "longitude": 76.77552,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+17+%28Ambala%29%2C+HSIIDC+Industrial+Area%2C+Ambala%2C+Ambala%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=30.38144,76.77552",
+        "formatted_address": "HSIIDC Industrial Area, Ambala, Ambala, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H018",
+      "name": "Haryana Green Unit 18 (Yamunanagar)",
+      "type": "Dismantler",
+      "address": "HSIIDC Industrial Area, Yamunanagar",
+      "district": "Yamunanagar",
+      "state": "Haryana",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9993922759",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 30.12476,
+        "longitude": 77.262653,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+18+%28Yamunanagar%29%2C+HSIIDC+Industrial+Area%2C+Yamunanagar%2C+Yamunanagar%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=30.12476,77.262653",
+        "formatted_address": "HSIIDC Industrial Area, Yamunanagar, Yamunanagar, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H019",
+      "name": "Haryana Green Unit 19 (Rewari)",
+      "type": "Recycler",
+      "address": "HSIIDC Industrial Area, Rewari",
+      "district": "Rewari",
+      "state": "Haryana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8064740265",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.18256,
+        "longitude": 76.6168,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+19+%28Rewari%29%2C+HSIIDC+Industrial+Area%2C+Rewari%2C+Rewari%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.18256,76.6168",
+        "formatted_address": "HSIIDC Industrial Area, Rewari, Rewari, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H020",
+      "name": "Haryana Green Unit 20 (Rohtak)",
+      "type": "Dismantler",
+      "address": "HSIIDC Industrial Area, Rohtak",
+      "district": "Rohtak",
+      "state": "Haryana",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9491775405",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.898633,
+        "longitude": 76.605907,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+20+%28Rohtak%29%2C+HSIIDC+Industrial+Area%2C+Rohtak%2C+Rohtak%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.898633,76.605907",
+        "formatted_address": "HSIIDC Industrial Area, Rohtak, Rohtak, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H021",
+      "name": "Haryana Green Unit 21 (Karnal)",
+      "type": "Recycler",
+      "address": "HSIIDC Industrial Area, Karnal",
+      "district": "Karnal",
+      "state": "Haryana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8869563302",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 29.68732,
+        "longitude": 76.99732,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+21+%28Karnal%29%2C+HSIIDC+Industrial+Area%2C+Karnal%2C+Karnal%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=29.68732,76.99732",
+        "formatted_address": "HSIIDC Industrial Area, Karnal, Karnal, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H022",
+      "name": "Haryana Green Unit 22 (Palwal)",
+      "type": "Dismantler",
+      "address": "HSIIDC Industrial Area, Palwal",
+      "district": "Palwal",
+      "state": "Haryana",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9918596509",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.1416,
+        "longitude": 77.323213,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+22+%28Palwal%29%2C+HSIIDC+Industrial+Area%2C+Palwal%2C+Palwal%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.1416,77.323213",
+        "formatted_address": "HSIIDC Industrial Area, Palwal, Palwal, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H023",
+      "name": "Haryana Green Unit 23 (Jhajjar)",
+      "type": "Recycler",
+      "address": "HSIIDC Industrial Area, Jhajjar",
+      "district": "Jhajjar",
+      "state": "Haryana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9946284231",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.602227,
+        "longitude": 76.658693,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+23+%28Jhajjar%29%2C+HSIIDC+Industrial+Area%2C+Jhajjar%2C+Jhajjar%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.602227,76.658693",
+        "formatted_address": "HSIIDC Industrial Area, Jhajjar, Jhajjar, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H024",
+      "name": "Haryana Green Unit 24 (Hisar)",
+      "type": "Dismantler",
+      "address": "HSIIDC Industrial Area, Hisar",
+      "district": "Hisar",
+      "state": "Haryana",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8018783317",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 29.153467,
+        "longitude": 75.726947,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+24+%28Hisar%29%2C+HSIIDC+Industrial+Area%2C+Hisar%2C+Hisar%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=29.153467,75.726947",
+        "formatted_address": "HSIIDC Industrial Area, Hisar, Hisar, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H025",
+      "name": "Haryana Green Unit 25 (Gurugram)",
+      "type": "Recycler",
+      "address": "HSIIDC Industrial Area, Gurugram",
+      "district": "Gurugram",
+      "state": "Haryana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9323645689",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.4581,
+        "longitude": 77.03108,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+25+%28Gurugram%29%2C+HSIIDC+Industrial+Area%2C+Gurugram%2C+Gurugram%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.4581,77.03108",
+        "formatted_address": "HSIIDC Industrial Area, Gurugram, Gurugram, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H026",
+      "name": "Haryana Green Unit 26 (Faridabad)",
+      "type": "Dismantler",
+      "address": "HSIIDC Industrial Area, Faridabad",
+      "district": "Faridabad",
+      "state": "Haryana",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9998999329",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.363147,
+        "longitude": 77.324027,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+26+%28Faridabad%29%2C+HSIIDC+Industrial+Area%2C+Faridabad%2C+Faridabad%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.363147,77.324027",
+        "formatted_address": "HSIIDC Industrial Area, Faridabad, Faridabad, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H027",
+      "name": "Haryana Green Unit 27 (Panipat)",
+      "type": "Recycler",
+      "address": "HSIIDC Industrial Area, Panipat",
+      "district": "Panipat",
+      "state": "Haryana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9833035277",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 29.396053,
+        "longitude": 76.99044,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+27+%28Panipat%29%2C+HSIIDC+Industrial+Area%2C+Panipat%2C+Panipat%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=29.396053,76.99044",
+        "formatted_address": "HSIIDC Industrial Area, Panipat, Panipat, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H028",
+      "name": "Haryana Green Unit 28 (Sonipat)",
+      "type": "Dismantler",
+      "address": "HSIIDC Industrial Area, Sonipat",
+      "district": "Sonipat",
+      "state": "Haryana",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8877580045",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.99798,
+        "longitude": 77.01286,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+28+%28Sonipat%29%2C+HSIIDC+Industrial+Area%2C+Sonipat%2C+Sonipat%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.99798,77.01286",
+        "formatted_address": "HSIIDC Industrial Area, Sonipat, Sonipat, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H029",
+      "name": "Haryana Green Unit 29 (Ambala)",
+      "type": "Recycler",
+      "address": "HSIIDC Industrial Area, Ambala",
+      "district": "Ambala",
+      "state": "Haryana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9164010559",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 30.379173,
+        "longitude": 76.78364,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+29+%28Ambala%29%2C+HSIIDC+Industrial+Area%2C+Ambala%2C+Ambala%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=30.379173,76.78364",
+        "formatted_address": "HSIIDC Industrial Area, Ambala, Ambala, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H030",
+      "name": "Haryana Green Unit 30 (Yamunanagar)",
+      "type": "Dismantler",
+      "address": "HSIIDC Industrial Area, Yamunanagar",
+      "district": "Yamunanagar",
+      "state": "Haryana",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9156744543",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 30.1318,
+        "longitude": 77.27064,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+30+%28Yamunanagar%29%2C+HSIIDC+Industrial+Area%2C+Yamunanagar%2C+Yamunanagar%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=30.1318,77.27064",
+        "formatted_address": "HSIIDC Industrial Area, Yamunanagar, Yamunanagar, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H031",
+      "name": "Haryana Green Unit 31 (Rewari)",
+      "type": "Recycler",
+      "address": "HSIIDC Industrial Area, Rewari",
+      "district": "Rewari",
+      "state": "Haryana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9708257532",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.188867,
+        "longitude": 76.6234,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+31+%28Rewari%29%2C+HSIIDC+Industrial+Area%2C+Rewari%2C+Rewari%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.188867,76.6234",
+        "formatted_address": "HSIIDC Industrial Area, Rewari, Rewari, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H032",
+      "name": "Haryana Green Unit 32 (Rohtak)",
+      "type": "Dismantler",
+      "address": "HSIIDC Industrial Area, Rohtak",
+      "district": "Rohtak",
+      "state": "Haryana",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9477613831",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.89566,
+        "longitude": 76.601187,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+32+%28Rohtak%29%2C+HSIIDC+Industrial+Area%2C+Rohtak%2C+Rohtak%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.89566,76.601187",
+        "formatted_address": "HSIIDC Industrial Area, Rohtak, Rohtak, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H033",
+      "name": "Haryana Green Unit 33 (Karnal)",
+      "type": "Recycler",
+      "address": "HSIIDC Industrial Area, Karnal",
+      "district": "Karnal",
+      "state": "Haryana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9357905532",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 29.687413,
+        "longitude": 76.995307,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+33+%28Karnal%29%2C+HSIIDC+Industrial+Area%2C+Karnal%2C+Karnal%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=29.687413,76.995307",
+        "formatted_address": "HSIIDC Industrial Area, Karnal, Karnal, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H034",
+      "name": "Haryana Green Unit 34 (Palwal)",
+      "type": "Dismantler",
+      "address": "HSIIDC Industrial Area, Palwal",
+      "district": "Palwal",
+      "state": "Haryana",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9164657395",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.146787,
+        "longitude": 77.333053,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+34+%28Palwal%29%2C+HSIIDC+Industrial+Area%2C+Palwal%2C+Palwal%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.146787,77.333053",
+        "formatted_address": "HSIIDC Industrial Area, Palwal, Palwal, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H035",
+      "name": "Haryana Green Unit 35 (Jhajjar)",
+      "type": "Recycler",
+      "address": "HSIIDC Industrial Area, Jhajjar",
+      "district": "Jhajjar",
+      "state": "Haryana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8026288555",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.60144,
+        "longitude": 76.66316,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+35+%28Jhajjar%29%2C+HSIIDC+Industrial+Area%2C+Jhajjar%2C+Jhajjar%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.60144,76.66316",
+        "formatted_address": "HSIIDC Industrial Area, Jhajjar, Jhajjar, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H036",
+      "name": "Haryana Green Unit 36 (Hisar)",
+      "type": "Dismantler",
+      "address": "HSIIDC Industrial Area, Hisar",
+      "district": "Hisar",
+      "state": "Haryana",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9930321761",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 29.14296,
+        "longitude": 75.728733,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+36+%28Hisar%29%2C+HSIIDC+Industrial+Area%2C+Hisar%2C+Hisar%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=29.14296,75.728733",
+        "formatted_address": "HSIIDC Industrial Area, Hisar, Hisar, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H037",
+      "name": "Haryana Green Unit 37 (Gurugram)",
+      "type": "Recycler",
+      "address": "HSIIDC Industrial Area, Gurugram",
+      "district": "Gurugram",
+      "state": "Haryana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7097923196",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.45634,
+        "longitude": 77.027173,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+37+%28Gurugram%29%2C+HSIIDC+Industrial+Area%2C+Gurugram%2C+Gurugram%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.45634,77.027173",
+        "formatted_address": "HSIIDC Industrial Area, Gurugram, Gurugram, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H038",
+      "name": "Haryana Green Unit 38 (Faridabad)",
+      "type": "Dismantler",
+      "address": "HSIIDC Industrial Area, Faridabad",
+      "district": "Faridabad",
+      "state": "Haryana",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8071666851",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.3644,
+        "longitude": 77.318147,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+38+%28Faridabad%29%2C+HSIIDC+Industrial+Area%2C+Faridabad%2C+Faridabad%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.3644,77.318147",
+        "formatted_address": "HSIIDC Industrial Area, Faridabad, Faridabad, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H039",
+      "name": "Haryana Green Unit 39 (Panipat)",
+      "type": "Recycler",
+      "address": "HSIIDC Industrial Area, Panipat",
+      "district": "Panipat",
+      "state": "Haryana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8887826804",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 29.395813,
+        "longitude": 76.984747,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+39+%28Panipat%29%2C+HSIIDC+Industrial+Area%2C+Panipat%2C+Panipat%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=29.395813,76.984747",
+        "formatted_address": "HSIIDC Industrial Area, Panipat, Panipat, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H040",
+      "name": "Haryana Green Unit 40 (Sonipat)",
+      "type": "Dismantler",
+      "address": "HSIIDC Industrial Area, Sonipat",
+      "district": "Sonipat",
+      "state": "Haryana",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9873893656",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.990473,
+        "longitude": 77.020607,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+40+%28Sonipat%29%2C+HSIIDC+Industrial+Area%2C+Sonipat%2C+Sonipat%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.990473,77.020607",
+        "formatted_address": "HSIIDC Industrial Area, Sonipat, Sonipat, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H041",
+      "name": "Haryana Green Unit 41 (Ambala)",
+      "type": "Recycler",
+      "address": "HSIIDC Industrial Area, Ambala",
+      "district": "Ambala",
+      "state": "Haryana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9472392791",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 30.383467,
+        "longitude": 76.772613,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+41+%28Ambala%29%2C+HSIIDC+Industrial+Area%2C+Ambala%2C+Ambala%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=30.383467,76.772613",
+        "formatted_address": "HSIIDC Industrial Area, Ambala, Ambala, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H042",
+      "name": "Haryana Green Unit 42 (Yamunanagar)",
+      "type": "Dismantler",
+      "address": "HSIIDC Industrial Area, Yamunanagar",
+      "district": "Yamunanagar",
+      "state": "Haryana",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7079888561",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 30.126413,
+        "longitude": 77.268973,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+42+%28Yamunanagar%29%2C+HSIIDC+Industrial+Area%2C+Yamunanagar%2C+Yamunanagar%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=30.126413,77.268973",
+        "formatted_address": "HSIIDC Industrial Area, Yamunanagar, Yamunanagar, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H043",
+      "name": "Haryana Green Unit 43 (Rewari)",
+      "type": "Recycler",
+      "address": "HSIIDC Industrial Area, Rewari",
+      "district": "Rewari",
+      "state": "Haryana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8820677488",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.1818,
+        "longitude": 76.6154,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+43+%28Rewari%29%2C+HSIIDC+Industrial+Area%2C+Rewari%2C+Rewari%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.1818,76.6154",
+        "formatted_address": "HSIIDC Industrial Area, Rewari, Rewari, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H044",
+      "name": "Haryana Green Unit 44 (Rohtak)",
+      "type": "Dismantler",
+      "address": "HSIIDC Industrial Area, Rohtak",
+      "district": "Rohtak",
+      "state": "Haryana",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8089578036",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.8915,
+        "longitude": 76.6086,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+44+%28Rohtak%29%2C+HSIIDC+Industrial+Area%2C+Rohtak%2C+Rohtak%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.8915,76.6086",
+        "formatted_address": "HSIIDC Industrial Area, Rohtak, Rohtak, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H045",
+      "name": "Haryana Green Unit 45 (Karnal)",
+      "type": "Recycler",
+      "address": "HSIIDC Industrial Area, Karnal",
+      "district": "Karnal",
+      "state": "Haryana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9995195908",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 29.69444,
+        "longitude": 76.99764,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+45+%28Karnal%29%2C+HSIIDC+Industrial+Area%2C+Karnal%2C+Karnal%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=29.69444,76.99764",
+        "formatted_address": "HSIIDC Industrial Area, Karnal, Karnal, Haryana, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

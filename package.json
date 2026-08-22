@@ -1,0 +1,29 @@
+{
+  "name": "e-cycle-india-unified",
+  "version": "1.0.0",
+  "description": "Unified AI E-Waste Classifier and National Authorized Facility Locator",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "e-waste",
+    "ai",
+    "nvidia",
+    "leaflet",
+    "cpcb",
+    "facilities",
+    "recycling"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.0.1"
+  }
+}

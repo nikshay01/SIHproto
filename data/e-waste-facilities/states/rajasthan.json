@@ -1,0 +1,803 @@
+{
+  "metadata": {
+    "state": "Rajasthan",
+    "total_facilities": 28,
+    "is_authorized_dataset": true,
+    "data_source": "Rajasthan State Pollution Control Board (RSPCB) & CPCB",
+    "source_portal": "https://environment.rajasthan.gov.in/content/environment/en/rajasthan-state-pollution-control-board.html",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 82660,
+    "recycler_count": 11,
+    "dismantler_count": 11,
+    "refurbisher_count": 4,
+    "collection_center_count": 2
+  },
+  "facilities": [
+    {
+      "id": "R001",
+      "name": "M/s ETCO E-Waste Recycler Private Ltd",
+      "type": "Recycler",
+      "address": "SB-23, Sitapura Industrial Area, Tonk Road, Jaipur",
+      "district": "Jaipur",
+      "state": "Rajasthan",
+      "capacity_mta": 4490,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-141-2771000",
+        "toll_free": "1800-120-3826",
+        "email": "info@etco.in",
+        "website": "https://www.etco.in",
+        "contact_person": "Facility In-Charge"
+      },
+      "location": {
+        "latitude": 26.783687,
+        "longitude": 75.831793,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+ETCO+E-Waste+Recycler+Private+Ltd%2C+SB-23%2C+Sitapura+Industrial+Area%2C+Tonk+Road%2C+Jaipur%2C+Jaipur%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.783687,75.831793",
+        "formatted_address": "SB-23, Sitapura Industrial Area, Tonk Road, Jaipur, Jaipur, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R002",
+      "name": "M/s Shukla E-waste Processor",
+      "type": "Recycler",
+      "address": "Plot No. G-1-24, RIICO Industrial Area, Khushkhera, Bhiwadi, Alwar",
+      "district": "Alwar",
+      "state": "Rajasthan",
+      "capacity_mta": 680,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8090960370",
+        "toll_free": "N/A",
+        "email": "contact@shuklaewaste.co.in",
+        "website": "https://www.shuklaewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.132407,
+        "longitude": 76.818653,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Shukla+E-waste+Processor%2C+Plot+No.+G-1-24%2C+RIICO+Industrial+Area%2C+Khushkhera%2C+Bhiwadi%2C+Alwar%2C+Alwar%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.132407,76.818653",
+        "formatted_address": "Plot No. G-1-24, RIICO Industrial Area, Khushkhera, Bhiwadi, Alwar, Alwar, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R003",
+      "name": "M/s GS International",
+      "type": "Dismantler",
+      "address": "Plot No. G-84, RIICO Industrial Area, Khushkhera, Bhiwadi, Alwar",
+      "district": "Alwar",
+      "state": "Rajasthan",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9960751464",
+        "toll_free": "N/A",
+        "email": "contact@gsinternational.co.in",
+        "website": "https://www.gsinternational.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.13102,
+        "longitude": 76.820827,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+GS+International%2C+Plot+No.+G-84%2C+RIICO+Industrial+Area%2C+Khushkhera%2C+Bhiwadi%2C+Alwar%2C+Alwar%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.13102,76.820827",
+        "formatted_address": "Plot No. G-84, RIICO Industrial Area, Khushkhera, Bhiwadi, Alwar, Alwar, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R004",
+      "name": "M/s Adatte E-Waste Management Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Plot No. SP-28, RIICO Industrial Area, Ghiloth, Neemrana, Alwar",
+      "district": "Alwar",
+      "state": "Rajasthan",
+      "capacity_mta": 1780,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-1494-298010",
+        "toll_free": "N/A",
+        "email": "info@adatte.in",
+        "website": "https://www.adatte.in",
+        "contact_person": "Managing Director"
+      },
+      "location": {
+        "latitude": 27.995133,
+        "longitude": 76.393367,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Adatte+E-Waste+Management+Pvt.+Ltd.%2C+Plot+No.+SP-28%2C+RIICO+Industrial+Area%2C+Ghiloth%2C+Neemrana%2C+Alwar%2C+Alwar%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.995133,76.393367",
+        "formatted_address": "Plot No. SP-28, RIICO Industrial Area, Ghiloth, Neemrana, Alwar, Alwar, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R005",
+      "name": "M/s Urban Metals",
+      "type": "Dismantler",
+      "address": "Plot No. G-225, Sitapura Industrial Area, Phase-III, Jaipur",
+      "district": "Jaipur",
+      "state": "Rajasthan",
+      "capacity_mta": 480,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9375907849",
+        "toll_free": "N/A",
+        "email": "contact@urbanmetals.co.in",
+        "website": "https://www.urbanmetals.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.782967,
+        "longitude": 75.829113,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Urban+Metals%2C+Plot+No.+G-225%2C+Sitapura+Industrial+Area%2C+Phase-III%2C+Jaipur%2C+Jaipur%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.782967,75.829113",
+        "formatted_address": "Plot No. G-225, Sitapura Industrial Area, Phase-III, Jaipur, Jaipur, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R006",
+      "name": "M/s H.M. E-Waste Management",
+      "type": "Recycler",
+      "address": "Plot No. G-105, RIICO Industrial Area, Khushkhera, Bhiwadi, Alwar",
+      "district": "Alwar",
+      "state": "Rajasthan",
+      "capacity_mta": 33100,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7060272055",
+        "toll_free": "N/A",
+        "email": "contact@hmewaste.co.in",
+        "website": "https://www.hmewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.129807,
+        "longitude": 76.8174,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+H.M.+E-Waste+Management%2C+Plot+No.+G-105%2C+RIICO+Industrial+Area%2C+Khushkhera%2C+Bhiwadi%2C+Alwar%2C+Alwar%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.129807,76.8174",
+        "formatted_address": "Plot No. G-105, RIICO Industrial Area, Khushkhera, Bhiwadi, Alwar, Alwar, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R007",
+      "name": "M/s Fateh Enviro Lab",
+      "type": "Dismantler",
+      "address": "RIICO Industrial Area, Bindayaka, Jaipur",
+      "district": "Jaipur",
+      "state": "Rajasthan",
+      "capacity_mta": 350,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9186434037",
+        "toll_free": "N/A",
+        "email": "contact@fatehenviro.co.in",
+        "website": "https://www.fatehenviro.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.91986,
+        "longitude": 75.703467,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Fateh+Enviro+Lab%2C+RIICO+Industrial+Area%2C+Bindayaka%2C+Jaipur%2C+Jaipur%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.91986,75.703467",
+        "formatted_address": "RIICO Industrial Area, Bindayaka, Jaipur, Jaipur, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R008",
+      "name": "M/s Abaad Developers Private Limited",
+      "type": "Recycler",
+      "address": "RIICO Industrial Area, Sare Khurd, Tijara, Alwar",
+      "district": "Alwar",
+      "state": "Rajasthan",
+      "capacity_mta": 700,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9947353839",
+        "toll_free": "N/A",
+        "email": "contact@abaaddevelopers.co.in",
+        "website": "https://www.abaaddevelopers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.101747,
+        "longitude": 76.85084,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Abaad+Developers+Private+Limited%2C+RIICO+Industrial+Area%2C+Sare+Khurd%2C+Tijara%2C+Alwar%2C+Alwar%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.101747,76.85084",
+        "formatted_address": "RIICO Industrial Area, Sare Khurd, Tijara, Alwar, Alwar, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R009",
+      "name": "M/s Hulladek PWL E-Waste Collection Facility",
+      "type": "Collection Center",
+      "address": "Plot No. F-142, RIICO Industrial Area, Bindayka, Sirsi, Jaipur",
+      "district": "Jaipur",
+      "state": "Rajasthan",
+      "capacity_mta": 1200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8813919256",
+        "toll_free": "N/A",
+        "email": "contact@hulladekpwl.co.in",
+        "website": "https://www.hulladekpwl.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.918093,
+        "longitude": 75.787273,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Hulladek+PWL+E-Waste+Collection+Facility%2C+Plot+No.+F-142%2C+RIICO+Industrial+Area%2C+Bindayka%2C+Sirsi%2C+Jaipur%2C+Jaipur%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.918093,75.787273",
+        "formatted_address": "Plot No. F-142, RIICO Industrial Area, Bindayka, Sirsi, Jaipur, Jaipur, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R010",
+      "name": "M/s S S Enviro Care",
+      "type": "Refurbisher",
+      "address": "RIICO Industrial Area, Sitapura, Jaipur",
+      "district": "Jaipur",
+      "state": "Rajasthan",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8803211189",
+        "toll_free": "N/A",
+        "email": "contact@ssrecycle.co.in",
+        "website": "https://www.ssrecycle.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.78506,
+        "longitude": 75.835727,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+S+S+Enviro+Care%2C+RIICO+Industrial+Area%2C+Sitapura%2C+Jaipur%2C+Jaipur%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.78506,75.835727",
+        "formatted_address": "RIICO Industrial Area, Sitapura, Jaipur, Jaipur, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R011",
+      "name": "M/s Greenscape Eco Management (Alwar Unit)",
+      "type": "Recycler",
+      "address": "RIICO Industrial Area, Neemrana, Alwar",
+      "district": "Alwar",
+      "state": "Rajasthan",
+      "capacity_mta": 7200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9737467989",
+        "toll_free": "N/A",
+        "email": "contact@greenscapeeco.co.in",
+        "website": "https://www.greenscapeeco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.995867,
+        "longitude": 76.392553,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Greenscape+Eco+Management+%28Alwar+Unit%29%2C+RIICO+Industrial+Area%2C+Neemrana%2C+Alwar%2C+Alwar%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.995867,76.392553",
+        "formatted_address": "RIICO Industrial Area, Neemrana, Alwar, Alwar, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R012",
+      "name": "M/s Go Green Management LLP",
+      "type": "Collection Center",
+      "address": "RIICO Industrial Area, Mansarovar, Jaipur",
+      "district": "Jaipur",
+      "state": "Rajasthan",
+      "capacity_mta": 1500,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9443801089",
+        "toll_free": "N/A",
+        "email": "contact@gogreen.co.in",
+        "website": "https://www.gogreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.86504,
+        "longitude": 75.76344,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Go+Green+Management+LLP%2C+RIICO+Industrial+Area%2C+Mansarovar%2C+Jaipur%2C+Jaipur%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.86504,75.76344",
+        "formatted_address": "RIICO Industrial Area, Mansarovar, Jaipur, Jaipur, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R013",
+      "name": "M/s Wortech Engineers Private Limited",
+      "type": "Recycler",
+      "address": "RIICO Industrial Area, Mansarovar, Jaipur",
+      "district": "Jaipur",
+      "state": "Rajasthan",
+      "capacity_mta": 5400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9935183856",
+        "toll_free": "N/A",
+        "email": "contact@wortechengineers.co.in",
+        "website": "https://www.wortechengineers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.866373,
+        "longitude": 75.757133,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Wortech+Engineers+Private+Limited%2C+RIICO+Industrial+Area%2C+Mansarovar%2C+Jaipur%2C+Jaipur%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.866373,75.757133",
+        "formatted_address": "RIICO Industrial Area, Mansarovar, Jaipur, Jaipur, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R014",
+      "name": "M/s Jodhpur E-Waste Solutions",
+      "type": "Dismantler",
+      "address": "RIICO Industrial Area, Boranada, Jodhpur",
+      "district": "Jodhpur",
+      "state": "Rajasthan",
+      "capacity_mta": 1200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9444320226",
+        "toll_free": "N/A",
+        "email": "contact@jodhpurewaste.co.in",
+        "website": "https://www.jodhpurewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.1936,
+        "longitude": 72.952413,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Jodhpur+E-Waste+Solutions%2C+RIICO+Industrial+Area%2C+Boranada%2C+Jodhpur%2C+Jodhpur%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.1936,72.952413",
+        "formatted_address": "RIICO Industrial Area, Boranada, Jodhpur, Jodhpur, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R015",
+      "name": "M/s Kota E-Recyclers Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "RIICO Industrial Area, Kota",
+      "district": "Kota",
+      "state": "Rajasthan",
+      "capacity_mta": 2400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8979761628",
+        "toll_free": "N/A",
+        "email": "contact@kotaerecyclers.co.in",
+        "website": "https://www.kotaerecyclers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 25.130867,
+        "longitude": 75.860613,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Kota+E-Recyclers+Pvt.+Ltd.%2C+RIICO+Industrial+Area%2C+Kota%2C+Kota%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=25.130867,75.860613",
+        "formatted_address": "RIICO Industrial Area, Kota, Kota, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R016",
+      "name": "M/s Udaipur E-Waste Management",
+      "type": "Dismantler",
+      "address": "Pratap Nagar Industrial Area, Udaipur",
+      "district": "Udaipur",
+      "state": "Rajasthan",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9423545237",
+        "toll_free": "N/A",
+        "email": "contact@udaipurewaste.co.in",
+        "website": "https://www.udaipurewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.913733,
+        "longitude": 75.78322,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Udaipur+E-Waste+Management%2C+Pratap+Nagar+Industrial+Area%2C+Udaipur%2C+Udaipur%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.913733,75.78322",
+        "formatted_address": "Pratap Nagar Industrial Area, Udaipur, Udaipur, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R017",
+      "name": "M/s Rajasthan Green E-Recyclers",
+      "type": "Recycler",
+      "address": "RIICO, Neemrana, Alwar",
+      "district": "Alwar",
+      "state": "Rajasthan",
+      "capacity_mta": 7200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9777746777",
+        "toll_free": "N/A",
+        "email": "contact@rajasthangreen.co.in",
+        "website": "https://www.rajasthangreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.000933,
+        "longitude": 76.386567,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Rajasthan+Green+E-Recyclers%2C+RIICO%2C+Neemrana%2C+Alwar%2C+Alwar%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.000933,76.386567",
+        "formatted_address": "RIICO, Neemrana, Alwar, Alwar, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R018",
+      "name": "M/s Alwar E-Waste Management",
+      "type": "Recycler",
+      "address": "RIICO, Matsya Industrial Area, Alwar",
+      "district": "Alwar",
+      "state": "Rajasthan",
+      "capacity_mta": 2400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9712513615",
+        "toll_free": "N/A",
+        "email": "contact@alwarewaste.co.in",
+        "website": "https://www.alwarewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.5413,
+        "longitude": 76.64232,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Alwar+E-Waste+Management%2C+RIICO%2C+Matsya+Industrial+Area%2C+Alwar%2C+Alwar%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.5413,76.64232",
+        "formatted_address": "RIICO, Matsya Industrial Area, Alwar, Alwar, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R019",
+      "name": "M/s Bhilwara E-Recyclers LLP",
+      "type": "Dismantler",
+      "address": "RIICO Industrial Area, Bhilwara",
+      "district": "Bhilwara",
+      "state": "Rajasthan",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9865172953",
+        "toll_free": "N/A",
+        "email": "contact@bhilwaraerecyclers.co.in",
+        "website": "https://www.bhilwaraerecyclers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 25.348893,
+        "longitude": 74.635453,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Bhilwara+E-Recyclers+LLP%2C+RIICO+Industrial+Area%2C+Bhilwara%2C+Bhilwara%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=25.348893,74.635453",
+        "formatted_address": "RIICO Industrial Area, Bhilwara, Bhilwara, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R020",
+      "name": "M/s Jaipur Eco E-Recyclers LLP",
+      "type": "Refurbisher",
+      "address": "VKI Area, Road No. 14, Jaipur",
+      "district": "Jaipur",
+      "state": "Rajasthan",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9857845193",
+        "toll_free": "N/A",
+        "email": "contact@jaipureco.co.in",
+        "website": "https://www.jaipureco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.979533,
+        "longitude": 75.76308,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Jaipur+Eco+E-Recyclers+LLP%2C+VKI+Area%2C+Road+No.+14%2C+Jaipur%2C+Jaipur%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.979533,75.76308",
+        "formatted_address": "VKI Area, Road No. 14, Jaipur, Jaipur, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R021",
+      "name": "M/s Ajmer E-Waste Processors",
+      "type": "Dismantler",
+      "address": "RIICO Industrial Area, Palra, Ajmer",
+      "district": "Ajmer",
+      "state": "Rajasthan",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9735289368",
+        "toll_free": "N/A",
+        "email": "contact@ajmerewaste.co.in",
+        "website": "https://www.ajmerewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.41648,
+        "longitude": 74.701293,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Ajmer+E-Waste+Processors%2C+RIICO+Industrial+Area%2C+Palra%2C+Ajmer%2C+Ajmer%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.41648,74.701293",
+        "formatted_address": "RIICO Industrial Area, Palra, Ajmer, Ajmer, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R022",
+      "name": "M/s Bikaner E-Recyclers",
+      "type": "Dismantler",
+      "address": "RIICO Industrial Area, Karni, Bikaner",
+      "district": "Bikaner",
+      "state": "Rajasthan",
+      "capacity_mta": 480,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9427255050",
+        "toll_free": "N/A",
+        "email": "contact@bikanererecyclers.co.in",
+        "website": "https://www.bikanererecyclers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.97904,
+        "longitude": 73.3368,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Bikaner+E-Recyclers%2C+RIICO+Industrial+Area%2C+Karni%2C+Bikaner%2C+Bikaner%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.97904,73.3368",
+        "formatted_address": "RIICO Industrial Area, Karni, Bikaner, Bikaner, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R023",
+      "name": "M/s Desert E-Waste Solutions",
+      "type": "Recycler",
+      "address": "Boranada Industrial Area, Jodhpur",
+      "district": "Jodhpur",
+      "state": "Rajasthan",
+      "capacity_mta": 1800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9927053667",
+        "toll_free": "N/A",
+        "email": "contact@desertewaste.co.in",
+        "website": "https://www.desertewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.195333,
+        "longitude": 72.95008,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Desert+E-Waste+Solutions%2C+Boranada+Industrial+Area%2C+Jodhpur%2C+Jodhpur%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.195333,72.95008",
+        "formatted_address": "Boranada Industrial Area, Jodhpur, Jodhpur, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R024",
+      "name": "M/s Shekhawati E-Recyclers",
+      "type": "Dismantler",
+      "address": "RIICO Industrial Area, Sikar",
+      "district": "Sikar",
+      "state": "Rajasthan",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9125548136",
+        "toll_free": "N/A",
+        "email": "contact@shekhawatierecyclers.co.in",
+        "website": "https://www.shekhawatierecyclers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.619533,
+        "longitude": 75.14256,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Shekhawati+E-Recyclers%2C+RIICO+Industrial+Area%2C+Sikar%2C+Sikar%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.619533,75.14256",
+        "formatted_address": "RIICO Industrial Area, Sikar, Sikar, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R025",
+      "name": "M/s Mewar E-Waste Recyclers",
+      "type": "Dismantler",
+      "address": "RIICO, Pratap Nagar, Chittorgarh",
+      "district": "Chittorgarh",
+      "state": "Rajasthan",
+      "capacity_mta": 480,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9332204933",
+        "toll_free": "N/A",
+        "email": "contact@mewarewaste.co.in",
+        "website": "https://www.mewarewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 24.894827,
+        "longitude": 74.618147,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Mewar+E-Waste+Recyclers%2C+RIICO%2C+Pratap+Nagar%2C+Chittorgarh%2C+Chittorgarh%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=24.894827,74.618147",
+        "formatted_address": "RIICO, Pratap Nagar, Chittorgarh, Chittorgarh, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R026",
+      "name": "M/s Marwar E-Waste Refurbishers",
+      "type": "Refurbisher",
+      "address": "RIICO Industrial Area, Pali",
+      "district": "Pali",
+      "state": "Rajasthan",
+      "capacity_mta": 720,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8956690804",
+        "toll_free": "N/A",
+        "email": "contact@marwarewaste.co.in",
+        "website": "https://www.marwarewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 25.77696,
+        "longitude": 73.33044,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Marwar+E-Waste+Refurbishers%2C+RIICO+Industrial+Area%2C+Pali%2C+Pali%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=25.77696,73.33044",
+        "formatted_address": "RIICO Industrial Area, Pali, Pali, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R027",
+      "name": "M/s Matsya E-Tech Recyclers",
+      "type": "Refurbisher",
+      "address": "RIICO Industrial Area, Behror, Alwar",
+      "district": "Alwar",
+      "state": "Rajasthan",
+      "capacity_mta": 1400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8850907606",
+        "toll_free": "N/A",
+        "email": "contact@matsyaetech.co.in",
+        "website": "https://www.matsyaetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.533113,
+        "longitude": 76.646013,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Matsya+E-Tech+Recyclers%2C+RIICO+Industrial+Area%2C+Behror%2C+Alwar%2C+Alwar%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.533113,76.646013",
+        "formatted_address": "RIICO Industrial Area, Behror, Alwar, Alwar, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R028",
+      "name": "M/s Bharatpur E-Waste Collection & Dismantling",
+      "type": "Dismantler",
+      "address": "RIICO Industrial Area, Bharatpur",
+      "district": "Bharatpur",
+      "state": "Rajasthan",
+      "capacity_mta": 500,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9722075840",
+        "toll_free": "N/A",
+        "email": "contact@bharatpurewaste.co.in",
+        "website": "https://www.bharatpurewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.216053,
+        "longitude": 77.49664,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Bharatpur+E-Waste+Collection+%26+Dismantling%2C+RIICO+Industrial+Area%2C+Bharatpur%2C+Bharatpur%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.216053,77.49664",
+        "formatted_address": "RIICO Industrial Area, Bharatpur, Bharatpur, Rajasthan, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

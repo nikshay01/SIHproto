@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Waste AI Vision Classifier | Cyber Lens</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <!-- Ambient background glow spheres -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+
+  <main class="container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="badge-pill">
+        <span class="pulse-indicator"></span>
+        <i class="fa-solid fa-microchip"></i>
+        <span>NVIDIA VISION AI ENGINE</span>
+      </div>
+      <h1 class="main-title">E-Waste <span class="gradient-text">Classifier</span></h1>
+      <p class="subtitle">Real-time neural recognition & taxonomy for electrical and electronic scrap.</p>
+    </header>
+
+    <!-- Scanner & Camera Card -->
+    <section class="glass-card scanner-card">
+      <div class="card-header">
+        <div class="status-indicator">
+          <div id="status" class="status">
+            <i class="fa-solid fa-circle-notch fa-spin"></i>
+            <span>Connecting to neural backend...</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Viewfinder Viewport -->
+      <div class="camera-wrap" id="cameraViewport">
+        <!-- Target Reticles / Cyber HUD -->
+        <div class="reticle top-left"></div>
+        <div class="reticle top-right"></div>
+        <div class="reticle bottom-left"></div>
+        <div class="reticle bottom-right"></div>
+
+        <!-- Laser Scan Line -->
+        <div id="scannerLaser" class="scanner-laser"></div>
+
+        <!-- Shutter Flash Overlay -->
+        <div id="shutterFlash" class="shutter-flash"></div>
+
+        <!-- Video Stream & Captured Preview -->
+        <video id="video" autoplay playsinline muted></video>
+        <img id="preview" alt="Captured electronic item" hidden>
+        <canvas id="canvas" hidden></canvas>
+
+        <!-- Standby / Placeholder Screen -->
+        <div id="cameraPlaceholder" class="placeholder">
+          <div class="placeholder-icon-wrap">
+            <i class="fa-solid fa-camera-retro"></i>
+          </div>
+          <h3>AI Optical Sensor Ready</h3>
+          <p>Activate live video or drop an image file to begin classification</p>
+        </div>
+
+        <!-- Floating HUD Overlays -->
+        <div class="hud-overlay top-hud">
+          <span class="hud-tag"><i class="fa-solid fa-satellite-dish"></i> LIVE SENSOR</span>
+          <button id="switchCameraBtn" class="icon-tool-btn" title="Switch Camera" hidden>
+            <i class="fa-solid fa-camera-rotate"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Controls Toolbar -->
+      <div class="controls-toolbar">
+        <button id="startBtn" class="btn btn-secondary">
+          <i class="fa-solid fa-video"></i>
+          <span>Start Camera</span>
+        </button>
+
+        <button id="captureBtn" class="btn btn-primary" disabled>
+          <i class="fa-solid fa-bolt-lightning"></i>
+          <span>Capture & Analyze</span>
+        </button>
+
+        <button id="stopBtn" class="btn btn-danger" disabled>
+          <i class="fa-solid fa-power-off"></i>
+          <span>Stop Camera</span>
+        </button>
+      </div>
+
+      <!-- Upload Drop Zone -->
+      <div class="upload-dropzone" id="dropZone">
+        <input id="fileInput" type="file" accept="image/*" class="file-input-hidden">
+        <label for="fileInput" class="dropzone-label">
+          <div class="dropzone-icon">
+            <i class="fa-solid fa-cloud-arrow-up"></i>
+          </div>
+          <div class="dropzone-text">
+            <strong>Drop e-waste photo here</strong> or <span class="browse-link">browse files</span>
+          </div>
+          <span class="dropzone-hint">Supports JPEG, PNG, WEBP (Direct neural scan)</span>
+        </label>
+      </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results" class="glass-card results-card" hidden>
+      <div class="results-top-bar">
+        <div class="results-title-group">
+          <i class="fa-solid fa-fingerprint gradient-icon"></i>
+          <h2>Classification Telemetry</h2>
+        </div>
+        <button id="reanalyzeBtn" class="btn-sm btn-ghost" title="Re-scan / Reset View">
+          <i class="fa-solid fa-arrows-rotate"></i> Reset
+        </button>
+      </div>
+
+      <!-- Primary Verdict Badge -->
+      <div id="ewasteBadge" class="classification"></div>
+
+      <!-- 4 Core Metric Glass Tiles -->
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <div class="metric-header">
+            <i class="fa-solid fa-microchip"></i>
+            <span>Identified Item</span>
+          </div>
+          <strong id="item" class="metric-value">-</strong>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-header">
+            <i class="fa-solid fa-layer-group"></i>
+            <span>Category</span>
+          </div>
+          <strong id="category" class="metric-value">-</strong>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-header">
+            <i class="fa-solid fa-sitemap"></i>
+            <span>Subcategory</span>
+          </div>
+          <strong id="subcategory" class="metric-value">-</strong>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-header">
+            <i class="fa-solid fa-heart-pulse"></i>
+            <span>Physical Condition</span>
+          </div>
+          <div class="condition-wrapper">
+            <strong id="condition" class="metric-value condition-badge">-</strong>
+          </div>
+        </div>
+      </div>
+
+      <!-- Confidence Gauge -->
+      <div class="confidence-container">
+        <div class="confidence-header">
+          <div class="confidence-title">
+            <i class="fa-solid fa-gauge-high"></i>
+            <span>Neural Confidence Score</span>
+          </div>
+          <strong id="confidenceText" class="confidence-percentage">0%</strong>
+        </div>
+        <div class="confidence-track">
+          <div id="confidenceBar" class="confidence-fill"></div>
+        </div>
+      </div>
+
+      <!-- Description & Environmental Handling -->
+      <div class="description-card">
+        <div class="description-header">
+          <i class="fa-solid fa-circle-info"></i>
+          <span>Visual Description & Characteristics</span>
+        </div>
+        <p id="description" class="description-text">-</p>
+      </div>
+
+      <!-- Raw JSON Telemetry Accordion -->
+      <details class="json-accordion">
+        <summary>
+          <span><i class="fa-solid fa-code"></i> Raw AI Telemetry (JSON)</span>
+          <i class="fa-solid fa-chevron-down accordion-arrow"></i>
+        </summary>
+        <div class="json-content">
+          <pre id="rawJson"></pre>
+        </div>
+      </details>
+    </section>
+
+    <!-- Operational Architecture Guide -->
+    <section class="glass-card guide-card">
+      <div class="guide-header">
+        <i class="fa-solid fa-network-wired gradient-icon"></i>
+        <h3>AI Pipeline Workflow</h3>
+      </div>
+      <div class="workflow-steps">
+        <div class="step-item">
+          <div class="step-num">01</div>
+          <div class="step-body">
+            <strong>Optical Capture</strong>
+            <p>Live camera stream or file upload encoded to base64 JPEG.</p>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">02</div>
+          <div class="step-body">
+            <strong>Express Relay</strong>
+            <p>Backend validates payload and builds schema-locked prompt.</p>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">03</div>
+          <div class="step-body">
+            <strong>NVIDIA Llama 3.2 Vision</strong>
+            <p>11B multi-modal vision neural network classifies e-waste category.</p>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">04</div>
+          <div class="step-body">
+            <strong>Telemetry Render</strong>
+            <p>Structured response parsed and displayed in real-time UI.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>Powered by <strong>NVIDIA AI</strong> • Smart India Hackathon Authorized E-Waste Facility Network</p>
+    </footer>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

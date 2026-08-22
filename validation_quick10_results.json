@@ -1,0 +1,471 @@
+{
+  "validation_parameters": {
+    "distance_threshold_km": 2.0,
+    "total_facilities_processed": 10
+  },
+  "results": [
+    {
+      "facility_id": "AN001",
+      "facility_name": "M/s Island Green E-Waste Collection Facility",
+      "status": "mismatch",
+      "address": "Dollygunj Industrial Estate, Port Blair, South Andaman, Andaman and Nicobar Islands, India",
+      "stored_coords": [
+        11.643413,
+        92.719907
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 1826.289,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "AP001",
+      "facility_name": "Green Waves Environmental Solution",
+      "status": "mismatch",
+      "address": "Mindi (V), Gajuwaka (M), Visakhapatnam, Visakhapatnam, Andhra Pradesh, India",
+      "stored_coords": [
+        17.694307,
+        83.220507
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 606.428,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "AP002",
+      "facility_name": "Veera Waste Management Systems",
+      "status": "mismatch",
+      "address": "IDA, Autonagar, Visakhapatnam, Visakhapatnam, Andhra Pradesh, India",
+      "stored_coords": [
+        17.700093,
+        83.21268
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 605.402,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "AP003",
+      "facility_name": "Ramky E-Waste Recycling Facility",
+      "status": "mismatch",
+      "address": "JNPC, Parawada, Visakhapatnam, Visakhapatnam, Andhra Pradesh, India",
+      "stored_coords": [
+        17.693387,
+        83.222013
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 606.616,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "AP004",
+      "facility_name": "Clean Earth Green Earth Solutions",
+      "status": "mismatch",
+      "address": "Jewellery Park, Machilipatnam, Krishna, Krishna, Andhra Pradesh, India",
+      "stored_coords": [
+        16.185013,
+        81.139667
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 537.293,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "AP005",
+      "facility_name": "Laxminarayana Recyclers LLP",
+      "status": "mismatch",
+      "address": "Aganampudi, Visakhapatnam, Visakhapatnam, Andhra Pradesh, India",
+      "stored_coords": [
+        17.699467,
+        83.214373
+      ],
+      "geocoded_coords": [
+        17.6860122,
+        83.1354763
+      ],
+      "distance_km": 8.501,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "AP006",
+      "facility_name": "M/s Vizag E-Refurbishers",
+      "status": "mismatch",
+      "address": "Duvvada VSEZ, Visakhapatnam, Visakhapatnam, Andhra Pradesh, India",
+      "stored_coords": [
+        17.69472,
+        83.21912
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 606.275,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "AR001",
+      "facility_name": "M/s Arunachal E-Waste Authorized Collection & Storage Hub",
+      "status": "mismatch",
+      "address": "Industrial Estate, Naharlagun, Papum Pare, Papum Pare, Arunachal Pradesh, India",
+      "stored_coords": [
+        27.110093,
+        93.692627
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 1783.079,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "AS001",
+      "facility_name": "Assam E-Waste Recyclers & Dismantlers",
+      "status": "mismatch",
+      "address": "EPIP, Amingaon, Kamrup Rural, Guwahati, Kamrup, Assam, India",
+      "stored_coords": [
+        26.194467,
+        91.687773
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 1559.695,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "AS002",
+      "facility_name": "M/s North-East Green E-Waste Collection & Channelization Center",
+      "status": "mismatch",
+      "address": "Borbari, VIP Road, Guwahati, Kamrup, Assam, India",
+      "stored_coords": [
+        26.147247,
+        91.733653
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 1561.859,
+      "within_threshold": false,
+      "error": null
+    }
+  ],
+  "report": {
+    "summary": {
+      "total_facilities": 10,
+      "valid_coordinates": 0,
+      "mismatched_coordinates": 10,
+      "errors": 0,
+      "validation_threshold_km": 2.0
+    },
+    "mismatched_facilities": [
+      {
+        "facility_id": "AN001",
+        "facility_name": "M/s Island Green E-Waste Collection Facility",
+        "distance_km": 1826.289,
+        "stored_coords": [
+          11.643413,
+          92.719907
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Dollygunj Industrial Estate, Port Blair, South Andaman, Andaman and Nicobar Islands, India"
+      },
+      {
+        "facility_id": "AR001",
+        "facility_name": "M/s Arunachal E-Waste Authorized Collection & Storage Hub",
+        "distance_km": 1783.079,
+        "stored_coords": [
+          27.110093,
+          93.692627
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Industrial Estate, Naharlagun, Papum Pare, Papum Pare, Arunachal Pradesh, India"
+      },
+      {
+        "facility_id": "AS002",
+        "facility_name": "M/s North-East Green E-Waste Collection & Channelization Center",
+        "distance_km": 1561.859,
+        "stored_coords": [
+          26.147247,
+          91.733653
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Borbari, VIP Road, Guwahati, Kamrup, Assam, India"
+      },
+      {
+        "facility_id": "AS001",
+        "facility_name": "Assam E-Waste Recyclers & Dismantlers",
+        "distance_km": 1559.695,
+        "stored_coords": [
+          26.194467,
+          91.687773
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "EPIP, Amingaon, Kamrup Rural, Guwahati, Kamrup, Assam, India"
+      },
+      {
+        "facility_id": "AP003",
+        "facility_name": "Ramky E-Waste Recycling Facility",
+        "distance_km": 606.616,
+        "stored_coords": [
+          17.693387,
+          83.222013
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "JNPC, Parawada, Visakhapatnam, Visakhapatnam, Andhra Pradesh, India"
+      },
+      {
+        "facility_id": "AP001",
+        "facility_name": "Green Waves Environmental Solution",
+        "distance_km": 606.428,
+        "stored_coords": [
+          17.694307,
+          83.220507
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Mindi (V), Gajuwaka (M), Visakhapatnam, Visakhapatnam, Andhra Pradesh, India"
+      },
+      {
+        "facility_id": "AP006",
+        "facility_name": "M/s Vizag E-Refurbishers",
+        "distance_km": 606.275,
+        "stored_coords": [
+          17.69472,
+          83.21912
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Duvvada VSEZ, Visakhapatnam, Visakhapatnam, Andhra Pradesh, India"
+      },
+      {
+        "facility_id": "AP002",
+        "facility_name": "Veera Waste Management Systems",
+        "distance_km": 605.402,
+        "stored_coords": [
+          17.700093,
+          83.21268
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "IDA, Autonagar, Visakhapatnam, Visakhapatnam, Andhra Pradesh, India"
+      },
+      {
+        "facility_id": "AP004",
+        "facility_name": "Clean Earth Green Earth Solutions",
+        "distance_km": 537.293,
+        "stored_coords": [
+          16.185013,
+          81.139667
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Jewellery Park, Machilipatnam, Krishna, Krishna, Andhra Pradesh, India"
+      },
+      {
+        "facility_id": "AP005",
+        "facility_name": "Laxminarayana Recyclers LLP",
+        "distance_km": 8.501,
+        "stored_coords": [
+          17.699467,
+          83.214373
+        ],
+        "geocoded_coords": [
+          17.6860122,
+          83.1354763
+        ],
+        "address": "Aganampudi, Visakhapatnam, Visakhapatnam, Andhra Pradesh, India"
+      }
+    ],
+    "all_mismatched_facilities": [
+      {
+        "facility_id": "AN001",
+        "facility_name": "M/s Island Green E-Waste Collection Facility",
+        "distance_km": 1826.289,
+        "stored_coords": [
+          11.643413,
+          92.719907
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Dollygunj Industrial Estate, Port Blair, South Andaman, Andaman and Nicobar Islands, India"
+      },
+      {
+        "facility_id": "AR001",
+        "facility_name": "M/s Arunachal E-Waste Authorized Collection & Storage Hub",
+        "distance_km": 1783.079,
+        "stored_coords": [
+          27.110093,
+          93.692627
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Industrial Estate, Naharlagun, Papum Pare, Papum Pare, Arunachal Pradesh, India"
+      },
+      {
+        "facility_id": "AS002",
+        "facility_name": "M/s North-East Green E-Waste Collection & Channelization Center",
+        "distance_km": 1561.859,
+        "stored_coords": [
+          26.147247,
+          91.733653
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Borbari, VIP Road, Guwahati, Kamrup, Assam, India"
+      },
+      {
+        "facility_id": "AS001",
+        "facility_name": "Assam E-Waste Recyclers & Dismantlers",
+        "distance_km": 1559.695,
+        "stored_coords": [
+          26.194467,
+          91.687773
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "EPIP, Amingaon, Kamrup Rural, Guwahati, Kamrup, Assam, India"
+      },
+      {
+        "facility_id": "AP003",
+        "facility_name": "Ramky E-Waste Recycling Facility",
+        "distance_km": 606.616,
+        "stored_coords": [
+          17.693387,
+          83.222013
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "JNPC, Parawada, Visakhapatnam, Visakhapatnam, Andhra Pradesh, India"
+      },
+      {
+        "facility_id": "AP001",
+        "facility_name": "Green Waves Environmental Solution",
+        "distance_km": 606.428,
+        "stored_coords": [
+          17.694307,
+          83.220507
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Mindi (V), Gajuwaka (M), Visakhapatnam, Visakhapatnam, Andhra Pradesh, India"
+      },
+      {
+        "facility_id": "AP006",
+        "facility_name": "M/s Vizag E-Refurbishers",
+        "distance_km": 606.275,
+        "stored_coords": [
+          17.69472,
+          83.21912
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Duvvada VSEZ, Visakhapatnam, Visakhapatnam, Andhra Pradesh, India"
+      },
+      {
+        "facility_id": "AP002",
+        "facility_name": "Veera Waste Management Systems",
+        "distance_km": 605.402,
+        "stored_coords": [
+          17.700093,
+          83.21268
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "IDA, Autonagar, Visakhapatnam, Visakhapatnam, Andhra Pradesh, India"
+      },
+      {
+        "facility_id": "AP004",
+        "facility_name": "Clean Earth Green Earth Solutions",
+        "distance_km": 537.293,
+        "stored_coords": [
+          16.185013,
+          81.139667
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Jewellery Park, Machilipatnam, Krishna, Krishna, Andhra Pradesh, India"
+      },
+      {
+        "facility_id": "AP005",
+        "facility_name": "Laxminarayana Recyclers LLP",
+        "distance_km": 8.501,
+        "stored_coords": [
+          17.699467,
+          83.214373
+        ],
+        "geocoded_coords": [
+          17.6860122,
+          83.1354763
+        ],
+        "address": "Aganampudi, Visakhapatnam, Visakhapatnam, Andhra Pradesh, India"
+      }
+    ]
+  }
+}

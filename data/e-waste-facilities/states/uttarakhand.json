@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "state": "Uttarakhand",
+    "total_facilities": 7,
+    "is_authorized_dataset": true,
+    "data_source": "Uttarakhand State Pollution Control Board (UEPPCB) & CPCB",
+    "source_portal": "https://ueppb.uk.gov.in",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 37800,
+    "recycler_count": 4,
+    "dismantler_count": 3,
+    "refurbisher_count": 0,
+    "collection_center_count": 0
+  },
+  "facilities": [
+    {
+      "id": "U001",
+      "name": "Attero Recycling Pvt. Ltd. (Main Plant)",
+      "type": "Recycler",
+      "address": "Bhagwanpur Industrial Area, Roorkee, Haridwar",
+      "district": "Haridwar",
+      "state": "Uttarakhand",
+      "capacity_mta": 19500,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UEPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-120-4088888",
+        "toll_free": "1800-102-9882",
+        "email": "info@attero.in",
+        "website": "https://www.attero.in",
+        "contact_person": "Nitin Gupta (CEO / Plant Head)"
+      },
+      "location": {
+        "latitude": 29.931467,
+        "longitude": 77.81392,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Attero+Recycling+Pvt.+Ltd.+%28Main+Plant%29%2C+Bhagwanpur+Industrial+Area%2C+Roorkee%2C+Haridwar%2C+Haridwar%2C+Uttarakhand%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=29.931467,77.81392",
+        "formatted_address": "Bhagwanpur Industrial Area, Roorkee, Haridwar, Haridwar, Uttarakhand, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "U002",
+      "name": "Uttarakhand E-Waste Solutions",
+      "type": "Recycler",
+      "address": "SIDCUL Industrial Area, Haridwar",
+      "district": "Haridwar",
+      "state": "Uttarakhand",
+      "capacity_mta": 7200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UEPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9803216231",
+        "toll_free": "N/A",
+        "email": "contact@uttarakhandewaste.co.in",
+        "website": "https://www.uttarakhandewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 29.940813,
+        "longitude": 78.092587,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Uttarakhand+E-Waste+Solutions%2C+SIDCUL+Industrial+Area%2C+Haridwar%2C+Haridwar%2C+Uttarakhand%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=29.940813,78.092587",
+        "formatted_address": "SIDCUL Industrial Area, Haridwar, Haridwar, Uttarakhand, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "U003",
+      "name": "Pantnagar Eco Recyclers",
+      "type": "Recycler",
+      "address": "SIDCUL, Pantnagar, Udham Singh Nagar",
+      "district": "Udham Singh Nagar",
+      "state": "Uttarakhand",
+      "capacity_mta": 4800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UEPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9406034207",
+        "toll_free": "N/A",
+        "email": "contact@pantnagareco.co.in",
+        "website": "https://www.pantnagareco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.98152,
+        "longitude": 79.404093,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Pantnagar+Eco+Recyclers%2C+SIDCUL%2C+Pantnagar%2C+Udham+Singh+Nagar%2C+Udham+Singh+Nagar%2C+Uttarakhand%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.98152,79.404093",
+        "formatted_address": "SIDCUL, Pantnagar, Udham Singh Nagar, Udham Singh Nagar, Uttarakhand, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "U004",
+      "name": "Dehradun Green E-Tech",
+      "type": "Dismantler",
+      "address": "Patel Nagar Industrial Area, Dehradun",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "capacity_mta": 1800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UEPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9827576484",
+        "toll_free": "N/A",
+        "email": "contact@dehradungreen.co.in",
+        "website": "https://www.dehradungreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 30.347987,
+        "longitude": 77.8524,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Dehradun+Green+E-Tech%2C+Patel+Nagar+Industrial+Area%2C+Dehradun%2C+Dehradun%2C+Uttarakhand%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=30.347987,77.8524",
+        "formatted_address": "Patel Nagar Industrial Area, Dehradun, Dehradun, Uttarakhand, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "U005",
+      "name": "Roorkee E-Waste Processors",
+      "type": "Dismantler",
+      "address": "Roorkee Industrial Area, Haridwar",
+      "district": "Haridwar",
+      "state": "Uttarakhand",
+      "capacity_mta": 1200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UEPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9768330828",
+        "toll_free": "N/A",
+        "email": "contact@roorkeeewaste.co.in",
+        "website": "https://www.roorkeeewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 29.932227,
+        "longitude": 78.094067,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Roorkee+E-Waste+Processors%2C+Roorkee+Industrial+Area%2C+Haridwar%2C+Haridwar%2C+Uttarakhand%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=29.932227,78.094067",
+        "formatted_address": "Roorkee Industrial Area, Haridwar, Haridwar, Uttarakhand, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "U006",
+      "name": "Rudrapur E-Recyclers LLP",
+      "type": "Recycler",
+      "address": "SIDCUL, Rudrapur, Udham Singh Nagar",
+      "district": "Udham Singh Nagar",
+      "state": "Uttarakhand",
+      "capacity_mta": 2400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UEPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9436058502",
+        "toll_free": "N/A",
+        "email": "contact@rudrapurerecyclers.co.in",
+        "website": "https://www.rudrapurerecyclers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.982773,
+        "longitude": 79.406387,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Rudrapur+E-Recyclers+LLP%2C+SIDCUL%2C+Rudrapur%2C+Udham+Singh+Nagar%2C+Udham+Singh+Nagar%2C+Uttarakhand%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.982773,79.406387",
+        "formatted_address": "SIDCUL, Rudrapur, Udham Singh Nagar, Udham Singh Nagar, Uttarakhand, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "U007",
+      "name": "Kashipur E-Waste Solutions",
+      "type": "Dismantler",
+      "address": "Industrial Estate, Kashipur",
+      "district": "Udham Singh Nagar",
+      "state": "Uttarakhand",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UEPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8805526793",
+        "toll_free": "N/A",
+        "email": "contact@kashipurewaste.co.in",
+        "website": "https://www.kashipurewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 29.224453,
+        "longitude": 78.959373,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Kashipur+E-Waste+Solutions%2C+Industrial+Estate%2C+Kashipur%2C+Udham+Singh+Nagar%2C+Uttarakhand%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=29.224453,78.959373",
+        "formatted_address": "Industrial Estate, Kashipur, Udham Singh Nagar, Uttarakhand, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

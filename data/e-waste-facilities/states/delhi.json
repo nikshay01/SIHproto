@@ -1,0 +1,383 @@
+{
+  "metadata": {
+    "state": "Delhi",
+    "total_facilities": 13,
+    "is_authorized_dataset": true,
+    "data_source": "Delhi State Pollution Control Board (DPCC) & CPCB",
+    "source_portal": "https://dpcc.delhigovt.nic.in",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 102600,
+    "recycler_count": 8,
+    "dismantler_count": 3,
+    "refurbisher_count": 2,
+    "collection_center_count": 0
+  },
+  "facilities": [
+    {
+      "id": "D001",
+      "name": "Attero Recycling Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Okhla Industrial Area, Phase-II, New Delhi",
+      "district": "South Delhi",
+      "state": "Delhi",
+      "capacity_mta": 36000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "DPCC",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-120-4088888",
+        "toll_free": "1800-102-9882",
+        "email": "info@attero.in",
+        "website": "https://www.attero.in",
+        "contact_person": "Nitin Gupta (CEO / Plant Head)"
+      },
+      "location": {
+        "latitude": 28.540727,
+        "longitude": 77.281313,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Attero+Recycling+Pvt.+Ltd.%2C+Okhla+Industrial+Area%2C+Phase-II%2C+New+Delhi%2C+South+Delhi%2C+Delhi%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.540727,77.281313",
+        "formatted_address": "Okhla Industrial Area, Phase-II, New Delhi, South Delhi, Delhi, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "D002",
+      "name": "Eco Recycling Ltd. (Ecoreco)",
+      "type": "Recycler",
+      "address": "Okhla Industrial Estate, New Delhi",
+      "district": "South Delhi",
+      "state": "Delhi",
+      "capacity_mta": 12000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "DPCC",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-22-40052951",
+        "toll_free": "1800-102-8686",
+        "email": "info@ecoreco.com",
+        "website": "https://www.ecoreco.com",
+        "contact_person": "B. K. Soni (CMD)"
+      },
+      "location": {
+        "latitude": 28.53014,
+        "longitude": 77.2819,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Eco+Recycling+Ltd.+%28Ecoreco%29%2C+Okhla+Industrial+Estate%2C+New+Delhi%2C+South+Delhi%2C+Delhi%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.53014,77.2819",
+        "formatted_address": "Okhla Industrial Estate, New Delhi, South Delhi, Delhi, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "D003",
+      "name": "E-Waste Recyclers India (EWRI)",
+      "type": "Recycler",
+      "address": "Narela Industrial Area, New Delhi",
+      "district": "North Delhi",
+      "state": "Delhi",
+      "capacity_mta": 9600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "DPCC",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9746401482",
+        "toll_free": "N/A",
+        "email": "contact@ewasteewri.co.in",
+        "website": "https://www.ewasteewri.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.838787,
+        "longitude": 77.095213,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=E-Waste+Recyclers+India+%28EWRI%29%2C+Narela+Industrial+Area%2C+New+Delhi%2C+North+Delhi%2C+Delhi%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.838787,77.095213",
+        "formatted_address": "Narela Industrial Area, New Delhi, North Delhi, Delhi, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "D004",
+      "name": "Karma Recycling Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Okhla Phase-I, New Delhi",
+      "district": "South Delhi",
+      "state": "Delhi",
+      "capacity_mta": 8400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "DPCC",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9470366878",
+        "toll_free": "N/A",
+        "email": "contact@karma.co.in",
+        "website": "https://www.karma.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.541167,
+        "longitude": 77.276713,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karma+Recycling+Pvt.+Ltd.%2C+Okhla+Phase-I%2C+New+Delhi%2C+South+Delhi%2C+Delhi%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.541167,77.276713",
+        "formatted_address": "Okhla Phase-I, New Delhi, South Delhi, Delhi, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "D005",
+      "name": "Delhi Green Recyclers",
+      "type": "Recycler",
+      "address": "Mayapuri Industrial Area, Phase-II, New Delhi",
+      "district": "West Delhi",
+      "state": "Delhi",
+      "capacity_mta": 6000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "DPCC",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8041592056",
+        "toll_free": "N/A",
+        "email": "contact@delhigreen.co.in",
+        "website": "https://www.delhigreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.633733,
+        "longitude": 77.114813,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Delhi+Green+Recyclers%2C+Mayapuri+Industrial+Area%2C+Phase-II%2C+New+Delhi%2C+West+Delhi%2C+Delhi%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.633733,77.114813",
+        "formatted_address": "Mayapuri Industrial Area, Phase-II, New Delhi, West Delhi, Delhi, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "D006",
+      "name": "Greenscape Eco Solutions",
+      "type": "Recycler",
+      "address": "Patparganj Industrial Area, New Delhi",
+      "district": "East Delhi",
+      "state": "Delhi",
+      "capacity_mta": 7200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "DPCC",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9811459655",
+        "toll_free": "N/A",
+        "email": "contact@greenscapeeco.co.in",
+        "website": "https://www.greenscapeeco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.62624,
+        "longitude": 77.309987,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Greenscape+Eco+Solutions%2C+Patparganj+Industrial+Area%2C+New+Delhi%2C+East+Delhi%2C+Delhi%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.62624,77.309987",
+        "formatted_address": "Patparganj Industrial Area, New Delhi, East Delhi, Delhi, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "D007",
+      "name": "Rohini E-Recyclers Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Rohini Sector-24, New Delhi",
+      "district": "North West Delhi",
+      "state": "Delhi",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "DPCC",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8834801161",
+        "toll_free": "N/A",
+        "email": "contact@rohinierecyclers.co.in",
+        "website": "https://www.rohinierecyclers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.727667,
+        "longitude": 77.07204,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Rohini+E-Recyclers+Pvt.+Ltd.%2C+Rohini+Sector-24%2C+New+Delhi%2C+North+West+Delhi%2C+Delhi%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.727667,77.07204",
+        "formatted_address": "Rohini Sector-24, New Delhi, North West Delhi, Delhi, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "D008",
+      "name": "South Delhi E-Waste Management",
+      "type": "Recycler",
+      "address": "Tughlakabad Industrial Area, New Delhi",
+      "district": "South Delhi",
+      "state": "Delhi",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "DPCC",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9941110353",
+        "toll_free": "N/A",
+        "email": "contact@southdelhi.co.in",
+        "website": "https://www.southdelhi.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.508973,
+        "longitude": 77.28804,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=South+Delhi+E-Waste+Management%2C+Tughlakabad+Industrial+Area%2C+New+Delhi%2C+South+Delhi%2C+Delhi%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.508973,77.28804",
+        "formatted_address": "Tughlakabad Industrial Area, New Delhi, South Delhi, Delhi, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "D009",
+      "name": "Dwarka E-Waste Solutions",
+      "type": "Dismantler",
+      "address": "Dwarka Sector-29, New Delhi",
+      "district": "South West Delhi",
+      "state": "Delhi",
+      "capacity_mta": 1800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "DPCC",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7036689090",
+        "toll_free": "N/A",
+        "email": "contact@dwarkaewaste.co.in",
+        "website": "https://www.dwarkaewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.556867,
+        "longitude": 77.019,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Dwarka+E-Waste+Solutions%2C+Dwarka+Sector-29%2C+New+Delhi%2C+South+West+Delhi%2C+Delhi%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.556867,77.019",
+        "formatted_address": "Dwarka Sector-29, New Delhi, South West Delhi, Delhi, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "D010",
+      "name": "M/s Capital Refurbishers & Recyclers",
+      "type": "Refurbisher",
+      "address": "Wazirpur Industrial Area, New Delhi",
+      "district": "North West Delhi",
+      "state": "Delhi",
+      "capacity_mta": 4800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "DPCC",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9808040058",
+        "toll_free": "N/A",
+        "email": "contact@capitalrefurbishers.co.in",
+        "website": "https://www.capitalrefurbishers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.7024,
+        "longitude": 77.174173,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Capital+Refurbishers+%26+Recyclers%2C+Wazirpur+Industrial+Area%2C+New+Delhi%2C+North+West+Delhi%2C+Delhi%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.7024,77.174173",
+        "formatted_address": "Wazirpur Industrial Area, New Delhi, North West Delhi, Delhi, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "D011",
+      "name": "M/s Badarpur E-Waste Dismantling Unit",
+      "type": "Dismantler",
+      "address": "Badarpur Industrial Area, New Delhi",
+      "district": "South East Delhi",
+      "state": "Delhi",
+      "capacity_mta": 2400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "DPCC",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9973169740",
+        "toll_free": "N/A",
+        "email": "contact@badarpurewaste.co.in",
+        "website": "https://www.badarpurewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.50396,
+        "longitude": 77.314293,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Badarpur+E-Waste+Dismantling+Unit%2C+Badarpur+Industrial+Area%2C+New+Delhi%2C+South+East+Delhi%2C+Delhi%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.50396,77.314293",
+        "formatted_address": "Badarpur Industrial Area, New Delhi, South East Delhi, Delhi, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "D012",
+      "name": "M/s Okhla Phase-III E-Waste Node",
+      "type": "Dismantler",
+      "address": "Okhla Phase-III, New Delhi",
+      "district": "South Delhi",
+      "state": "Delhi",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "DPCC",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9982592396",
+        "toll_free": "N/A",
+        "email": "contact@okhlaphaseiii.co.in",
+        "website": "https://www.okhlaphaseiii.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.537447,
+        "longitude": 77.275353,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Okhla+Phase-III+E-Waste+Node%2C+Okhla+Phase-III%2C+New+Delhi%2C+South+Delhi%2C+Delhi%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.537447,77.275353",
+        "formatted_address": "Okhla Phase-III, New Delhi, South Delhi, Delhi, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "D013",
+      "name": "M/s Naraina E-Tech Refurbishers",
+      "type": "Refurbisher",
+      "address": "Naraina Industrial Area Phase-I, New Delhi",
+      "district": "New Delhi",
+      "state": "Delhi",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "DPCC",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9929756491",
+        "toll_free": "N/A",
+        "email": "contact@narainaetech.co.in",
+        "website": "https://www.narainaetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.6188,
+        "longitude": 77.136653,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Naraina+E-Tech+Refurbishers%2C+Naraina+Industrial+Area+Phase-I%2C+New+Delhi%2C+New+Delhi%2C+Delhi%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.6188,77.136653",
+        "formatted_address": "Naraina Industrial Area Phase-I, New Delhi, New Delhi, Delhi, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

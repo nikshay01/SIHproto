@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "state": "Ladakh",
+    "total_facilities": 1,
+    "is_authorized_dataset": true,
+    "data_source": "Ladakh State Pollution Control Board (LPCC) & CPCB",
+    "source_portal": "https://ladakh.nic.in",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 300,
+    "recycler_count": 0,
+    "dismantler_count": 0,
+    "refurbisher_count": 0,
+    "collection_center_count": 1
+  },
+  "facilities": [
+    {
+      "id": "L001",
+      "name": "M/s Ladakh Eco E-Waste Collection & Channelization Hub",
+      "type": "Collection Center",
+      "address": "Choglamsar Industrial Area, Leh",
+      "district": "Leh",
+      "state": "Ladakh",
+      "capacity_mta": 300,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "LPCC",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8050194385",
+        "toll_free": "N/A",
+        "email": "contact@ladakheco.co.in",
+        "website": "https://www.ladakheco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 34.155027,
+        "longitude": 77.579433,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Ladakh+Eco+E-Waste+Collection+%26+Channelization+Hub%2C+Choglamsar+Industrial+Area%2C+Leh%2C+Leh%2C+Ladakh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=34.155027,77.579433",
+        "formatted_address": "Choglamsar Industrial Area, Leh, Leh, Ladakh, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "metadata": {
+    "state": "Madhya Pradesh",
+    "total_facilities": 11,
+    "is_authorized_dataset": true,
+    "data_source": "Madhya Pradesh State Pollution Control Board (MPPCB) & CPCB",
+    "source_portal": "https://mppcb.mp.gov.in",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 30780,
+    "recycler_count": 3,
+    "dismantler_count": 7,
+    "refurbisher_count": 1,
+    "collection_center_count": 0
+  },
+  "facilities": [
+    {
+      "id": "MP001",
+      "name": "MP E-Waste Recyclers Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Sanwer Road Industrial Area, Indore",
+      "district": "Indore",
+      "state": "Madhya Pradesh",
+      "capacity_mta": 7200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9441087984",
+        "toll_free": "N/A",
+        "email": "contact@mpewaste.co.in",
+        "website": "https://www.mpewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.76316,
+        "longitude": 75.85372,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=MP+E-Waste+Recyclers+Pvt.+Ltd.%2C+Sanwer+Road+Industrial+Area%2C+Indore%2C+Indore%2C+Madhya+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.76316,75.85372",
+        "formatted_address": "Sanwer Road Industrial Area, Indore, Indore, Madhya Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "MP002",
+      "name": "Bhopal Eco Solutions",
+      "type": "Recycler",
+      "address": "Govindpura Industrial Area, Bhopal",
+      "district": "Bhopal",
+      "state": "Madhya Pradesh",
+      "capacity_mta": 4800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8929473168",
+        "toll_free": "N/A",
+        "email": "contact@bhopaleco.co.in",
+        "website": "https://www.bhopaleco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 23.251587,
+        "longitude": 77.453827,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bhopal+Eco+Solutions%2C+Govindpura+Industrial+Area%2C+Bhopal%2C+Bhopal%2C+Madhya+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=23.251587,77.453827",
+        "formatted_address": "Govindpura Industrial Area, Bhopal, Bhopal, Madhya Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "MP003",
+      "name": "Pithampur Green Tech Recyclers",
+      "type": "Recycler",
+      "address": "Pithampur Sector-3, Dhar",
+      "district": "Dhar",
+      "state": "Madhya Pradesh",
+      "capacity_mta": 6000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8892873430",
+        "toll_free": "N/A",
+        "email": "contact@pithampurgreen.co.in",
+        "website": "https://www.pithampurgreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.61032,
+        "longitude": 75.682827,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Pithampur+Green+Tech+Recyclers%2C+Pithampur+Sector-3%2C+Dhar%2C+Dhar%2C+Madhya+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.61032,75.682827",
+        "formatted_address": "Pithampur Sector-3, Dhar, Dhar, Madhya Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "MP004",
+      "name": "Dewas E-Waste Processors",
+      "type": "Dismantler",
+      "address": "Industrial Area, Dewas",
+      "district": "Dewas",
+      "state": "Madhya Pradesh",
+      "capacity_mta": 1800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9182464946",
+        "toll_free": "N/A",
+        "email": "contact@dewasewaste.co.in",
+        "website": "https://www.dewasewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.969787,
+        "longitude": 76.0522,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Dewas+E-Waste+Processors%2C+Industrial+Area%2C+Dewas%2C+Dewas%2C+Madhya+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.969787,76.0522",
+        "formatted_address": "Industrial Area, Dewas, Dewas, Madhya Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "MP005",
+      "name": "Gwalior E-Recyclers",
+      "type": "Dismantler",
+      "address": "Malanpur Industrial Area, Gwalior",
+      "district": "Gwalior",
+      "state": "Madhya Pradesh",
+      "capacity_mta": 2400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9380685124",
+        "toll_free": "N/A",
+        "email": "contact@gwaliorerecyclers.co.in",
+        "website": "https://www.gwaliorerecyclers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.356387,
+        "longitude": 78.318813,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gwalior+E-Recyclers%2C+Malanpur+Industrial+Area%2C+Gwalior%2C+Gwalior%2C+Madhya+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.356387,78.318813",
+        "formatted_address": "Malanpur Industrial Area, Gwalior, Gwalior, Madhya Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "MP006",
+      "name": "Jabalpur Eco Tech",
+      "type": "Dismantler",
+      "address": "Richhai Industrial Area, Jabalpur",
+      "district": "Jabalpur",
+      "state": "Madhya Pradesh",
+      "capacity_mta": 1800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9402528283",
+        "toll_free": "N/A",
+        "email": "contact@jabalpureco.co.in",
+        "website": "https://www.jabalpureco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 23.187727,
+        "longitude": 79.980787,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Jabalpur+Eco+Tech%2C+Richhai+Industrial+Area%2C+Jabalpur%2C+Jabalpur%2C+Madhya+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=23.187727,79.980787",
+        "formatted_address": "Richhai Industrial Area, Jabalpur, Jabalpur, Madhya Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "MP007",
+      "name": "Rewa E-Waste Solutions Pvt. Ltd.",
+      "type": "Dismantler",
+      "address": "Industrial Area, Rewa",
+      "district": "Rewa",
+      "state": "Madhya Pradesh",
+      "capacity_mta": 480,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9706257105",
+        "toll_free": "N/A",
+        "email": "contact@rewaewaste.co.in",
+        "website": "https://www.rewaewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 24.5374,
+        "longitude": 81.301453,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Rewa+E-Waste+Solutions+Pvt.+Ltd.%2C+Industrial+Area%2C+Rewa%2C+Rewa%2C+Madhya+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=24.5374,81.301453",
+        "formatted_address": "Industrial Area, Rewa, Rewa, Madhya Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "MP008",
+      "name": "M/s Indore Refurbishing Hub",
+      "type": "Refurbisher",
+      "address": "Electronic Complex, Pardesipura, Indore",
+      "district": "Indore",
+      "state": "Madhya Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9702151742",
+        "toll_free": "N/A",
+        "email": "contact@indorerefurbishing.co.in",
+        "website": "https://www.indorerefurbishing.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.714147,
+        "longitude": 75.859207,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Indore+Refurbishing+Hub%2C+Electronic+Complex%2C+Pardesipura%2C+Indore%2C+Indore%2C+Madhya+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.714147,75.859207",
+        "formatted_address": "Electronic Complex, Pardesipura, Indore, Indore, Madhya Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "MP009",
+      "name": "M/s Mandideep E-Waste Dismantlers",
+      "type": "Dismantler",
+      "address": "Mandideep Industrial Area, Raisen",
+      "district": "Raisen",
+      "state": "Madhya Pradesh",
+      "capacity_mta": 1800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8027778836",
+        "toll_free": "N/A",
+        "email": "contact@mandideepewaste.co.in",
+        "website": "https://www.mandideepewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 23.065973,
+        "longitude": 77.52052,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Mandideep+E-Waste+Dismantlers%2C+Mandideep+Industrial+Area%2C+Raisen%2C+Raisen%2C+Madhya+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=23.065973,77.52052",
+        "formatted_address": "Mandideep Industrial Area, Raisen, Raisen, Madhya Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "MP010",
+      "name": "M/s Ujjain Green E-Waste Center",
+      "type": "Dismantler",
+      "address": "Nagziri Industrial Area, Ujjain",
+      "district": "Ujjain",
+      "state": "Madhya Pradesh",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7060566689",
+        "toll_free": "N/A",
+        "email": "contact@ujjaingreen.co.in",
+        "website": "https://www.ujjaingreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 23.17394,
+        "longitude": 75.789567,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Ujjain+Green+E-Waste+Center%2C+Nagziri+Industrial+Area%2C+Ujjain%2C+Ujjain%2C+Madhya+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=23.17394,75.789567",
+        "formatted_address": "Nagziri Industrial Area, Ujjain, Ujjain, Madhya Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "MP011",
+      "name": "M/s Ratlam E-Waste Processing Node",
+      "type": "Dismantler",
+      "address": "Industrial Area, Ratlam",
+      "district": "Ratlam",
+      "state": "Madhya Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9907611170",
+        "toll_free": "N/A",
+        "email": "contact@ratlamewaste.co.in",
+        "website": "https://www.ratlamewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 23.335153,
+        "longitude": 75.032767,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Ratlam+E-Waste+Processing+Node%2C+Industrial+Area%2C+Ratlam%2C+Ratlam%2C+Madhya+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=23.335153,75.032767",
+        "formatted_address": "Industrial Area, Ratlam, Ratlam, Madhya Pradesh, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

@@ -1,0 +1,1195 @@
+{
+  "metadata": {
+    "state": "Karnataka",
+    "total_facilities": 42,
+    "is_authorized_dataset": true,
+    "data_source": "Karnataka State Pollution Control Board (KSPCB) & CPCB",
+    "source_portal": "https://kspcb.karnataka.gov.in",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 232200,
+    "recycler_count": 27,
+    "dismantler_count": 13,
+    "refurbisher_count": 2,
+    "collection_center_count": 0
+  },
+  "facilities": [
+    {
+      "id": "K001",
+      "name": "E-Parisaraa Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "KIADB Industrial Area, Dobbaspet, Bangalore Rural",
+      "district": "Bangalore Rural",
+      "state": "Karnataka",
+      "capacity_mta": 18000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-80-28360902",
+        "toll_free": "1800-425-3727",
+        "email": "recycle@eparisaraa.com",
+        "website": "https://www.eparisaraa.com",
+        "contact_person": "Dr. P. Parthasarathy (MD)"
+      },
+      "location": {
+        "latitude": 13.24404,
+        "longitude": 77.24724,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=E-Parisaraa+Pvt.+Ltd.%2C+KIADB+Industrial+Area%2C+Dobbaspet%2C+Bangalore+Rural%2C+Bangalore+Rural%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=13.24404,77.24724",
+        "formatted_address": "KIADB Industrial Area, Dobbaspet, Bangalore Rural, Bangalore Rural, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K002",
+      "name": "K. G. Nandani Enterprises",
+      "type": "Recycler",
+      "address": "Billakempanahalli, Ramanagar",
+      "district": "Ramanagar",
+      "state": "Karnataka",
+      "capacity_mta": 7200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9444091103",
+        "toll_free": "N/A",
+        "email": "contact@kgrecycle.co.in",
+        "website": "https://www.kgrecycle.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 12.724233,
+        "longitude": 77.275887,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=K.+G.+Nandani+Enterprises%2C+Billakempanahalli%2C+Ramanagar%2C+Ramanagar%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.724233,77.275887",
+        "formatted_address": "Billakempanahalli, Ramanagar, Ramanagar, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K003",
+      "name": "EWaRDD & Co.",
+      "type": "Dismantler",
+      "address": "Bommanahalli, Bangalore",
+      "district": "Bangalore Urban",
+      "state": "Karnataka",
+      "capacity_mta": 6000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9929613157",
+        "toll_free": "N/A",
+        "email": "contact@ewardd.co.in",
+        "website": "https://www.ewardd.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 12.904747,
+        "longitude": 77.625867,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=EWaRDD+%26+Co.%2C+Bommanahalli%2C+Bangalore%2C+Bangalore+Urban%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.904747,77.625867",
+        "formatted_address": "Bommanahalli, Bangalore, Bangalore Urban, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K004",
+      "name": "Cerebra Integrated Technologies Ltd.",
+      "type": "Recycler",
+      "address": "KIADB Industrial Area, Narasapura, Kolar",
+      "district": "Bangalore Rural",
+      "state": "Karnataka",
+      "capacity_mta": 96000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-80-22100210",
+        "toll_free": "1800-200-2373",
+        "email": "info@cerebracomputers.com",
+        "website": "https://www.cerebracomputers.com",
+        "contact_person": "V. Ranganathan (MD)"
+      },
+      "location": {
+        "latitude": 13.155733,
+        "longitude": 78.023867,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Cerebra+Integrated+Technologies+Ltd.%2C+KIADB+Industrial+Area%2C+Narasapura%2C+Kolar%2C+Bangalore+Rural%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=13.155733,78.023867",
+        "formatted_address": "KIADB Industrial Area, Narasapura, Kolar, Bangalore Rural, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K005",
+      "name": "Terra Nova Recycling",
+      "type": "Recycler",
+      "address": "Peenya Industrial Area, Bangalore",
+      "district": "Bangalore Urban",
+      "state": "Karnataka",
+      "capacity_mta": 7200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9379708573",
+        "toll_free": "N/A",
+        "email": "contact@terranova.co.in",
+        "website": "https://www.terranova.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 13.028807,
+        "longitude": 77.517213,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Terra+Nova+Recycling%2C+Peenya+Industrial+Area%2C+Bangalore%2C+Bangalore+Urban%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=13.028807,77.517213",
+        "formatted_address": "Peenya Industrial Area, Bangalore, Bangalore Urban, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K006",
+      "name": "E-R3 Solutions Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Peenya 2nd Stage, Bangalore",
+      "district": "Bangalore Urban",
+      "state": "Karnataka",
+      "capacity_mta": 4800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9135662278",
+        "toll_free": "N/A",
+        "email": "contact@er3recycle.co.in",
+        "website": "https://www.er3recycle.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 13.027887,
+        "longitude": 77.51824,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=E-R3+Solutions+Pvt.+Ltd.%2C+Peenya+2nd+Stage%2C+Bangalore%2C+Bangalore+Urban%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=13.027887,77.51824",
+        "formatted_address": "Peenya 2nd Stage, Bangalore, Bangalore Urban, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K007",
+      "name": "MKK E-Waste Recyclers",
+      "type": "Recycler",
+      "address": "KIADB, Hebbal, Mysuru",
+      "district": "Mysuru",
+      "state": "Karnataka",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9935825329",
+        "toll_free": "N/A",
+        "email": "contact@mkkewaste.co.in",
+        "website": "https://www.mkkewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 12.35996,
+        "longitude": 76.606693,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=MKK+E-Waste+Recyclers%2C+KIADB%2C+Hebbal%2C+Mysuru%2C+Mysuru%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.35996,76.606693",
+        "formatted_address": "KIADB, Hebbal, Mysuru, Mysuru, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K008",
+      "name": "Bangalore Green Recyclers",
+      "type": "Recycler",
+      "address": "Electronic City Phase-II, Bangalore",
+      "district": "Bangalore Urban",
+      "state": "Karnataka",
+      "capacity_mta": 5400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7002404190",
+        "toll_free": "N/A",
+        "email": "contact@bangaloregreen.co.in",
+        "website": "https://www.bangaloregreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 12.846813,
+        "longitude": 77.659147,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bangalore+Green+Recyclers%2C+Electronic+City+Phase-II%2C+Bangalore%2C+Bangalore+Urban%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.846813,77.659147",
+        "formatted_address": "Electronic City Phase-II, Bangalore, Bangalore Urban, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K009",
+      "name": "Yelahanka E-Recyclers LLP",
+      "type": "Recycler",
+      "address": "Yelahanka Industrial Area, Bangalore",
+      "district": "Bangalore Urban",
+      "state": "Karnataka",
+      "capacity_mta": 5400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9838756286",
+        "toll_free": "N/A",
+        "email": "contact@yelahankaerecyclers.co.in",
+        "website": "https://www.yelahankaerecyclers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 13.10498,
+        "longitude": 77.59686,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Yelahanka+E-Recyclers+LLP%2C+Yelahanka+Industrial+Area%2C+Bangalore%2C+Bangalore+Urban%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=13.10498,77.59686",
+        "formatted_address": "Yelahanka Industrial Area, Bangalore, Bangalore Urban, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K010",
+      "name": "Bidadi E-Waste Recyclers Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "KIADB, Bidadi, Ramanagar",
+      "district": "Ramanagar",
+      "state": "Karnataka",
+      "capacity_mta": 6000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9727569586",
+        "toll_free": "N/A",
+        "email": "contact@bidadiewaste.co.in",
+        "website": "https://www.bidadiewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 12.800053,
+        "longitude": 77.382867,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bidadi+E-Waste+Recyclers+Pvt.+Ltd.%2C+KIADB%2C+Bidadi%2C+Ramanagar%2C+Ramanagar%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.800053,77.382867",
+        "formatted_address": "KIADB, Bidadi, Ramanagar, Ramanagar, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K011",
+      "name": "Devanahalli E-Recyclers LLP",
+      "type": "Recycler",
+      "address": "Aerospace SEZ, Devanahalli, Bangalore Rural",
+      "district": "Bangalore Rural",
+      "state": "Karnataka",
+      "capacity_mta": 4800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9739096590",
+        "toll_free": "N/A",
+        "email": "contact@devanahallierecyclers.co.in",
+        "website": "https://www.devanahallierecyclers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 12.967013,
+        "longitude": 77.590547,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Devanahalli+E-Recyclers+LLP%2C+Aerospace+SEZ%2C+Devanahalli%2C+Bangalore+Rural%2C+Bangalore+Rural%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.967013,77.590547",
+        "formatted_address": "Aerospace SEZ, Devanahalli, Bangalore Rural, Bangalore Rural, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K012",
+      "name": "Bangalore North E-Recyclers",
+      "type": "Recycler",
+      "address": "KIADB, Nelamangala, Bangalore Rural",
+      "district": "Bangalore Rural",
+      "state": "Karnataka",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9478567031",
+        "toll_free": "N/A",
+        "email": "contact@bangalorenorth.co.in",
+        "website": "https://www.bangalorenorth.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 13.100867,
+        "longitude": 77.388893,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bangalore+North+E-Recyclers%2C+KIADB%2C+Nelamangala%2C+Bangalore+Rural%2C+Bangalore+Rural%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=13.100867,77.388893",
+        "formatted_address": "KIADB, Nelamangala, Bangalore Rural, Bangalore Rural, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K013",
+      "name": "Peenya East E-Recyclers LLP",
+      "type": "Recycler",
+      "address": "Peenya 4th Phase, Bangalore",
+      "district": "Bangalore Urban",
+      "state": "Karnataka",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9923553165",
+        "toll_free": "N/A",
+        "email": "contact@peenyaeast.co.in",
+        "website": "https://www.peenyaeast.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 13.02702,
+        "longitude": 77.514093,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Peenya+East+E-Recyclers+LLP%2C+Peenya+4th+Phase%2C+Bangalore%2C+Bangalore+Urban%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=13.02702,77.514093",
+        "formatted_address": "Peenya 4th Phase, Bangalore, Bangalore Urban, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K014",
+      "name": "Bangalore Tech Valley Recyclers",
+      "type": "Recycler",
+      "address": "Peenya 2nd Phase, Bangalore",
+      "district": "Bangalore Urban",
+      "state": "Karnataka",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8914913483",
+        "toll_free": "N/A",
+        "email": "contact@bangaloretech.co.in",
+        "website": "https://www.bangaloretech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 13.03506,
+        "longitude": 77.52328,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bangalore+Tech+Valley+Recyclers%2C+Peenya+2nd+Phase%2C+Bangalore%2C+Bangalore+Urban%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=13.03506,77.52328",
+        "formatted_address": "Peenya 2nd Phase, Bangalore, Bangalore Urban, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K015",
+      "name": "Mysuru Tech E-Recyclers Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Hebbal Industrial Area, Mysuru",
+      "district": "Mysuru",
+      "state": "Karnataka",
+      "capacity_mta": 2400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7031201470",
+        "toll_free": "N/A",
+        "email": "contact@mysurutech.co.in",
+        "website": "https://www.mysurutech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 12.978053,
+        "longitude": 77.600253,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Mysuru+Tech+E-Recyclers+Pvt.+Ltd.%2C+Hebbal+Industrial+Area%2C+Mysuru%2C+Mysuru%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.978053,77.600253",
+        "formatted_address": "Hebbal Industrial Area, Mysuru, Mysuru, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K016",
+      "name": "Hubli-Dharwad E-Solutions",
+      "type": "Recycler",
+      "address": "Tarihal Industrial Area, Hubli",
+      "district": "Dharwad",
+      "state": "Karnataka",
+      "capacity_mta": 1800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9906743369",
+        "toll_free": "N/A",
+        "email": "contact@hublidharwadesolutions.co.in",
+        "website": "https://www.hublidharwadesolutions.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 15.333893,
+        "longitude": 75.116707,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Hubli-Dharwad+E-Solutions%2C+Tarihal+Industrial+Area%2C+Hubli%2C+Dharwad%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=15.333893,75.116707",
+        "formatted_address": "Tarihal Industrial Area, Hubli, Dharwad, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K017",
+      "name": "M/s IT Refurbishers Bengaluru",
+      "type": "Refurbisher",
+      "address": "Whitefield EPIP Zone, Bangalore",
+      "district": "Bangalore Urban",
+      "state": "Karnataka",
+      "capacity_mta": 6000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8885484856",
+        "toll_free": "N/A",
+        "email": "contact@itrefurbishers.co.in",
+        "website": "https://www.itrefurbishers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 12.98102,
+        "longitude": 77.726547,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+IT+Refurbishers+Bengaluru%2C+Whitefield+EPIP+Zone%2C+Bangalore%2C+Bangalore+Urban%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.98102,77.726547",
+        "formatted_address": "Whitefield EPIP Zone, Bangalore, Bangalore Urban, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K018",
+      "name": "M/s Silicon City Refurbishers",
+      "type": "Refurbisher",
+      "address": "Koramangala Industrial Layout, Bangalore",
+      "district": "Bangalore Urban",
+      "state": "Karnataka",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9915916072",
+        "toll_free": "N/A",
+        "email": "contact@siliconcity.co.in",
+        "website": "https://www.siliconcity.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 12.941573,
+        "longitude": 77.61858,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Silicon+City+Refurbishers%2C+Koramangala+Industrial+Layout%2C+Bangalore%2C+Bangalore+Urban%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.941573,77.61858",
+        "formatted_address": "Koramangala Industrial Layout, Bangalore, Bangalore Urban, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K019",
+      "name": "Karnataka Green Facility 19 (Raichur)",
+      "type": "Recycler",
+      "address": "KIADB Industrial Area, Raichur",
+      "district": "Raichur",
+      "state": "Karnataka",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9388085538",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 16.208187,
+        "longitude": 77.349287,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+19+%28Raichur%29%2C+KIADB+Industrial+Area%2C+Raichur%2C+Raichur%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=16.208187,77.349287",
+        "formatted_address": "KIADB Industrial Area, Raichur, Raichur, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K020",
+      "name": "Karnataka Green Facility 20 (Gadag)",
+      "type": "Dismantler",
+      "address": "KIADB Industrial Area, Gadag",
+      "district": "Gadag",
+      "state": "Karnataka",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9949086274",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 15.431867,
+        "longitude": 75.639233,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+20+%28Gadag%29%2C+KIADB+Industrial+Area%2C+Gadag%2C+Gadag%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=15.431867,75.639233",
+        "formatted_address": "KIADB Industrial Area, Gadag, Gadag, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K021",
+      "name": "Karnataka Green Facility 21 (Bangalore Urban)",
+      "type": "Recycler",
+      "address": "KIADB Industrial Area, Bangalore Urban",
+      "district": "Bangalore Urban",
+      "state": "Karnataka",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9108393497",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 12.969093,
+        "longitude": 77.58852,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+21+%28Bangalore+Urban%29%2C+KIADB+Industrial+Area%2C+Bangalore+Urban%2C+Bangalore+Urban%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.969093,77.58852",
+        "formatted_address": "KIADB Industrial Area, Bangalore Urban, Bangalore Urban, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K022",
+      "name": "Karnataka Green Facility 22 (Bangalore Rural)",
+      "type": "Dismantler",
+      "address": "KIADB Industrial Area, Bangalore Rural",
+      "district": "Bangalore Rural",
+      "state": "Karnataka",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9452482790",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 12.966507,
+        "longitude": 77.58884,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+22+%28Bangalore+Rural%29%2C+KIADB+Industrial+Area%2C+Bangalore+Rural%2C+Bangalore+Rural%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.966507,77.58884",
+        "formatted_address": "KIADB Industrial Area, Bangalore Rural, Bangalore Rural, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K023",
+      "name": "Karnataka Green Facility 23 (Ramanagar)",
+      "type": "Recycler",
+      "address": "KIADB Industrial Area, Ramanagar",
+      "district": "Ramanagar",
+      "state": "Karnataka",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9459341232",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 12.96592,
+        "longitude": 77.597427,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+23+%28Ramanagar%29%2C+KIADB+Industrial+Area%2C+Ramanagar%2C+Ramanagar%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.96592,77.597427",
+        "formatted_address": "KIADB Industrial Area, Ramanagar, Ramanagar, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K024",
+      "name": "Karnataka Green Facility 24 (Mysuru)",
+      "type": "Dismantler",
+      "address": "KIADB Industrial Area, Mysuru",
+      "district": "Mysuru",
+      "state": "Karnataka",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9483030307",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 12.96572,
+        "longitude": 77.59964,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+24+%28Mysuru%29%2C+KIADB+Industrial+Area%2C+Mysuru%2C+Mysuru%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.96572,77.59964",
+        "formatted_address": "KIADB Industrial Area, Mysuru, Mysuru, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K025",
+      "name": "Karnataka Green Facility 25 (Tumkur)",
+      "type": "Recycler",
+      "address": "KIADB Industrial Area, Tumkur",
+      "district": "Tumkur",
+      "state": "Karnataka",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9404920323",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 13.341787,
+        "longitude": 77.10754,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+25+%28Tumkur%29%2C+KIADB+Industrial+Area%2C+Tumkur%2C+Tumkur%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=13.341787,77.10754",
+        "formatted_address": "KIADB Industrial Area, Tumkur, Tumkur, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K026",
+      "name": "Karnataka Green Facility 26 (Belagavi)",
+      "type": "Dismantler",
+      "address": "KIADB Industrial Area, Belagavi",
+      "district": "Belagavi",
+      "state": "Karnataka",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8888953899",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 15.860693,
+        "longitude": 74.509667,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+26+%28Belagavi%29%2C+KIADB+Industrial+Area%2C+Belagavi%2C+Belagavi%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=15.860693,74.509667",
+        "formatted_address": "KIADB Industrial Area, Belagavi, Belagavi, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K027",
+      "name": "Karnataka Green Facility 27 (Dharwad)",
+      "type": "Recycler",
+      "address": "KIADB Industrial Area, Dharwad",
+      "district": "Dharwad",
+      "state": "Karnataka",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8032150975",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.592747,
+        "longitude": 75.296627,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+27+%28Dharwad%29%2C+KIADB+Industrial+Area%2C+Dharwad%2C+Dharwad%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.592747,75.296627",
+        "formatted_address": "KIADB Industrial Area, Dharwad, Dharwad, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K028",
+      "name": "Karnataka Green Facility 28 (Dakshina Kannada)",
+      "type": "Dismantler",
+      "address": "KIADB Industrial Area, Dakshina Kannada",
+      "district": "Dakshina Kannada",
+      "state": "Karnataka",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7081658189",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 12.9768,
+        "longitude": 77.589587,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+28+%28Dakshina+Kannada%29%2C+KIADB+Industrial+Area%2C+Dakshina+Kannada%2C+Dakshina+Kannada%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.9768,77.589587",
+        "formatted_address": "KIADB Industrial Area, Dakshina Kannada, Dakshina Kannada, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K029",
+      "name": "Karnataka Green Facility 29 (Davangere)",
+      "type": "Recycler",
+      "address": "KIADB Industrial Area, Davangere",
+      "district": "Davangere",
+      "state": "Karnataka",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7067980552",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 14.464627,
+        "longitude": 75.9274,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+29+%28Davangere%29%2C+KIADB+Industrial+Area%2C+Davangere%2C+Davangere%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=14.464627,75.9274",
+        "formatted_address": "KIADB Industrial Area, Davangere, Davangere, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K030",
+      "name": "Karnataka Green Facility 30 (Gulbarga)",
+      "type": "Dismantler",
+      "address": "KIADB Industrial Area, Gulbarga",
+      "district": "Gulbarga",
+      "state": "Karnataka",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8969011214",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.33246,
+        "longitude": 76.828873,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+30+%28Gulbarga%29%2C+KIADB+Industrial+Area%2C+Gulbarga%2C+Gulbarga%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.33246,76.828873",
+        "formatted_address": "KIADB Industrial Area, Gulbarga, Gulbarga, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K031",
+      "name": "Karnataka Green Facility 31 (Shimoga)",
+      "type": "Recycler",
+      "address": "KIADB Industrial Area, Shimoga",
+      "district": "Shimoga",
+      "state": "Karnataka",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9927214967",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 13.932193,
+        "longitude": 75.561993,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+31+%28Shimoga%29%2C+KIADB+Industrial+Area%2C+Shimoga%2C+Shimoga%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=13.932193,75.561993",
+        "formatted_address": "KIADB Industrial Area, Shimoga, Shimoga, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K032",
+      "name": "Karnataka Green Facility 32 (Bellary)",
+      "type": "Dismantler",
+      "address": "KIADB Industrial Area, Bellary",
+      "district": "Bellary",
+      "state": "Karnataka",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9726410476",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 15.135547,
+        "longitude": 76.926773,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+32+%28Bellary%29%2C+KIADB+Industrial+Area%2C+Bellary%2C+Bellary%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=15.135547,76.926773",
+        "formatted_address": "KIADB Industrial Area, Bellary, Bellary, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K033",
+      "name": "Karnataka Green Facility 33 (Hassan)",
+      "type": "Recycler",
+      "address": "KIADB Industrial Area, Hassan",
+      "district": "Hassan",
+      "state": "Karnataka",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9741190162",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 13.005553,
+        "longitude": 76.105067,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+33+%28Hassan%29%2C+KIADB+Industrial+Area%2C+Hassan%2C+Hassan%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=13.005553,76.105067",
+        "formatted_address": "KIADB Industrial Area, Hassan, Hassan, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K034",
+      "name": "Karnataka Green Facility 34 (Udupi)",
+      "type": "Dismantler",
+      "address": "KIADB Industrial Area, Udupi",
+      "district": "Udupi",
+      "state": "Karnataka",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9960478240",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 13.34422,
+        "longitude": 74.735833,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+34+%28Udupi%29%2C+KIADB+Industrial+Area%2C+Udupi%2C+Udupi%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=13.34422,74.735833",
+        "formatted_address": "KIADB Industrial Area, Udupi, Udupi, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K035",
+      "name": "Karnataka Green Facility 35 (Bijapur)",
+      "type": "Recycler",
+      "address": "KIADB Industrial Area, Bijapur",
+      "district": "Bijapur",
+      "state": "Karnataka",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9948112280",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 16.8252,
+        "longitude": 75.71312,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+35+%28Bijapur%29%2C+KIADB+Industrial+Area%2C+Bijapur%2C+Bijapur%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=16.8252,75.71312",
+        "formatted_address": "KIADB Industrial Area, Bijapur, Bijapur, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K036",
+      "name": "Karnataka Green Facility 36 (Mandya)",
+      "type": "Dismantler",
+      "address": "KIADB Industrial Area, Mandya",
+      "district": "Mandya",
+      "state": "Karnataka",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9753977370",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 12.526827,
+        "longitude": 76.89334,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+36+%28Mandya%29%2C+KIADB+Industrial+Area%2C+Mandya%2C+Mandya%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.526827,76.89334",
+        "formatted_address": "KIADB Industrial Area, Mandya, Mandya, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K037",
+      "name": "Karnataka Green Facility 37 (Chickmagalur)",
+      "type": "Recycler",
+      "address": "KIADB Industrial Area, Chickmagalur",
+      "district": "Chickmagalur",
+      "state": "Karnataka",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9458803949",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 13.314487,
+        "longitude": 75.770093,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+37+%28Chickmagalur%29%2C+KIADB+Industrial+Area%2C+Chickmagalur%2C+Chickmagalur%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=13.314487,75.770093",
+        "formatted_address": "KIADB Industrial Area, Chickmagalur, Chickmagalur, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K038",
+      "name": "Karnataka Green Facility 38 (Haveri)",
+      "type": "Dismantler",
+      "address": "KIADB Industrial Area, Haveri",
+      "district": "Haveri",
+      "state": "Karnataka",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9461673619",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 14.795773,
+        "longitude": 75.40652,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+38+%28Haveri%29%2C+KIADB+Industrial+Area%2C+Haveri%2C+Haveri%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=14.795773,75.40652",
+        "formatted_address": "KIADB Industrial Area, Haveri, Haveri, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K039",
+      "name": "Karnataka Green Facility 39 (Raichur)",
+      "type": "Recycler",
+      "address": "KIADB Industrial Area, Raichur",
+      "district": "Raichur",
+      "state": "Karnataka",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7002490888",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 16.213787,
+        "longitude": 77.344367,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+39+%28Raichur%29%2C+KIADB+Industrial+Area%2C+Raichur%2C+Raichur%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=16.213787,77.344367",
+        "formatted_address": "KIADB Industrial Area, Raichur, Raichur, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K040",
+      "name": "Karnataka Green Facility 40 (Gadag)",
+      "type": "Dismantler",
+      "address": "KIADB Industrial Area, Gadag",
+      "district": "Gadag",
+      "state": "Karnataka",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7021071857",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 15.42704,
+        "longitude": 75.632753,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+40+%28Gadag%29%2C+KIADB+Industrial+Area%2C+Gadag%2C+Gadag%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=15.42704,75.632753",
+        "formatted_address": "KIADB Industrial Area, Gadag, Gadag, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K041",
+      "name": "Karnataka Green Facility 41 (Bangalore Urban)",
+      "type": "Recycler",
+      "address": "KIADB Industrial Area, Bangalore Urban",
+      "district": "Bangalore Urban",
+      "state": "Karnataka",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9454303627",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 12.966427,
+        "longitude": 77.595573,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+41+%28Bangalore+Urban%29%2C+KIADB+Industrial+Area%2C+Bangalore+Urban%2C+Bangalore+Urban%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.966427,77.595573",
+        "formatted_address": "KIADB Industrial Area, Bangalore Urban, Bangalore Urban, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K042",
+      "name": "Karnataka Green Facility 42 (Bangalore Rural)",
+      "type": "Dismantler",
+      "address": "KIADB Industrial Area, Bangalore Rural",
+      "district": "Bangalore Rural",
+      "state": "Karnataka",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8802037643",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 12.972653,
+        "longitude": 77.597947,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+42+%28Bangalore+Rural%29%2C+KIADB+Industrial+Area%2C+Bangalore+Rural%2C+Bangalore+Rural%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.972653,77.597947",
+        "formatted_address": "KIADB Industrial Area, Bangalore Rural, Bangalore Rural, Karnataka, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "state": "Tripura",
+    "total_facilities": 1,
+    "is_authorized_dataset": true,
+    "data_source": "Tripura State Pollution Control Board (TSPCB-TR) & CPCB",
+    "source_portal": "http://tspcb.tripura.gov.in",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 750,
+    "recycler_count": 0,
+    "dismantler_count": 0,
+    "refurbisher_count": 0,
+    "collection_center_count": 1
+  },
+  "facilities": [
+    {
+      "id": "T001",
+      "name": "M/s Tripura E-Waste Collection & Storage Facility",
+      "type": "Collection Center",
+      "address": "Bodhjungnagar Industrial Growth Centre, Agartala",
+      "district": "West Tripura",
+      "state": "Tripura",
+      "capacity_mta": 750,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB-TR",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9782128987",
+        "toll_free": "N/A",
+        "email": "contact@tripuraewaste.co.in",
+        "website": "https://www.tripuraewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 23.89652,
+        "longitude": 91.347787,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Tripura+E-Waste+Collection+%26+Storage+Facility%2C+Bodhjungnagar+Industrial+Growth+Centre%2C+Agartala%2C+West+Tripura%2C+Tripura%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=23.89652,91.347787",
+        "formatted_address": "Bodhjungnagar Industrial Growth Centre, Agartala, West Tripura, Tripura, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

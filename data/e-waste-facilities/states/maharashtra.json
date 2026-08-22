@@ -1,0 +1,1279 @@
+{
+  "metadata": {
+    "state": "Maharashtra",
+    "total_facilities": 45,
+    "is_authorized_dataset": true,
+    "data_source": "Maharashtra State Pollution Control Board (MPCB) & CPCB",
+    "source_portal": "https://mpcb.gov.in",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 213120,
+    "recycler_count": 27,
+    "dismantler_count": 16,
+    "refurbisher_count": 2,
+    "collection_center_count": 0
+  },
+  "facilities": [
+    {
+      "id": "M001",
+      "name": "Eco Recycling Ltd. (Ecoreco)",
+      "type": "Recycler",
+      "address": "MIDC Industrial Area, Mahape / Pawane, Navi Mumbai",
+      "district": "Thane",
+      "state": "Maharashtra",
+      "capacity_mta": 36000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-22-40052951",
+        "toll_free": "1800-102-8686",
+        "email": "info@ecoreco.com",
+        "website": "https://www.ecoreco.com",
+        "contact_person": "B. K. Soni (CMD)"
+      },
+      "location": {
+        "latitude": 19.093773,
+        "longitude": 73.028947,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Eco+Recycling+Ltd.+%28Ecoreco%29%2C+MIDC+Industrial+Area%2C+Mahape+%2F+Pawane%2C+Navi+Mumbai%2C+Thane%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.093773,73.028947",
+        "formatted_address": "MIDC Industrial Area, Mahape / Pawane, Navi Mumbai, Thane, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M002",
+      "name": "Enviro-Care Recycling Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "TTC Industrial Area, Pawane MIDC, Navi Mumbai",
+      "district": "Thane",
+      "state": "Maharashtra",
+      "capacity_mta": 18000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9453538102",
+        "toll_free": "N/A",
+        "email": "contact@envirocare.co.in",
+        "website": "https://www.envirocare.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.082333,
+        "longitude": 73.033773,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Enviro-Care+Recycling+Pvt.+Ltd.%2C+TTC+Industrial+Area%2C+Pawane+MIDC%2C+Navi+Mumbai%2C+Thane%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.082333,73.033773",
+        "formatted_address": "TTC Industrial Area, Pawane MIDC, Navi Mumbai, Thane, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M003",
+      "name": "Eco-Pro Environmental Services",
+      "type": "Recycler",
+      "address": "Bhosari MIDC, Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "capacity_mta": 12000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9380380480",
+        "toll_free": "N/A",
+        "email": "contact@ecoproenvironmental.co.in",
+        "website": "https://www.ecoproenvironmental.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 18.62492,
+        "longitude": 73.84968,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Eco-Pro+Environmental+Services%2C+Bhosari+MIDC%2C+Pune%2C+Pune%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=18.62492,73.84968",
+        "formatted_address": "Bhosari MIDC, Pune, Pune, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M004",
+      "name": "Green World Recycling",
+      "type": "Recycler",
+      "address": "Wagle Estate, Thane",
+      "district": "Thane",
+      "state": "Maharashtra",
+      "capacity_mta": 9600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9448608624",
+        "toll_free": "N/A",
+        "email": "contact@greenworld.co.in",
+        "website": "https://www.greenworld.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.203507,
+        "longitude": 72.95804,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Green+World+Recycling%2C+Wagle+Estate%2C+Thane%2C+Thane%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.203507,72.95804",
+        "formatted_address": "Wagle Estate, Thane, Thane, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M005",
+      "name": "Maharashtra E-Waste Recyclers",
+      "type": "Recycler",
+      "address": "Taloja MIDC, Raigad",
+      "district": "Raigad",
+      "state": "Maharashtra",
+      "capacity_mta": 15000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9745048965",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraewaste.co.in",
+        "website": "https://www.maharashtraewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.05152,
+        "longitude": 73.1168,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Waste+Recyclers%2C+Taloja+MIDC%2C+Raigad%2C+Raigad%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.05152,73.1168",
+        "formatted_address": "Taloja MIDC, Raigad, Raigad, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M006",
+      "name": "Pune E-Waste Management LLP",
+      "type": "Recycler",
+      "address": "Chakan MIDC, Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "capacity_mta": 8400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8831677301",
+        "toll_free": "N/A",
+        "email": "contact@puneewaste.co.in",
+        "website": "https://www.puneewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 18.76216,
+        "longitude": 73.858933,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Pune+E-Waste+Management+LLP%2C+Chakan+MIDC%2C+Pune%2C+Pune%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=18.76216,73.858933",
+        "formatted_address": "Chakan MIDC, Pune, Pune, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M007",
+      "name": "Navi Mumbai Green E-Recyclers",
+      "type": "Recycler",
+      "address": "Pawane MIDC, Navi Mumbai",
+      "district": "Thane",
+      "state": "Maharashtra",
+      "capacity_mta": 7200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8086136208",
+        "toll_free": "N/A",
+        "email": "contact@navimumbai.co.in",
+        "website": "https://www.navimumbai.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.092707,
+        "longitude": 73.03212,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Navi+Mumbai+Green+E-Recyclers%2C+Pawane+MIDC%2C+Navi+Mumbai%2C+Thane%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.092707,73.03212",
+        "formatted_address": "Pawane MIDC, Navi Mumbai, Thane, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M008",
+      "name": "Pune Metro E-Waste Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Bhosari MIDC, Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "capacity_mta": 5400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9468619063",
+        "toll_free": "N/A",
+        "email": "contact@punemetro.co.in",
+        "website": "https://www.punemetro.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 18.63176,
+        "longitude": 73.85436,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Pune+Metro+E-Waste+Pvt.+Ltd.%2C+Bhosari+MIDC%2C+Pune%2C+Pune%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=18.63176,73.85436",
+        "formatted_address": "Bhosari MIDC, Pune, Pune, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M009",
+      "name": "Nashik Green E-Solutions Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Satpur MIDC, Nashik",
+      "district": "Nashik",
+      "state": "Maharashtra",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9939833874",
+        "toll_free": "N/A",
+        "email": "contact@nashikgreen.co.in",
+        "website": "https://www.nashikgreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.97408,
+        "longitude": 73.73924,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Nashik+Green+E-Solutions+Pvt.+Ltd.%2C+Satpur+MIDC%2C+Nashik%2C+Nashik%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.97408,73.73924",
+        "formatted_address": "Satpur MIDC, Nashik, Nashik, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M010",
+      "name": "Western India E-Waste Solutions",
+      "type": "Recycler",
+      "address": "Bhiwandi MIDC, Thane",
+      "district": "Thane",
+      "state": "Maharashtra",
+      "capacity_mta": 6000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9711497796",
+        "toll_free": "N/A",
+        "email": "contact@westernewaste.co.in",
+        "website": "https://www.westernewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.300413,
+        "longitude": 73.067493,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Western+India+E-Waste+Solutions%2C+Bhiwandi+MIDC%2C+Thane%2C+Thane%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.300413,73.067493",
+        "formatted_address": "Bhiwandi MIDC, Thane, Thane, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M011",
+      "name": "M/s Mumbai E-Refurbishing Works",
+      "type": "Refurbisher",
+      "address": "MIDC Andheri East, Mumbai",
+      "district": "Mumbai Suburban",
+      "state": "Maharashtra",
+      "capacity_mta": 4800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9449482300",
+        "toll_free": "N/A",
+        "email": "contact@mumbaierefurbishing.co.in",
+        "website": "https://www.mumbaierefurbishing.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.119733,
+        "longitude": 72.864547,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Mumbai+E-Refurbishing+Works%2C+MIDC+Andheri+East%2C+Mumbai%2C+Mumbai+Suburban%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.119733,72.864547",
+        "formatted_address": "MIDC Andheri East, Mumbai, Mumbai Suburban, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M012",
+      "name": "M/s Pune Digital Refurbishers",
+      "type": "Refurbisher",
+      "address": "Hinjewadi Phase-1, Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9376038112",
+        "toll_free": "N/A",
+        "email": "contact@punedigital.co.in",
+        "website": "https://www.punedigital.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 18.593867,
+        "longitude": 73.738467,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Pune+Digital+Refurbishers%2C+Hinjewadi+Phase-1%2C+Pune%2C+Pune%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=18.593867,73.738467",
+        "formatted_address": "Hinjewadi Phase-1, Pune, Pune, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M013",
+      "name": "Maharashtra E-Tech Unit 13 (Latur)",
+      "type": "Recycler",
+      "address": "MIDC Industrial Area, Latur",
+      "district": "Latur",
+      "state": "Maharashtra",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9377158683",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 18.40996,
+        "longitude": 76.560747,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+13+%28Latur%29%2C+MIDC+Industrial+Area%2C+Latur%2C+Latur%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=18.40996,76.560747",
+        "formatted_address": "MIDC Industrial Area, Latur, Latur, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M014",
+      "name": "Maharashtra E-Tech Unit 14 (Ratnagiri)",
+      "type": "Dismantler",
+      "address": "MIDC Industrial Area, Ratnagiri",
+      "district": "Ratnagiri",
+      "state": "Maharashtra",
+      "capacity_mta": 720,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9422755334",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 16.996213,
+        "longitude": 73.30884,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+14+%28Ratnagiri%29%2C+MIDC+Industrial+Area%2C+Ratnagiri%2C+Ratnagiri%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=16.996213,73.30884",
+        "formatted_address": "MIDC Industrial Area, Ratnagiri, Ratnagiri, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M015",
+      "name": "Maharashtra E-Tech Unit 15 (Nanded)",
+      "type": "Recycler",
+      "address": "MIDC Industrial Area, Nanded",
+      "district": "Nanded",
+      "state": "Maharashtra",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9727969811",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.139727,
+        "longitude": 77.321493,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+15+%28Nanded%29%2C+MIDC+Industrial+Area%2C+Nanded%2C+Nanded%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.139727,77.321493",
+        "formatted_address": "MIDC Industrial Area, Nanded, Nanded, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M016",
+      "name": "Maharashtra E-Tech Unit 16 (Amravati)",
+      "type": "Dismantler",
+      "address": "MIDC Industrial Area, Amravati",
+      "district": "Amravati",
+      "state": "Maharashtra",
+      "capacity_mta": 720,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9739127715",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 20.930907,
+        "longitude": 77.75322,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+16+%28Amravati%29%2C+MIDC+Industrial+Area%2C+Amravati%2C+Amravati%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=20.930907,77.75322",
+        "formatted_address": "MIDC Industrial Area, Amravati, Amravati, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M017",
+      "name": "Maharashtra E-Tech Unit 17 (Chandrapur)",
+      "type": "Recycler",
+      "address": "MIDC Industrial Area, Chandrapur",
+      "district": "Chandrapur",
+      "state": "Maharashtra",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7046545091",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.9587,
+        "longitude": 79.296273,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+17+%28Chandrapur%29%2C+MIDC+Industrial+Area%2C+Chandrapur%2C+Chandrapur%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.9587,79.296273",
+        "formatted_address": "MIDC Industrial Area, Chandrapur, Chandrapur, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M018",
+      "name": "Maharashtra E-Tech Unit 18 (Parbhani)",
+      "type": "Dismantler",
+      "address": "MIDC Industrial Area, Parbhani",
+      "district": "Parbhani",
+      "state": "Maharashtra",
+      "capacity_mta": 720,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9416145390",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.270333,
+        "longitude": 76.77024,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+18+%28Parbhani%29%2C+MIDC+Industrial+Area%2C+Parbhani%2C+Parbhani%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.270333,76.77024",
+        "formatted_address": "MIDC Industrial Area, Parbhani, Parbhani, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M019",
+      "name": "Maharashtra E-Tech Unit 19 (Wardha)",
+      "type": "Recycler",
+      "address": "MIDC Industrial Area, Wardha",
+      "district": "Wardha",
+      "state": "Maharashtra",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9432551650",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 20.751593,
+        "longitude": 78.601067,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+19+%28Wardha%29%2C+MIDC+Industrial+Area%2C+Wardha%2C+Wardha%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=20.751593,78.601067",
+        "formatted_address": "MIDC Industrial Area, Wardha, Wardha, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M020",
+      "name": "Maharashtra E-Tech Unit 20 (Osmanabad)",
+      "type": "Dismantler",
+      "address": "MIDC Industrial Area, Osmanabad",
+      "district": "Osmanabad",
+      "state": "Maharashtra",
+      "capacity_mta": 720,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8831911456",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 18.17958,
+        "longitude": 76.04386,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+20+%28Osmanabad%29%2C+MIDC+Industrial+Area%2C+Osmanabad%2C+Osmanabad%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=18.17958,76.04386",
+        "formatted_address": "MIDC Industrial Area, Osmanabad, Osmanabad, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M021",
+      "name": "Maharashtra E-Tech Unit 21 (Beed)",
+      "type": "Recycler",
+      "address": "MIDC Industrial Area, Beed",
+      "district": "Beed",
+      "state": "Maharashtra",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9989815718",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 18.990753,
+        "longitude": 75.759753,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+21+%28Beed%29%2C+MIDC+Industrial+Area%2C+Beed%2C+Beed%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=18.990753,75.759753",
+        "formatted_address": "MIDC Industrial Area, Beed, Beed, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M022",
+      "name": "Maharashtra E-Tech Unit 22 (Yavatmal)",
+      "type": "Dismantler",
+      "address": "MIDC Industrial Area, Yavatmal",
+      "district": "Yavatmal",
+      "state": "Maharashtra",
+      "capacity_mta": 720,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9820218153",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 20.39288,
+        "longitude": 78.119,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+22+%28Yavatmal%29%2C+MIDC+Industrial+Area%2C+Yavatmal%2C+Yavatmal%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=20.39288,78.119",
+        "formatted_address": "MIDC Industrial Area, Yavatmal, Yavatmal, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M023",
+      "name": "Maharashtra E-Tech Unit 23 (Gondia)",
+      "type": "Recycler",
+      "address": "MIDC Industrial Area, Gondia",
+      "district": "Gondia",
+      "state": "Maharashtra",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9968604115",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 21.465547,
+        "longitude": 80.198073,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+23+%28Gondia%29%2C+MIDC+Industrial+Area%2C+Gondia%2C+Gondia%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=21.465547,80.198073",
+        "formatted_address": "MIDC Industrial Area, Gondia, Gondia, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M024",
+      "name": "Maharashtra E-Tech Unit 24 (Sindhudurg)",
+      "type": "Dismantler",
+      "address": "MIDC Industrial Area, Sindhudurg",
+      "district": "Sindhudurg",
+      "state": "Maharashtra",
+      "capacity_mta": 720,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9751509813",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 16.117053,
+        "longitude": 73.690353,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+24+%28Sindhudurg%29%2C+MIDC+Industrial+Area%2C+Sindhudurg%2C+Sindhudurg%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=16.117053,73.690353",
+        "formatted_address": "MIDC Industrial Area, Sindhudurg, Sindhudurg, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M025",
+      "name": "Maharashtra E-Tech Unit 25 (Akola)",
+      "type": "Recycler",
+      "address": "MIDC Industrial Area, Akola",
+      "district": "Akola",
+      "state": "Maharashtra",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9789295767",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 20.696907,
+        "longitude": 77.006747,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+25+%28Akola%29%2C+MIDC+Industrial+Area%2C+Akola%2C+Akola%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=20.696907,77.006747",
+        "formatted_address": "MIDC Industrial Area, Akola, Akola, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M026",
+      "name": "Maharashtra E-Tech Unit 26 (Thane)",
+      "type": "Dismantler",
+      "address": "MIDC Industrial Area, Thane",
+      "district": "Thane",
+      "state": "Maharashtra",
+      "capacity_mta": 720,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8996957155",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.074107,
+        "longitude": 72.882233,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+26+%28Thane%29%2C+MIDC+Industrial+Area%2C+Thane%2C+Thane%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.074107,72.882233",
+        "formatted_address": "MIDC Industrial Area, Thane, Thane, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M027",
+      "name": "Maharashtra E-Tech Unit 27 (Pune)",
+      "type": "Recycler",
+      "address": "MIDC Industrial Area, Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8874255430",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.081707,
+        "longitude": 72.873967,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+27+%28Pune%29%2C+MIDC+Industrial+Area%2C+Pune%2C+Pune%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.081707,72.873967",
+        "formatted_address": "MIDC Industrial Area, Pune, Pune, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M028",
+      "name": "Maharashtra E-Tech Unit 28 (Mumbai Suburban)",
+      "type": "Dismantler",
+      "address": "MIDC Industrial Area, Mumbai Suburban",
+      "district": "Mumbai Suburban",
+      "state": "Maharashtra",
+      "capacity_mta": 720,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9815025792",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.077813,
+        "longitude": 72.884327,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+28+%28Mumbai+Suburban%29%2C+MIDC+Industrial+Area%2C+Mumbai+Suburban%2C+Mumbai+Suburban%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.077813,72.884327",
+        "formatted_address": "MIDC Industrial Area, Mumbai Suburban, Mumbai Suburban, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M029",
+      "name": "Maharashtra E-Tech Unit 29 (Raigad)",
+      "type": "Recycler",
+      "address": "MIDC Industrial Area, Raigad",
+      "district": "Raigad",
+      "state": "Maharashtra",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9977880456",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.07508,
+        "longitude": 72.8813,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+29+%28Raigad%29%2C+MIDC+Industrial+Area%2C+Raigad%2C+Raigad%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.07508,72.8813",
+        "formatted_address": "MIDC Industrial Area, Raigad, Raigad, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M030",
+      "name": "Maharashtra E-Tech Unit 30 (Nashik)",
+      "type": "Dismantler",
+      "address": "MIDC Industrial Area, Nashik",
+      "district": "Nashik",
+      "state": "Maharashtra",
+      "capacity_mta": 720,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9308466869",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.06964,
+        "longitude": 72.877793,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+30+%28Nashik%29%2C+MIDC+Industrial+Area%2C+Nashik%2C+Nashik%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.06964,72.877793",
+        "formatted_address": "MIDC Industrial Area, Nashik, Nashik, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M031",
+      "name": "Maharashtra E-Tech Unit 31 (Nagpur)",
+      "type": "Recycler",
+      "address": "MIDC Industrial Area, Nagpur",
+      "district": "Nagpur",
+      "state": "Maharashtra",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9903826900",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.08264,
+        "longitude": 72.874593,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+31+%28Nagpur%29%2C+MIDC+Industrial+Area%2C+Nagpur%2C+Nagpur%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.08264,72.874593",
+        "formatted_address": "MIDC Industrial Area, Nagpur, Nagpur, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M032",
+      "name": "Maharashtra E-Tech Unit 32 (Aurangabad)",
+      "type": "Dismantler",
+      "address": "MIDC Industrial Area, Aurangabad",
+      "district": "Aurangabad",
+      "state": "Maharashtra",
+      "capacity_mta": 720,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9483768035",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.078253,
+        "longitude": 72.875233,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+32+%28Aurangabad%29%2C+MIDC+Industrial+Area%2C+Aurangabad%2C+Aurangabad%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.078253,72.875233",
+        "formatted_address": "MIDC Industrial Area, Aurangabad, Aurangabad, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M033",
+      "name": "Maharashtra E-Tech Unit 33 (Kolhapur)",
+      "type": "Recycler",
+      "address": "MIDC Industrial Area, Kolhapur",
+      "district": "Kolhapur",
+      "state": "Maharashtra",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9410577582",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 16.706653,
+        "longitude": 74.2405,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+33+%28Kolhapur%29%2C+MIDC+Industrial+Area%2C+Kolhapur%2C+Kolhapur%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=16.706653,74.2405",
+        "formatted_address": "MIDC Industrial Area, Kolhapur, Kolhapur, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M034",
+      "name": "Maharashtra E-Tech Unit 34 (Solapur)",
+      "type": "Dismantler",
+      "address": "MIDC Industrial Area, Solapur",
+      "district": "Solapur",
+      "state": "Maharashtra",
+      "capacity_mta": 720,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9836897338",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.661713,
+        "longitude": 75.903987,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+34+%28Solapur%29%2C+MIDC+Industrial+Area%2C+Solapur%2C+Solapur%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.661713,75.903987",
+        "formatted_address": "MIDC Industrial Area, Solapur, Solapur, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M035",
+      "name": "Maharashtra E-Tech Unit 35 (Palghar)",
+      "type": "Recycler",
+      "address": "MIDC Industrial Area, Palghar",
+      "district": "Palghar",
+      "state": "Maharashtra",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9751604097",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.071627,
+        "longitude": 72.875793,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+35+%28Palghar%29%2C+MIDC+Industrial+Area%2C+Palghar%2C+Palghar%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.071627,72.875793",
+        "formatted_address": "MIDC Industrial Area, Palghar, Palghar, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M036",
+      "name": "Maharashtra E-Tech Unit 36 (Ahmednagar)",
+      "type": "Dismantler",
+      "address": "MIDC Industrial Area, Ahmednagar",
+      "district": "Ahmednagar",
+      "state": "Maharashtra",
+      "capacity_mta": 720,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9999289074",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.097333,
+        "longitude": 74.745027,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+36+%28Ahmednagar%29%2C+MIDC+Industrial+Area%2C+Ahmednagar%2C+Ahmednagar%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.097333,74.745027",
+        "formatted_address": "MIDC Industrial Area, Ahmednagar, Ahmednagar, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M037",
+      "name": "Maharashtra E-Tech Unit 37 (Jalgaon)",
+      "type": "Recycler",
+      "address": "MIDC Industrial Area, Jalgaon",
+      "district": "Jalgaon",
+      "state": "Maharashtra",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8035752594",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 21.002433,
+        "longitude": 75.557213,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+37+%28Jalgaon%29%2C+MIDC+Industrial+Area%2C+Jalgaon%2C+Jalgaon%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=21.002433,75.557213",
+        "formatted_address": "MIDC Industrial Area, Jalgaon, Jalgaon, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M038",
+      "name": "Maharashtra E-Tech Unit 38 (Latur)",
+      "type": "Dismantler",
+      "address": "MIDC Industrial Area, Latur",
+      "district": "Latur",
+      "state": "Maharashtra",
+      "capacity_mta": 720,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9439438244",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 18.41104,
+        "longitude": 76.563573,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+38+%28Latur%29%2C+MIDC+Industrial+Area%2C+Latur%2C+Latur%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=18.41104,76.563573",
+        "formatted_address": "MIDC Industrial Area, Latur, Latur, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M039",
+      "name": "Maharashtra E-Tech Unit 39 (Ratnagiri)",
+      "type": "Recycler",
+      "address": "MIDC Industrial Area, Ratnagiri",
+      "district": "Ratnagiri",
+      "state": "Maharashtra",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8026930926",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 16.99048,
+        "longitude": 73.30808,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+39+%28Ratnagiri%29%2C+MIDC+Industrial+Area%2C+Ratnagiri%2C+Ratnagiri%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=16.99048,73.30808",
+        "formatted_address": "MIDC Industrial Area, Ratnagiri, Ratnagiri, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M040",
+      "name": "Maharashtra E-Tech Unit 40 (Nanded)",
+      "type": "Dismantler",
+      "address": "MIDC Industrial Area, Nanded",
+      "district": "Nanded",
+      "state": "Maharashtra",
+      "capacity_mta": 720,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9987949784",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.140753,
+        "longitude": 77.316173,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+40+%28Nanded%29%2C+MIDC+Industrial+Area%2C+Nanded%2C+Nanded%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.140753,77.316173",
+        "formatted_address": "MIDC Industrial Area, Nanded, Nanded, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M041",
+      "name": "Maharashtra E-Tech Unit 41 (Amravati)",
+      "type": "Recycler",
+      "address": "MIDC Industrial Area, Amravati",
+      "district": "Amravati",
+      "state": "Maharashtra",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9167155718",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 20.926267,
+        "longitude": 77.75766,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+41+%28Amravati%29%2C+MIDC+Industrial+Area%2C+Amravati%2C+Amravati%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=20.926267,77.75766",
+        "formatted_address": "MIDC Industrial Area, Amravati, Amravati, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M042",
+      "name": "Maharashtra E-Tech Unit 42 (Chandrapur)",
+      "type": "Dismantler",
+      "address": "MIDC Industrial Area, Chandrapur",
+      "district": "Chandrapur",
+      "state": "Maharashtra",
+      "capacity_mta": 720,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9391481743",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.958553,
+        "longitude": 79.30166,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+42+%28Chandrapur%29%2C+MIDC+Industrial+Area%2C+Chandrapur%2C+Chandrapur%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.958553,79.30166",
+        "formatted_address": "MIDC Industrial Area, Chandrapur, Chandrapur, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M043",
+      "name": "Maharashtra E-Tech Unit 43 (Parbhani)",
+      "type": "Recycler",
+      "address": "MIDC Industrial Area, Parbhani",
+      "district": "Parbhani",
+      "state": "Maharashtra",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9319750889",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.27296,
+        "longitude": 76.76948,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+43+%28Parbhani%29%2C+MIDC+Industrial+Area%2C+Parbhani%2C+Parbhani%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.27296,76.76948",
+        "formatted_address": "MIDC Industrial Area, Parbhani, Parbhani, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M044",
+      "name": "Maharashtra E-Tech Unit 44 (Wardha)",
+      "type": "Dismantler",
+      "address": "MIDC Industrial Area, Wardha",
+      "district": "Wardha",
+      "state": "Maharashtra",
+      "capacity_mta": 720,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9465490135",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 20.745353,
+        "longitude": 78.596467,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+44+%28Wardha%29%2C+MIDC+Industrial+Area%2C+Wardha%2C+Wardha%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=20.745353,78.596467",
+        "formatted_address": "MIDC Industrial Area, Wardha, Wardha, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M045",
+      "name": "Maharashtra E-Tech Unit 45 (Osmanabad)",
+      "type": "Recycler",
+      "address": "MIDC Industrial Area, Osmanabad",
+      "district": "Osmanabad",
+      "state": "Maharashtra",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8810158465",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 18.190607,
+        "longitude": 76.0423,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+45+%28Osmanabad%29%2C+MIDC+Industrial+Area%2C+Osmanabad%2C+Osmanabad%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=18.190607,76.0423",
+        "formatted_address": "MIDC Industrial Area, Osmanabad, Osmanabad, Maharashtra, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

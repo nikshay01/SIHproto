@@ -1,0 +1,395 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "description": "Reference device composition database for estimated e-waste credit scoring and material recovery analysis.",
+    "disclaimer": "These material quantities and recovery rates are estimated reference metrics compiled for the SIH1392 platform and are not official statutory government values.",
+    "lastUpdated": "2026-08-22"
+  },
+  "devices": [
+    {
+      "id": "apple-iphone-13",
+      "category": "Smartphone",
+      "brand": "Apple",
+      "model": "iPhone 13",
+      "releaseYear": 2021,
+      "weightGrams": 174,
+      "materials": {
+        "gold": { "amountGrams": 0.034, "recoveryRate": 0.90 },
+        "silver": { "amountGrams": 0.35, "recoveryRate": 0.90 },
+        "copper": { "amountGrams": 15.2, "recoveryRate": 0.92 },
+        "aluminium": { "amountGrams": 22.5, "recoveryRate": 0.95 },
+        "cobalt": { "amountGrams": 11.8, "recoveryRate": 0.88 },
+        "lithium": { "amountGrams": 3.4, "recoveryRate": 0.85 },
+        "plastics": { "amountGrams": 35.0, "recoveryRate": 0.70 },
+        "other": { "amountGrams": 85.7, "recoveryRate": 0.60 }
+      },
+      "visualFeatures": "Diagonal dual camera lenses on square bump, flat aluminium chassis edges, lightning port, ceramic shield face."
+    },
+    {
+      "id": "apple-iphone-11",
+      "category": "Smartphone",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "releaseYear": 2019,
+      "weightGrams": 194,
+      "materials": {
+        "gold": { "amountGrams": 0.028, "recoveryRate": 0.88 },
+        "silver": { "amountGrams": 0.28, "recoveryRate": 0.88 },
+        "copper": { "amountGrams": 14.1, "recoveryRate": 0.90 },
+        "aluminium": { "amountGrams": 28.0, "recoveryRate": 0.92 },
+        "cobalt": { "amountGrams": 10.5, "recoveryRate": 0.85 },
+        "lithium": { "amountGrams": 3.1, "recoveryRate": 0.82 },
+        "plastics": { "amountGrams": 40.0, "recoveryRate": 0.68 },
+        "other": { "amountGrams": 98.0, "recoveryRate": 0.58 }
+      },
+      "visualFeatures": "Vertical dual camera arrangement on square camera bump, curved anodized aluminium frame edges, lightning port."
+    },
+    {
+      "id": "apple-iphone-14-pro",
+      "category": "Smartphone",
+      "brand": "Apple",
+      "model": "iPhone 14 Pro",
+      "releaseYear": 2022,
+      "weightGrams": 206,
+      "materials": {
+        "gold": { "amountGrams": 0.040, "recoveryRate": 0.92 },
+        "silver": { "amountGrams": 0.42, "recoveryRate": 0.90 },
+        "copper": { "amountGrams": 18.5, "recoveryRate": 0.94 },
+        "aluminium": { "amountGrams": 15.0, "recoveryRate": 0.95 },
+        "cobalt": { "amountGrams": 13.2, "recoveryRate": 0.90 },
+        "lithium": { "amountGrams": 3.8, "recoveryRate": 0.88 },
+        "plastics": { "amountGrams": 32.0, "recoveryRate": 0.72 },
+        "other": { "amountGrams": 123.0, "recoveryRate": 0.65 }
+      },
+      "visualFeatures": "Triple camera system with LiDAR scanner, Dynamic Island pill cutout on front screen, stainless steel flat frame."
+    },
+    {
+      "id": "apple-iphone-15",
+      "category": "Smartphone",
+      "brand": "Apple",
+      "model": "iPhone 15",
+      "releaseYear": 2023,
+      "weightGrams": 171,
+      "materials": {
+        "gold": { "amountGrams": 0.036, "recoveryRate": 0.92 },
+        "silver": { "amountGrams": 0.38, "recoveryRate": 0.90 },
+        "copper": { "amountGrams": 16.0, "recoveryRate": 0.94 },
+        "aluminium": { "amountGrams": 24.0, "recoveryRate": 0.95 },
+        "cobalt": { "amountGrams": 12.0, "recoveryRate": 0.90 },
+        "lithium": { "amountGrams": 3.6, "recoveryRate": 0.88 },
+        "plastics": { "amountGrams": 30.0, "recoveryRate": 0.75 },
+        "other": { "amountGrams": 85.0, "recoveryRate": 0.65 }
+      },
+      "visualFeatures": "Dynamic Island on front, USB-C port at bottom, color-infused back glass with contoured edges, diagonal dual rear cameras."
+    },
+    {
+      "id": "samsung-galaxy-s23",
+      "category": "Smartphone",
+      "brand": "Samsung",
+      "model": "Galaxy S23",
+      "releaseYear": 2023,
+      "weightGrams": 168,
+      "materials": {
+        "gold": { "amountGrams": 0.032, "recoveryRate": 0.90 },
+        "silver": { "amountGrams": 0.36, "recoveryRate": 0.90 },
+        "copper": { "amountGrams": 15.8, "recoveryRate": 0.92 },
+        "aluminium": { "amountGrams": 26.0, "recoveryRate": 0.95 },
+        "cobalt": { "amountGrams": 12.5, "recoveryRate": 0.88 },
+        "lithium": { "amountGrams": 3.7, "recoveryRate": 0.85 },
+        "plastics": { "amountGrams": 28.0, "recoveryRate": 0.70 },
+        "other": { "amountGrams": 82.0, "recoveryRate": 0.60 }
+      },
+      "visualFeatures": "Triple individual floating camera rings aligned vertically on flat back glass, centered punch-hole camera on front screen."
+    },
+    {
+      "id": "samsung-galaxy-s21",
+      "category": "Smartphone",
+      "brand": "Samsung",
+      "model": "Galaxy S21",
+      "releaseYear": 2021,
+      "weightGrams": 169,
+      "materials": {
+        "gold": { "amountGrams": 0.029, "recoveryRate": 0.88 },
+        "silver": { "amountGrams": 0.32, "recoveryRate": 0.88 },
+        "copper": { "amountGrams": 14.5, "recoveryRate": 0.90 },
+        "aluminium": { "amountGrams": 23.0, "recoveryRate": 0.92 },
+        "cobalt": { "amountGrams": 11.2, "recoveryRate": 0.86 },
+        "lithium": { "amountGrams": 3.4, "recoveryRate": 0.84 },
+        "plastics": { "amountGrams": 42.0, "recoveryRate": 0.68 },
+        "other": { "amountGrams": 74.5, "recoveryRate": 0.58 }
+      },
+      "visualFeatures": "Contour-cut camera housing wrapping smoothly into the frame with 3 vertical lenses, polycarbonate Glasstic back."
+    },
+    {
+      "id": "google-pixel-7",
+      "category": "Smartphone",
+      "brand": "Google",
+      "model": "Pixel 7",
+      "releaseYear": 2022,
+      "weightGrams": 197,
+      "materials": {
+        "gold": { "amountGrams": 0.030, "recoveryRate": 0.90 },
+        "silver": { "amountGrams": 0.34, "recoveryRate": 0.90 },
+        "copper": { "amountGrams": 16.2, "recoveryRate": 0.92 },
+        "aluminium": { "amountGrams": 32.0, "recoveryRate": 0.95 },
+        "cobalt": { "amountGrams": 11.9, "recoveryRate": 0.88 },
+        "lithium": { "amountGrams": 3.5, "recoveryRate": 0.85 },
+        "plastics": { "amountGrams": 34.0, "recoveryRate": 0.70 },
+        "other": { "amountGrams": 99.0, "recoveryRate": 0.60 }
+      },
+      "visualFeatures": "Distinctive horizontal metal camera visor across upper back with pill-and-dot camera cutouts, glossy back glass."
+    },
+    {
+      "id": "oneplus-11",
+      "category": "Smartphone",
+      "brand": "OnePlus",
+      "model": "OnePlus 11",
+      "releaseYear": 2023,
+      "weightGrams": 205,
+      "materials": {
+        "gold": { "amountGrams": 0.031, "recoveryRate": 0.90 },
+        "silver": { "amountGrams": 0.35, "recoveryRate": 0.90 },
+        "copper": { "amountGrams": 17.0, "recoveryRate": 0.92 },
+        "aluminium": { "amountGrams": 29.0, "recoveryRate": 0.95 },
+        "cobalt": { "amountGrams": 12.8, "recoveryRate": 0.88 },
+        "lithium": { "amountGrams": 3.9, "recoveryRate": 0.85 },
+        "plastics": { "amountGrams": 36.0, "recoveryRate": 0.70 },
+        "other": { "amountGrams": 106.0, "recoveryRate": 0.60 }
+      },
+      "visualFeatures": "Large circular camera module blending into the side frame with Hasselblad branding, curved display edges."
+    },
+    {
+      "id": "apple-macbook-air-m2",
+      "category": "Laptop",
+      "brand": "Apple",
+      "model": "MacBook Air M2 13.6\"",
+      "releaseYear": 2022,
+      "weightGrams": 1240,
+      "materials": {
+        "gold": { "amountGrams": 0.12, "recoveryRate": 0.92 },
+        "silver": { "amountGrams": 1.45, "recoveryRate": 0.90 },
+        "copper": { "amountGrams": 165.0, "recoveryRate": 0.95 },
+        "aluminium": { "amountGrams": 680.0, "recoveryRate": 0.98 },
+        "cobalt": { "amountGrams": 45.0, "recoveryRate": 0.90 },
+        "lithium": { "amountGrams": 14.5, "recoveryRate": 0.88 },
+        "plastics": { "amountGrams": 95.0, "recoveryRate": 0.75 },
+        "other": { "amountGrams": 239.0, "recoveryRate": 0.65 }
+      },
+      "visualFeatures": "Flat uniform unibody aluminium chassis, MagSafe 3 charging port, display notch at top of screen, dual USB-C ports on left."
+    },
+    {
+      "id": "apple-macbook-pro-14",
+      "category": "Laptop",
+      "brand": "Apple",
+      "model": "MacBook Pro 14\"",
+      "releaseYear": 2023,
+      "weightGrams": 1600,
+      "materials": {
+        "gold": { "amountGrams": 0.16, "recoveryRate": 0.94 },
+        "silver": { "amountGrams": 1.90, "recoveryRate": 0.92 },
+        "copper": { "amountGrams": 210.0, "recoveryRate": 0.95 },
+        "aluminium": { "amountGrams": 850.0, "recoveryRate": 0.98 },
+        "cobalt": { "amountGrams": 62.0, "recoveryRate": 0.90 },
+        "lithium": { "amountGrams": 18.2, "recoveryRate": 0.88 },
+        "plastics": { "amountGrams": 110.0, "recoveryRate": 0.75 },
+        "other": { "amountGrams": 348.0, "recoveryRate": 0.65 }
+      },
+      "visualFeatures": "Thicker aluminum chassis with side ventilation grilles, HDMI port, SD card slot, notch display, all-black keyboard well."
+    },
+    {
+      "id": "dell-xps-13",
+      "category": "Laptop",
+      "brand": "Dell",
+      "model": "XPS 13",
+      "releaseYear": 2022,
+      "weightGrams": 1170,
+      "materials": {
+        "gold": { "amountGrams": 0.11, "recoveryRate": 0.90 },
+        "silver": { "amountGrams": 1.30, "recoveryRate": 0.90 },
+        "copper": { "amountGrams": 150.0, "recoveryRate": 0.94 },
+        "aluminium": { "amountGrams": 620.0, "recoveryRate": 0.96 },
+        "cobalt": { "amountGrams": 42.0, "recoveryRate": 0.88 },
+        "lithium": { "amountGrams": 13.0, "recoveryRate": 0.85 },
+        "plastics": { "amountGrams": 120.0, "recoveryRate": 0.72 },
+        "other": { "amountGrams": 223.5, "recoveryRate": 0.62 }
+      },
+      "visualFeatures": "Machined CNC aluminium lid and base, carbon fiber or woven glass palm rest, ultra-thin InfinityEdge display bezels."
+    },
+    {
+      "id": "lenovo-thinkpad-t14",
+      "category": "Laptop",
+      "brand": "Lenovo",
+      "model": "ThinkPad T14",
+      "releaseYear": 2022,
+      "weightGrams": 1320,
+      "materials": {
+        "gold": { "amountGrams": 0.13, "recoveryRate": 0.90 },
+        "silver": { "amountGrams": 1.40, "recoveryRate": 0.90 },
+        "copper": { "amountGrams": 175.0, "recoveryRate": 0.94 },
+        "aluminium": { "amountGrams": 420.0, "recoveryRate": 0.95 },
+        "cobalt": { "amountGrams": 48.0, "recoveryRate": 0.88 },
+        "lithium": { "amountGrams": 15.0, "recoveryRate": 0.85 },
+        "plastics": { "amountGrams": 280.0, "recoveryRate": 0.75 },
+        "other": { "amountGrams": 380.0, "recoveryRate": 0.62 }
+      },
+      "visualFeatures": "Matte black chassis, red TrackPoint nub in center of keyboard, dual mouse clickers above trackpad, ThinkPad logo with illuminated red dot."
+    },
+    {
+      "id": "hp-pavilion-15",
+      "category": "Laptop",
+      "brand": "HP",
+      "model": "Pavilion 15",
+      "releaseYear": 2021,
+      "weightGrams": 1750,
+      "materials": {
+        "gold": { "amountGrams": 0.10, "recoveryRate": 0.88 },
+        "silver": { "amountGrams": 1.20, "recoveryRate": 0.88 },
+        "copper": { "amountGrams": 185.0, "recoveryRate": 0.92 },
+        "aluminium": { "amountGrams": 450.0, "recoveryRate": 0.94 },
+        "cobalt": { "amountGrams": 44.0, "recoveryRate": 0.85 },
+        "lithium": { "amountGrams": 14.0, "recoveryRate": 0.82 },
+        "plastics": { "amountGrams": 460.0, "recoveryRate": 0.70 },
+        "other": { "amountGrams": 595.0, "recoveryRate": 0.58 }
+      },
+      "visualFeatures": "Silver plastic and aluminium composite casing, numeric keypad on right, circular HP logo on lid, drop-down hinge design."
+    },
+    {
+      "id": "apple-ipad-pro-11",
+      "category": "Tablet",
+      "brand": "Apple",
+      "model": "iPad Pro 11\"",
+      "releaseYear": 2022,
+      "weightGrams": 466,
+      "materials": {
+        "gold": { "amountGrams": 0.055, "recoveryRate": 0.92 },
+        "silver": { "amountGrams": 0.65, "recoveryRate": 0.90 },
+        "copper": { "amountGrams": 42.0, "recoveryRate": 0.94 },
+        "aluminium": { "amountGrams": 190.0, "recoveryRate": 0.96 },
+        "cobalt": { "amountGrams": 24.0, "recoveryRate": 0.90 },
+        "lithium": { "amountGrams": 7.5, "recoveryRate": 0.88 },
+        "plastics": { "amountGrams": 38.0, "recoveryRate": 0.75 },
+        "other": { "amountGrams": 164.0, "recoveryRate": 0.65 }
+      },
+      "visualFeatures": "Square dual camera module with LiDAR sensor on back corner, flat sides with magnetic Apple Pencil charger, USB-C port, quad speakers."
+    },
+    {
+      "id": "samsung-galaxy-tab-s8",
+      "category": "Tablet",
+      "brand": "Samsung",
+      "model": "Galaxy Tab S8",
+      "releaseYear": 2022,
+      "weightGrams": 503,
+      "materials": {
+        "gold": { "amountGrams": 0.048, "recoveryRate": 0.90 },
+        "silver": { "amountGrams": 0.58, "recoveryRate": 0.90 },
+        "copper": { "amountGrams": 38.5, "recoveryRate": 0.92 },
+        "aluminium": { "amountGrams": 215.0, "recoveryRate": 0.95 },
+        "cobalt": { "amountGrams": 26.0, "recoveryRate": 0.88 },
+        "lithium": { "amountGrams": 8.0, "recoveryRate": 0.85 },
+        "plastics": { "amountGrams": 42.0, "recoveryRate": 0.70 },
+        "other": { "amountGrams": 173.0, "recoveryRate": 0.60 }
+      },
+      "visualFeatures": "Armor aluminum back with black magnetic S Pen strip extending downward from pill-shaped dual camera module."
+    },
+    {
+      "id": "dell-ultrasharp-27",
+      "category": "Monitor",
+      "brand": "Dell",
+      "model": "UltraSharp 27\" 4K (U2723QE)",
+      "releaseYear": 2022,
+      "weightGrams": 4480,
+      "materials": {
+        "gold": { "amountGrams": 0.08, "recoveryRate": 0.88 },
+        "silver": { "amountGrams": 1.10, "recoveryRate": 0.88 },
+        "copper": { "amountGrams": 320.0, "recoveryRate": 0.92 },
+        "aluminium": { "amountGrams": 650.0, "recoveryRate": 0.95 },
+        "plastics": { "amountGrams": 1650.0, "recoveryRate": 0.75 },
+        "other": { "amountGrams": 1858.0, "recoveryRate": 0.60 }
+      },
+      "visualFeatures": "Platinum silver rear finish, ultra-thin 4-sided bezel, joystick menu controller on bottom right rear, extensive hub ports."
+    },
+    {
+      "id": "samsung-smart-tv-55",
+      "category": "Television",
+      "brand": "Samsung",
+      "model": "55\" Crystal UHD 4K Smart TV",
+      "releaseYear": 2022,
+      "weightGrams": 13900,
+      "materials": {
+        "gold": { "amountGrams": 0.15, "recoveryRate": 0.85 },
+        "silver": { "amountGrams": 2.20, "recoveryRate": 0.85 },
+        "copper": { "amountGrams": 780.0, "recoveryRate": 0.90 },
+        "aluminium": { "amountGrams": 1450.0, "recoveryRate": 0.92 },
+        "plastics": { "amountGrams": 5200.0, "recoveryRate": 0.70 },
+        "other": { "amountGrams": 6467.0, "recoveryRate": 0.55 }
+      },
+      "visualFeatures": "Slim-look textured plastic back panel with cable routing channels, two side-mounted stand feet, center bottom Samsung badge."
+    },
+    {
+      "id": "custom-desktop-pc",
+      "category": "Desktop",
+      "brand": "Generic / Custom",
+      "model": "ATX Tower Desktop PC",
+      "releaseYear": 2021,
+      "weightGrams": 8500,
+      "materials": {
+        "gold": { "amountGrams": 0.35, "recoveryRate": 0.92 },
+        "silver": { "amountGrams": 3.80, "recoveryRate": 0.90 },
+        "copper": { "amountGrams": 1250.0, "recoveryRate": 0.95 },
+        "aluminium": { "amountGrams": 1800.0, "recoveryRate": 0.96 },
+        "plastics": { "amountGrams": 1400.0, "recoveryRate": 0.75 },
+        "other": { "amountGrams": 4045.0, "recoveryRate": 0.65 }
+      },
+      "visualFeatures": "Steel and tempered glass ATX mid-tower chassis with motherboard I/O shield, dedicated graphics card slots, internal PSU fan."
+    },
+    {
+      "id": "hp-laserjet-pro",
+      "category": "Printer",
+      "brand": "HP",
+      "model": "LaserJet Pro MFP",
+      "releaseYear": 2020,
+      "weightGrams": 9600,
+      "materials": {
+        "gold": { "amountGrams": 0.05, "recoveryRate": 0.85 },
+        "silver": { "amountGrams": 0.80, "recoveryRate": 0.85 },
+        "copper": { "amountGrams": 450.0, "recoveryRate": 0.90 },
+        "aluminium": { "amountGrams": 620.0, "recoveryRate": 0.92 },
+        "plastics": { "amountGrams": 5800.0, "recoveryRate": 0.70 },
+        "other": { "amountGrams": 2729.0, "recoveryRate": 0.55 }
+      },
+      "visualFeatures": "White and charcoal industrial plastic shell, flatbed document glass on top with ADF feeder, front toner cartridge door."
+    },
+    {
+      "id": "generic-motherboard-pcb",
+      "category": "Electronic Components",
+      "brand": "Generic",
+      "model": "Computer Motherboard / PCB Scrap",
+      "releaseYear": 2020,
+      "weightGrams": 680,
+      "materials": {
+        "gold": { "amountGrams": 0.22, "recoveryRate": 0.95 },
+        "silver": { "amountGrams": 2.10, "recoveryRate": 0.92 },
+        "copper": { "amountGrams": 160.0, "recoveryRate": 0.96 },
+        "aluminium": { "amountGrams": 75.0, "recoveryRate": 0.94 },
+        "plastics": { "amountGrams": 85.0, "recoveryRate": 0.60 },
+        "other": { "amountGrams": 357.0, "recoveryRate": 0.55 }
+      },
+      "visualFeatures": "Green/black FR4 fiberglass circuit board populated with CPU socket, PCIe slots, DIMM RAM slots, capacitors, and VRM heatsinks."
+    },
+    {
+      "id": "generic-laptop-charger",
+      "category": "Cables & Accessories",
+      "brand": "Generic",
+      "model": "65W USB-C / AC Power Adapter",
+      "releaseYear": 2022,
+      "weightGrams": 240,
+      "materials": {
+        "copper": { "amountGrams": 65.0, "recoveryRate": 0.94 },
+        "aluminium": { "amountGrams": 28.0, "recoveryRate": 0.92 },
+        "plastics": { "amountGrams": 95.0, "recoveryRate": 0.70 },
+        "other": { "amountGrams": 52.0, "recoveryRate": 0.50 }
+      },
+      "visualFeatures": "Rectangular black or white flame-retardant plastic brick with AC prongs or detachable 2/3-pin power cord and DC/USB-C lead."
+    }
+  ]
+}

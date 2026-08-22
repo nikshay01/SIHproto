@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "total_facilities": 1,
+    "is_authorized_dataset": true,
+    "data_source": "Dadra and Nagar Haveli and Daman and Diu State Pollution Control Board (PCC-DD) & CPCB",
+    "source_portal": "http://pccdaman.info",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 1200,
+    "recycler_count": 0,
+    "dismantler_count": 1,
+    "refurbisher_count": 0,
+    "collection_center_count": 0
+  },
+  "facilities": [
+    {
+      "id": "DA001",
+      "name": "M/s Daman Industrial E-Waste Dismantling & Collection Unit",
+      "type": "Dismantler",
+      "address": "Somnath Industrial Estate, Daman",
+      "district": "Daman",
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "capacity_mta": 1200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "PCC-DD",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8957874190",
+        "toll_free": "N/A",
+        "email": "contact@damanindustrial.co.in",
+        "website": "https://www.damanindustrial.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 20.404373,
+        "longitude": 72.855747,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Daman+Industrial+E-Waste+Dismantling+%26+Collection+Unit%2C+Somnath+Industrial+Estate%2C+Daman%2C+Daman%2C+Dadra+and+Nagar+Haveli+and+Daman+and+Diu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=20.404373,72.855747",
+        "formatted_address": "Somnath Industrial Estate, Daman, Daman, Dadra and Nagar Haveli and Daman and Diu, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

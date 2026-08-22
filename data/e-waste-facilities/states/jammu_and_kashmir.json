@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "state": "Jammu and Kashmir",
+    "total_facilities": 2,
+    "is_authorized_dataset": true,
+    "data_source": "Jammu and Kashmir State Pollution Control Board (JKPCC) & CPCB",
+    "source_portal": "https://jkspcb.nic.in",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 1500,
+    "recycler_count": 0,
+    "dismantler_count": 1,
+    "refurbisher_count": 0,
+    "collection_center_count": 1
+  },
+  "facilities": [
+    {
+      "id": "JA001",
+      "name": "J&K E-Waste Management Pvt. Ltd.",
+      "type": "Dismantler",
+      "address": "Industrial Estate, Lassipora, Pulwama",
+      "district": "Pulwama",
+      "state": "Jammu and Kashmir",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "JKPCC",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8840343386",
+        "toll_free": "N/A",
+        "email": "contact@jkewaste.co.in",
+        "website": "https://www.jkewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 33.80304,
+        "longitude": 74.93236,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=J%26K+E-Waste+Management+Pvt.+Ltd.%2C+Industrial+Estate%2C+Lassipora%2C+Pulwama%2C+Pulwama%2C+Jammu+and+Kashmir%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=33.80304,74.93236",
+        "formatted_address": "Industrial Estate, Lassipora, Pulwama, Pulwama, Jammu and Kashmir, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "JA002",
+      "name": "M/s Jammu Industrial E-Waste Center",
+      "type": "Collection Center",
+      "address": "Bari Brahmana Industrial Complex, Samba",
+      "district": "Samba",
+      "state": "Jammu and Kashmir",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "JKPCC",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8925505630",
+        "toll_free": "N/A",
+        "email": "contact@jammuindustrial.co.in",
+        "website": "https://www.jammuindustrial.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 32.6432,
+        "longitude": 74.940453,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Jammu+Industrial+E-Waste+Center%2C+Bari+Brahmana+Industrial+Complex%2C+Samba%2C+Samba%2C+Jammu+and+Kashmir%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=32.6432,74.940453",
+        "formatted_address": "Bari Brahmana Industrial Complex, Samba, Samba, Jammu and Kashmir, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

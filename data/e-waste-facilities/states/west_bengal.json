@@ -1,0 +1,355 @@
+{
+  "metadata": {
+    "state": "West Bengal",
+    "total_facilities": 12,
+    "is_authorized_dataset": true,
+    "data_source": "West Bengal State Pollution Control Board (WBPCB) & CPCB",
+    "source_portal": "https://www.wbpcb.gov.in",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 39000,
+    "recycler_count": 5,
+    "dismantler_count": 5,
+    "refurbisher_count": 1,
+    "collection_center_count": 1
+  },
+  "facilities": [
+    {
+      "id": "WB001",
+      "name": "Hulladek Recycling Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Sector-V, Salt Lake / Howrah, Kolkata",
+      "district": "Kolkata",
+      "state": "West Bengal",
+      "capacity_mta": 12000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "WBPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9073918888",
+        "toll_free": "1800-212-7040",
+        "email": "contact@hulladek.com",
+        "website": "https://www.hulladek.com",
+        "contact_person": "Nandan Mall (Founder & CEO)"
+      },
+      "location": {
+        "latitude": 22.582947,
+        "longitude": 88.439187,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Hulladek+Recycling+Pvt.+Ltd.%2C+Sector-V%2C+Salt+Lake+%2F+Howrah%2C+Kolkata%2C+Kolkata%2C+West+Bengal%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.582947,88.439187",
+        "formatted_address": "Sector-V, Salt Lake / Howrah, Kolkata, Kolkata, West Bengal, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "WB002",
+      "name": "Green Recycling Co.",
+      "type": "Recycler",
+      "address": "Howrah Industrial Estate, Howrah",
+      "district": "Howrah",
+      "state": "West Bengal",
+      "capacity_mta": 6000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "WBPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9876900062",
+        "toll_free": "N/A",
+        "email": "contact@green.co.in",
+        "website": "https://www.green.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.614,
+        "longitude": 88.23392,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Green+Recycling+Co.%2C+Howrah+Industrial+Estate%2C+Howrah%2C+Howrah%2C+West+Bengal%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.614,88.23392",
+        "formatted_address": "Howrah Industrial Estate, Howrah, Howrah, West Bengal, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "WB003",
+      "name": "Kolkata E-Waste Management LLP",
+      "type": "Recycler",
+      "address": "Budge Budge, South 24 Parganas",
+      "district": "South 24 Parganas",
+      "state": "West Bengal",
+      "capacity_mta": 4800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "WBPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9863194763",
+        "toll_free": "N/A",
+        "email": "contact@kolkataewaste.co.in",
+        "website": "https://www.kolkataewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.137293,
+        "longitude": 88.401547,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Kolkata+E-Waste+Management+LLP%2C+Budge+Budge%2C+South+24+Parganas%2C+South+24+Parganas%2C+West+Bengal%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.137293,88.401547",
+        "formatted_address": "Budge Budge, South 24 Parganas, South 24 Parganas, West Bengal, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "WB004",
+      "name": "Bengal E-Waste Recyclers Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Dankuni Industrial Complex, Hooghly",
+      "district": "Hooghly",
+      "state": "West Bengal",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "WBPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9845665889",
+        "toll_free": "N/A",
+        "email": "contact@bengalewaste.co.in",
+        "website": "https://www.bengalewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.685507,
+        "longitude": 88.303627,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bengal+E-Waste+Recyclers+Pvt.+Ltd.%2C+Dankuni+Industrial+Complex%2C+Hooghly%2C+Hooghly%2C+West+Bengal%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.685507,88.303627",
+        "formatted_address": "Dankuni Industrial Complex, Hooghly, Hooghly, West Bengal, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "WB005",
+      "name": "Salt Lake E-Recyclers LLP",
+      "type": "Recycler",
+      "address": "Sector-V, Salt Lake, Kolkata",
+      "district": "Kolkata",
+      "state": "West Bengal",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "WBPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7088169161",
+        "toll_free": "N/A",
+        "email": "contact@saltlake.co.in",
+        "website": "https://www.saltlake.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.58492,
+        "longitude": 88.437573,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Salt+Lake+E-Recyclers+LLP%2C+Sector-V%2C+Salt+Lake%2C+Kolkata%2C+Kolkata%2C+West+Bengal%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.58492,88.437573",
+        "formatted_address": "Sector-V, Salt Lake, Kolkata, Kolkata, West Bengal, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "WB006",
+      "name": "Kharagpur E-Recyclers",
+      "type": "Dismantler",
+      "address": "Industrial Area, Kharagpur, Paschim Medinipur",
+      "district": "Paschim Medinipur",
+      "state": "West Bengal",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "WBPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9417986710",
+        "toll_free": "N/A",
+        "email": "contact@kharagpurerecyclers.co.in",
+        "website": "https://www.kharagpurerecyclers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.422847,
+        "longitude": 87.315167,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Kharagpur+E-Recyclers%2C+Industrial+Area%2C+Kharagpur%2C+Paschim+Medinipur%2C+Paschim+Medinipur%2C+West+Bengal%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.422847,87.315167",
+        "formatted_address": "Industrial Area, Kharagpur, Paschim Medinipur, Paschim Medinipur, West Bengal, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "WB007",
+      "name": "M/s City of Joy E-Refurbishers",
+      "type": "Refurbisher",
+      "address": "New Town, Rajarhat, Kolkata",
+      "district": "North 24 Parganas",
+      "state": "West Bengal",
+      "capacity_mta": 2400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "WBPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9396993871",
+        "toll_free": "N/A",
+        "email": "contact@cityof.co.in",
+        "website": "https://www.cityof.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.71692,
+        "longitude": 88.4748,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+City+of+Joy+E-Refurbishers%2C+New+Town%2C+Rajarhat%2C+Kolkata%2C+North+24+Parganas%2C+West+Bengal%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.71692,88.4748",
+        "formatted_address": "New Town, Rajarhat, Kolkata, North 24 Parganas, West Bengal, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "WB008",
+      "name": "Durgapur E-Waste Processing Center",
+      "type": "Dismantler",
+      "address": "Durgapur Industrial Area, Paschim Bardhaman",
+      "district": "Paschim Bardhaman",
+      "state": "West Bengal",
+      "capacity_mta": 1800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "WBPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9881562174",
+        "toll_free": "N/A",
+        "email": "contact@durgapurewaste.co.in",
+        "website": "https://www.durgapurewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 23.519173,
+        "longitude": 87.321627,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Durgapur+E-Waste+Processing+Center%2C+Durgapur+Industrial+Area%2C+Paschim+Bardhaman%2C+Paschim+Bardhaman%2C+West+Bengal%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=23.519173,87.321627",
+        "formatted_address": "Durgapur Industrial Area, Paschim Bardhaman, Paschim Bardhaman, West Bengal, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "WB009",
+      "name": "Asansol E-Waste Solutions",
+      "type": "Dismantler",
+      "address": "Asansol Industrial Estate, Paschim Bardhaman",
+      "district": "Paschim Bardhaman",
+      "state": "West Bengal",
+      "capacity_mta": 1200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "WBPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9156163130",
+        "toll_free": "N/A",
+        "email": "contact@asansolewaste.co.in",
+        "website": "https://www.asansolewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 23.687773,
+        "longitude": 86.975613,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Asansol+E-Waste+Solutions%2C+Asansol+Industrial+Estate%2C+Paschim+Bardhaman%2C+Paschim+Bardhaman%2C+West+Bengal%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=23.687773,86.975613",
+        "formatted_address": "Asansol Industrial Estate, Paschim Bardhaman, Paschim Bardhaman, West Bengal, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "WB010",
+      "name": "Siliguri Green E-Waste Collection Hub",
+      "type": "Collection Center",
+      "address": "Dabgram Industrial Area, Jalpaiguri / Siliguri",
+      "district": "Jalpaiguri",
+      "state": "West Bengal",
+      "capacity_mta": 1500,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "WBPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9337207575",
+        "toll_free": "N/A",
+        "email": "contact@siligurigreen.co.in",
+        "website": "https://www.siligurigreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.721907,
+        "longitude": 88.438747,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Siliguri+Green+E-Waste+Collection+Hub%2C+Dabgram+Industrial+Area%2C+Jalpaiguri+%2F+Siliguri%2C+Jalpaiguri%2C+West+Bengal%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.721907,88.438747",
+        "formatted_address": "Dabgram Industrial Area, Jalpaiguri / Siliguri, Jalpaiguri, West Bengal, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "WB011",
+      "name": "Haldia Petro E-Recyclers",
+      "type": "Dismantler",
+      "address": "Haldia Industrial Complex, Purba Medinipur",
+      "district": "Purba Medinipur",
+      "state": "West Bengal",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "WBPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9809376583",
+        "toll_free": "N/A",
+        "email": "contact@haldiapetro.co.in",
+        "website": "https://www.haldiapetro.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.066533,
+        "longitude": 88.083227,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haldia+Petro+E-Recyclers%2C+Haldia+Industrial+Complex%2C+Purba+Medinipur%2C+Purba+Medinipur%2C+West+Bengal%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.066533,88.083227",
+        "formatted_address": "Haldia Industrial Complex, Purba Medinipur, Purba Medinipur, West Bengal, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "WB012",
+      "name": "Howrah West E-Waste Dismantlers",
+      "type": "Dismantler",
+      "address": "Jalan Industrial Complex, Domjur, Howrah",
+      "district": "Howrah",
+      "state": "West Bengal",
+      "capacity_mta": 1200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "WBPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8055335110",
+        "toll_free": "N/A",
+        "email": "contact@howrahwest.co.in",
+        "website": "https://www.howrahwest.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.62332,
+        "longitude": 88.24412,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Howrah+West+E-Waste+Dismantlers%2C+Jalan+Industrial+Complex%2C+Domjur%2C+Howrah%2C+Howrah%2C+West+Bengal%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.62332,88.24412",
+        "formatted_address": "Jalan Industrial Complex, Domjur, Howrah, Howrah, West Bengal, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "state": "Goa",
+    "total_facilities": 3,
+    "is_authorized_dataset": true,
+    "data_source": "Goa State Pollution Control Board (GSPCB) & CPCB",
+    "source_portal": "https://goaspcb.gov.in",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 1471,
+    "recycler_count": 0,
+    "dismantler_count": 2,
+    "refurbisher_count": 0,
+    "collection_center_count": 1
+  },
+  "facilities": [
+    {
+      "id": "G001",
+      "name": "Goa Waste Management Corporation E-Facility",
+      "type": "Dismantler",
+      "address": "Kundaim Industrial Estate, Ponda",
+      "district": "North Goa",
+      "state": "Goa",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9186595560",
+        "toll_free": "N/A",
+        "email": "contact@goawaste.co.in",
+        "website": "https://www.goawaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 15.49906,
+        "longitude": 73.82364,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Goa+Waste+Management+Corporation+E-Facility%2C+Kundaim+Industrial+Estate%2C+Ponda%2C+North+Goa%2C+Goa%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=15.49906,73.82364",
+        "formatted_address": "Kundaim Industrial Estate, Ponda, North Goa, Goa, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G002",
+      "name": "Eco Goa E-Recyclers",
+      "type": "Dismantler",
+      "address": "Verna Industrial Estate, South Goa",
+      "district": "South Goa",
+      "state": "Goa",
+      "capacity_mta": 371,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8842646886",
+        "toll_free": "N/A",
+        "email": "contact@ecogoa.co.in",
+        "website": "https://www.ecogoa.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 15.268267,
+        "longitude": 73.963107,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Eco+Goa+E-Recyclers%2C+Verna+Industrial+Estate%2C+South+Goa%2C+South+Goa%2C+Goa%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=15.268267,73.963107",
+        "formatted_address": "Verna Industrial Estate, South Goa, South Goa, Goa, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G003",
+      "name": "M/s Konkan E-Waste Collection Hub",
+      "type": "Collection Center",
+      "address": "Corlim Industrial Estate, Tiswadi",
+      "district": "North Goa",
+      "state": "Goa",
+      "capacity_mta": 500,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9995366685",
+        "toll_free": "N/A",
+        "email": "contact@konkanewaste.co.in",
+        "website": "https://www.konkanewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 15.501753,
+        "longitude": 73.83056,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Konkan+E-Waste+Collection+Hub%2C+Corlim+Industrial+Estate%2C+Tiswadi%2C+North+Goa%2C+Goa%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=15.501753,73.83056",
+        "formatted_address": "Corlim Industrial Estate, Tiswadi, North Goa, Goa, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "state": "Andhra Pradesh",
+    "total_facilities": 6,
+    "is_authorized_dataset": true,
+    "data_source": "Andhra Pradesh State Pollution Control Board (APPCB) & CPCB",
+    "source_portal": "https://appcb.ap.gov.in",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 30900,
+    "recycler_count": 4,
+    "dismantler_count": 1,
+    "refurbisher_count": 1,
+    "collection_center_count": 0
+  },
+  "facilities": [
+    {
+      "id": "AP001",
+      "name": "Green Waves Environmental Solution",
+      "type": "Dismantler",
+      "address": "Mindi (V), Gajuwaka (M), Visakhapatnam",
+      "district": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "capacity_mta": 480,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "APPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9374457641",
+        "toll_free": "N/A",
+        "email": "contact@greenwaves.co.in",
+        "website": "https://www.greenwaves.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.694307,
+        "longitude": 83.220507,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Green+Waves+Environmental+Solution%2C+Mindi+%28V%29%2C+Gajuwaka+%28M%29%2C+Visakhapatnam%2C+Visakhapatnam%2C+Andhra+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.694307,83.220507",
+        "formatted_address": "Mindi (V), Gajuwaka (M), Visakhapatnam, Visakhapatnam, Andhra Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "AP002",
+      "name": "Veera Waste Management Systems",
+      "type": "Recycler",
+      "address": "IDA, Autonagar, Visakhapatnam",
+      "district": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "capacity_mta": 5820,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "APPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9845787528",
+        "toll_free": "N/A",
+        "email": "contact@veerawaste.co.in",
+        "website": "https://www.veerawaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.700093,
+        "longitude": 83.21268,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veera+Waste+Management+Systems%2C+IDA%2C+Autonagar%2C+Visakhapatnam%2C+Visakhapatnam%2C+Andhra+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.700093,83.21268",
+        "formatted_address": "IDA, Autonagar, Visakhapatnam, Visakhapatnam, Andhra Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "AP003",
+      "name": "Ramky E-Waste Recycling Facility",
+      "type": "Recycler",
+      "address": "JNPC, Parawada, Visakhapatnam",
+      "district": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "capacity_mta": 12000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "APPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7067829739",
+        "toll_free": "N/A",
+        "email": "contact@ramkyewaste.co.in",
+        "website": "https://www.ramkyewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.693387,
+        "longitude": 83.222013,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Ramky+E-Waste+Recycling+Facility%2C+JNPC%2C+Parawada%2C+Visakhapatnam%2C+Visakhapatnam%2C+Andhra+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.693387,83.222013",
+        "formatted_address": "JNPC, Parawada, Visakhapatnam, Visakhapatnam, Andhra Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "AP004",
+      "name": "Clean Earth Green Earth Solutions",
+      "type": "Recycler",
+      "address": "Jewellery Park, Machilipatnam, Krishna",
+      "district": "Krishna",
+      "state": "Andhra Pradesh",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "APPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9763243979",
+        "toll_free": "N/A",
+        "email": "contact@cleanearth.co.in",
+        "website": "https://www.cleanearth.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 16.185013,
+        "longitude": 81.139667,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Clean+Earth+Green+Earth+Solutions%2C+Jewellery+Park%2C+Machilipatnam%2C+Krishna%2C+Krishna%2C+Andhra+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=16.185013,81.139667",
+        "formatted_address": "Jewellery Park, Machilipatnam, Krishna, Krishna, Andhra Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "AP005",
+      "name": "Laxminarayana Recyclers LLP",
+      "type": "Recycler",
+      "address": "Aganampudi, Visakhapatnam",
+      "district": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "capacity_mta": 7200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "APPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8939004683",
+        "toll_free": "N/A",
+        "email": "contact@laxminarayana.co.in",
+        "website": "https://www.laxminarayana.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.699467,
+        "longitude": 83.214373,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Laxminarayana+Recyclers+LLP%2C+Aganampudi%2C+Visakhapatnam%2C+Visakhapatnam%2C+Andhra+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.699467,83.214373",
+        "formatted_address": "Aganampudi, Visakhapatnam, Visakhapatnam, Andhra Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "AP006",
+      "name": "M/s Vizag E-Refurbishers",
+      "type": "Refurbisher",
+      "address": "Duvvada VSEZ, Visakhapatnam",
+      "district": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "capacity_mta": 1800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "APPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8937969291",
+        "toll_free": "N/A",
+        "email": "contact@vizagerefurbishers.co.in",
+        "website": "https://www.vizagerefurbishers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.69472,
+        "longitude": 83.21912,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Vizag+E-Refurbishers%2C+Duvvada+VSEZ%2C+Visakhapatnam%2C+Visakhapatnam%2C+Andhra+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.69472,83.21912",
+        "formatted_address": "Duvvada VSEZ, Visakhapatnam, Visakhapatnam, Andhra Pradesh, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

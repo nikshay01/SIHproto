@@ -1,0 +1,5914 @@
+{
+  "validation_parameters": {
+    "service_used": "Google Maps Geocoding API",
+    "distance_threshold_km": 2,
+    "total_facilities_processed": 421
+  },
+  "results": [
+    {
+      "facility_id": "AN001",
+      "facility_name": "M/s Island Green E-Waste Collection Facility",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Dollygunj Industrial Estate, Port Blair, South Andaman, Andaman and Nicobar Islands, India",
+      "stored_coords": [
+        11.643413,
+        92.719907
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "AP001",
+      "facility_name": "Green Waves Environmental Solution",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Mindi (V), Gajuwaka (M), Visakhapatnam, Visakhapatnam, Andhra Pradesh, India",
+      "stored_coords": [
+        17.694307,
+        83.220507
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "AP002",
+      "facility_name": "Veera Waste Management Systems",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "IDA, Autonagar, Visakhapatnam, Visakhapatnam, Andhra Pradesh, India",
+      "stored_coords": [
+        17.700093,
+        83.21268
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "AP003",
+      "facility_name": "Ramky E-Waste Recycling Facility",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "JNPC, Parawada, Visakhapatnam, Visakhapatnam, Andhra Pradesh, India",
+      "stored_coords": [
+        17.693387,
+        83.222013
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "AP004",
+      "facility_name": "Clean Earth Green Earth Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Jewellery Park, Machilipatnam, Krishna, Krishna, Andhra Pradesh, India",
+      "stored_coords": [
+        16.185013,
+        81.139667
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "AP005",
+      "facility_name": "Laxminarayana Recyclers LLP",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Aganampudi, Visakhapatnam, Visakhapatnam, Andhra Pradesh, India",
+      "stored_coords": [
+        17.699467,
+        83.214373
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "AP006",
+      "facility_name": "M/s Vizag E-Refurbishers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Duvvada VSEZ, Visakhapatnam, Visakhapatnam, Andhra Pradesh, India",
+      "stored_coords": [
+        17.69472,
+        83.21912
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "AR001",
+      "facility_name": "M/s Arunachal E-Waste Authorized Collection & Storage Hub",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Industrial Estate, Naharlagun, Papum Pare, Papum Pare, Arunachal Pradesh, India",
+      "stored_coords": [
+        27.110093,
+        93.692627
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "AS001",
+      "facility_name": "Assam E-Waste Recyclers & Dismantlers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "EPIP, Amingaon, Kamrup Rural, Guwahati, Kamrup, Assam, India",
+      "stored_coords": [
+        26.194467,
+        91.687773
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "AS002",
+      "facility_name": "M/s North-East Green E-Waste Collection & Channelization Center",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Borbari, VIP Road, Guwahati, Kamrup, Assam, India",
+      "stored_coords": [
+        26.147247,
+        91.733653
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "BR001",
+      "facility_name": "Bihar E-Waste Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Fatuha Industrial Area, Patna, Patna, Bihar, India",
+      "stored_coords": [
+        25.51336,
+        85.315893
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "BR002",
+      "facility_name": "Patna Eco Solutions LLP",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Patliputra Industrial Area, Patna, Patna, Bihar, India",
+      "stored_coords": [
+        25.588633,
+        85.138427
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "BR003",
+      "facility_name": "Muzaffarpur E-Recyclers LLP",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Industrial Area, Muzaffarpur, Muzaffarpur, Bihar, India",
+      "stored_coords": [
+        26.105947,
+        85.395747
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "BR004",
+      "facility_name": "M/s Bihar State E-Waste Collection & Refurbishing Hub",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Bela Industrial Area, Muzaffarpur, Muzaffarpur, Bihar, India",
+      "stored_coords": [
+        26.107973,
+        85.396013
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "CH001",
+      "facility_name": "Chandigarh E-Waste Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Industrial Area, Phase-I, Chandigarh, Chandigarh, Chandigarh, India",
+      "stored_coords": [
+        30.711707,
+        76.802613
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "CH002",
+      "facility_name": "Tricity E-Waste Solutions Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Industrial Area, Phase-II, Chandigarh, Chandigarh, Chandigarh, India",
+      "stored_coords": [
+        30.713573,
+        76.80728
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "CG001",
+      "facility_name": "Chhattisgarh E-Waste Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Urla Industrial Area, Raipur, Raipur, Chhattisgarh, India",
+      "stored_coords": [
+        21.253,
+        81.629573
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "CG002",
+      "facility_name": "Bhilai E-Waste Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Borai Industrial Area, Durg, Durg, Chhattisgarh, India",
+      "stored_coords": [
+        21.1646,
+        81.243093
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "CG003",
+      "facility_name": "M/s Raipur Green E-Waste Collection Point",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Bhanpuri, Raipur, Raipur, Chhattisgarh, India",
+      "stored_coords": [
+        21.28332,
+        81.64216
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "DD001",
+      "facility_name": "M/s Daman Industrial E-Waste Dismantling & Collection Unit",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Somnath Industrial Estate, Daman, Daman, Dadra and Nagar Haveli and Daman and Diu, India",
+      "stored_coords": [
+        20.404373,
+        72.855747
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "DL001",
+      "facility_name": "Attero Recycling Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Okhla Industrial Area, Phase-II, New Delhi, South Delhi, Delhi, India",
+      "stored_coords": [
+        28.540727,
+        77.281313
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "DL002",
+      "facility_name": "Eco Recycling Ltd. (Ecoreco)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Okhla Industrial Estate, New Delhi, South Delhi, Delhi, India",
+      "stored_coords": [
+        28.53014,
+        77.2819
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "DL003",
+      "facility_name": "E-Waste Recyclers India (EWRI)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Narela Industrial Area, New Delhi, North Delhi, Delhi, India",
+      "stored_coords": [
+        28.838787,
+        77.095213
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "DL004",
+      "facility_name": "Karma Recycling Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Okhla Phase-I, New Delhi, South Delhi, Delhi, India",
+      "stored_coords": [
+        28.541167,
+        77.276713
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "DL005",
+      "facility_name": "Delhi Green Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Mayapuri Industrial Area, Phase-II, New Delhi, West Delhi, Delhi, India",
+      "stored_coords": [
+        28.633733,
+        77.114813
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "DL006",
+      "facility_name": "Greenscape Eco Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Patparganj Industrial Area, New Delhi, East Delhi, Delhi, India",
+      "stored_coords": [
+        28.62624,
+        77.309987
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "DL007",
+      "facility_name": "Rohini E-Recyclers Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Rohini Sector-24, New Delhi, North West Delhi, Delhi, India",
+      "stored_coords": [
+        28.727667,
+        77.07204
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "DL008",
+      "facility_name": "South Delhi E-Waste Management",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Tughlakabad Industrial Area, New Delhi, South Delhi, Delhi, India",
+      "stored_coords": [
+        28.508973,
+        77.28804
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "DL009",
+      "facility_name": "Dwarka E-Waste Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Dwarka Sector-29, New Delhi, South West Delhi, Delhi, India",
+      "stored_coords": [
+        28.556867,
+        77.019
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "DL010",
+      "facility_name": "M/s Capital Refurbishers & Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Wazirpur Industrial Area, New Delhi, North West Delhi, Delhi, India",
+      "stored_coords": [
+        28.7024,
+        77.174173
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "DL011",
+      "facility_name": "M/s Badarpur E-Waste Dismantling Unit",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Badarpur Industrial Area, New Delhi, South East Delhi, Delhi, India",
+      "stored_coords": [
+        28.50396,
+        77.314293
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "DL012",
+      "facility_name": "M/s Okhla Phase-III E-Waste Node",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Okhla Phase-III, New Delhi, South Delhi, Delhi, India",
+      "stored_coords": [
+        28.537447,
+        77.275353
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "DL013",
+      "facility_name": "M/s Naraina E-Tech Refurbishers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Naraina Industrial Area Phase-I, New Delhi, New Delhi, Delhi, India",
+      "stored_coords": [
+        28.6188,
+        77.136653
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GA001",
+      "facility_name": "Goa Waste Management Corporation E-Facility",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Kundaim Industrial Estate, Ponda, North Goa, Goa, India",
+      "stored_coords": [
+        15.49906,
+        73.82364
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GA002",
+      "facility_name": "Eco Goa E-Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Verna Industrial Estate, South Goa, South Goa, Goa, India",
+      "stored_coords": [
+        15.268267,
+        73.963107
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GA003",
+      "facility_name": "M/s Konkan E-Waste Collection Hub",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Corlim Industrial Estate, Tiswadi, North Goa, Goa, India",
+      "stored_coords": [
+        15.501753,
+        73.83056
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ001",
+      "facility_name": "Gujarat Green Recycling",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Sanand-II, Ahmedabad, Ahmedabad, Gujarat, India",
+      "stored_coords": [
+        22.994173,
+        72.372747
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ002",
+      "facility_name": "Electro Waste Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC-Halol, Panchmahal, Panchmahal, Gujarat, India",
+      "stored_coords": [
+        22.7643,
+        73.616207
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ003",
+      "facility_name": "E-front line recycling Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC, Panoli, Bharuch, Bharuch, Gujarat, India",
+      "stored_coords": [
+        21.69898,
+        73.000313
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ004",
+      "facility_name": "New India Sales Corporation",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC, Panoli, Ankleshwar, Bharuch, Gujarat, India",
+      "stored_coords": [
+        21.628773,
+        73.023293
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ005",
+      "facility_name": "BEIL Infrastructure Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Estate, Ankleshwar, Bharuch, Gujarat, India",
+      "stored_coords": [
+        21.62884,
+        73.018853
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ006",
+      "facility_name": "Electro Alloys Recycling (E.A.R.T.H)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Palej, Bharuch, Bharuch, Gujarat, India",
+      "stored_coords": [
+        21.703687,
+        72.995713
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ007",
+      "facility_name": "Kalpana E-Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Madhuban Industrial Park, Ahmedabad, Ahmedabad, Gujarat, India",
+      "stored_coords": [
+        22.978467,
+        72.509467
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ008",
+      "facility_name": "Mahaarana Industries Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Timba, Ahmedabad, Ahmedabad, Gujarat, India",
+      "stored_coords": [
+        23.02406,
+        72.568707
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ009",
+      "facility_name": "E-Ali Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Daskroi, Ahmedabad, Ahmedabad, Gujarat, India",
+      "stored_coords": [
+        23.023673,
+        72.577867
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ010",
+      "facility_name": "Greentek E-Waste Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Sachin, Surat, Surat, Gujarat, India",
+      "stored_coords": [
+        21.090587,
+        72.86468
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ011",
+      "facility_name": "Surat Clean E-Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Pandesara, Surat, Surat, Gujarat, India",
+      "stored_coords": [
+        21.150027,
+        72.830867
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ012",
+      "facility_name": "Vadodara E-Waste Management",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Makarpura, Vadodara, Vadodara, Gujarat, India",
+      "stored_coords": [
+        22.249147,
+        73.191533
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ013",
+      "facility_name": "Baroda Eco Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Nandesari, Vadodara, Vadodara, Gujarat, India",
+      "stored_coords": [
+        22.415893,
+        73.085813
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ014",
+      "facility_name": "Vapi Green E-Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Vapi, Valsad, Valsad, Gujarat, India",
+      "stored_coords": [
+        20.605453,
+        72.938853
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ015",
+      "facility_name": "Gandhinagar Techno Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Electronic Estate, Gandhinagar, Gandhinagar, Gujarat, India",
+      "stored_coords": [
+        23.24432,
+        72.643347
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ016",
+      "facility_name": "Rajkot E-Waste Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Lodhika, Rajkot, Rajkot, Gujarat, India",
+      "stored_coords": [
+        22.24368,
+        70.70512
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ017",
+      "facility_name": "M/s Gujarat E-Refurbishing Hub",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Changodar, Ahmedabad, Ahmedabad, Gujarat, India",
+      "stored_coords": [
+        22.932173,
+        72.453907
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ018",
+      "facility_name": "Gujarat Eco Unit 18 (Vadodara)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Vadodara, Vadodara, Gujarat, India",
+      "stored_coords": [
+        23.025233,
+        72.570093
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ019",
+      "facility_name": "Gujarat Eco Unit 19 (Bharuch)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Bharuch, Bharuch, Gujarat, India",
+      "stored_coords": [
+        21.70538,
+        72.99642
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ020",
+      "facility_name": "Gujarat Eco Unit 20 (Valsad)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Valsad, Valsad, Gujarat, India",
+      "stored_coords": [
+        20.605,
+        72.927573
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ021",
+      "facility_name": "Gujarat Eco Unit 21 (Gandhinagar)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Gandhinagar, Gandhinagar, Gujarat, India",
+      "stored_coords": [
+        23.237653,
+        72.654213
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ022",
+      "facility_name": "Gujarat Eco Unit 22 (Rajkot)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Rajkot, Rajkot, Gujarat, India",
+      "stored_coords": [
+        22.30914,
+        70.796947
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ023",
+      "facility_name": "Gujarat Eco Unit 23 (Kheda)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Kheda, Kheda, Gujarat, India",
+      "stored_coords": [
+        22.74942,
+        72.68726
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ024",
+      "facility_name": "Gujarat Eco Unit 24 (Panchmahal)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Panchmahal, Panchmahal, Gujarat, India",
+      "stored_coords": [
+        22.76254,
+        73.611793
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ025",
+      "facility_name": "Gujarat Eco Unit 25 (Morbi)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Morbi, Morbi, Gujarat, India",
+      "stored_coords": [
+        22.814987,
+        70.83948
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ026",
+      "facility_name": "Gujarat Eco Unit 26 (Bhavnagar)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Bhavnagar, Bhavnagar, Gujarat, India",
+      "stored_coords": [
+        21.76082,
+        72.15606
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ027",
+      "facility_name": "Gujarat Eco Unit 27 (Anand)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Anand, Anand, Gujarat, India",
+      "stored_coords": [
+        22.56506,
+        72.93142
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ028",
+      "facility_name": "Gujarat Eco Unit 28 (Jamnagar)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Jamnagar, Jamnagar, Gujarat, India",
+      "stored_coords": [
+        22.46024,
+        70.042667
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ029",
+      "facility_name": "Gujarat Eco Unit 29 (Junagadh)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Junagadh, Junagadh, Gujarat, India",
+      "stored_coords": [
+        21.52348,
+        70.45858
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ030",
+      "facility_name": "Gujarat Eco Unit 30 (Mehsana)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Mehsana, Mehsana, Gujarat, India",
+      "stored_coords": [
+        23.588707,
+        72.37374
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ031",
+      "facility_name": "Gujarat Eco Unit 31 (Ahmedabad)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Ahmedabad, Ahmedabad, Gujarat, India",
+      "stored_coords": [
+        23.027233,
+        72.574173
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ032",
+      "facility_name": "Gujarat Eco Unit 32 (Surat)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Surat, Surat, Gujarat, India",
+      "stored_coords": [
+        23.021047,
+        72.56768
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ033",
+      "facility_name": "Gujarat Eco Unit 33 (Vadodara)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Vadodara, Vadodara, Gujarat, India",
+      "stored_coords": [
+        23.021233,
+        72.573853
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ034",
+      "facility_name": "Gujarat Eco Unit 34 (Bharuch)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Bharuch, Bharuch, Gujarat, India",
+      "stored_coords": [
+        21.70706,
+        72.99038
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ035",
+      "facility_name": "Gujarat Eco Unit 35 (Valsad)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Valsad, Valsad, Gujarat, India",
+      "stored_coords": [
+        20.59488,
+        72.9318
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ036",
+      "facility_name": "Gujarat Eco Unit 36 (Gandhinagar)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Gandhinagar, Gandhinagar, Gujarat, India",
+      "stored_coords": [
+        23.237187,
+        72.6494
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ037",
+      "facility_name": "Gujarat Eco Unit 37 (Rajkot)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Rajkot, Rajkot, Gujarat, India",
+      "stored_coords": [
+        22.299527,
+        70.79596
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ038",
+      "facility_name": "Gujarat Eco Unit 38 (Kheda)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Kheda, Kheda, Gujarat, India",
+      "stored_coords": [
+        22.750353,
+        72.685367
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ039",
+      "facility_name": "Gujarat Eco Unit 39 (Panchmahal)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Panchmahal, Panchmahal, Gujarat, India",
+      "stored_coords": [
+        22.770433,
+        73.61494
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ040",
+      "facility_name": "Gujarat Eco Unit 40 (Morbi)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Morbi, Morbi, Gujarat, India",
+      "stored_coords": [
+        22.82024,
+        70.839173
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ041",
+      "facility_name": "Gujarat Eco Unit 41 (Bhavnagar)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Bhavnagar, Bhavnagar, Gujarat, India",
+      "stored_coords": [
+        21.76362,
+        72.150047
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ042",
+      "facility_name": "Gujarat Eco Unit 42 (Anand)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Anand, Anand, Gujarat, India",
+      "stored_coords": [
+        22.562127,
+        72.934887
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ043",
+      "facility_name": "Gujarat Eco Unit 43 (Jamnagar)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Jamnagar, Jamnagar, Gujarat, India",
+      "stored_coords": [
+        22.46068,
+        70.0458
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "GJ044",
+      "facility_name": "Gujarat Eco Unit 44 (Junagadh)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "GIDC Industrial Estate, Junagadh, Junagadh, Gujarat, India",
+      "stored_coords": [
+        21.519013,
+        70.459927
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR001",
+      "facility_name": "Exigo Recycling Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Sampla / Manesar, Gurugram, Haryana, India",
+      "stored_coords": [
+        28.463647,
+        77.029573
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR002",
+      "facility_name": "Greenscape Eco Management Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Bawal, Rewari, Rewari, Haryana, India",
+      "stored_coords": [
+        28.18028,
+        76.62036
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR003",
+      "facility_name": "Sims Recycling Solutions India Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Plot No. 12, Sector-8, IMT Manesar, Gurugram, Gurugram, Haryana, India",
+      "stored_coords": [
+        28.452993,
+        77.023227
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR004",
+      "facility_name": "Haryana E-Waste Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Kundli, Sonipat, Sonipat, Haryana, India",
+      "stored_coords": [
+        28.998473,
+        77.008887
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR005",
+      "facility_name": "Faridabad Eco Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Sector-24 Industrial Area, Faridabad, Faridabad, Haryana, India",
+      "stored_coords": [
+        28.37308,
+        77.323613
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR006",
+      "facility_name": "Panipat Green E-Waste Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Sector-29 Industrial Area, Panipat, Panipat, Haryana, India",
+      "stored_coords": [
+        29.396227,
+        76.986987
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR007",
+      "facility_name": "Gurugram Tech Recyclers LLP",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Udyog Vihar Phase-IV, Gurugram, Gurugram, Haryana, India",
+      "stored_coords": [
+        28.499707,
+        77.082773
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR008",
+      "facility_name": "Jhajjar E-Waste Recyclers Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Jhajjar, Jhajjar, Haryana, India",
+      "stored_coords": [
+        28.60708,
+        76.658533
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR009",
+      "facility_name": "Palwal E-Waste Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Industrial Area, Palwal, Palwal, Haryana, India",
+      "stored_coords": [
+        28.153627,
+        77.322027
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR010",
+      "facility_name": "M/s Millennium City Refurbishers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Udyog Vihar Phase-V, Gurugram, Gurugram, Haryana, India",
+      "stored_coords": [
+        28.499053,
+        77.086
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR011",
+      "facility_name": "Haryana Green Unit 11 (Jhajjar)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Jhajjar, Jhajjar, Haryana, India",
+      "stored_coords": [
+        28.614333,
+        76.65268
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR012",
+      "facility_name": "Haryana Green Unit 12 (Hisar)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Hisar, Hisar, Haryana, India",
+      "stored_coords": [
+        29.151733,
+        75.72184
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR013",
+      "facility_name": "Haryana Green Unit 13 (Gurugram)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Gurugram, Gurugram, Haryana, India",
+      "stored_coords": [
+        28.459153,
+        77.024147
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR014",
+      "facility_name": "Haryana Green Unit 14 (Faridabad)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Faridabad, Faridabad, Haryana, India",
+      "stored_coords": [
+        28.371893,
+        77.313533
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR015",
+      "facility_name": "Haryana Green Unit 15 (Panipat)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Panipat, Panipat, Haryana, India",
+      "stored_coords": [
+        29.401427,
+        76.98612
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR016",
+      "facility_name": "Haryana Green Unit 16 (Sonipat)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Sonipat, Sonipat, Haryana, India",
+      "stored_coords": [
+        28.999407,
+        77.017673
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR017",
+      "facility_name": "Haryana Green Unit 17 (Ambala)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Ambala, Ambala, Haryana, India",
+      "stored_coords": [
+        30.38144,
+        76.77552
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR018",
+      "facility_name": "Haryana Green Unit 18 (Yamunanagar)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Yamunanagar, Yamunanagar, Haryana, India",
+      "stored_coords": [
+        30.12476,
+        77.262653
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR019",
+      "facility_name": "Haryana Green Unit 19 (Rewari)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Rewari, Rewari, Haryana, India",
+      "stored_coords": [
+        28.18256,
+        76.6168
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR020",
+      "facility_name": "Haryana Green Unit 20 (Rohtak)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Rohtak, Rohtak, Haryana, India",
+      "stored_coords": [
+        28.898633,
+        76.605907
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR021",
+      "facility_name": "Haryana Green Unit 21 (Karnal)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Karnal, Karnal, Haryana, India",
+      "stored_coords": [
+        29.68732,
+        76.99732
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR022",
+      "facility_name": "Haryana Green Unit 22 (Palwal)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Palwal, Palwal, Haryana, India",
+      "stored_coords": [
+        28.1416,
+        77.323213
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR023",
+      "facility_name": "Haryana Green Unit 23 (Jhajjar)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Jhajjar, Jhajjar, Haryana, India",
+      "stored_coords": [
+        28.602227,
+        76.658693
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR024",
+      "facility_name": "Haryana Green Unit 24 (Hisar)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Hisar, Hisar, Haryana, India",
+      "stored_coords": [
+        29.153467,
+        75.726947
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR025",
+      "facility_name": "Haryana Green Unit 25 (Gurugram)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Gurugram, Gurugram, Haryana, India",
+      "stored_coords": [
+        28.4581,
+        77.03108
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR026",
+      "facility_name": "Haryana Green Unit 26 (Faridabad)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Faridabad, Faridabad, Haryana, India",
+      "stored_coords": [
+        28.363147,
+        77.324027
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR027",
+      "facility_name": "Haryana Green Unit 27 (Panipat)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Panipat, Panipat, Haryana, India",
+      "stored_coords": [
+        29.396053,
+        76.99044
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR028",
+      "facility_name": "Haryana Green Unit 28 (Sonipat)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Sonipat, Sonipat, Haryana, India",
+      "stored_coords": [
+        28.99798,
+        77.01286
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR029",
+      "facility_name": "Haryana Green Unit 29 (Ambala)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Ambala, Ambala, Haryana, India",
+      "stored_coords": [
+        30.379173,
+        76.78364
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR030",
+      "facility_name": "Haryana Green Unit 30 (Yamunanagar)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Yamunanagar, Yamunanagar, Haryana, India",
+      "stored_coords": [
+        30.1318,
+        77.27064
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR031",
+      "facility_name": "Haryana Green Unit 31 (Rewari)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Rewari, Rewari, Haryana, India",
+      "stored_coords": [
+        28.188867,
+        76.6234
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR032",
+      "facility_name": "Haryana Green Unit 32 (Rohtak)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Rohtak, Rohtak, Haryana, India",
+      "stored_coords": [
+        28.89566,
+        76.601187
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR033",
+      "facility_name": "Haryana Green Unit 33 (Karnal)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Karnal, Karnal, Haryana, India",
+      "stored_coords": [
+        29.687413,
+        76.995307
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR034",
+      "facility_name": "Haryana Green Unit 34 (Palwal)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Palwal, Palwal, Haryana, India",
+      "stored_coords": [
+        28.146787,
+        77.333053
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR035",
+      "facility_name": "Haryana Green Unit 35 (Jhajjar)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Jhajjar, Jhajjar, Haryana, India",
+      "stored_coords": [
+        28.60144,
+        76.66316
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR036",
+      "facility_name": "Haryana Green Unit 36 (Hisar)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Hisar, Hisar, Haryana, India",
+      "stored_coords": [
+        29.14296,
+        75.728733
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR037",
+      "facility_name": "Haryana Green Unit 37 (Gurugram)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Gurugram, Gurugram, Haryana, India",
+      "stored_coords": [
+        28.45634,
+        77.027173
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR038",
+      "facility_name": "Haryana Green Unit 38 (Faridabad)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Faridabad, Faridabad, Haryana, India",
+      "stored_coords": [
+        28.3644,
+        77.318147
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR039",
+      "facility_name": "Haryana Green Unit 39 (Panipat)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Panipat, Panipat, Haryana, India",
+      "stored_coords": [
+        29.395813,
+        76.984747
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR040",
+      "facility_name": "Haryana Green Unit 40 (Sonipat)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Sonipat, Sonipat, Haryana, India",
+      "stored_coords": [
+        28.990473,
+        77.020607
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR041",
+      "facility_name": "Haryana Green Unit 41 (Ambala)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Ambala, Ambala, Haryana, India",
+      "stored_coords": [
+        30.383467,
+        76.772613
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR042",
+      "facility_name": "Haryana Green Unit 42 (Yamunanagar)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Yamunanagar, Yamunanagar, Haryana, India",
+      "stored_coords": [
+        30.126413,
+        77.268973
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR043",
+      "facility_name": "Haryana Green Unit 43 (Rewari)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Rewari, Rewari, Haryana, India",
+      "stored_coords": [
+        28.1818,
+        76.6154
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR044",
+      "facility_name": "Haryana Green Unit 44 (Rohtak)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Rohtak, Rohtak, Haryana, India",
+      "stored_coords": [
+        28.8915,
+        76.6086
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HR045",
+      "facility_name": "Haryana Green Unit 45 (Karnal)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HSIIDC Industrial Area, Karnal, Karnal, Haryana, India",
+      "stored_coords": [
+        29.69444,
+        76.99764
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HP001",
+      "facility_name": "Himachal Green Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Baddi Industrial Area, Solan, Solan, Himachal Pradesh, India",
+      "stored_coords": [
+        30.953747,
+        76.80312
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HP002",
+      "facility_name": "Solan E-Waste Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Katha, Baddi, Solan, Solan, Himachal Pradesh, India",
+      "stored_coords": [
+        30.9586,
+        76.798067
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HP003",
+      "facility_name": "Paonta E-Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Paonta Sahib, Sirmaur, Sirmaur, Himachal Pradesh, India",
+      "stored_coords": [
+        30.442667,
+        77.622827
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HP004",
+      "facility_name": "Una E-Waste Processors",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Tahliwal Industrial Area, Una, Una, Himachal Pradesh, India",
+      "stored_coords": [
+        31.404253,
+        76.248293
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "HP005",
+      "facility_name": "Solan E-Waste Management Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Baddi Industrial Area Phase-II, Solan, Solan, Himachal Pradesh, India",
+      "stored_coords": [
+        30.96224,
+        76.79356
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "JK001",
+      "facility_name": "J&K E-Waste Management Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Industrial Estate, Lassipora, Pulwama, Pulwama, Jammu and Kashmir, India",
+      "stored_coords": [
+        33.80304,
+        74.93236
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "JK002",
+      "facility_name": "M/s Jammu Industrial E-Waste Center",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Bari Brahmana Industrial Complex, Samba, Samba, Jammu and Kashmir, India",
+      "stored_coords": [
+        32.6432,
+        74.940453
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "JH001",
+      "facility_name": "Jharkhand E-Waste Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Tupudana Industrial Area, Ranchi, Ranchi, Jharkhand, India",
+      "stored_coords": [
+        23.293067,
+        85.313653
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "JH002",
+      "facility_name": "Jamshedpur Eco Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Adityapur Industrial Area, Jamshedpur, East Singhbhum, Jharkhand, India",
+      "stored_coords": [
+        22.80836,
+        86.205287
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "JH003",
+      "facility_name": "Bokaro E-Waste Processors",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "BIA Industrial Area, Bokaro, Bokaro, Jharkhand, India",
+      "stored_coords": [
+        23.68008,
+        86.145067
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "JH004",
+      "facility_name": "Dhanbad E-Waste Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Industrial Area, Dhanbad, Dhanbad, Jharkhand, India",
+      "stored_coords": [
+        23.791707,
+        86.437907
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA001",
+      "facility_name": "E-Parisaraa Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Dobbaspet, Bangalore Rural, Bangalore Rural, Karnataka, India",
+      "stored_coords": [
+        13.24404,
+        77.24724
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA002",
+      "facility_name": "K. G. Nandani Enterprises",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Billakempanahalli, Ramanagar, Ramanagar, Karnataka, India",
+      "stored_coords": [
+        12.724233,
+        77.275887
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA003",
+      "facility_name": "EWaRDD & Co.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Bommanahalli, Bangalore, Bangalore Urban, Karnataka, India",
+      "stored_coords": [
+        12.904747,
+        77.625867
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA004",
+      "facility_name": "Cerebra Integrated Technologies Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Narasapura, Kolar, Bangalore Rural, Karnataka, India",
+      "stored_coords": [
+        13.155733,
+        78.023867
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA005",
+      "facility_name": "Terra Nova Recycling",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Peenya Industrial Area, Bangalore, Bangalore Urban, Karnataka, India",
+      "stored_coords": [
+        13.028807,
+        77.517213
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA006",
+      "facility_name": "E-R3 Solutions Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Peenya 2nd Stage, Bangalore, Bangalore Urban, Karnataka, India",
+      "stored_coords": [
+        13.027887,
+        77.51824
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA007",
+      "facility_name": "MKK E-Waste Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB, Hebbal, Mysuru, Mysuru, Karnataka, India",
+      "stored_coords": [
+        12.35996,
+        76.606693
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA008",
+      "facility_name": "Bangalore Green Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Electronic City Phase-II, Bangalore, Bangalore Urban, Karnataka, India",
+      "stored_coords": [
+        12.846813,
+        77.659147
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA009",
+      "facility_name": "Yelahanka E-Recyclers LLP",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Yelahanka Industrial Area, Bangalore, Bangalore Urban, Karnataka, India",
+      "stored_coords": [
+        13.10498,
+        77.59686
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA010",
+      "facility_name": "Bidadi E-Waste Recyclers Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB, Bidadi, Ramanagar, Ramanagar, Karnataka, India",
+      "stored_coords": [
+        12.800053,
+        77.382867
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA011",
+      "facility_name": "Devanahalli E-Recyclers LLP",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Aerospace SEZ, Devanahalli, Bangalore Rural, Bangalore Rural, Karnataka, India",
+      "stored_coords": [
+        12.967013,
+        77.590547
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA012",
+      "facility_name": "Bangalore North E-Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB, Nelamangala, Bangalore Rural, Bangalore Rural, Karnataka, India",
+      "stored_coords": [
+        13.100867,
+        77.388893
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA013",
+      "facility_name": "Peenya East E-Recyclers LLP",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Peenya 4th Phase, Bangalore, Bangalore Urban, Karnataka, India",
+      "stored_coords": [
+        13.02702,
+        77.514093
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA014",
+      "facility_name": "Bangalore Tech Valley Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Peenya 2nd Phase, Bangalore, Bangalore Urban, Karnataka, India",
+      "stored_coords": [
+        13.03506,
+        77.52328
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA015",
+      "facility_name": "Mysuru Tech E-Recyclers Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Hebbal Industrial Area, Mysuru, Mysuru, Karnataka, India",
+      "stored_coords": [
+        12.978053,
+        77.600253
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA016",
+      "facility_name": "Hubli-Dharwad E-Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Tarihal Industrial Area, Hubli, Dharwad, Karnataka, India",
+      "stored_coords": [
+        15.333893,
+        75.116707
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA017",
+      "facility_name": "M/s IT Refurbishers Bengaluru",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Whitefield EPIP Zone, Bangalore, Bangalore Urban, Karnataka, India",
+      "stored_coords": [
+        12.98102,
+        77.726547
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA018",
+      "facility_name": "M/s Silicon City Refurbishers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Koramangala Industrial Layout, Bangalore, Bangalore Urban, Karnataka, India",
+      "stored_coords": [
+        12.941573,
+        77.61858
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA019",
+      "facility_name": "Karnataka Green Facility 19 (Raichur)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Raichur, Raichur, Karnataka, India",
+      "stored_coords": [
+        16.208187,
+        77.349287
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA020",
+      "facility_name": "Karnataka Green Facility 20 (Gadag)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Gadag, Gadag, Karnataka, India",
+      "stored_coords": [
+        15.431867,
+        75.639233
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA021",
+      "facility_name": "Karnataka Green Facility 21 (Bangalore Urban)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Bangalore Urban, Bangalore Urban, Karnataka, India",
+      "stored_coords": [
+        12.969093,
+        77.58852
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA022",
+      "facility_name": "Karnataka Green Facility 22 (Bangalore Rural)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Bangalore Rural, Bangalore Rural, Karnataka, India",
+      "stored_coords": [
+        12.966507,
+        77.58884
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA023",
+      "facility_name": "Karnataka Green Facility 23 (Ramanagar)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Ramanagar, Ramanagar, Karnataka, India",
+      "stored_coords": [
+        12.96592,
+        77.597427
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA024",
+      "facility_name": "Karnataka Green Facility 24 (Mysuru)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Mysuru, Mysuru, Karnataka, India",
+      "stored_coords": [
+        12.96572,
+        77.59964
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA025",
+      "facility_name": "Karnataka Green Facility 25 (Tumkur)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Tumkur, Tumkur, Karnataka, India",
+      "stored_coords": [
+        13.341787,
+        77.10754
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA026",
+      "facility_name": "Karnataka Green Facility 26 (Belagavi)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Belagavi, Belagavi, Karnataka, India",
+      "stored_coords": [
+        15.860693,
+        74.509667
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA027",
+      "facility_name": "Karnataka Green Facility 27 (Dharwad)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Dharwad, Dharwad, Karnataka, India",
+      "stored_coords": [
+        22.592747,
+        75.296627
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA028",
+      "facility_name": "Karnataka Green Facility 28 (Dakshina Kannada)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Dakshina Kannada, Dakshina Kannada, Karnataka, India",
+      "stored_coords": [
+        12.9768,
+        77.589587
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA029",
+      "facility_name": "Karnataka Green Facility 29 (Davangere)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Davangere, Davangere, Karnataka, India",
+      "stored_coords": [
+        14.464627,
+        75.9274
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA030",
+      "facility_name": "Karnataka Green Facility 30 (Gulbarga)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Gulbarga, Gulbarga, Karnataka, India",
+      "stored_coords": [
+        17.33246,
+        76.828873
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA031",
+      "facility_name": "Karnataka Green Facility 31 (Shimoga)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Shimoga, Shimoga, Karnataka, India",
+      "stored_coords": [
+        13.932193,
+        75.561993
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA032",
+      "facility_name": "Karnataka Green Facility 32 (Bellary)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Bellary, Bellary, Karnataka, India",
+      "stored_coords": [
+        15.135547,
+        76.926773
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA033",
+      "facility_name": "Karnataka Green Facility 33 (Hassan)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Hassan, Hassan, Karnataka, India",
+      "stored_coords": [
+        13.005553,
+        76.105067
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA034",
+      "facility_name": "Karnataka Green Facility 34 (Udupi)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Udupi, Udupi, Karnataka, India",
+      "stored_coords": [
+        13.34422,
+        74.735833
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA035",
+      "facility_name": "Karnataka Green Facility 35 (Bijapur)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Bijapur, Bijapur, Karnataka, India",
+      "stored_coords": [
+        16.8252,
+        75.71312
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA036",
+      "facility_name": "Karnataka Green Facility 36 (Mandya)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Mandya, Mandya, Karnataka, India",
+      "stored_coords": [
+        12.526827,
+        76.89334
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA037",
+      "facility_name": "Karnataka Green Facility 37 (Chickmagalur)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Chickmagalur, Chickmagalur, Karnataka, India",
+      "stored_coords": [
+        13.314487,
+        75.770093
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA038",
+      "facility_name": "Karnataka Green Facility 38 (Haveri)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Haveri, Haveri, Karnataka, India",
+      "stored_coords": [
+        14.795773,
+        75.40652
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA039",
+      "facility_name": "Karnataka Green Facility 39 (Raichur)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Raichur, Raichur, Karnataka, India",
+      "stored_coords": [
+        16.213787,
+        77.344367
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA040",
+      "facility_name": "Karnataka Green Facility 40 (Gadag)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Gadag, Gadag, Karnataka, India",
+      "stored_coords": [
+        15.42704,
+        75.632753
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA041",
+      "facility_name": "Karnataka Green Facility 41 (Bangalore Urban)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Bangalore Urban, Bangalore Urban, Karnataka, India",
+      "stored_coords": [
+        12.966427,
+        77.595573
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KA042",
+      "facility_name": "Karnataka Green Facility 42 (Bangalore Rural)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KIADB Industrial Area, Bangalore Rural, Bangalore Rural, Karnataka, India",
+      "stored_coords": [
+        12.972653,
+        77.597947
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KL001",
+      "facility_name": "Clean Kerala Co. E-Waste Center",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Edayar Industrial Area, Ernakulam, Ernakulam, Kerala, India",
+      "stored_coords": [
+        9.988053,
+        76.30026
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KL002",
+      "facility_name": "Kerala Green E-Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KINFRA Industrial Park, Palakkad, Palakkad, Kerala, India",
+      "stored_coords": [
+        10.79564,
+        76.74784
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KL003",
+      "facility_name": "Trivandrum E-Waste Recyclers Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Technopark, Thiruvananthapuram, Thiruvananthapuram, Kerala, India",
+      "stored_coords": [
+        8.55416,
+        76.891693
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "KL004",
+      "facility_name": "M/s Malabar E-Waste Collection Hub",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "KINFRA Techno Park, Kakkancherry, Malappuram, Malappuram, Kerala, India",
+      "stored_coords": [
+        11.167867,
+        75.891573
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "LA001",
+      "facility_name": "M/s Ladakh Eco E-Waste Collection & Channelization Hub",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Choglamsar Industrial Area, Leh, Leh, Ladakh, India",
+      "stored_coords": [
+        34.155027,
+        77.579433
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "LD001",
+      "facility_name": "M/s Lakshadweep E-Waste Safe Collection Node",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Kavaratti Island E-Waste Storage, Kavaratti, Lakshadweep, India",
+      "stored_coords": [
+        10.563573,
+        72.63668
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MP001",
+      "facility_name": "MP E-Waste Recyclers Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Sanwer Road Industrial Area, Indore, Indore, Madhya Pradesh, India",
+      "stored_coords": [
+        22.76316,
+        75.85372
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MP002",
+      "facility_name": "Bhopal Eco Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Govindpura Industrial Area, Bhopal, Bhopal, Madhya Pradesh, India",
+      "stored_coords": [
+        23.251587,
+        77.453827
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MP003",
+      "facility_name": "Pithampur Green Tech Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Pithampur Sector-3, Dhar, Dhar, Madhya Pradesh, India",
+      "stored_coords": [
+        22.61032,
+        75.682827
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MP004",
+      "facility_name": "Dewas E-Waste Processors",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Industrial Area, Dewas, Dewas, Madhya Pradesh, India",
+      "stored_coords": [
+        22.969787,
+        76.0522
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MP005",
+      "facility_name": "Gwalior E-Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Malanpur Industrial Area, Gwalior, Gwalior, Madhya Pradesh, India",
+      "stored_coords": [
+        26.356387,
+        78.318813
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MP006",
+      "facility_name": "Jabalpur Eco Tech",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Richhai Industrial Area, Jabalpur, Jabalpur, Madhya Pradesh, India",
+      "stored_coords": [
+        23.187727,
+        79.980787
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MP007",
+      "facility_name": "Rewa E-Waste Solutions Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Industrial Area, Rewa, Rewa, Madhya Pradesh, India",
+      "stored_coords": [
+        24.5374,
+        81.301453
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MP008",
+      "facility_name": "M/s Indore Refurbishing Hub",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Electronic Complex, Pardesipura, Indore, Indore, Madhya Pradesh, India",
+      "stored_coords": [
+        22.714147,
+        75.859207
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MP009",
+      "facility_name": "M/s Mandideep E-Waste Dismantlers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Mandideep Industrial Area, Raisen, Raisen, Madhya Pradesh, India",
+      "stored_coords": [
+        23.065973,
+        77.52052
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MP010",
+      "facility_name": "M/s Ujjain Green E-Waste Center",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Nagziri Industrial Area, Ujjain, Ujjain, Madhya Pradesh, India",
+      "stored_coords": [
+        23.17394,
+        75.789567
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MP011",
+      "facility_name": "M/s Ratlam E-Waste Processing Node",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Industrial Area, Ratlam, Ratlam, Madhya Pradesh, India",
+      "stored_coords": [
+        23.335153,
+        75.032767
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH001",
+      "facility_name": "Eco Recycling Ltd. (Ecoreco)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Mahape / Pawane, Navi Mumbai, Thane, Maharashtra, India",
+      "stored_coords": [
+        19.093773,
+        73.028947
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH002",
+      "facility_name": "Enviro-Care Recycling Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "TTC Industrial Area, Pawane MIDC, Navi Mumbai, Thane, Maharashtra, India",
+      "stored_coords": [
+        19.082333,
+        73.033773
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH003",
+      "facility_name": "Eco-Pro Environmental Services",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Bhosari MIDC, Pune, Pune, Maharashtra, India",
+      "stored_coords": [
+        18.62492,
+        73.84968
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH004",
+      "facility_name": "Green World Recycling",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Wagle Estate, Thane, Thane, Maharashtra, India",
+      "stored_coords": [
+        19.203507,
+        72.95804
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH005",
+      "facility_name": "Maharashtra E-Waste Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Taloja MIDC, Raigad, Raigad, Maharashtra, India",
+      "stored_coords": [
+        19.05152,
+        73.1168
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH006",
+      "facility_name": "Pune E-Waste Management LLP",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Chakan MIDC, Pune, Pune, Maharashtra, India",
+      "stored_coords": [
+        18.76216,
+        73.858933
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH007",
+      "facility_name": "Navi Mumbai Green E-Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Pawane MIDC, Navi Mumbai, Thane, Maharashtra, India",
+      "stored_coords": [
+        19.092707,
+        73.03212
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH008",
+      "facility_name": "Pune Metro E-Waste Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Bhosari MIDC, Pune, Pune, Maharashtra, India",
+      "stored_coords": [
+        18.63176,
+        73.85436
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH009",
+      "facility_name": "Nashik Green E-Solutions Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Satpur MIDC, Nashik, Nashik, Maharashtra, India",
+      "stored_coords": [
+        19.97408,
+        73.73924
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH010",
+      "facility_name": "Western India E-Waste Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Bhiwandi MIDC, Thane, Thane, Maharashtra, India",
+      "stored_coords": [
+        19.300413,
+        73.067493
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH011",
+      "facility_name": "M/s Mumbai E-Refurbishing Works",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Andheri East, Mumbai, Mumbai Suburban, Maharashtra, India",
+      "stored_coords": [
+        19.119733,
+        72.864547
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH012",
+      "facility_name": "M/s Pune Digital Refurbishers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Hinjewadi Phase-1, Pune, Pune, Maharashtra, India",
+      "stored_coords": [
+        18.593867,
+        73.738467
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH013",
+      "facility_name": "Maharashtra E-Tech Unit 13 (Latur)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Latur, Latur, Maharashtra, India",
+      "stored_coords": [
+        18.40996,
+        76.560747
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH014",
+      "facility_name": "Maharashtra E-Tech Unit 14 (Ratnagiri)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Ratnagiri, Ratnagiri, Maharashtra, India",
+      "stored_coords": [
+        16.996213,
+        73.30884
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH015",
+      "facility_name": "Maharashtra E-Tech Unit 15 (Nanded)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Nanded, Nanded, Maharashtra, India",
+      "stored_coords": [
+        19.139727,
+        77.321493
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH016",
+      "facility_name": "Maharashtra E-Tech Unit 16 (Amravati)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Amravati, Amravati, Maharashtra, India",
+      "stored_coords": [
+        20.930907,
+        77.75322
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH017",
+      "facility_name": "Maharashtra E-Tech Unit 17 (Chandrapur)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Chandrapur, Chandrapur, Maharashtra, India",
+      "stored_coords": [
+        19.9587,
+        79.296273
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH018",
+      "facility_name": "Maharashtra E-Tech Unit 18 (Parbhani)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Parbhani, Parbhani, Maharashtra, India",
+      "stored_coords": [
+        19.270333,
+        76.77024
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH019",
+      "facility_name": "Maharashtra E-Tech Unit 19 (Wardha)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Wardha, Wardha, Maharashtra, India",
+      "stored_coords": [
+        20.751593,
+        78.601067
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH020",
+      "facility_name": "Maharashtra E-Tech Unit 20 (Osmanabad)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Osmanabad, Osmanabad, Maharashtra, India",
+      "stored_coords": [
+        18.17958,
+        76.04386
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH021",
+      "facility_name": "Maharashtra E-Tech Unit 21 (Beed)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Beed, Beed, Maharashtra, India",
+      "stored_coords": [
+        18.990753,
+        75.759753
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH022",
+      "facility_name": "Maharashtra E-Tech Unit 22 (Yavatmal)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Yavatmal, Yavatmal, Maharashtra, India",
+      "stored_coords": [
+        20.39288,
+        78.119
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH023",
+      "facility_name": "Maharashtra E-Tech Unit 23 (Gondia)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Gondia, Gondia, Maharashtra, India",
+      "stored_coords": [
+        21.465547,
+        80.198073
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH024",
+      "facility_name": "Maharashtra E-Tech Unit 24 (Sindhudurg)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Sindhudurg, Sindhudurg, Maharashtra, India",
+      "stored_coords": [
+        16.117053,
+        73.690353
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH025",
+      "facility_name": "Maharashtra E-Tech Unit 25 (Akola)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Akola, Akola, Maharashtra, India",
+      "stored_coords": [
+        20.696907,
+        77.006747
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH026",
+      "facility_name": "Maharashtra E-Tech Unit 26 (Thane)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Thane, Thane, Maharashtra, India",
+      "stored_coords": [
+        19.074107,
+        72.882233
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH027",
+      "facility_name": "Maharashtra E-Tech Unit 27 (Pune)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Pune, Pune, Maharashtra, India",
+      "stored_coords": [
+        19.081707,
+        72.873967
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH028",
+      "facility_name": "Maharashtra E-Tech Unit 28 (Mumbai Suburban)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Mumbai Suburban, Mumbai Suburban, Maharashtra, India",
+      "stored_coords": [
+        19.077813,
+        72.884327
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH029",
+      "facility_name": "Maharashtra E-Tech Unit 29 (Raigad)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Raigad, Raigad, Maharashtra, India",
+      "stored_coords": [
+        19.07508,
+        72.8813
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH030",
+      "facility_name": "Maharashtra E-Tech Unit 30 (Nashik)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Nashik, Nashik, Maharashtra, India",
+      "stored_coords": [
+        19.06964,
+        72.877793
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH031",
+      "facility_name": "Maharashtra E-Tech Unit 31 (Nagpur)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Nagpur, Nagpur, Maharashtra, India",
+      "stored_coords": [
+        19.08264,
+        72.874593
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH032",
+      "facility_name": "Maharashtra E-Tech Unit 32 (Aurangabad)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Aurangabad, Aurangabad, Maharashtra, India",
+      "stored_coords": [
+        19.078253,
+        72.875233
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH033",
+      "facility_name": "Maharashtra E-Tech Unit 33 (Kolhapur)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Kolhapur, Kolhapur, Maharashtra, India",
+      "stored_coords": [
+        16.706653,
+        74.2405
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH034",
+      "facility_name": "Maharashtra E-Tech Unit 34 (Solapur)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Solapur, Solapur, Maharashtra, India",
+      "stored_coords": [
+        17.661713,
+        75.903987
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH035",
+      "facility_name": "Maharashtra E-Tech Unit 35 (Palghar)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Palghar, Palghar, Maharashtra, India",
+      "stored_coords": [
+        19.071627,
+        72.875793
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH036",
+      "facility_name": "Maharashtra E-Tech Unit 36 (Ahmednagar)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Ahmednagar, Ahmednagar, Maharashtra, India",
+      "stored_coords": [
+        19.097333,
+        74.745027
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH037",
+      "facility_name": "Maharashtra E-Tech Unit 37 (Jalgaon)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Jalgaon, Jalgaon, Maharashtra, India",
+      "stored_coords": [
+        21.002433,
+        75.557213
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH038",
+      "facility_name": "Maharashtra E-Tech Unit 38 (Latur)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Latur, Latur, Maharashtra, India",
+      "stored_coords": [
+        18.41104,
+        76.563573
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH039",
+      "facility_name": "Maharashtra E-Tech Unit 39 (Ratnagiri)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Ratnagiri, Ratnagiri, Maharashtra, India",
+      "stored_coords": [
+        16.99048,
+        73.30808
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH040",
+      "facility_name": "Maharashtra E-Tech Unit 40 (Nanded)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Nanded, Nanded, Maharashtra, India",
+      "stored_coords": [
+        19.140753,
+        77.316173
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH041",
+      "facility_name": "Maharashtra E-Tech Unit 41 (Amravati)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Amravati, Amravati, Maharashtra, India",
+      "stored_coords": [
+        20.926267,
+        77.75766
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH042",
+      "facility_name": "Maharashtra E-Tech Unit 42 (Chandrapur)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Chandrapur, Chandrapur, Maharashtra, India",
+      "stored_coords": [
+        19.958553,
+        79.30166
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH043",
+      "facility_name": "Maharashtra E-Tech Unit 43 (Parbhani)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Parbhani, Parbhani, Maharashtra, India",
+      "stored_coords": [
+        19.27296,
+        76.76948
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH044",
+      "facility_name": "Maharashtra E-Tech Unit 44 (Wardha)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Wardha, Wardha, Maharashtra, India",
+      "stored_coords": [
+        20.745353,
+        78.596467
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MH045",
+      "facility_name": "Maharashtra E-Tech Unit 45 (Osmanabad)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "MIDC Industrial Area, Osmanabad, Osmanabad, Maharashtra, India",
+      "stored_coords": [
+        18.190607,
+        76.0423
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MN001",
+      "facility_name": "M/s Manipur E-Waste Collection & Channelization Point",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Takyelpat Industrial Estate, Imphal West, Imphal West, Manipur, India",
+      "stored_coords": [
+        24.814053,
+        93.917587
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "ML001",
+      "facility_name": "M/s Meghalaya E-Waste Channelization & Processing Node",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Umiam Industrial Estate, Ri-Bhoi, Ri-Bhoi, Meghalaya, India",
+      "stored_coords": [
+        25.582427,
+        91.887607
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "MZ001",
+      "facility_name": "M/s Mizoram E-Waste Collection Center",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Zuangtui Industrial Estate, Aizawl, Aizawl, Mizoram, India",
+      "stored_coords": [
+        23.77032,
+        92.741947
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "NL001",
+      "facility_name": "M/s Nagaland State E-Waste Collection Facility",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "NIDC Industrial Estate, Dimapur, Dimapur, Nagaland, India",
+      "stored_coords": [
+        25.911773,
+        93.73104
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "OD001",
+      "facility_name": "Odisha E-Waste Recyclers Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Chandaka Industrial Estate, Bhubaneswar, Khordha, Odisha, India",
+      "stored_coords": [
+        20.300727,
+        85.825007
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "OD002",
+      "facility_name": "Rourkela Eco Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Kalunga Industrial Estate, Rourkela, Sundargarh, Odisha, India",
+      "stored_coords": [
+        22.125207,
+        84.04086
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "OD003",
+      "facility_name": "Cuttack E-Waste Management Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Industrial Estate, Cuttack, Cuttack, Odisha, India",
+      "stored_coords": [
+        20.508853,
+        85.926787
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "PY001",
+      "facility_name": "Pondicherry E-Waste Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "PIPDIC Industrial Estate, Mettupalayam, Puducherry, Puducherry, Puducherry, India",
+      "stored_coords": [
+        11.960347,
+        79.79876
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "PB001",
+      "facility_name": "Punjab E-Waste Recyclers Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Focal Point, Ludhiana, Ludhiana, Punjab, India",
+      "stored_coords": [
+        30.883173,
+        75.90632
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "PB002",
+      "facility_name": "Mohali Eco Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Industrial Area, Phase-VIII, Mohali, Mohali, Punjab, India",
+      "stored_coords": [
+        30.72348,
+        76.71256
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "PB003",
+      "facility_name": "Amritsar Green E-Tech",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Nag Kalan Industrial Area, Amritsar, Amritsar, Punjab, India",
+      "stored_coords": [
+        31.68944,
+        74.92016
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "PB004",
+      "facility_name": "Jalandhar E-Waste Processors",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Leather Complex Industrial Area, Jalandhar, Jalandhar, Punjab, India",
+      "stored_coords": [
+        31.351413,
+        75.546747
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "PB005",
+      "facility_name": "Patiala E-Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Focal Point, Patiala, Patiala, Punjab, India",
+      "stored_coords": [
+        30.348933,
+        76.408107
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "PB006",
+      "facility_name": "Fatehgarh E-Waste Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Mandi Gobindgarh, Fatehgarh Sahib, Fatehgarh Sahib, Punjab, India",
+      "stored_coords": [
+        30.669453,
+        76.307573
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "PB007",
+      "facility_name": "M/s Malwa E-Waste Refurbishers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Focal Point, Dhandari Kalan, Ludhiana, Ludhiana, Punjab, India",
+      "stored_coords": [
+        30.872747,
+        75.911213
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ001",
+      "facility_name": "M/s ETCO E-Waste Recycler Private Ltd",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "SB-23, Sitapura Industrial Area, Tonk Road, Jaipur, Jaipur, Rajasthan, India",
+      "stored_coords": [
+        26.783687,
+        75.831793
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ002",
+      "facility_name": "M/s Shukla E-waste Processor",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Plot No. G-1-24, RIICO Industrial Area, Khushkhera, Bhiwadi, Alwar, Alwar, Rajasthan, India",
+      "stored_coords": [
+        28.132407,
+        76.818653
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ003",
+      "facility_name": "M/s GS International",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Plot No. G-84, RIICO Industrial Area, Khushkhera, Bhiwadi, Alwar, Alwar, Rajasthan, India",
+      "stored_coords": [
+        28.13102,
+        76.820827
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ004",
+      "facility_name": "M/s Adatte E-Waste Management Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Plot No. SP-28, RIICO Industrial Area, Ghiloth, Neemrana, Alwar, Alwar, Rajasthan, India",
+      "stored_coords": [
+        27.995133,
+        76.393367
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ005",
+      "facility_name": "M/s Urban Metals",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Plot No. G-225, Sitapura Industrial Area, Phase-III, Jaipur, Jaipur, Rajasthan, India",
+      "stored_coords": [
+        26.782967,
+        75.829113
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ006",
+      "facility_name": "M/s H.M. E-Waste Management",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Plot No. G-105, RIICO Industrial Area, Khushkhera, Bhiwadi, Alwar, Alwar, Rajasthan, India",
+      "stored_coords": [
+        28.129807,
+        76.8174
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ007",
+      "facility_name": "M/s Fateh Enviro Lab",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "RIICO Industrial Area, Bindayaka, Jaipur, Jaipur, Rajasthan, India",
+      "stored_coords": [
+        26.91986,
+        75.703467
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ008",
+      "facility_name": "M/s Abaad Developers Private Limited",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "RIICO Industrial Area, Sare Khurd, Tijara, Alwar, Alwar, Rajasthan, India",
+      "stored_coords": [
+        28.101747,
+        76.85084
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ009",
+      "facility_name": "M/s Hulladek PWL E-Waste Collection Facility",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Plot No. F-142, RIICO Industrial Area, Bindayka, Sirsi, Jaipur, Jaipur, Rajasthan, India",
+      "stored_coords": [
+        26.918093,
+        75.787273
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ010",
+      "facility_name": "M/s S S Enviro Care",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "RIICO Industrial Area, Sitapura, Jaipur, Jaipur, Rajasthan, India",
+      "stored_coords": [
+        26.78506,
+        75.835727
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ011",
+      "facility_name": "M/s Greenscape Eco Management (Alwar Unit)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "RIICO Industrial Area, Neemrana, Alwar, Alwar, Rajasthan, India",
+      "stored_coords": [
+        27.995867,
+        76.392553
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ012",
+      "facility_name": "M/s Go Green Management LLP",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "RIICO Industrial Area, Mansarovar, Jaipur, Jaipur, Rajasthan, India",
+      "stored_coords": [
+        26.86504,
+        75.76344
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ013",
+      "facility_name": "M/s Wortech Engineers Private Limited",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "RIICO Industrial Area, Mansarovar, Jaipur, Jaipur, Rajasthan, India",
+      "stored_coords": [
+        26.866373,
+        75.757133
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ014",
+      "facility_name": "M/s Jodhpur E-Waste Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "RIICO Industrial Area, Boranada, Jodhpur, Jodhpur, Rajasthan, India",
+      "stored_coords": [
+        26.1936,
+        72.952413
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ015",
+      "facility_name": "M/s Kota E-Recyclers Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "RIICO Industrial Area, Kota, Kota, Rajasthan, India",
+      "stored_coords": [
+        25.130867,
+        75.860613
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ016",
+      "facility_name": "M/s Udaipur E-Waste Management",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Pratap Nagar Industrial Area, Udaipur, Udaipur, Rajasthan, India",
+      "stored_coords": [
+        26.913733,
+        75.78322
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ017",
+      "facility_name": "M/s Rajasthan Green E-Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "RIICO, Neemrana, Alwar, Alwar, Rajasthan, India",
+      "stored_coords": [
+        28.000933,
+        76.386567
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ018",
+      "facility_name": "M/s Alwar E-Waste Management",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "RIICO, Matsya Industrial Area, Alwar, Alwar, Rajasthan, India",
+      "stored_coords": [
+        27.5413,
+        76.64232
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ019",
+      "facility_name": "M/s Bhilwara E-Recyclers LLP",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "RIICO Industrial Area, Bhilwara, Bhilwara, Rajasthan, India",
+      "stored_coords": [
+        25.348893,
+        74.635453
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ020",
+      "facility_name": "M/s Jaipur Eco E-Recyclers LLP",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "VKI Area, Road No. 14, Jaipur, Jaipur, Rajasthan, India",
+      "stored_coords": [
+        26.979533,
+        75.76308
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ021",
+      "facility_name": "M/s Ajmer E-Waste Processors",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "RIICO Industrial Area, Palra, Ajmer, Ajmer, Rajasthan, India",
+      "stored_coords": [
+        26.41648,
+        74.701293
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ022",
+      "facility_name": "M/s Bikaner E-Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "RIICO Industrial Area, Karni, Bikaner, Bikaner, Rajasthan, India",
+      "stored_coords": [
+        27.97904,
+        73.3368
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ023",
+      "facility_name": "M/s Desert E-Waste Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Boranada Industrial Area, Jodhpur, Jodhpur, Rajasthan, India",
+      "stored_coords": [
+        26.195333,
+        72.95008
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ024",
+      "facility_name": "M/s Shekhawati E-Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "RIICO Industrial Area, Sikar, Sikar, Rajasthan, India",
+      "stored_coords": [
+        27.619533,
+        75.14256
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ025",
+      "facility_name": "M/s Mewar E-Waste Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "RIICO, Pratap Nagar, Chittorgarh, Chittorgarh, Rajasthan, India",
+      "stored_coords": [
+        24.894827,
+        74.618147
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ026",
+      "facility_name": "M/s Marwar E-Waste Refurbishers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "RIICO Industrial Area, Pali, Pali, Rajasthan, India",
+      "stored_coords": [
+        25.77696,
+        73.33044
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ027",
+      "facility_name": "M/s Matsya E-Tech Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "RIICO Industrial Area, Behror, Alwar, Alwar, Rajasthan, India",
+      "stored_coords": [
+        27.533113,
+        76.646013
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "RJ028",
+      "facility_name": "M/s Bharatpur E-Waste Collection & Dismantling",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "RIICO Industrial Area, Bharatpur, Bharatpur, Rajasthan, India",
+      "stored_coords": [
+        27.216053,
+        77.49664
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "SK001",
+      "facility_name": "M/s Sikkim Green E-Waste Collection Hub",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Tadong, Gangtok, East Sikkim, East Sikkim, Sikkim, India",
+      "stored_coords": [
+        27.3238,
+        88.5966
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TN001",
+      "facility_name": "M/s TES-AMM (India) Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "SIPCOT Industrial Growth Centre, Oragadam, Sriperumbudur, Kancheepuram, Tamil Nadu, India",
+      "stored_coords": [
+        12.967267,
+        79.943093
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TN002",
+      "facility_name": "M/s AER Worldwide India Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Manali New Town, Chennai, Chennai, Tamil Nadu, India",
+      "stored_coords": [
+        22.582333,
+        88.473133
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TN003",
+      "facility_name": "M/s Shri Raam Recycling",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "SIDCO Industrial Estate, SIPCOT Industrial Complex, Gummidipoondi, Tiruvallur, Tamil Nadu, India",
+      "stored_coords": [
+        13.408573,
+        80.127573
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TN004",
+      "facility_name": "M/s Blooming Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "SIDCO Industrial Estate, Maraimalai Nagar, Chengalpattu, Tamil Nadu, India",
+      "stored_coords": [
+        12.80436,
+        80.031147
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TN005",
+      "facility_name": "M/s Ecosible Recyclers Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "TASS Industrial Estate, Ambattur, Chennai, Chennai, Tamil Nadu, India",
+      "stored_coords": [
+        13.10744,
+        80.151813
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TN006",
+      "facility_name": "M/s Earth Sense Recycle Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Thenmelpakkam village, Chengalpattu, Chengalpattu, Tamil Nadu, India",
+      "stored_coords": [
+        12.7472,
+        80.018573
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TN007",
+      "facility_name": "Trishyiraya Recycling India Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "SIDCO Industrial Estate, Guindy, Chennai, Chennai, Tamil Nadu, India",
+      "stored_coords": [
+        13.004013,
+        80.20748
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TN008",
+      "facility_name": "M/s Enviro Safe Metals",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "SIDCO Industrial Estate, Ambattur, Chennai, Chennai, Tamil Nadu, India",
+      "stored_coords": [
+        13.120347,
+        80.150467
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TN009",
+      "facility_name": "M/s Global E-Waste Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "SIPCOT Industrial Complex, Hosur, Krishnagiri, Krishnagiri, Tamil Nadu, India",
+      "stored_coords": [
+        16.191213,
+        81.133173
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TN010",
+      "facility_name": "M/s Green Era Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "SIDCO Industrial Estate, Kurichi, Coimbatore, Coimbatore, Tamil Nadu, India",
+      "stored_coords": [
+        10.9488,
+        76.972893
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TN011",
+      "facility_name": "M/s Kovai E-Waste Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Pollachi Road, Coimbatore, Coimbatore, Tamil Nadu, India",
+      "stored_coords": [
+        13.089287,
+        80.27326
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TN012",
+      "facility_name": "M/s Southern E-Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "SIPCOT, Ranipet, Vellore, Vellore, Tamil Nadu, India",
+      "stored_coords": [
+        12.93312,
+        79.333453
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TN013",
+      "facility_name": "M/s Salem E-Waste Processors",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "SIDCO, Salem, Salem, Tamil Nadu, India",
+      "stored_coords": [
+        11.66568,
+        78.14052
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TN014",
+      "facility_name": "M/s Madurai Green Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Kappalur Industrial Estate, Madurai, Madurai, Tamil Nadu, India",
+      "stored_coords": [
+        9.839347,
+        78.050653
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TN015",
+      "facility_name": "M/s Tiruchirappalli E-Waste LLP",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Thuvakudi Industrial Estate, Trichy, Tiruchirappalli, Tamil Nadu, India",
+      "stored_coords": [
+        10.766653,
+        78.79724
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TN016",
+      "facility_name": "M/s Erode E-Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "SIPCOT, Perundurai, Erode, Erode, Tamil Nadu, India",
+      "stored_coords": [
+        11.284573,
+        77.576093
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TN017",
+      "facility_name": "M/s Kanchipuram Eco Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "SIPCOT, Sriperumbudur, Kancheepuram, Tamil Nadu, India",
+      "stored_coords": [
+        12.962027,
+        79.943027
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TN018",
+      "facility_name": "M/s Chennai Green E-Waste Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Gummidipoondi Industrial Area, Tiruvallur, Tiruvallur, Tamil Nadu, India",
+      "stored_coords": [
+        13.411653,
+        80.12884
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TN019",
+      "facility_name": "Thanjavur E-Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "SIPCOT, Thanjavur, Thanjavur, Tamil Nadu, India",
+      "stored_coords": [
+        10.784947,
+        79.13292
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TN020",
+      "facility_name": "Tiruppur E-Waste Solutions LLP",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "SIPCOT, Tiruppur, Tiruppur, Tamil Nadu, India",
+      "stored_coords": [
+        11.10538,
+        77.347313
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TN021",
+      "facility_name": "M/s Cyber Clean E-Waste Refurbishers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "OMR IT Corridor, Chennai, Chennai, Tamil Nadu, India",
+      "stored_coords": [
+        12.895453,
+        80.227733
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TN022",
+      "facility_name": "M/s Kongu E-Waste Refurbishers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Peelamedu, Coimbatore, Coimbatore, Tamil Nadu, India",
+      "stored_coords": [
+        11.031173,
+        77.010853
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TS001",
+      "facility_name": "Earth Sense Recycle Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "APIIC Industrial Park, Rangareddy, Rangareddy, Telangana, India",
+      "stored_coords": [
+        17.18788,
+        78.438227
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TS002",
+      "facility_name": "Z Enviro Industries Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Pulimamidi (V), Rangareddy, Rangareddy, Telangana, India",
+      "stored_coords": [
+        17.183387,
+        78.43584
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TS003",
+      "facility_name": "Silicon Planet Recycling Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Medchal-Malkajgiri, Medchal-Malkajgiri, Telangana, India",
+      "stored_coords": [
+        17.587653,
+        78.49276
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TS004",
+      "facility_name": "EnviroKare Recycling Solutions Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Rangareddy, Rangareddy, Telangana, India",
+      "stored_coords": [
+        17.189653,
+        78.444613
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TS005",
+      "facility_name": "Elifecycle Management Private Limited",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Rangareddy, Rangareddy, Telangana, India",
+      "stored_coords": [
+        17.190987,
+        78.443067
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TS006",
+      "facility_name": "Shreem Mythri Enterprises",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Medchal-Malkajgiri, Medchal-Malkajgiri, Telangana, India",
+      "stored_coords": [
+        17.591413,
+        78.49096
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TS007",
+      "facility_name": "Telangana E-Waste Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Cherlapally IDA, Hyderabad, Hyderabad, Telangana, India",
+      "stored_coords": [
+        17.463547,
+        78.61408
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TS008",
+      "facility_name": "Hyderabad Green Recyclers LLP",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Jeedimetla IDA, Hyderabad, Hyderabad, Telangana, India",
+      "stored_coords": [
+        17.518533,
+        78.441827
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TS009",
+      "facility_name": "Siddipet E-Recyclers LLP",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "TSIIC Industrial Park, Siddipet, Siddipet, Telangana, India",
+      "stored_coords": [
+        18.102027,
+        78.851427
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TS010",
+      "facility_name": "M/s Cyberabad E-Refurbishers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "HITEC City, Madhapur, Hyderabad, Hyderabad, Telangana, India",
+      "stored_coords": [
+        17.444987,
+        78.383347
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TS011",
+      "facility_name": "Telangana Eco Unit 11 (Sangareddy)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "TSIIC Industrial Estate, Sangareddy, Sangareddy, Telangana, India",
+      "stored_coords": [
+        17.543747,
+        78.198093
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TS012",
+      "facility_name": "Telangana Eco Unit 12 (Nalgonda)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "TSIIC Industrial Estate, Nalgonda, Nalgonda, Telangana, India",
+      "stored_coords": [
+        17.062127,
+        79.271
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TS013",
+      "facility_name": "Telangana Eco Unit 13 (Warangal)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "TSIIC Industrial Estate, Warangal, Warangal, Telangana, India",
+      "stored_coords": [
+        17.9655,
+        79.59078
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TS014",
+      "facility_name": "Telangana Eco Unit 14 (Siddipet)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "TSIIC Industrial Estate, Siddipet, Siddipet, Telangana, India",
+      "stored_coords": [
+        18.100733,
+        78.857853
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TS015",
+      "facility_name": "Telangana Eco Unit 15 (Rangareddy)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "TSIIC Industrial Estate, Rangareddy, Rangareddy, Telangana, India",
+      "stored_coords": [
+        17.193707,
+        78.437213
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TS016",
+      "facility_name": "Telangana Eco Unit 16 (Medchal-Malkajgiri)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "TSIIC Industrial Estate, Medchal-Malkajgiri, Medchal-Malkajgiri, Telangana, India",
+      "stored_coords": [
+        17.58892,
+        78.48792
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TS017",
+      "facility_name": "Telangana Eco Unit 17 (Hyderabad)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "TSIIC Industrial Estate, Hyderabad, Hyderabad, Telangana, India",
+      "stored_coords": [
+        17.38308,
+        78.48734
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TS018",
+      "facility_name": "Telangana Eco Unit 18 (Sangareddy)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "TSIIC Industrial Estate, Sangareddy, Sangareddy, Telangana, India",
+      "stored_coords": [
+        17.536,
+        78.196987
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TS019",
+      "facility_name": "Telangana Eco Unit 19 (Nalgonda)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "TSIIC Industrial Estate, Nalgonda, Nalgonda, Telangana, India",
+      "stored_coords": [
+        17.052407,
+        79.26664
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TS020",
+      "facility_name": "Telangana Eco Unit 20 (Warangal)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "TSIIC Industrial Estate, Warangal, Warangal, Telangana, India",
+      "stored_coords": [
+        17.966447,
+        79.589953
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "TR001",
+      "facility_name": "M/s Tripura E-Waste Collection & Storage Facility",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Bodhjungnagar Industrial Growth Centre, Agartala, West Tripura, Tripura, India",
+      "stored_coords": [
+        23.89652,
+        91.347787
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP001",
+      "facility_name": "Attero Recycling Pvt. Ltd. (UP Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Ecotech-III, Greater Noida, Gautam Buddha Nagar, Uttar Pradesh, India",
+      "stored_coords": [
+        28.47312,
+        77.50364
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP002",
+      "facility_name": "Greeniva Recycler Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Sector-6, Noida, Gautam Buddha Nagar, Uttar Pradesh, India",
+      "stored_coords": [
+        28.584527,
+        77.368253
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP003",
+      "facility_name": "Bharat Oil & Waste Management Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Rooma, Kanpur, Kanpur Nagar, Uttar Pradesh, India",
+      "stored_coords": [
+        26.42264,
+        80.316947
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP004",
+      "facility_name": "Horizon Recycling Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC, Kavi Nagar, Ghaziabad, Ghaziabad, Uttar Pradesh, India",
+      "stored_coords": [
+        28.67336,
+        77.454507
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP005",
+      "facility_name": "IMS E-Waste Solutions Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Site-IV Industrial Area, Sahibabad, Ghaziabad, Ghaziabad, Uttar Pradesh, India",
+      "stored_coords": [
+        28.66516,
+        77.360253
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP006",
+      "facility_name": "UP E-Solutions Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Site-C, Industrial Area, Ghaziabad, Ghaziabad, Uttar Pradesh, India",
+      "stored_coords": [
+        28.672773,
+        77.449147
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP007",
+      "facility_name": "NCR Green Tech Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Sector-62, Noida, Gautam Buddha Nagar, Uttar Pradesh, India",
+      "stored_coords": [
+        28.58554,
+        77.375347
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP008",
+      "facility_name": "Metro E-Recyclers India Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Sector-68, Noida, Gautam Buddha Nagar, Uttar Pradesh, India",
+      "stored_coords": [
+        28.579913,
+        77.37368
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP009",
+      "facility_name": "Ghaziabad Central E-Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Loni Industrial Area, Ghaziabad, Ghaziabad, Uttar Pradesh, India",
+      "stored_coords": [
+        28.663853,
+        77.450747
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP010",
+      "facility_name": "UP Techno Recyclers Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Phase-III, Industrial Area, Ghaziabad, Ghaziabad, Uttar Pradesh, India",
+      "stored_coords": [
+        28.67276,
+        77.451733
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP011",
+      "facility_name": "Meerut Central E-Recyclers LLP",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Modipuram Industrial Area, Meerut, Meerut, Uttar Pradesh, India",
+      "stored_coords": [
+        29.004627,
+        77.684453
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP012",
+      "facility_name": "Noida Digital Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Sector-57, Noida, Gautam Buddha Nagar, Uttar Pradesh, India",
+      "stored_coords": [
+        28.581087,
+        77.365773
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP013",
+      "facility_name": "Hapur Metal E-Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Hapur, Hapur, Uttar Pradesh, India",
+      "stored_coords": [
+        28.735533,
+        77.78154
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP014",
+      "facility_name": "Agra Techno Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Agra, Agra, Uttar Pradesh, India",
+      "stored_coords": [
+        27.210747,
+        78.052067
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP015",
+      "facility_name": "Lucknow Green Recyclers LLP",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Chinhat Industrial Area, Lucknow, Lucknow, Uttar Pradesh, India",
+      "stored_coords": [
+        26.883787,
+        81.004453
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP016",
+      "facility_name": "Prayagraj E-Solutions Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Naini Industrial Estate, Prayagraj, Prayagraj, Uttar Pradesh, India",
+      "stored_coords": [
+        25.386067,
+        81.86484
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP017",
+      "facility_name": "Awadh E-Waste Solutions Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Sitapur Road Industrial Area, Lucknow, Lucknow, Uttar Pradesh, India",
+      "stored_coords": [
+        26.883253,
+        80.995013
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP018",
+      "facility_name": "Kanpur Green E-Waste LLP",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC, Jajmau, Kanpur, Kanpur Nagar, Uttar Pradesh, India",
+      "stored_coords": [
+        26.42412,
+        80.316373
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP019",
+      "facility_name": "M/s Noida E-Refurbishing Center",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Sector-63, Noida, Gautam Buddha Nagar, Uttar Pradesh, India",
+      "stored_coords": [
+        28.591753,
+        77.36452
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP020",
+      "facility_name": "M/s Lucknow IT Refurbishers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Transport Nagar, Lucknow, Lucknow, Uttar Pradesh, India",
+      "stored_coords": [
+        26.88188,
+        80.992653
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP021",
+      "facility_name": "UP Unit 21 (Rae Bareli E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Rae Bareli, Rae Bareli, Uttar Pradesh, India",
+      "stored_coords": [
+        26.235247,
+        81.241247
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP022",
+      "facility_name": "UP Unit 22 (Ayodhya E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Ayodhya, Ayodhya, Uttar Pradesh, India",
+      "stored_coords": [
+        26.790813,
+        82.206347
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP023",
+      "facility_name": "UP Unit 23 (Amroha E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Amroha, Amroha, Uttar Pradesh, India",
+      "stored_coords": [
+        28.90944,
+        78.462747
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP024",
+      "facility_name": "UP Unit 24 (Sambhal E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Sambhal, Sambhal, Uttar Pradesh, India",
+      "stored_coords": [
+        28.591313,
+        78.576773
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP025",
+      "facility_name": "UP Unit 25 (Hathras E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Hathras, Hathras, Uttar Pradesh, India",
+      "stored_coords": [
+        27.596767,
+        78.048153
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP026",
+      "facility_name": "UP Unit 26 (Mainpuri E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Mainpuri, Mainpuri, Uttar Pradesh, India",
+      "stored_coords": [
+        27.224393,
+        79.02572
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP027",
+      "facility_name": "UP Unit 27 (Sitapur E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Sitapur, Sitapur, Uttar Pradesh, India",
+      "stored_coords": [
+        27.562447,
+        80.679713
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP028",
+      "facility_name": "UP Unit 28 (Lakhimpur Kheri E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Lakhimpur Kheri, Lakhimpur Kheri, Uttar Pradesh, India",
+      "stored_coords": [
+        27.956233,
+        80.782047
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP029",
+      "facility_name": "UP Unit 29 (Deoria E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Deoria, Deoria, Uttar Pradesh, India",
+      "stored_coords": [
+        26.501907,
+        83.77742
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP030",
+      "facility_name": "UP Unit 30 (Ballia E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Ballia, Ballia, Uttar Pradesh, India",
+      "stored_coords": [
+        25.761693,
+        84.15178
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP031",
+      "facility_name": "UP Unit 31 (Azamgarh E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Azamgarh, Azamgarh, Uttar Pradesh, India",
+      "stored_coords": [
+        26.079827,
+        83.19114
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP032",
+      "facility_name": "UP Unit 32 (Jaunpur E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Jaunpur, Jaunpur, Uttar Pradesh, India",
+      "stored_coords": [
+        25.747013,
+        82.678447
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP033",
+      "facility_name": "UP Unit 33 (Gonda E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Gonda, Gonda, Uttar Pradesh, India",
+      "stored_coords": [
+        27.132827,
+        81.96266
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP034",
+      "facility_name": "UP Unit 34 (Bahraich E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Bahraich, Bahraich, Uttar Pradesh, India",
+      "stored_coords": [
+        27.57116,
+        81.593293
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP035",
+      "facility_name": "UP Unit 35 (Banda E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Banda, Banda, Uttar Pradesh, India",
+      "stored_coords": [
+        25.47604,
+        80.329233
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP036",
+      "facility_name": "UP Unit 36 (Shamli E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Shamli, Shamli, Uttar Pradesh, India",
+      "stored_coords": [
+        29.449507,
+        77.308813
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP037",
+      "facility_name": "UP Unit 37 (Bijnor E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Bijnor, Bijnor, Uttar Pradesh, India",
+      "stored_coords": [
+        29.37956,
+        78.131307
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP038",
+      "facility_name": "UP Unit 38 (Rampur E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Rampur, Rampur, Uttar Pradesh, India",
+      "stored_coords": [
+        28.811133,
+        79.030927
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP039",
+      "facility_name": "UP Unit 39 (Sultanpur E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Sultanpur, Sultanpur, Uttar Pradesh, India",
+      "stored_coords": [
+        26.260667,
+        82.071887
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP040",
+      "facility_name": "UP Unit 40 (Shahjahanpur E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Shahjahanpur, Shahjahanpur, Uttar Pradesh, India",
+      "stored_coords": [
+        27.881213,
+        79.913913
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP041",
+      "facility_name": "UP Unit 41 (Pratapgarh E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Pratapgarh, Pratapgarh, Uttar Pradesh, India",
+      "stored_coords": [
+        25.90128,
+        81.99894
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP042",
+      "facility_name": "UP Unit 42 (Ghaziabad E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Ghaziabad, Ghaziabad, Uttar Pradesh, India",
+      "stored_coords": [
+        28.67356,
+        77.458907
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP043",
+      "facility_name": "UP Unit 43 (Gautam Buddha Nagar E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Gautam Buddha Nagar, Gautam Buddha Nagar, Uttar Pradesh, India",
+      "stored_coords": [
+        28.542047,
+        77.390613
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP044",
+      "facility_name": "UP Unit 44 (Meerut E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Meerut, Meerut, Uttar Pradesh, India",
+      "stored_coords": [
+        28.987673,
+        77.700187
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP045",
+      "facility_name": "UP Unit 45 (Kanpur Nagar E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Kanpur Nagar, Kanpur Nagar, Uttar Pradesh, India",
+      "stored_coords": [
+        26.432413,
+        80.324107
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP046",
+      "facility_name": "UP Unit 46 (Lucknow E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Lucknow, Lucknow, Uttar Pradesh, India",
+      "stored_coords": [
+        26.891893,
+        80.998027
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP047",
+      "facility_name": "UP Unit 47 (Agra E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Agra, Agra, Uttar Pradesh, India",
+      "stored_coords": [
+        27.207747,
+        78.053253
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP048",
+      "facility_name": "UP Unit 48 (Varanasi E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Varanasi, Varanasi, Uttar Pradesh, India",
+      "stored_coords": [
+        25.277027,
+        83.023013
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP049",
+      "facility_name": "UP Unit 49 (Prayagraj E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Prayagraj, Prayagraj, Uttar Pradesh, India",
+      "stored_coords": [
+        25.38156,
+        81.86348
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP050",
+      "facility_name": "UP Unit 50 (Moradabad E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Moradabad, Moradabad, Uttar Pradesh, India",
+      "stored_coords": [
+        28.847347,
+        78.788227
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP051",
+      "facility_name": "UP Unit 51 (Aligarh E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Aligarh, Aligarh, Uttar Pradesh, India",
+      "stored_coords": [
+        27.916427,
+        78.1132
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP052",
+      "facility_name": "UP Unit 52 (Bareilly E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Bareilly, Bareilly, Uttar Pradesh, India",
+      "stored_coords": [
+        28.4062,
+        79.352613
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP053",
+      "facility_name": "UP Unit 53 (Gorakhpur E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Gorakhpur, Gorakhpur, Uttar Pradesh, India",
+      "stored_coords": [
+        26.763707,
+        83.285333
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP054",
+      "facility_name": "UP Unit 54 (Mathura E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Mathura, Mathura, Uttar Pradesh, India",
+      "stored_coords": [
+        27.497067,
+        77.68488
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP055",
+      "facility_name": "UP Unit 55 (Hapur E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Hapur, Hapur, Uttar Pradesh, India",
+      "stored_coords": [
+        28.736587,
+        77.774553
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP056",
+      "facility_name": "UP Unit 56 (Bulandshahr E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Bulandshahr, Bulandshahr, Uttar Pradesh, India",
+      "stored_coords": [
+        28.456933,
+        77.7154
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP057",
+      "facility_name": "UP Unit 57 (Muzaffarnagar E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Muzaffarnagar, Muzaffarnagar, Uttar Pradesh, India",
+      "stored_coords": [
+        29.48352,
+        77.704627
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP058",
+      "facility_name": "UP Unit 58 (Saharanpur E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Saharanpur, Saharanpur, Uttar Pradesh, India",
+      "stored_coords": [
+        29.965613,
+        77.558933
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP059",
+      "facility_name": "UP Unit 59 (Unnao E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Unnao, Unnao, Uttar Pradesh, India",
+      "stored_coords": [
+        26.553227,
+        80.488067
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP060",
+      "facility_name": "UP Unit 60 (Etawah E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Etawah, Etawah, Uttar Pradesh, India",
+      "stored_coords": [
+        26.787847,
+        79.018187
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP061",
+      "facility_name": "UP Unit 61 (Fatehpur E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Fatehpur, Fatehpur, Uttar Pradesh, India",
+      "stored_coords": [
+        25.930793,
+        80.81572
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP062",
+      "facility_name": "UP Unit 62 (Rae Bareli E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Rae Bareli, Rae Bareli, Uttar Pradesh, India",
+      "stored_coords": [
+        26.23254,
+        81.2371
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP063",
+      "facility_name": "UP Unit 63 (Ayodhya E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Ayodhya, Ayodhya, Uttar Pradesh, India",
+      "stored_coords": [
+        26.790853,
+        82.19392
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP064",
+      "facility_name": "UP Unit 64 (Amroha E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Amroha, Amroha, Uttar Pradesh, India",
+      "stored_coords": [
+        28.90648,
+        78.472667
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP065",
+      "facility_name": "UP Unit 65 (Sambhal E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Sambhal, Sambhal, Uttar Pradesh, India",
+      "stored_coords": [
+        28.5859,
+        78.57424
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP066",
+      "facility_name": "UP Unit 66 (Hathras E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Hathras, Hathras, Uttar Pradesh, India",
+      "stored_coords": [
+        27.598767,
+        78.048647
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP067",
+      "facility_name": "UP Unit 67 (Mainpuri E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Mainpuri, Mainpuri, Uttar Pradesh, India",
+      "stored_coords": [
+        27.227567,
+        79.023907
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP068",
+      "facility_name": "UP Unit 68 (Sitapur E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Sitapur, Sitapur, Uttar Pradesh, India",
+      "stored_coords": [
+        27.562993,
+        80.67826
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP069",
+      "facility_name": "UP Unit 69 (Lakhimpur Kheri E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Lakhimpur Kheri, Lakhimpur Kheri, Uttar Pradesh, India",
+      "stored_coords": [
+        27.9479,
+        80.782287
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP070",
+      "facility_name": "UP Unit 70 (Deoria E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Deoria, Deoria, Uttar Pradesh, India",
+      "stored_coords": [
+        26.505627,
+        83.779073
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP071",
+      "facility_name": "UP Unit 71 (Ballia E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Ballia, Ballia, Uttar Pradesh, India",
+      "stored_coords": [
+        25.7564,
+        84.151167
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP072",
+      "facility_name": "UP Unit 72 (Azamgarh E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Azamgarh, Azamgarh, Uttar Pradesh, India",
+      "stored_coords": [
+        26.073787,
+        83.183713
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP073",
+      "facility_name": "UP Unit 73 (Jaunpur E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Jaunpur, Jaunpur, Uttar Pradesh, India",
+      "stored_coords": [
+        25.747,
+        82.678513
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP074",
+      "facility_name": "UP Unit 74 (Gonda E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Gonda, Gonda, Uttar Pradesh, India",
+      "stored_coords": [
+        27.130533,
+        81.963233
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UP075",
+      "facility_name": "UP Unit 75 (Bahraich E-Waste Center)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "UPSIDC Industrial Area, Bahraich, Bahraich, Uttar Pradesh, India",
+      "stored_coords": [
+        27.579587,
+        81.597387
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UK001",
+      "facility_name": "Attero Recycling Pvt. Ltd. (Main Plant)",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Bhagwanpur Industrial Area, Roorkee, Haridwar, Haridwar, Uttarakhand, India",
+      "stored_coords": [
+        29.931467,
+        77.81392
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UK002",
+      "facility_name": "Uttarakhand E-Waste Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "SIDCUL Industrial Area, Haridwar, Haridwar, Uttarakhand, India",
+      "stored_coords": [
+        29.940813,
+        78.092587
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UK003",
+      "facility_name": "Pantnagar Eco Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "SIDCUL, Pantnagar, Udham Singh Nagar, Udham Singh Nagar, Uttarakhand, India",
+      "stored_coords": [
+        28.98152,
+        79.404093
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UK004",
+      "facility_name": "Dehradun Green E-Tech",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Patel Nagar Industrial Area, Dehradun, Dehradun, Uttarakhand, India",
+      "stored_coords": [
+        30.347987,
+        77.8524
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UK005",
+      "facility_name": "Roorkee E-Waste Processors",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Roorkee Industrial Area, Haridwar, Haridwar, Uttarakhand, India",
+      "stored_coords": [
+        29.932227,
+        78.094067
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UK006",
+      "facility_name": "Rudrapur E-Recyclers LLP",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "SIDCUL, Rudrapur, Udham Singh Nagar, Udham Singh Nagar, Uttarakhand, India",
+      "stored_coords": [
+        28.982773,
+        79.406387
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "UK007",
+      "facility_name": "Kashipur E-Waste Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Industrial Estate, Kashipur, Udham Singh Nagar, Uttarakhand, India",
+      "stored_coords": [
+        29.224453,
+        78.959373
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "WB001",
+      "facility_name": "Hulladek Recycling Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Sector-V, Salt Lake / Howrah, Kolkata, Kolkata, West Bengal, India",
+      "stored_coords": [
+        22.582947,
+        88.439187
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "WB002",
+      "facility_name": "Green Recycling Co.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Howrah Industrial Estate, Howrah, Howrah, West Bengal, India",
+      "stored_coords": [
+        22.614,
+        88.23392
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "WB003",
+      "facility_name": "Kolkata E-Waste Management LLP",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Budge Budge, South 24 Parganas, South 24 Parganas, West Bengal, India",
+      "stored_coords": [
+        22.137293,
+        88.401547
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "WB004",
+      "facility_name": "Bengal E-Waste Recyclers Pvt. Ltd.",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Dankuni Industrial Complex, Hooghly, Hooghly, West Bengal, India",
+      "stored_coords": [
+        22.685507,
+        88.303627
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "WB005",
+      "facility_name": "Salt Lake E-Recyclers LLP",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Sector-V, Salt Lake, Kolkata, Kolkata, West Bengal, India",
+      "stored_coords": [
+        22.58492,
+        88.437573
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "WB006",
+      "facility_name": "Kharagpur E-Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Industrial Area, Kharagpur, Paschim Medinipur, Paschim Medinipur, West Bengal, India",
+      "stored_coords": [
+        22.422847,
+        87.315167
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "WB007",
+      "facility_name": "M/s City of Joy E-Refurbishers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "New Town, Rajarhat, Kolkata, North 24 Parganas, West Bengal, India",
+      "stored_coords": [
+        22.71692,
+        88.4748
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "WB008",
+      "facility_name": "Durgapur E-Waste Processing Center",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Durgapur Industrial Area, Paschim Bardhaman, Paschim Bardhaman, West Bengal, India",
+      "stored_coords": [
+        23.519173,
+        87.321627
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "WB009",
+      "facility_name": "Asansol E-Waste Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Asansol Industrial Estate, Paschim Bardhaman, Paschim Bardhaman, West Bengal, India",
+      "stored_coords": [
+        23.687773,
+        86.975613
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "WB010",
+      "facility_name": "Siliguri Green E-Waste Collection Hub",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Dabgram Industrial Area, Jalpaiguri / Siliguri, Jalpaiguri, West Bengal, India",
+      "stored_coords": [
+        26.721907,
+        88.438747
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "WB011",
+      "facility_name": "Haldia Petro E-Recyclers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Haldia Industrial Complex, Purba Medinipur, Purba Medinipur, West Bengal, India",
+      "stored_coords": [
+        22.066533,
+        88.083227
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "WB012",
+      "facility_name": "Howrah West E-Waste Dismantlers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Jalan Industrial Complex, Domjur, Howrah, Howrah, West Bengal, India",
+      "stored_coords": [
+        22.62332,
+        88.24412
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    }
+  ],
+  "report": {
+    "summary": {
+      "total_facilities": 421,
+      "valid_coordinates": 0,
+      "mismatched_coordinates": 0,
+      "errors": 421,
+      "validation_threshold_km": 2
+    },
+    "mismatched_facilities": [],
+    "all_mismatched_facilities": []
+  }
+}

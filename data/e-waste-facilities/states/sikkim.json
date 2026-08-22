@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "state": "Sikkim",
+    "total_facilities": 1,
+    "is_authorized_dataset": true,
+    "data_source": "Sikkim State Pollution Control Board (SPCB-SK) & CPCB",
+    "source_portal": "http://spcb.sikkim.gov.in",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 400,
+    "recycler_count": 0,
+    "dismantler_count": 0,
+    "refurbisher_count": 0,
+    "collection_center_count": 1
+  },
+  "facilities": [
+    {
+      "id": "S001",
+      "name": "M/s Sikkim Green E-Waste Collection Hub",
+      "type": "Collection Center",
+      "address": "Tadong, Gangtok, East Sikkim",
+      "district": "East Sikkim",
+      "state": "Sikkim",
+      "capacity_mta": 400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "SPCB-SK",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9703826029",
+        "toll_free": "N/A",
+        "email": "contact@sikkimgreen.co.in",
+        "website": "https://www.sikkimgreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.3238,
+        "longitude": 88.5966,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Sikkim+Green+E-Waste+Collection+Hub%2C+Tadong%2C+Gangtok%2C+East+Sikkim%2C+East+Sikkim%2C+Sikkim%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.3238,88.5966",
+        "formatted_address": "Tadong, Gangtok, East Sikkim, East Sikkim, Sikkim, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

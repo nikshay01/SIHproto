@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "state": "Punjab",
+    "total_facilities": 7,
+    "is_authorized_dataset": true,
+    "data_source": "Punjab State Pollution Control Board (PPCB) & CPCB",
+    "source_portal": "https://ppcb.punjab.gov.in",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 21300,
+    "recycler_count": 2,
+    "dismantler_count": 4,
+    "refurbisher_count": 1,
+    "collection_center_count": 0
+  },
+  "facilities": [
+    {
+      "id": "P001",
+      "name": "Punjab E-Waste Recyclers Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Focal Point, Ludhiana",
+      "district": "Ludhiana",
+      "state": "Punjab",
+      "capacity_mta": 7200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "PPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9845095399",
+        "toll_free": "N/A",
+        "email": "contact@punjabewaste.co.in",
+        "website": "https://www.punjabewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 30.883173,
+        "longitude": 75.90632,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Punjab+E-Waste+Recyclers+Pvt.+Ltd.%2C+Focal+Point%2C+Ludhiana%2C+Ludhiana%2C+Punjab%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=30.883173,75.90632",
+        "formatted_address": "Focal Point, Ludhiana, Ludhiana, Punjab, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "P002",
+      "name": "Mohali Eco Solutions",
+      "type": "Recycler",
+      "address": "Industrial Area, Phase-VIII, Mohali",
+      "district": "Mohali",
+      "state": "Punjab",
+      "capacity_mta": 4800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "PPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9448791123",
+        "toll_free": "N/A",
+        "email": "contact@mohalieco.co.in",
+        "website": "https://www.mohalieco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 30.72348,
+        "longitude": 76.71256,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Mohali+Eco+Solutions%2C+Industrial+Area%2C+Phase-VIII%2C+Mohali%2C+Mohali%2C+Punjab%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=30.72348,76.71256",
+        "formatted_address": "Industrial Area, Phase-VIII, Mohali, Mohali, Punjab, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "P003",
+      "name": "Amritsar Green E-Tech",
+      "type": "Dismantler",
+      "address": "Nag Kalan Industrial Area, Amritsar",
+      "district": "Amritsar",
+      "state": "Punjab",
+      "capacity_mta": 2400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "PPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8801334083",
+        "toll_free": "N/A",
+        "email": "contact@amritsargreen.co.in",
+        "website": "https://www.amritsargreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 31.68944,
+        "longitude": 74.92016,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Amritsar+Green+E-Tech%2C+Nag+Kalan+Industrial+Area%2C+Amritsar%2C+Amritsar%2C+Punjab%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=31.68944,74.92016",
+        "formatted_address": "Nag Kalan Industrial Area, Amritsar, Amritsar, Punjab, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "P004",
+      "name": "Jalandhar E-Waste Processors",
+      "type": "Dismantler",
+      "address": "Leather Complex Industrial Area, Jalandhar",
+      "district": "Jalandhar",
+      "state": "Punjab",
+      "capacity_mta": 1800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "PPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9445305760",
+        "toll_free": "N/A",
+        "email": "contact@jalandharewaste.co.in",
+        "website": "https://www.jalandharewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 31.351413,
+        "longitude": 75.546747,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Jalandhar+E-Waste+Processors%2C+Leather+Complex+Industrial+Area%2C+Jalandhar%2C+Jalandhar%2C+Punjab%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=31.351413,75.546747",
+        "formatted_address": "Leather Complex Industrial Area, Jalandhar, Jalandhar, Punjab, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "P005",
+      "name": "Patiala E-Recyclers",
+      "type": "Dismantler",
+      "address": "Focal Point, Patiala",
+      "district": "Patiala",
+      "state": "Punjab",
+      "capacity_mta": 1200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "PPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7006789214",
+        "toll_free": "N/A",
+        "email": "contact@patialaerecyclers.co.in",
+        "website": "https://www.patialaerecyclers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 30.348933,
+        "longitude": 76.408107,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Patiala+E-Recyclers%2C+Focal+Point%2C+Patiala%2C+Patiala%2C+Punjab%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=30.348933,76.408107",
+        "formatted_address": "Focal Point, Patiala, Patiala, Punjab, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "P006",
+      "name": "Fatehgarh E-Waste Solutions",
+      "type": "Dismantler",
+      "address": "Mandi Gobindgarh, Fatehgarh Sahib",
+      "district": "Fatehgarh Sahib",
+      "state": "Punjab",
+      "capacity_mta": 1500,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "PPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9887948773",
+        "toll_free": "N/A",
+        "email": "contact@fatehgarhewaste.co.in",
+        "website": "https://www.fatehgarhewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 30.669453,
+        "longitude": 76.307573,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Fatehgarh+E-Waste+Solutions%2C+Mandi+Gobindgarh%2C+Fatehgarh+Sahib%2C+Fatehgarh+Sahib%2C+Punjab%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=30.669453,76.307573",
+        "formatted_address": "Mandi Gobindgarh, Fatehgarh Sahib, Fatehgarh Sahib, Punjab, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "P007",
+      "name": "M/s Malwa E-Waste Refurbishers",
+      "type": "Refurbisher",
+      "address": "Focal Point, Dhandari Kalan, Ludhiana",
+      "district": "Ludhiana",
+      "state": "Punjab",
+      "capacity_mta": 2400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "PPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8905777753",
+        "toll_free": "N/A",
+        "email": "contact@malwaewaste.co.in",
+        "website": "https://www.malwaewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 30.872747,
+        "longitude": 75.911213,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Malwa+E-Waste+Refurbishers%2C+Focal+Point%2C+Dhandari+Kalan%2C+Ludhiana%2C+Ludhiana%2C+Punjab%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=30.872747,75.911213",
+        "formatted_address": "Focal Point, Dhandari Kalan, Ludhiana, Ludhiana, Punjab, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

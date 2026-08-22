@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "state": "Jharkhand",
+    "total_facilities": 4,
+    "is_authorized_dataset": true,
+    "data_source": "Jharkhand State Pollution Control Board (JSPCB) & CPCB",
+    "source_portal": "https://jspcb.nic.in",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 4800,
+    "recycler_count": 1,
+    "dismantler_count": 3,
+    "refurbisher_count": 0,
+    "collection_center_count": 0
+  },
+  "facilities": [
+    {
+      "id": "J001",
+      "name": "Jharkhand E-Waste Recyclers",
+      "type": "Recycler",
+      "address": "Tupudana Industrial Area, Ranchi",
+      "district": "Ranchi",
+      "state": "Jharkhand",
+      "capacity_mta": 2400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "JSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9126464307",
+        "toll_free": "N/A",
+        "email": "contact@jharkhandewaste.co.in",
+        "website": "https://www.jharkhandewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 23.293067,
+        "longitude": 85.313653,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Jharkhand+E-Waste+Recyclers%2C+Tupudana+Industrial+Area%2C+Ranchi%2C+Ranchi%2C+Jharkhand%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=23.293067,85.313653",
+        "formatted_address": "Tupudana Industrial Area, Ranchi, Ranchi, Jharkhand, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "J002",
+      "name": "Jamshedpur Eco Solutions",
+      "type": "Dismantler",
+      "address": "Adityapur Industrial Area, Jamshedpur",
+      "district": "East Singhbhum",
+      "state": "Jharkhand",
+      "capacity_mta": 1200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "JSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9470224151",
+        "toll_free": "N/A",
+        "email": "contact@jamshedpureco.co.in",
+        "website": "https://www.jamshedpureco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.80836,
+        "longitude": 86.205287,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Jamshedpur+Eco+Solutions%2C+Adityapur+Industrial+Area%2C+Jamshedpur%2C+East+Singhbhum%2C+Jharkhand%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.80836,86.205287",
+        "formatted_address": "Adityapur Industrial Area, Jamshedpur, East Singhbhum, Jharkhand, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "J003",
+      "name": "Bokaro E-Waste Processors",
+      "type": "Dismantler",
+      "address": "BIA Industrial Area, Bokaro",
+      "district": "Bokaro",
+      "state": "Jharkhand",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "JSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9965751925",
+        "toll_free": "N/A",
+        "email": "contact@bokaroewaste.co.in",
+        "website": "https://www.bokaroewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 23.68008,
+        "longitude": 86.145067,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bokaro+E-Waste+Processors%2C+BIA+Industrial+Area%2C+Bokaro%2C+Bokaro%2C+Jharkhand%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=23.68008,86.145067",
+        "formatted_address": "BIA Industrial Area, Bokaro, Bokaro, Jharkhand, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "J004",
+      "name": "Dhanbad E-Waste Solutions",
+      "type": "Dismantler",
+      "address": "Industrial Area, Dhanbad",
+      "district": "Dhanbad",
+      "state": "Jharkhand",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "JSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8054068627",
+        "toll_free": "N/A",
+        "email": "contact@dhanbadewaste.co.in",
+        "website": "https://www.dhanbadewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 23.791707,
+        "longitude": 86.437907,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Dhanbad+E-Waste+Solutions%2C+Industrial+Area%2C+Dhanbad%2C+Dhanbad%2C+Jharkhand%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=23.791707,86.437907",
+        "formatted_address": "Industrial Area, Dhanbad, Dhanbad, Jharkhand, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

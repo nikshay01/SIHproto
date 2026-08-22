@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eco-Locate | AI Device Verification & E-Waste Facility Directory</title>
+  <meta name="description" content="Responsibly recycle your electronic waste, verify devices with AI, discover certified facilities, and earn platform reward credits.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"/>
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <!-- QR Code & Scanner Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+
+  <!-- ========== TOP NAVIGATION BAR ========== -->
+  <nav class="topnav">
+    <div class="topnav-inner">
+      <div class="topnav-brand" id="navHomeBtn">
+        <i class="fa-solid fa-recycle text-secondary"></i> Eco-Locate
+      </div>
+
+      <div class="topnav-links" id="navLinks">
+        <button class="nav-link active" data-section="landing"><i class="fa-solid fa-house"></i> Home</button>
+        <button class="nav-link" data-section="locate"><i class="fa-solid fa-location-dot"></i> Locate</button>
+        <button class="nav-link nav-highlight" data-section="verify"><i class="fa-solid fa-camera-viewfinder"></i> Verify Device</button>
+        <button class="nav-link" data-section="facility"><i class="fa-solid fa-building-circle-check"></i> Facility Portal</button>
+        <button class="nav-link" data-section="wallet"><i class="fa-solid fa-wallet"></i> My Wallet</button>
+        <button class="nav-link" data-section="evaluate"><i class="fa-solid fa-microchip"></i> Evaluate</button>
+        <button class="nav-link" data-section="learn"><i class="fa-solid fa-leaf"></i> Learn</button>
+      </div>
+
+      <div class="topnav-actions">
+        <!-- Live Wallet Balance Pill in Navbar -->
+        <div class="nav-wallet-pill" id="navWalletPill" data-section="wallet" title="Available E-Waste Credits">
+          <i class="fa-solid fa-coins text-secondary"></i>
+          <span id="navWalletCredits">0</span> <small>Credits</small>
+        </div>
+
+        <span class="impact-badge" id="impactBadge">Impact: <strong id="metricTotalCapacity">1.66M</strong> MTA</span>
+
+        <!-- Near Me Button -->
+        <button id="nearMeBtn" class="btn-icon near-me-btn" title="Sort facilities by your address proximity">
+          <i class="fa-solid fa-location-crosshairs"></i>
+        </button>
+
+        <!-- User Location Pill -->
+        <div id="userLocationPill" class="user-loc-pill" hidden>
+          <i class="fa-solid fa-location-dot"></i>
+          <span id="userLocationText">Near Me</span>
+        </div>
+
+        <!-- Dataset Selector Pill -->
+        <div class="dataset-pill" title="Switch Facility Dataset">
+          <i class="fa-solid fa-database"></i>
+          <select id="navDatasetSelect">
+            <option value="all_facilities.json" selected>Standard</option>
+            <option value="all_facilities_fixed.json">Fixed</option>
+          </select>
+        </div>
+
+        <!-- Theme Toggle -->
+        <button id="themeToggleBtn" class="btn-icon" title="Toggle Light / Dark Theme">
+          <i class="fa-solid fa-moon" id="themeIcon"></i>
+        </button>
+
+        <!-- Export Data -->
+        <button id="exportDataBtn" class="btn-icon" title="Export facility dataset">
+          <i class="fa-solid fa-arrow-down-to-bracket"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== SECTION 1: LANDING PAGE ========== -->
+  <section id="landingSection" class="landing-section">
+    <!-- Hero -->
+    <div class="hero">
+      <div class="hero-gradient"></div>
+      <div class="hero-content">
+        <div class="hero-badge"><i class="fa-solid fa-shield-halved"></i> AI-Verified Responsible E-Waste Ecosystem</div>
+        <h1>Your Old Tech Has a <span class="gradient-text">Future.</span></h1>
+        <p>Prevent e-waste fraud with computer vision verification, discover 421+ authorized facilities, and earn reward credits when recycling certified electronics.</p>
+
+        <!-- Quick CTA Buttons -->
+        <div class="hero-actions-row">
+          <button class="btn btn-primary btn-lg" onclick="navigateToSection('verify')">
+            <i class="fa-solid fa-camera-viewfinder"></i> Verify & Recycle Device
+          </button>
+          <button class="btn btn-secondary btn-lg" onclick="navigateToSection('locate')">
+            <i class="fa-solid fa-location-dot"></i> Find Nearby Facilities
+          </button>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="hero-search">
+          <div class="hero-search-inner">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="heroSearchInput" placeholder="Search facilities by name, district, or state..." autocomplete="off">
+            <button id="heroSearchBtn">Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- KPI Stats -->
+    <section class="stats-row">
+      <div class="stat-box">
+        <span class="stat-label">Authorized Facilities</span>
+        <div class="stat-value" id="metricTotalFacilities">421</div>
+        <span class="stat-sub">100% CPCB / SPCB Verified</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-label">National Capacity</span>
+        <div class="stat-value" id="metricTotalCapacityLanding">1.66M</div>
+        <span class="stat-sub">Metric Tonnes / Year</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-label">Coverage</span>
+        <div class="stat-value" id="metricStatesCovered">36 / 36</div>
+        <span class="stat-sub">All States & Union Territories</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-label">AI Anti-Fraud Model</span>
+        <div class="stat-value text-sage">Llama 3.2 Vision</div>
+        <span class="stat-sub">NVIDIA Multimodal AI</span>
+      </div>
+    </section>
+
+    <!-- Feature Bento Grid -->
+    <section class="bento-grid">
+      <!-- Card 1: AI Verification (Featured) -->
+      <div class="bento-card featured" onclick="navigateToSection('verify')">
+        <div class="bento-blur"></div>
+        <div class="card-icon bg-secondary"><i class="fa-solid fa-camera-viewfinder"></i></div>
+        <h3>AI Device Verification</h3>
+        <p>Claim your device model and verify its physical authenticity with camera AI to prevent fraudulent mismatch claims and generate an inspection QR token.</p>
+        <span class="card-link-arrow">Start Verification <i class="fa-solid fa-arrow-right"></i></span>
+      </div>
+
+      <!-- Card 2: Locate -->
+      <div class="bento-card" onclick="navigateToSection('locate')">
+        <div class="card-icon bg-primary"><i class="fa-solid fa-location-dot"></i></div>
+        <h3>421 Authorized Facilities</h3>
+        <p>Explore nationwide CPCB & SPCB registered recyclers, dismantlers, refurbishers, and collection centers with GPS routing.</p>
+        <span class="card-link-arrow">Open Map <i class="fa-solid fa-arrow-right"></i></span>
+      </div>
+
+      <!-- Card 3: Facility Portal -->
+      <div class="bento-card" onclick="navigateToSection('facility')">
+        <div class="card-icon bg-tertiary"><i class="fa-solid fa-building-circle-check"></i></div>
+        <h3>Facility Inspection Portal</h3>
+        <p>Registered recyclers scan drop-off QR codes to physically inspect and confirm devices, immediately unlocking verified reward credits for users.</p>
+        <span class="card-link-arrow">Facility Dashboard <i class="fa-solid fa-arrow-right"></i></span>
+      </div>
+
+      <!-- Card 4: Wallet & Rewards -->
+      <div class="bento-card" onclick="navigateToSection('wallet')">
+        <div class="card-icon bg-surface"><i class="fa-solid fa-wallet"></i></div>
+        <h3>Credits & Wallet</h3>
+        <p>Track Estimated vs Verified Credits, monitor transaction ledgers, and redeem available credits for partner rewards.</p>
+        <span class="card-link-arrow">View Wallet <i class="fa-solid fa-arrow-right"></i></span>
+      </div>
+    </section>
+
+    <!-- How It Works Flow -->
+    <section class="how-it-works">
+      <div class="how-it-works-inner">
+        <h2>How the Anti-Fraud Credit Cycle Works</h2>
+        <div class="steps-row">
+          <div class="step-item">
+            <div class="step-number">1</div>
+            <h4>Claim Device</h4>
+            <p>Select your exact device from our composition catalog (e.g. Apple iPhone 13).</p>
+          </div>
+          <div class="step-item">
+            <div class="step-number">2</div>
+            <h4>AI Camera Verification</h4>
+            <p>Capture physical device proof. AI validates hardware markers to detect mismatches.</p>
+          </div>
+          <div class="step-item">
+            <div class="step-number">3</div>
+            <h4>Get Estimated Credits & QR</h4>
+            <p>Receive your estimated credits breakdown and unique recycling transaction QR token.</p>
+          </div>
+          <div class="step-item">
+            <div class="step-number">4</div>
+            <h4>Physical Facility Verification</h4>
+            <p>Facility scans QR, accepts device, and officially awards redeemable reward credits.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Legal Disclaimer Banner -->
+    <div class="legal-disclaimer-box">
+      <i class="fa-solid fa-circle-info"></i>
+      <span><strong>Legal Notice:</strong> These platform reward credits are internal incentives for the SIH1392 initiative and are not government-issued statutory EPR certificates or statutory Green Credits.</span>
+    </div>
+  </section>
+
+  <!-- ========== SECTION 2: DEVICE VERIFICATION & CLAIM FLOW (NEW) ========== -->
+  <section id="verifySection" class="verify-section section-hidden">
+    <header class="section-header">
+      <div class="badge-pill"><i class="fa-solid fa-shield-check"></i> AI Optical Verification</div>
+      <h1>Device Claim & Verification</h1>
+      <p>Select the device you are disposing of, provide visual proof with your camera, and generate your estimated recycling credit transaction.</p>
+    </header>
+
+    <!-- Wizard Steps Indicator -->
+    <div class="wizard-stepper">
+      <div class="wizard-step active" id="stepIndicator1">
+        <div class="step-circle">1</div>
+        <span>Select Device</span>
+      </div>
+      <div class="step-line"></div>
+      <div class="wizard-step" id="stepIndicator2">
+        <div class="step-circle">2</div>
+        <span>Visual Capture</span>
+      </div>
+      <div class="step-line"></div>
+      <div class="wizard-step" id="stepIndicator3">
+        <div class="step-circle">3</div>
+        <span>AI Analysis</span>
+      </div>
+      <div class="step-line"></div>
+      <div class="wizard-step" id="stepIndicator4">
+        <div class="step-circle">4</div>
+        <span>Estimated QR Token</span>
+      </div>
+    </div>
+
+    <!-- MAIN VERIFICATION CONTAINER -->
+    <div class="verify-container">
+      
+      <!-- STAGE 1: DEVICE SELECTION -->
+      <div class="verify-card" id="verifyStage1">
+        <div class="verify-card-head">
+          <div class="card-head-title">
+            <i class="fa-solid fa-laptop-mobile text-secondary"></i>
+            <h3>Step 1: Select Your Claimed Device</h3>
+          </div>
+          <span class="text-muted text-sm">Composition Database Search</span>
+        </div>
+
+        <div class="selection-grid">
+          <!-- Category Selector -->
+          <div class="form-group">
+            <label><i class="fa-solid fa-layer-group"></i> 1. Device Category</label>
+            <select id="claimCategorySelect" class="form-input">
+              <option value="Smartphone" selected>Smartphone</option>
+              <option value="Laptop">Laptop</option>
+              <option value="Tablet">Tablet</option>
+              <option value="Television">Television</option>
+              <option value="Monitor">Monitor</option>
+              <option value="Desktop">Desktop Tower</option>
+              <option value="Printer">Printer</option>
+              <option value="Electronic Components">Electronic Components / PCB</option>
+              <option value="Cables & Accessories">Cables & Chargers</option>
+            </select>
+          </div>
+
+          <!-- Brand Selector -->
+          <div class="form-group">
+            <label><i class="fa-solid fa-tag"></i> 2. Brand</label>
+            <select id="claimBrandSelect" class="form-input">
+              <option value="Apple" selected>Apple</option>
+              <option value="Samsung">Samsung</option>
+              <option value="Dell">Dell</option>
+              <option value="Lenovo">Lenovo</option>
+              <option value="HP">HP</option>
+              <option value="Google">Google</option>
+              <option value="OnePlus">OnePlus</option>
+              <option value="Generic">Generic / Other</option>
+            </select>
+          </div>
+
+          <!-- Model Search / Picker -->
+          <div class="form-group span-full">
+            <label><i class="fa-solid fa-mobile-screen"></i> 3. Specific Model</label>
+            <select id="claimModelSelect" class="form-input">
+              <!-- Dynamically populated -->
+            </select>
+          </div>
+        </div>
+
+        <!-- Selected Device Preview Card -->
+        <div class="claimed-preview-box" id="claimedPreviewBox">
+          <div class="preview-device-meta">
+            <div class="device-icon-bubble"><i class="fa-solid fa-mobile-screen-button"></i></div>
+            <div>
+              <span class="preview-badge">CLAIMED DEVICE</span>
+              <h4 id="previewDeviceTitle">Apple iPhone 13</h4>
+              <p id="previewDeviceFeatures" class="text-sm text-muted">Diagonal dual camera lenses, flat aluminium edges</p>
+            </div>
+          </div>
+          <div class="preview-credits-est">
+            <span class="est-label">Base Potential</span>
+            <div class="est-points"><strong id="previewEstCredits">129</strong> <small>Credits</small></div>
+          </div>
+        </div>
+
+        <div class="verify-action-row">
+          <button id="btnProceedToCamera" class="btn btn-sage-full btn-lg">
+            <span>Confirm Claim & Proceed to Optical Scan</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- STAGE 2: CAMERA VIEWPORT & GUIDANCE -->
+      <div class="verify-card section-hidden" id="verifyStage2">
+        <div class="verify-card-head">
+          <div class="card-head-title">
+            <i class="fa-solid fa-camera text-secondary"></i>
+            <h3>Step 2: Optical Device Evidence</h3>
+          </div>
+          <button id="btnBackToSelection" class="btn-text"><i class="fa-solid fa-arrow-left"></i> Change Device</button>
+        </div>
+
+        <div class="claim-active-banner">
+          <span>Recycling Claim: <strong id="activeClaimLabel">Apple iPhone 13</strong></span>
+          <span class="tag-status">Live Inspection</span>
+        </div>
+
+        <!-- Multi-angle Step Guidance Pills -->
+        <div class="guidance-steps-bar">
+          <div class="guide-pill active" id="guidePill1"><i class="fa-solid fa-1"></i> Front Screen</div>
+          <div class="guide-pill" id="guidePill2"><i class="fa-solid fa-2"></i> Rotate Profile</div>
+          <div class="guide-pill" id="guidePill3"><i class="fa-solid fa-3"></i> Rear Camera Bump</div>
+          <div class="guide-pill" id="guidePill4"><i class="fa-solid fa-4"></i> Keep in Frame</div>
+        </div>
+
+        <!-- Camera Viewport -->
+        <div class="camera-viewport-card">
+          <div class="viewport-box" id="verifyCameraViewport">
+            <video id="verifyVideo" autoplay playsinline muted></video>
+            <img id="verifyPreviewImg" alt="Captured Evidence" hidden>
+            <canvas id="verifyCanvas" hidden></canvas>
+
+            <!-- Guide Overlay Frame -->
+            <div class="viewfinder-frame">
+              <div class="corner-bracket top-left"></div>
+              <div class="corner-bracket top-right"></div>
+              <div class="corner-bracket bottom-left"></div>
+              <div class="corner-bracket bottom-right"></div>
+              <div class="guide-prompt-tag" id="guidePromptTag">Center device inside frame</div>
+            </div>
+
+            <div id="verifyCameraPlaceholder" class="viewport-placeholder">
+              <div class="placeholder-icon"><i class="fa-solid fa-camera"></i></div>
+              <h3>Camera Sensor Ready</h3>
+              <p>Start live camera or choose a photo to run AI forensic verification against your claim.</p>
+            </div>
+
+            <button id="verifySwitchCameraBtn" class="btn-float-camera" title="Switch Front/Rear Camera" hidden>
+              <i class="fa-solid fa-arrows-rotate"></i>
+            </button>
+          </div>
+
+          <!-- Camera Controls -->
+          <div class="camera-control-bar">
+            <button id="verifyStartCameraBtn" class="btn btn-secondary"><i class="fa-solid fa-video"></i> Start Camera</button>
+            <button id="verifyCaptureBtn" class="btn btn-primary" disabled><i class="fa-solid fa-circle-dot"></i> Capture & Verify Device</button>
+            <button id="verifyStopCameraBtn" class="btn btn-muted" disabled><i class="fa-solid fa-stop"></i> Stop</button>
+          </div>
+
+          <!-- File Upload Dropzone -->
+          <div class="dropzone-compact" id="verifyDropZone">
+            <input id="verifyFileInput" type="file" accept="image/*" class="file-hidden">
+            <label for="verifyFileInput" class="dropzone-label">
+              <i class="fa-solid fa-cloud-arrow-up"></i>
+              <span>Or <strong>upload device photo</strong> (JPG, PNG, WebP)</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- STAGE 3: AI SCANNING SPINNER -->
+      <div class="verify-card section-hidden text-center" id="verifyStage3">
+        <div class="scanning-animation-box">
+          <div class="radar-spinner"></div>
+          <i class="fa-solid fa-microchip ai-pulse-icon"></i>
+        </div>
+        <h3 class="mt-4">AI Vision Forensics in Progress...</h3>
+        <p class="text-muted text-sm">Comparing visual hardware traits against <strong id="analyzingClaimText">Apple iPhone 13</strong></p>
+        <div class="analysis-status-stream" id="analysisStatusStream">
+          <span>• Analyzing optical contours & edge geometry...</span>
+        </div>
+      </div>
+
+      <!-- STAGE 4: VERIFICATION RESULT & QR TOKEN -->
+      <div class="verify-card section-hidden" id="verifyStage4">
+        <div class="verify-card-head">
+          <div class="card-head-title">
+            <i class="fa-solid fa-clipboard-check text-secondary"></i>
+            <h3>Verification Decision</h3>
+          </div>
+          <button id="btnNewClaim" class="btn-text"><i class="fa-solid fa-rotate-left"></i> New Verification</button>
+        </div>
+
+        <!-- Result Verdict Banner -->
+        <div id="verifyVerdictBanner" class="verdict-banner-lg success">
+          <div class="verdict-icon"><i class="fa-solid fa-circle-check"></i></div>
+          <div class="verdict-details">
+            <h4 id="verdictHeadline">Device Successfully Verified</h4>
+            <p id="verdictSubtitle">Optical traits match your claimed Apple iPhone 13.</p>
+          </div>
+        </div>
+
+        <!-- Comparison Diff Matrix -->
+        <div class="comparison-diff-grid">
+          <div class="diff-card claimed">
+            <span class="diff-label">YOUR CLAIM</span>
+            <h4 id="resClaimedDevice">Apple iPhone 13</h4>
+            <span class="diff-sub" id="resClaimedCat">Smartphone</span>
+          </div>
+
+          <div class="diff-arrow-icon" id="resDiffIcon">
+            <i class="fa-solid fa-equals"></i>
+          </div>
+
+          <div class="diff-card detected" id="resDetectedCard">
+            <span class="diff-label">AI DETECTED</span>
+            <h4 id="resDetectedDevice">Apple iPhone 13</h4>
+            <span class="diff-sub" id="resDetectedCat">Smartphone</span>
+          </div>
+        </div>
+
+        <!-- Confidence & Reasoning -->
+        <div class="ai-confidence-panel">
+          <div class="confidence-header">
+            <span>Visual Confidence Score</span>
+            <strong id="resConfidenceScore">94%</strong>
+          </div>
+          <div class="confidence-bar-wrap">
+            <div class="confidence-bar-fill" id="resConfidenceBar" style="width: 94%;"></div>
+          </div>
+          <p class="ai-reasoning-text" id="resAiReasoning">
+            Device matches iPhone 13 visual specifications: diagonal camera layout on back distinct from iPhone 11/12 vertical layout.
+          </p>
+        </div>
+
+        <!-- ESTIMATED CREDITS BREAKDOWN (NON-REDEEMABLE NOTICE) -->
+        <div class="estimated-credit-box" id="estimatedCreditsCard">
+          <div class="est-header-row">
+            <div>
+              <span class="est-tag"><i class="fa-solid fa-clock"></i> ESTIMATED E-WASTE CREDITS</span>
+              <div class="est-big-number"><span id="resEstPoints">129</span> <small>Reward Credits</small></div>
+            </div>
+            <div class="est-warning-badge">
+              <i class="fa-solid fa-triangle-exclamation"></i>
+              <span>Pending Physical Facility Drop-Off</span>
+            </div>
+          </div>
+
+          <div class="materials-breakdown-area">
+            <h5>Estimated Recoverable Core Materials:</h5>
+            <div class="material-pills-row" id="resMaterialPills">
+              <!-- Rendered by JS -->
+            </div>
+          </div>
+
+          <div class="est-notice-footer">
+            <p><strong>⚠ Important:</strong> These credits are currently <strong>ESTIMATED</strong>. Take this device along with the QR code below to any authorized recycling facility to physically verify acceptance and unlock your redeemable credits.</p>
+          </div>
+        </div>
+
+        <!-- UNIQUE TRANSACTION QR CODE CARD -->
+        <div class="transaction-qr-card" id="txQrCard">
+          <div class="qr-card-left">
+            <span class="qr-badge">DROP-OFF TRANSACTION TOKEN</span>
+            <div class="transaction-code-pill">
+              <span class="code-label">ID:</span>
+              <strong class="font-mono" id="resTransactionId">EW-2026-A82F91</strong>
+              <button class="btn-copy-sm" id="btnCopyTxId" title="Copy Transaction ID"><i class="fa-regular fa-copy"></i></button>
+            </div>
+            <p class="text-sm text-muted">Show this QR code at the drop-off counter of any registered CPCB/SPCB recycling unit.</p>
+            
+            <div class="qr-btn-group">
+              <button class="btn btn-secondary btn-sm" onclick="navigateToSection('locate')">
+                <i class="fa-solid fa-location-dot"></i> Find Drop-Off Facility
+              </button>
+              <button class="btn btn-secondary btn-sm" onclick="navigateToSection('wallet')">
+                <i class="fa-solid fa-wallet"></i> View in Wallet
+              </button>
+            </div>
+          </div>
+
+          <div class="qr-card-right">
+            <div class="qr-canvas-holder" id="qrCanvasContainer">
+              <!-- QRCode generated here -->
+            </div>
+            <small class="text-muted">Digital Verification Stamp</small>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== SECTION 3: FACILITY VERIFICATION PORTAL (NEW) ========== -->
+  <section id="facilitySection" class="facility-section section-hidden">
+    <header class="section-header">
+      <div class="badge-pill"><i class="fa-solid fa-building-circle-check"></i> Authorized Unit Terminal</div>
+      <h1>Facility Inspection & Verification Portal</h1>
+      <p>Authorized e-waste recyclers can scan customer drop-off QR tokens, inspect the physical device, and award verified platform credits.</p>
+    </header>
+
+    <div class="facility-portal-grid">
+      <!-- Left: Facility Identity & Scanner -->
+      <div class="portal-card">
+        <div class="portal-card-head">
+          <div class="card-head-title">
+            <i class="fa-solid fa-industry text-secondary"></i>
+            <h3>Active Recycling Facility</h3>
+          </div>
+          <span class="status-dot-active"><i class="fa-solid fa-circle text-sage"></i> Authorized</span>
+        </div>
+
+        <div class="form-group mb-4">
+          <label>Select Authorized Unit</label>
+          <select id="facilityStaffSelect" class="form-input">
+            <!-- Populated with real facilities from all_facilities.json -->
+            <option value="FAC-DEL-004">ETCO E-Waste Recyclers Pvt Ltd (Delhi)</option>
+            <option value="FAC-MH-012">Eco-Recycling Ltd (Mumbai, Maharashtra)</option>
+            <option value="FAC-KA-008">Saahas Zero Waste Center (Bengaluru, Karnataka)</option>
+          </select>
+        </div>
+
+        <hr class="divider">
+
+        <!-- Search / Scan Controls -->
+        <h4 class="mb-3"><i class="fa-solid fa-qrcode"></i> Scan Drop-Off Token</h4>
+        
+        <div class="facility-search-bar">
+          <input type="text" id="facilityTxInput" placeholder="Enter Transaction ID (e.g. EW-2026-XXXXXX)" class="form-input font-mono">
+          <button id="btnFacilityLookup" class="btn btn-primary"><i class="fa-solid fa-search"></i> Inspect</button>
+        </div>
+
+        <div class="qr-scanner-box mt-4" id="facilityScannerBox">
+          <div id="facilityQrReader"></div>
+          <button id="btnStartQrScanner" class="btn btn-secondary btn-full mt-2">
+            <i class="fa-solid fa-camera"></i> Start Camera QR Scanner
+          </button>
+        </div>
+      </div>
+
+      <!-- Right: Inspection & Decision Terminal -->
+      <div class="portal-card" id="facilityInspectionPanel">
+        <div class="portal-card-head">
+          <div class="card-head-title">
+            <i class="fa-solid fa-clipboard-list text-secondary"></i>
+            <h3>Device Inspection Terminal</h3>
+          </div>
+          <span id="facTxStatusBadge" class="status-badge">Standby</span>
+        </div>
+
+        <div id="facilityEmptyState" class="facility-empty-state">
+          <i class="fa-solid fa-qrcode-scanner empty-icon"></i>
+          <h4>No Transaction Loaded</h4>
+          <p>Scan a customer QR code or enter an ID above to view the claimed device, AI forensics, and estimated credits.</p>
+        </div>
+
+        <div id="facilityLoadedTx" class="facility-loaded-tx section-hidden">
+          <div class="tx-meta-banner">
+            <div>
+              <span class="text-xs text-muted">TRANSACTION ID</span>
+              <h3 class="font-mono" id="facTxId">EW-2026-XXXXXX</h3>
+            </div>
+            <div class="text-right">
+              <span class="text-xs text-muted">USER ID</span>
+              <div class="font-mono text-sm" id="facUserId">guest-user</div>
+            </div>
+          </div>
+
+          <div class="inspection-details-table">
+            <div class="ins-row">
+              <span class="ins-k">Claimed Device:</span>
+              <strong class="ins-v" id="facClaimedDevice">Apple iPhone 13</strong>
+            </div>
+            <div class="ins-row">
+              <span class="ins-k">AI Detected Device:</span>
+              <strong class="ins-v highlight-sage" id="facDetectedDevice">Apple iPhone 13</strong>
+            </div>
+            <div class="ins-row">
+              <span class="ins-k">AI Confidence:</span>
+              <span class="ins-v" id="facAiConfidence">94%</span>
+            </div>
+            <div class="ins-row">
+              <span class="ins-k">Estimated Credits:</span>
+              <strong class="ins-v font-mono text-secondary" id="facEstCredits">129 Credits</strong>
+            </div>
+            <div class="ins-row">
+              <span class="ins-k">Registration Time:</span>
+              <span class="ins-v" id="facTimestamp">2026-08-22 13:00</span>
+            </div>
+          </div>
+
+          <!-- Inspector Notes Form -->
+          <div class="form-group mt-4">
+            <label>Physical Inspection Verification Notes</label>
+            <input type="text" id="facilityInspectorNotes" class="form-input" placeholder="e.g. Verified genuine physical device in acceptable scrap condition.">
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="facility-action-buttons mt-4">
+            <button id="btnFacVerifyConfirm" class="btn btn-sage-full btn-lg">
+              <i class="fa-solid fa-circle-check"></i>
+              <span>VERIFY DEVICE & ISSUE CREDITS</span>
+            </button>
+            <button id="btnFacReject" class="btn btn-error btn-lg">
+              <i class="fa-solid fa-circle-xmark"></i>
+              <span>REJECT CLAIM</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SECTION 4: USER CREDITS WALLET & REWARDS (NEW) ========== -->
+  <section id="walletSection" class="wallet-section section-hidden">
+    <header class="section-header">
+      <div class="badge-pill"><i class="fa-solid fa-coins"></i> Rewards Center</div>
+      <h1>E-Waste Credits & Rewards Wallet</h1>
+      <p>Track your platform reward credits earned from verified e-waste disposal, review transaction ledgers, and redeem partner perks.</p>
+    </header>
+
+    <!-- 4-Metric Balances Grid -->
+    <div class="wallet-balances-grid">
+      <div class="balance-card estimated">
+        <div class="balance-card-head">
+          <i class="fa-solid fa-hourglass-half"></i>
+          <span>Estimated Credits</span>
+        </div>
+        <div class="balance-val" id="walletEstCredits">0</div>
+        <div class="balance-sub">Pending physical facility acceptance</div>
+      </div>
+
+      <div class="balance-card verified">
+        <div class="balance-card-head">
+          <i class="fa-solid fa-circle-check"></i>
+          <span>Verified Credits</span>
+        </div>
+        <div class="balance-val" id="walletVerifiedCredits">0</div>
+        <div class="balance-sub">Physically verified by authorized recyclers</div>
+      </div>
+
+      <div class="balance-card redeemed">
+        <div class="balance-card-head">
+          <i class="fa-solid fa-gift"></i>
+          <span>Redeemed Credits</span>
+        </div>
+        <div class="balance-val" id="walletRedeemedCredits">0</div>
+        <div class="balance-sub">Used for vouchers & eco-perks</div>
+      </div>
+
+      <div class="balance-card available">
+        <div class="balance-card-head">
+          <i class="fa-solid fa-wallet"></i>
+          <span>Available to Redeem</span>
+        </div>
+        <div class="balance-val text-sage" id="walletAvailableCredits">0</div>
+        <button class="btn btn-primary btn-sm mt-2" id="btnOpenRedeemModal">
+          <i class="fa-solid fa-sparkles"></i> Redeem Credits
+        </button>
+      </div>
+    </div>
+
+    <!-- Transaction History Ledger -->
+    <div class="wallet-ledger-card mt-5">
+      <div class="ledger-header">
+        <h3><i class="fa-solid fa-list-check"></i> Recycling Transaction Ledger</h3>
+        <button class="btn-text" id="btnRefreshWallet"><i class="fa-solid fa-rotate"></i> Sync Balance</button>
+      </div>
+
+      <div class="ledger-table-wrap">
+        <table class="ledger-table">
+          <thead>
+            <tr>
+              <th>Transaction ID</th>
+              <th>Claimed Device</th>
+              <th>Date</th>
+              <th>Status</th>
+              <th>Estimated</th>
+              <th>Verified</th>
+              <th>Receipt / QR</th>
+            </tr>
+          </thead>
+          <tbody id="walletLedgerBody">
+            <tr>
+              <td colspan="7" class="text-center text-muted py-4">No recycling transactions recorded yet.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Active Voucher Codes Drawer -->
+    <div class="wallet-ledger-card mt-4" id="walletVouchersCard" hidden>
+      <div class="ledger-header">
+        <h3><i class="fa-solid fa-ticket"></i> Active Partner Vouchers</h3>
+      </div>
+      <div class="vouchers-grid" id="vouchersListContainer">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+
+    <!-- Platform Incentive Legal Disclaimer -->
+    <div class="legal-disclaimer-box mt-5">
+      <i class="fa-solid fa-circle-info"></i>
+      <span><strong>Legal Disclaimer:</strong> These reward credits are platform-based incentives and are not government-issued EPR certificates or statutory Green Credits under the E-Waste Management Rules, 2022.</span>
+    </div>
+  </section>
+
+  <!-- ========== SECTION 5: FACILITY LOCATOR (EXISTING PRESERVED) ========== -->
+  <section id="locateSection" class="locate-section section-hidden">
+    <!-- Left Sidebar -->
+    <aside class="locate-sidebar">
+      <!-- Header + Search -->
+      <div class="sidebar-header">
+        <div class="filter-top">
+          <h2>Find Facilities</h2>
+          <button id="resetFiltersBtn" class="btn-text">Reset</button>
+        </div>
+
+        <div class="sidebar-search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" id="globalSearchInput" placeholder="Search by name, city, state..." autocomplete="off">
+          <button id="clearSearchBtn" class="search-clear-btn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+      </div>
+
+      <!-- Filter Controls -->
+      <div class="filter-controls">
+        <div class="control-group">
+          <label for="datasetSelect"><i class="fa-solid fa-database"></i> Dataset</label>
+          <select id="datasetSelect">
+            <option value="all_facilities.json" selected>Standard (all_facilities.json)</option>
+            <option value="all_facilities_fixed.json">Fixed (all_facilities_fixed.json)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="stateSelect">State / UT</label>
+          <select id="stateSelect">
+            <option value="ALL">All States (36)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="typeSelect">Facility Type</label>
+          <select id="typeSelect">
+            <option value="ALL">All Facility Types</option>
+            <option value="Recycler">Recyclers Only</option>
+            <option value="Dismantler">Dismantlers Only</option>
+            <option value="Refurbisher">Refurbishers Only</option>
+            <option value="Collection Center">Collection Centers Only</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="capacitySelect">Min. Capacity</label>
+          <select id="capacitySelect">
+            <option value="0">Any Capacity</option>
+            <option value="1000">&gt; 1,000 MTA</option>
+            <option value="5000">&gt; 5,000 MTA</option>
+            <option value="10000">&gt; 10,000 MTA</option>
+            <option value="25000">&gt; 25,000 MTA</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="sortSelect">Sort By</label>
+          <select id="sortSelect">
+            <option value="distance_asc">Distance (Closest First)</option>
+            <option value="capacity_desc">Capacity (High to Low)</option>
+            <option value="capacity_asc">Capacity (Low to High)</option>
+            <option value="name_asc">Name (A-Z)</option>
+            <option value="state_asc">State (A-Z)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Type Chips -->
+      <div class="type-chips">
+        <button class="chip active" data-type="ALL">All (<span id="tagCountAll">421</span>)</button>
+        <button class="chip" data-type="SAVED"><i class="fa-solid fa-bookmark"></i> Saved (<span id="tagCountSaved">0</span>)</button>
+        <button class="chip" data-type="Recycler">Recyclers (<span id="tagCountRecyclers">0</span>)</button>
+        <button class="chip" data-type="Dismantler">Dismantlers (<span id="tagCountDismantlers">0</span>)</button>
+        <button class="chip" data-type="Refurbisher">Refurbishers (<span id="tagCountRefurbishers">0</span>)</button>
+        <button class="chip" data-type="Collection Center">Collection (<span id="tagCountCollection">0</span>)</button>
+      </div>
+
+      <!-- Facility List -->
+      <div class="facility-list-area">
+        <div class="list-heading">
+          <span id="resultsCount">421 Facilities</span>
+          <small>Click to view details</small>
+        </div>
+        <div class="cards-scroll" id="facilityCardsContainer">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+    </aside>
+
+    <!-- Right Map Area -->
+    <div class="map-area" id="mapPanel">
+      <div id="facilityMap"></div>
+
+      <div class="map-legend">
+        <div><div class="legend-dot dot-recycler"></div>Recycler</div>
+        <div><div class="legend-dot dot-dismantler"></div>Dismantler</div>
+        <div><div class="legend-dot dot-refurbisher"></div>Refurbisher</div>
+        <div><div class="legend-dot dot-collection"></div>Collection</div>
+      </div>
+
+      <button id="resetMapCenterBtn" class="btn-map-recenter" title="Reset to India view">
+        <i class="fa-solid fa-crosshairs"></i> Recenter
+      </button>
+    </div>
+  </section>
+
+  <!-- ========== SECTION 6: EVALUATE (PRESERVED) ========== -->
+  <section id="evaluateSection" class="evaluate-section section-hidden">
+    <header class="evaluate-header">
+      <h1>General E-Waste Evaluation</h1>
+      <p>Discover the environmental impact and scrap recovery value of your old electronics.</p>
+    </header>
+
+    <div class="evaluate-grid">
+      <!-- Left: Scanner -->
+      <div class="scanner-card">
+        <div class="section-title-row">
+          <h2>Identify E-Waste</h2>
+          <div id="status" class="status-badge">
+            <span class="status-dot"></span>
+            <span>Checking server...</span>
+          </div>
+        </div>
+
+        <!-- Camera Viewport -->
+        <div class="camera-card">
+          <div class="viewport" id="cameraViewport">
+            <video id="video" autoplay playsinline muted></video>
+            <img id="preview" alt="Captured item" hidden>
+            <canvas id="canvas" hidden></canvas>
+
+            <div id="cameraPlaceholder" class="viewport-placeholder">
+              <div class="placeholder-icon"><i class="fa-solid fa-camera"></i></div>
+              <h3>Camera Ready</h3>
+              <p>Start live camera or choose an image below to identify electronic scrap</p>
+            </div>
+
+            <button id="switchCameraBtn" class="btn-float-camera" title="Switch Camera" hidden>
+              <i class="fa-solid fa-arrows-rotate"></i>
+            </button>
+          </div>
+
+          <div class="camera-actions">
+            <button id="startBtn" class="btn btn-secondary"><i class="fa-solid fa-video"></i> Start Camera</button>
+            <button id="captureBtn" class="btn btn-primary" disabled><i class="fa-solid fa-camera"></i> Capture & Classify</button>
+            <button id="stopBtn" class="btn btn-muted" disabled><i class="fa-solid fa-stop"></i> Stop</button>
+          </div>
+
+          <div class="dropzone" id="dropZone">
+            <input id="fileInput" type="file" accept="image/*" class="file-hidden">
+            <label for="fileInput" class="dropzone-body">
+              <i class="fa-solid fa-arrow-up-from-bracket"></i>
+              <span><strong>Upload an image</strong> or drop file here</span>
+              <small>JPG, PNG, WebP supported</small>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Results -->
+      <div style="display: flex; flex-direction: column; gap: 24px;">
+        <div id="results" class="results-card" hidden>
+          <div class="results-header">
+            <h3>Analysis Result</h3>
+            <button id="reanalyzeBtn" class="btn-text"><i class="fa-solid fa-rotate-left"></i> Clear</button>
+          </div>
+
+          <!-- Verdict Banner -->
+          <div id="ewasteBadge" class="verdict-banner"></div>
+
+          <!-- Key Details Grid -->
+          <div class="details-grid">
+            <div class="detail-item">
+              <span class="detail-label">Item</span>
+              <strong id="item" class="detail-value">-</strong>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Category</span>
+              <strong id="category" class="detail-value">-</strong>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Subcategory</span>
+              <strong id="subcategory" class="detail-value">-</strong>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Condition</span>
+              <strong id="condition" class="detail-value condition-tag">-</strong>
+            </div>
+          </div>
+
+          <!-- Confidence Gauge -->
+          <div class="confidence-box">
+            <div class="confidence-labels">
+              <span>Confidence</span>
+              <strong id="confidenceText">0%</strong>
+            </div>
+            <div class="confidence-bar">
+              <div id="confidenceBar" class="confidence-progress"></div>
+            </div>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="result-action-buttons">
+            <button class="btn btn-sage-full" onclick="navigateToSection('verify')">
+              <i class="fa-solid fa-shield-check"></i>
+              <span>Claim & Verify this Device for Rewards</span>
+            </button>
+            <div class="secondary-actions-row">
+              <button id="schedulePickupBtn" class="btn btn-secondary">
+                <i class="fa-solid fa-truck-pickup"></i> Schedule Pickup
+              </button>
+              <button id="generateCertBtn" class="btn btn-secondary">
+                <i class="fa-solid fa-award"></i> EPR Certificate
+              </button>
+            </div>
+          </div>
+
+          <!-- JSON Drawer -->
+          <details class="json-drawer">
+            <summary>View raw JSON response</summary>
+            <pre id="rawJson"></pre>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SECTION 7: LEARN (PRESERVED) ========== -->
+  <section id="learnSection" class="learn-section section-hidden">
+    <header class="learn-header">
+      <h1>Educational Impact Center</h1>
+      <p>Understand the materials inside your devices and the profound environmental impact of responsible e-waste disposal.</p>
+    </header>
+
+    <div class="hazard-section">
+      <h2>Hidden Hazards in Electronics</h2>
+      <p class="hazard-subtitle">Click on any component to explore toxic impacts and recovery benefits.</p>
+
+      <div class="hazard-grid">
+        <!-- Lithium -->
+        <div class="hazard-card" onclick="openHazardModal('lithiumModal')">
+          <div class="hazard-card-top">
+            <div class="hazard-icon bg-error"><i class="fa-solid fa-battery-full"></i></div>
+            <span class="hazard-symbol">Li</span>
+          </div>
+          <h3>Lithium</h3>
+          <p>Common in smartphone and laptop batteries.</p>
+        </div>
+
+        <!-- Cadmium -->
+        <div class="hazard-card" onclick="openHazardModal('cadmiumModal')">
+          <div class="hazard-card-top">
+            <div class="hazard-icon bg-tertiary"><i class="fa-solid fa-microchip"></i></div>
+            <span class="hazard-symbol">Cd</span>
+          </div>
+          <h3>Cadmium</h3>
+          <p>Found in chip resistors, semiconductors, and older batteries.</p>
+        </div>
+
+        <!-- Lead -->
+        <div class="hazard-card" onclick="openHazardModal('leadModal')">
+          <div class="hazard-card-top">
+            <div class="hazard-icon bg-surface"><i class="fa-solid fa-memory"></i></div>
+            <span class="hazard-symbol">Pb</span>
+          </div>
+          <h3>Lead</h3>
+          <p>Used historically in CRT monitors and solder on circuit boards.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand"><i class="fa-solid fa-recycle"></i> Eco-Locate</div>
+      <nav class="footer-links">
+        <a href="#" onclick="navigateToSection('landing'); return false;">Home</a>
+        <a href="#" onclick="navigateToSection('locate'); return false;">Facility Locator</a>
+        <a href="#" onclick="navigateToSection('verify'); return false;">AI Device Verification</a>
+        <a href="#" onclick="navigateToSection('facility'); return false;">Facility Portal</a>
+        <a href="#" onclick="navigateToSection('wallet'); return false;">Reward Credits</a>
+      </nav>
+      <div class="footer-copy">© 2026 Eco-Locate • SIH1392 AI-Powered E-Waste Identification & Verification Platform.</div>
+    </div>
+  </footer>
+
+  <!-- ========== MODALS ========== -->
+
+  <!-- QR Receipt Modal -->
+  <div class="modal-backdrop" id="qrReceiptModal">
+    <div class="modal-box modal-box-sm text-center">
+      <div class="modal-head">
+        <h3>Recycling Transaction Token</h3>
+        <button class="modal-close" onclick="closeModal('qrReceiptModal')"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="p-4">
+        <div id="receiptQrHolder" class="receipt-qr-holder"></div>
+        <h4 class="font-mono mt-3" id="receiptTxCode">EW-2026-XXXXXX</h4>
+        <p class="text-sm text-muted mt-1" id="receiptDeviceName">Apple iPhone 13</p>
+        <div class="mt-3 badge-pill text-sage" id="receiptStatusPill">Pending Recycling</div>
+      </div>
+      <div class="modal-actions">
+        <button class="btn btn-sage-full" onclick="closeModal('qrReceiptModal')">Done</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rewards Redemption Store Modal -->
+  <div class="modal-backdrop" id="rewardsModal">
+    <div class="modal-box modal-box-md">
+      <div class="modal-head">
+        <div>
+          <h3>Redeem Reward Credits</h3>
+          <p class="modal-subtitle">Convert verified credits into partner eco-rewards</p>
+        </div>
+        <button class="modal-close" onclick="closeModal('rewardsModal')"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <div class="rewards-store-grid">
+        <div class="reward-item-card">
+          <div class="reward-item-icon bg-secondary"><i class="fa-solid fa-leaf"></i></div>
+          <h4>Plant 1 Native Tree</h4>
+          <p>Partner NGO carbon offset reforestation certificate.</p>
+          <div class="reward-price"><strong>30</strong> Credits</div>
+          <button class="btn btn-secondary btn-sm" onclick="executeRedemption(30, 'plant-tree', 'Plant 1 Native Tree')">Redeem</button>
+        </div>
+
+        <div class="reward-item-card">
+          <div class="reward-item-icon bg-primary"><i class="fa-solid fa-ticket"></i></div>
+          <h4>₹100 Eco Partner Voucher</h4>
+          <p>Valid on sustainable electronics & accessories.</p>
+          <div class="reward-price"><strong>50</strong> Credits</div>
+          <button class="btn btn-secondary btn-sm" onclick="executeRedemption(50, 'voucher-100', '₹100 Eco Partner Voucher')">Redeem</button>
+        </div>
+
+        <div class="reward-item-card">
+          <div class="reward-item-icon bg-tertiary"><i class="fa-solid fa-bolt"></i></div>
+          <h4>₹250 Green Energy Discount</h4>
+          <p>Solar gadget & certified refurbished tech coupon.</p>
+          <div class="reward-price"><strong>100</strong> Credits</div>
+          <button class="btn btn-secondary btn-sm" onclick="executeRedemption(100, 'voucher-250', '₹250 Green Energy Discount')">Redeem</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Facility Detail Modal (Preserved) -->
+  <div class="modal-backdrop" id="detailModal">
+    <div class="modal-box">
+      <div class="modal-head">
+        <div>
+          <div class="modal-badge-row">
+            <span class="modal-type-tag type-tag" id="modalTypeBadge">Recycler</span>
+            <button class="btn-bookmark-modal" id="modalBookmarkBtn" title="Save this facility">
+              <i class="fa-regular fa-bookmark"></i>
+            </button>
+          </div>
+          <h3 id="modalFacilityName">Facility Name</h3>
+          <p class="modal-subtitle" id="modalAuthPill"><i class="fa-solid fa-circle-check"></i> SPCB Authorized</p>
+        </div>
+        <button class="modal-close" id="closeModalBtn"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <div class="modal-grid">
+        <div class="modal-card-col">
+          <h4>Facility Information</h4>
+          <div class="info-line"><span class="info-k">Facility ID</span><span class="info-v font-mono" id="modalId">--</span></div>
+          <div class="info-line"><span class="info-k">Annual Capacity</span><span class="info-v" id="modalCapacity">-- MTA</span></div>
+          <div class="info-line"><span class="info-k">Regulatory Body</span><span class="info-v" id="modalAuthBy">--</span></div>
+          <div class="info-line"><span class="info-k">Address</span><span class="info-v" id="modalAddress">--</span></div>
+          <div class="info-line"><span class="info-k">Location</span><span class="info-v" id="modalDistrictState">--</span></div>
+          <div class="info-line" id="modalDistanceRow"><span class="info-k">Distance</span><span class="info-v highlight-sage" id="modalDistance">--</span></div>
+        </div>
+
+        <div class="modal-card-col">
+          <h4>Contact Information</h4>
+          <div class="info-line"><span class="info-k">Phone</span><span class="info-v" id="modalPhone">--</span><button class="copy-btn" data-copy="modalPhone" title="Copy"><i class="fa-regular fa-copy"></i></button></div>
+          <div class="info-line"><span class="info-k">Toll-Free</span><span class="info-v" id="modalTollFree">--</span></div>
+          <div class="info-line"><span class="info-k">Email</span><span class="info-v" id="modalEmail">--</span><button class="copy-btn" data-copy="modalEmail" title="Copy"><i class="fa-regular fa-copy"></i></button></div>
+          <div class="info-line"><span class="info-k">Website</span><span class="info-v" id="modalWebsite">--</span></div>
+          <div class="info-line"><span class="info-k">Contact Person</span><span class="info-v" id="modalContactPerson">--</span></div>
+        </div>
+      </div>
+
+      <div class="modal-actions">
+        <a href="#" id="modalGoogleMapsBtn" target="_blank" rel="noopener" class="btn btn-sage-full">
+          <i class="fa-solid fa-map-location-dot"></i> Open in Google Maps
+        </a>
+        <button id="modalPickupBtn" class="btn btn-secondary">
+          <i class="fa-solid fa-truck-pickup"></i> Book Pickup
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pickup Modal (Preserved) -->
+  <div class="modal-backdrop" id="pickupModal">
+    <div class="modal-box modal-box-sm">
+      <div class="modal-head">
+        <div>
+          <h3>Schedule Doorstep Pickup</h3>
+          <p class="modal-subtitle">Authorized facility logistics dispatch</p>
+        </div>
+        <button class="modal-close" id="closePickupModalBtn"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <form id="pickupForm" class="modal-form">
+        <div class="form-group">
+          <label>Selected Facility</label>
+          <input type="text" id="pickupFacilityName" readonly class="form-input-readonly">
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" id="pickupUserName" required placeholder="e.g. Rahul Sharma" class="form-input">
+          </div>
+          <div class="form-group">
+            <label>Phone Number</label>
+            <input type="tel" id="pickupUserPhone" required placeholder="+91 9876543210" class="form-input">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Pickup Address</label>
+          <textarea id="pickupUserAddress" required rows="2" placeholder="Street address, landmark, pincode" class="form-input"></textarea>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Pickup Date</label>
+            <input type="date" id="pickupDate" required class="form-input">
+          </div>
+          <div class="form-group">
+            <label>E-Waste Type</label>
+            <input type="text" id="pickupItemType" placeholder="e.g. Laptops & Batteries" class="form-input">
+          </div>
+        </div>
+        <div class="modal-actions">
+          <button type="submit" class="btn btn-sage-full">
+            <i class="fa-solid fa-calendar-check"></i> Confirm Pickup Request
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- EPR Certificate Modal (Preserved) -->
+  <div class="modal-backdrop" id="certModal">
+    <div class="modal-box modal-box-cert">
+      <div class="modal-head no-border">
+        <div class="cert-watermark-head">
+          <span class="cert-flag">GOVERNMENT OF INDIA COMPLIANT</span>
+          <h3>EPR Certificate of Responsible Disposal</h3>
+        </div>
+        <button class="modal-close" id="closeCertModalBtn"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <div class="certificate-container" id="printableCertificate">
+        <div class="cert-inner-frame">
+          <div class="cert-header">
+            <i class="fa-solid fa-award cert-seal-icon"></i>
+            <div>
+              <h2>E-Waste (Management) Rules, 2022</h2>
+              <p>Statutory Compliance & Material Recycling Certificate</p>
+            </div>
+          </div>
+
+          <div class="cert-body">
+            <p class="cert-intro">This is to certify that the electronic scrap item specified below has been verified for ethical channelization and scientific recycling through an authorized CPCB/SPCB partner.</p>
+
+            <div class="cert-data-grid">
+              <div class="cert-data-col">
+                <div class="cert-line"><span>Certificate ID:</span> <strong id="certId">EPR-2026-IND-XXXX</strong></div>
+                <div class="cert-line"><span>Item Name:</span> <strong id="certItem">Electronics</strong></div>
+                <div class="cert-line"><span>Category:</span> <strong id="certCategory">IT Equipment</strong></div>
+                <div class="cert-line"><span>Physical Condition:</span> <strong id="certCondition">Used</strong></div>
+              </div>
+              <div class="cert-data-col">
+                <div class="cert-line"><span>Authorized Facility:</span> <strong id="certFacility">ETCO E-Waste Recyclers</strong></div>
+                <div class="cert-line"><span>Auth Body:</span> <strong id="certAuthBy">CPCB / SPCB</strong></div>
+                <div class="cert-line"><span>Carbon Offset:</span> <strong id="certCarbon">24.5 kg CO₂e</strong></div>
+                <div class="cert-line"><span>Issued Date:</span> <strong id="certDate">2026-08-22</strong></div>
+              </div>
+            </div>
+
+            <div class="cert-qr-row">
+              <div class="cert-qr-box">
+                <div class="qr-mock"><i class="fa-solid fa-qrcode"></i></div>
+                <span>Scan for Digital Verification</span>
+              </div>
+              <div class="cert-signature-box">
+                <div class="sign-line"></div>
+                <span>Authorized Environmental Compliance Officer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-actions">
+        <button id="printCertBtn" class="btn btn-sage-full">
+          <i class="fa-solid fa-print"></i> Print / Save as PDF
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hazard Modals (Preserved) -->
+  <div class="modal-backdrop" id="lithiumModal">
+    <div class="modal-box modal-box-sm">
+      <div class="modal-head">
+        <div style="display:flex; align-items:center; gap:16px;">
+          <div class="hazard-icon bg-error" style="width:56px;height:56px;font-size:24px;"><i class="fa-solid fa-battery-full"></i></div>
+          <div><h3>Lithium (Li)</h3><span class="text-label-md text-muted">Rechargeable Batteries</span></div>
+        </div>
+        <button class="modal-close" onclick="closeHazardModal('lithiumModal')"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:24px; padding:24px;">
+        <div style="background:rgba(186,26,26,0.06); padding:20px; border-radius:12px;">
+          <h4 style="color:var(--error); margin-bottom:8px;"><i class="fa-solid fa-triangle-exclamation"></i> HARMFUL EFFECTS</h4>
+          <p class="text-body-md">Can cause landfill fires and leach toxic chemicals into water tables.</p>
+        </div>
+        <div style="background:rgba(0,108,73,0.06); padding:20px; border-radius:12px;">
+          <h4 style="color:var(--secondary); margin-bottom:8px;"><i class="fa-solid fa-leaf"></i> RECYCLING BENEFIT</h4>
+          <p class="text-body-md">Recovers valuable cobalt, nickel, and lithium for new batteries.</p>
+        </div>
+      </div>
+      <div class="modal-actions">
+        <button class="btn btn-sage-full" onclick="closeHazardModal('lithiumModal'); navigateToSection('locate');">Locate Recycling Center</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="cadmiumModal">
+    <div class="modal-box modal-box-sm">
+      <div class="modal-head">
+        <div style="display:flex; align-items:center; gap:16px;">
+          <div class="hazard-icon bg-tertiary" style="width:56px;height:56px;font-size:24px;"><i class="fa-solid fa-microchip"></i></div>
+          <div><h3>Cadmium (Cd)</h3><span class="text-label-md text-muted">Semiconductors & Resistors</span></div>
+        </div>
+        <button class="modal-close" onclick="closeHazardModal('cadmiumModal')"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:24px; padding:24px;">
+        <div style="background:rgba(186,26,26,0.06); padding:20px; border-radius:12px;">
+          <h4 style="color:var(--error); margin-bottom:8px;"><i class="fa-solid fa-triangle-exclamation"></i> HARMFUL EFFECTS</h4>
+          <p class="text-body-md">Known carcinogen that leaches into soil and groundwater.</p>
+        </div>
+        <div style="background:rgba(0,108,73,0.06); padding:20px; border-radius:12px;">
+          <h4 style="color:var(--secondary); margin-bottom:8px;"><i class="fa-solid fa-leaf"></i> RECYCLING BENEFIT</h4>
+          <p class="text-body-md">Safely extracted and reprocessed into industrial alloys.</p>
+        </div>
+      </div>
+      <div class="modal-actions">
+        <button class="btn btn-sage-full" onclick="closeHazardModal('cadmiumModal'); navigateToSection('locate');">Locate Recycling Center</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="leadModal">
+    <div class="modal-box modal-box-sm">
+      <div class="modal-head">
+        <div style="display:flex; align-items:center; gap:16px;">
+          <div class="hazard-icon bg-surface" style="width:56px;height:56px;font-size:24px;"><i class="fa-solid fa-memory"></i></div>
+          <div><h3>Lead (Pb)</h3><span class="text-label-md text-muted">Solder & CRT Monitors</span></div>
+        </div>
+        <button class="modal-close" onclick="closeHazardModal('leadModal')"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:24px; padding:24px;">
+        <div style="background:rgba(186,26,26,0.06); padding:20px; border-radius:12px;">
+          <h4 style="color:var(--error); margin-bottom:8px;"><i class="fa-solid fa-triangle-exclamation"></i> HARMFUL EFFECTS</h4>
+          <p class="text-body-md">Causes severe neurological damage and environmental contamination.</p>
+        </div>
+        <div style="background:rgba(0,108,73,0.06); padding:20px; border-radius:12px;">
+          <h4 style="color:var(--secondary); margin-bottom:8px;"><i class="fa-solid fa-leaf"></i> RECYCLING BENEFIT</h4>
+          <p class="text-body-md">Infinitely recyclable when refined in closed smelting facilities.</p>
+        </div>
+      </div>
+      <div class="modal-actions">
+        <button class="btn btn-sage-full" onclick="closeHazardModal('leadModal'); navigateToSection('locate');">Locate Recycling Center</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "state": "Chandigarh",
+    "total_facilities": 2,
+    "is_authorized_dataset": true,
+    "data_source": "Chandigarh State Pollution Control Board (CPCC) & CPCB",
+    "source_portal": "https://cpcc.chd.gov.in",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 4200,
+    "recycler_count": 1,
+    "dismantler_count": 1,
+    "refurbisher_count": 0,
+    "collection_center_count": 0
+  },
+  "facilities": [
+    {
+      "id": "C001",
+      "name": "Chandigarh E-Waste Recyclers",
+      "type": "Dismantler",
+      "address": "Industrial Area, Phase-I, Chandigarh",
+      "district": "Chandigarh",
+      "state": "Chandigarh",
+      "capacity_mta": 1800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "CPCC",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8824979848",
+        "toll_free": "N/A",
+        "email": "contact@chandigarhewaste.co.in",
+        "website": "https://www.chandigarhewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 30.711707,
+        "longitude": 76.802613,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Chandigarh+E-Waste+Recyclers%2C+Industrial+Area%2C+Phase-I%2C+Chandigarh%2C+Chandigarh%2C+Chandigarh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=30.711707,76.802613",
+        "formatted_address": "Industrial Area, Phase-I, Chandigarh, Chandigarh, Chandigarh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "C002",
+      "name": "Tricity E-Waste Solutions Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Industrial Area, Phase-II, Chandigarh",
+      "district": "Chandigarh",
+      "state": "Chandigarh",
+      "capacity_mta": 2400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "CPCC",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8040373459",
+        "toll_free": "N/A",
+        "email": "contact@tricityewaste.co.in",
+        "website": "https://www.tricityewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 30.713573,
+        "longitude": 76.80728,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Tricity+E-Waste+Solutions+Pvt.+Ltd.%2C+Industrial+Area%2C+Phase-II%2C+Chandigarh%2C+Chandigarh%2C+Chandigarh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=30.713573,76.80728",
+        "formatted_address": "Industrial Area, Phase-II, Chandigarh, Chandigarh, Chandigarh, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

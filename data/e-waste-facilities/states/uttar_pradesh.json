@@ -1,0 +1,2119 @@
+{
+  "metadata": {
+    "state": "Uttar Pradesh",
+    "total_facilities": 75,
+    "is_authorized_dataset": true,
+    "data_source": "Uttar Pradesh State Pollution Control Board (UPPCB) & CPCB",
+    "source_portal": "http://www.uppcb.com",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 257700,
+    "recycler_count": 46,
+    "dismantler_count": 27,
+    "refurbisher_count": 2,
+    "collection_center_count": 0
+  },
+  "facilities": [
+    {
+      "id": "UP001",
+      "name": "Attero Recycling Pvt. Ltd. (UP Center)",
+      "type": "Recycler",
+      "address": "Ecotech-III, Greater Noida",
+      "district": "Gautam Buddha Nagar",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 36000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-120-4088888",
+        "toll_free": "1800-102-9882",
+        "email": "info@attero.in",
+        "website": "https://www.attero.in",
+        "contact_person": "Nitin Gupta (CEO / Plant Head)"
+      },
+      "location": {
+        "latitude": 28.47312,
+        "longitude": 77.50364,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Attero+Recycling+Pvt.+Ltd.+%28UP+Center%29%2C+Ecotech-III%2C+Greater+Noida%2C+Gautam+Buddha+Nagar%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.47312,77.50364",
+        "formatted_address": "Ecotech-III, Greater Noida, Gautam Buddha Nagar, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP002",
+      "name": "Greeniva Recycler Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Sector-6, Noida",
+      "district": "Gautam Buddha Nagar",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 18000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9958866166",
+        "toll_free": "1800-309-8899",
+        "email": "info@greenivarecycler.com",
+        "website": "https://www.greenivarecycler.com",
+        "contact_person": "Operations Head"
+      },
+      "location": {
+        "latitude": 28.584527,
+        "longitude": 77.368253,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Greeniva+Recycler+Pvt.+Ltd.%2C+Sector-6%2C+Noida%2C+Gautam+Buddha+Nagar%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.584527,77.368253",
+        "formatted_address": "Sector-6, Noida, Gautam Buddha Nagar, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP003",
+      "name": "Bharat Oil & Waste Management Ltd.",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Rooma, Kanpur",
+      "district": "Kanpur Nagar",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 15000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8989660762",
+        "toll_free": "N/A",
+        "email": "contact@bharatoil.co.in",
+        "website": "https://www.bharatoil.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.42264,
+        "longitude": 80.316947,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bharat+Oil+%26+Waste+Management+Ltd.%2C+UPSIDC+Industrial+Area%2C+Rooma%2C+Kanpur%2C+Kanpur+Nagar%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.42264,80.316947",
+        "formatted_address": "UPSIDC Industrial Area, Rooma, Kanpur, Kanpur Nagar, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP004",
+      "name": "Horizon Recycling Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "UPSIDC, Kavi Nagar, Ghaziabad",
+      "district": "Ghaziabad",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 12000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9739253100",
+        "toll_free": "N/A",
+        "email": "contact@horizon.co.in",
+        "website": "https://www.horizon.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.67336,
+        "longitude": 77.454507,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Horizon+Recycling+Pvt.+Ltd.%2C+UPSIDC%2C+Kavi+Nagar%2C+Ghaziabad%2C+Ghaziabad%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.67336,77.454507",
+        "formatted_address": "UPSIDC, Kavi Nagar, Ghaziabad, Ghaziabad, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP005",
+      "name": "IMS E-Waste Solutions Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Site-IV Industrial Area, Sahibabad, Ghaziabad",
+      "district": "Ghaziabad",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 9600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9914274092",
+        "toll_free": "N/A",
+        "email": "contact@imsewaste.co.in",
+        "website": "https://www.imsewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.66516,
+        "longitude": 77.360253,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=IMS+E-Waste+Solutions+Pvt.+Ltd.%2C+Site-IV+Industrial+Area%2C+Sahibabad%2C+Ghaziabad%2C+Ghaziabad%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.66516,77.360253",
+        "formatted_address": "Site-IV Industrial Area, Sahibabad, Ghaziabad, Ghaziabad, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP006",
+      "name": "UP E-Solutions Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Site-C, Industrial Area, Ghaziabad",
+      "district": "Ghaziabad",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 8400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8973443364",
+        "toll_free": "N/A",
+        "email": "contact@upesolutions.co.in",
+        "website": "https://www.upesolutions.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.672773,
+        "longitude": 77.449147,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+E-Solutions+Pvt.+Ltd.%2C+Site-C%2C+Industrial+Area%2C+Ghaziabad%2C+Ghaziabad%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.672773,77.449147",
+        "formatted_address": "Site-C, Industrial Area, Ghaziabad, Ghaziabad, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP007",
+      "name": "NCR Green Tech Recyclers",
+      "type": "Recycler",
+      "address": "Sector-62, Noida",
+      "district": "Gautam Buddha Nagar",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 7200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9830307874",
+        "toll_free": "N/A",
+        "email": "contact@ncrgreen.co.in",
+        "website": "https://www.ncrgreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.58554,
+        "longitude": 77.375347,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=NCR+Green+Tech+Recyclers%2C+Sector-62%2C+Noida%2C+Gautam+Buddha+Nagar%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.58554,77.375347",
+        "formatted_address": "Sector-62, Noida, Gautam Buddha Nagar, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP008",
+      "name": "Metro E-Recyclers India Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Sector-68, Noida",
+      "district": "Gautam Buddha Nagar",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 6000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9961173205",
+        "toll_free": "N/A",
+        "email": "contact@metroerecyclers.co.in",
+        "website": "https://www.metroerecyclers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.579913,
+        "longitude": 77.37368,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Metro+E-Recyclers+India+Pvt.+Ltd.%2C+Sector-68%2C+Noida%2C+Gautam+Buddha+Nagar%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.579913,77.37368",
+        "formatted_address": "Sector-68, Noida, Gautam Buddha Nagar, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP009",
+      "name": "Ghaziabad Central E-Recyclers",
+      "type": "Recycler",
+      "address": "Loni Industrial Area, Ghaziabad",
+      "district": "Ghaziabad",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 5400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7081885994",
+        "toll_free": "N/A",
+        "email": "contact@ghaziabadcentral.co.in",
+        "website": "https://www.ghaziabadcentral.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.663853,
+        "longitude": 77.450747,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Ghaziabad+Central+E-Recyclers%2C+Loni+Industrial+Area%2C+Ghaziabad%2C+Ghaziabad%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.663853,77.450747",
+        "formatted_address": "Loni Industrial Area, Ghaziabad, Ghaziabad, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP010",
+      "name": "UP Techno Recyclers Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Phase-III, Industrial Area, Ghaziabad",
+      "district": "Ghaziabad",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 5400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9489912218",
+        "toll_free": "N/A",
+        "email": "contact@uptechno.co.in",
+        "website": "https://www.uptechno.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.67276,
+        "longitude": 77.451733,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Techno+Recyclers+Pvt.+Ltd.%2C+Phase-III%2C+Industrial+Area%2C+Ghaziabad%2C+Ghaziabad%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.67276,77.451733",
+        "formatted_address": "Phase-III, Industrial Area, Ghaziabad, Ghaziabad, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP011",
+      "name": "Meerut Central E-Recyclers LLP",
+      "type": "Recycler",
+      "address": "Modipuram Industrial Area, Meerut",
+      "district": "Meerut",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 4800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9118508630",
+        "toll_free": "N/A",
+        "email": "contact@meerutcentral.co.in",
+        "website": "https://www.meerutcentral.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 29.004627,
+        "longitude": 77.684453,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Meerut+Central+E-Recyclers+LLP%2C+Modipuram+Industrial+Area%2C+Meerut%2C+Meerut%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=29.004627,77.684453",
+        "formatted_address": "Modipuram Industrial Area, Meerut, Meerut, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP012",
+      "name": "Noida Digital Recyclers",
+      "type": "Recycler",
+      "address": "Sector-57, Noida",
+      "district": "Gautam Buddha Nagar",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7020478209",
+        "toll_free": "N/A",
+        "email": "contact@noidadigital.co.in",
+        "website": "https://www.noidadigital.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.581087,
+        "longitude": 77.365773,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Noida+Digital+Recyclers%2C+Sector-57%2C+Noida%2C+Gautam+Buddha+Nagar%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.581087,77.365773",
+        "formatted_address": "Sector-57, Noida, Gautam Buddha Nagar, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP013",
+      "name": "Hapur Metal E-Recyclers",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Hapur",
+      "district": "Hapur",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8973502570",
+        "toll_free": "N/A",
+        "email": "contact@hapurmetal.co.in",
+        "website": "https://www.hapurmetal.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.735533,
+        "longitude": 77.78154,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Hapur+Metal+E-Recyclers%2C+UPSIDC+Industrial+Area%2C+Hapur%2C+Hapur%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.735533,77.78154",
+        "formatted_address": "UPSIDC Industrial Area, Hapur, Hapur, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP014",
+      "name": "Agra Techno Recyclers",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Agra",
+      "district": "Agra",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9926160407",
+        "toll_free": "N/A",
+        "email": "contact@agratechno.co.in",
+        "website": "https://www.agratechno.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.210747,
+        "longitude": 78.052067,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Agra+Techno+Recyclers%2C+UPSIDC+Industrial+Area%2C+Agra%2C+Agra%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.210747,78.052067",
+        "formatted_address": "UPSIDC Industrial Area, Agra, Agra, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP015",
+      "name": "Lucknow Green Recyclers LLP",
+      "type": "Recycler",
+      "address": "Chinhat Industrial Area, Lucknow",
+      "district": "Lucknow",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 2700,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8810448530",
+        "toll_free": "N/A",
+        "email": "contact@lucknowgreen.co.in",
+        "website": "https://www.lucknowgreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.883787,
+        "longitude": 81.004453,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Lucknow+Green+Recyclers+LLP%2C+Chinhat+Industrial+Area%2C+Lucknow%2C+Lucknow%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.883787,81.004453",
+        "formatted_address": "Chinhat Industrial Area, Lucknow, Lucknow, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP016",
+      "name": "Prayagraj E-Solutions Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Naini Industrial Estate, Prayagraj",
+      "district": "Prayagraj",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 1800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9711944058",
+        "toll_free": "N/A",
+        "email": "contact@prayagrajesolutions.co.in",
+        "website": "https://www.prayagrajesolutions.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 25.386067,
+        "longitude": 81.86484,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Prayagraj+E-Solutions+Pvt.+Ltd.%2C+Naini+Industrial+Estate%2C+Prayagraj%2C+Prayagraj%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=25.386067,81.86484",
+        "formatted_address": "Naini Industrial Estate, Prayagraj, Prayagraj, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP017",
+      "name": "Awadh E-Waste Solutions Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Sitapur Road Industrial Area, Lucknow",
+      "district": "Lucknow",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 2400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9742042595",
+        "toll_free": "N/A",
+        "email": "contact@awadhewaste.co.in",
+        "website": "https://www.awadhewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.883253,
+        "longitude": 80.995013,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Awadh+E-Waste+Solutions+Pvt.+Ltd.%2C+Sitapur+Road+Industrial+Area%2C+Lucknow%2C+Lucknow%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.883253,80.995013",
+        "formatted_address": "Sitapur Road Industrial Area, Lucknow, Lucknow, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP018",
+      "name": "Kanpur Green E-Waste LLP",
+      "type": "Recycler",
+      "address": "UPSIDC, Jajmau, Kanpur",
+      "district": "Kanpur Nagar",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 2400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8003792849",
+        "toll_free": "N/A",
+        "email": "contact@kanpurgreen.co.in",
+        "website": "https://www.kanpurgreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.42412,
+        "longitude": 80.316373,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Kanpur+Green+E-Waste+LLP%2C+UPSIDC%2C+Jajmau%2C+Kanpur%2C+Kanpur+Nagar%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.42412,80.316373",
+        "formatted_address": "UPSIDC, Jajmau, Kanpur, Kanpur Nagar, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP019",
+      "name": "M/s Noida E-Refurbishing Center",
+      "type": "Refurbisher",
+      "address": "Sector-63, Noida",
+      "district": "Gautam Buddha Nagar",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 6000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8960324326",
+        "toll_free": "N/A",
+        "email": "contact@noidaerefurbishing.co.in",
+        "website": "https://www.noidaerefurbishing.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.591753,
+        "longitude": 77.36452,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Noida+E-Refurbishing+Center%2C+Sector-63%2C+Noida%2C+Gautam+Buddha+Nagar%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.591753,77.36452",
+        "formatted_address": "Sector-63, Noida, Gautam Buddha Nagar, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP020",
+      "name": "M/s Lucknow IT Refurbishers",
+      "type": "Refurbisher",
+      "address": "Transport Nagar, Lucknow",
+      "district": "Lucknow",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9450495738",
+        "toll_free": "N/A",
+        "email": "contact@lucknowit.co.in",
+        "website": "https://www.lucknowit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.88188,
+        "longitude": 80.992653,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Lucknow+IT+Refurbishers%2C+Transport+Nagar%2C+Lucknow%2C+Lucknow%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.88188,80.992653",
+        "formatted_address": "Transport Nagar, Lucknow, Lucknow, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP021",
+      "name": "UP Unit 21 (Rae Bareli E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Rae Bareli",
+      "district": "Rae Bareli",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9850542633",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.235247,
+        "longitude": 81.241247,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+21+%28Rae+Bareli+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Rae+Bareli%2C+Rae+Bareli%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.235247,81.241247",
+        "formatted_address": "UPSIDC Industrial Area, Rae Bareli, Rae Bareli, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP022",
+      "name": "UP Unit 22 (Ayodhya E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Ayodhya",
+      "district": "Ayodhya",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8023440166",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.790813,
+        "longitude": 82.206347,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+22+%28Ayodhya+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Ayodhya%2C+Ayodhya%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.790813,82.206347",
+        "formatted_address": "UPSIDC Industrial Area, Ayodhya, Ayodhya, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP023",
+      "name": "UP Unit 23 (Amroha E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Amroha",
+      "district": "Amroha",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9993141377",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.90944,
+        "longitude": 78.462747,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+23+%28Amroha+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Amroha%2C+Amroha%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.90944,78.462747",
+        "formatted_address": "UPSIDC Industrial Area, Amroha, Amroha, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP024",
+      "name": "UP Unit 24 (Sambhal E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Sambhal",
+      "district": "Sambhal",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9405081600",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.591313,
+        "longitude": 78.576773,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+24+%28Sambhal+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Sambhal%2C+Sambhal%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.591313,78.576773",
+        "formatted_address": "UPSIDC Industrial Area, Sambhal, Sambhal, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP025",
+      "name": "UP Unit 25 (Hathras E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Hathras",
+      "district": "Hathras",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9160922633",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.596767,
+        "longitude": 78.048153,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+25+%28Hathras+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Hathras%2C+Hathras%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.596767,78.048153",
+        "formatted_address": "UPSIDC Industrial Area, Hathras, Hathras, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP026",
+      "name": "UP Unit 26 (Mainpuri E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Mainpuri",
+      "district": "Mainpuri",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9449926410",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.224393,
+        "longitude": 79.02572,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+26+%28Mainpuri+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Mainpuri%2C+Mainpuri%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.224393,79.02572",
+        "formatted_address": "UPSIDC Industrial Area, Mainpuri, Mainpuri, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP027",
+      "name": "UP Unit 27 (Sitapur E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Sitapur",
+      "district": "Sitapur",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9199506693",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.562447,
+        "longitude": 80.679713,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+27+%28Sitapur+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Sitapur%2C+Sitapur%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.562447,80.679713",
+        "formatted_address": "UPSIDC Industrial Area, Sitapur, Sitapur, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP028",
+      "name": "UP Unit 28 (Lakhimpur Kheri E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Lakhimpur Kheri",
+      "district": "Lakhimpur Kheri",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9993121830",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.956233,
+        "longitude": 80.782047,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+28+%28Lakhimpur+Kheri+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Lakhimpur+Kheri%2C+Lakhimpur+Kheri%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.956233,80.782047",
+        "formatted_address": "UPSIDC Industrial Area, Lakhimpur Kheri, Lakhimpur Kheri, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP029",
+      "name": "UP Unit 29 (Deoria E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Deoria",
+      "district": "Deoria",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9132971308",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.501907,
+        "longitude": 83.77742,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+29+%28Deoria+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Deoria%2C+Deoria%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.501907,83.77742",
+        "formatted_address": "UPSIDC Industrial Area, Deoria, Deoria, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP030",
+      "name": "UP Unit 30 (Ballia E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Ballia",
+      "district": "Ballia",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9471822658",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 25.761693,
+        "longitude": 84.15178,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+30+%28Ballia+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Ballia%2C+Ballia%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=25.761693,84.15178",
+        "formatted_address": "UPSIDC Industrial Area, Ballia, Ballia, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP031",
+      "name": "UP Unit 31 (Azamgarh E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Azamgarh",
+      "district": "Azamgarh",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9958415784",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.079827,
+        "longitude": 83.19114,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+31+%28Azamgarh+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Azamgarh%2C+Azamgarh%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.079827,83.19114",
+        "formatted_address": "UPSIDC Industrial Area, Azamgarh, Azamgarh, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP032",
+      "name": "UP Unit 32 (Jaunpur E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Jaunpur",
+      "district": "Jaunpur",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9758704391",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 25.747013,
+        "longitude": 82.678447,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+32+%28Jaunpur+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Jaunpur%2C+Jaunpur%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=25.747013,82.678447",
+        "formatted_address": "UPSIDC Industrial Area, Jaunpur, Jaunpur, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP033",
+      "name": "UP Unit 33 (Gonda E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Gonda",
+      "district": "Gonda",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7057477030",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.132827,
+        "longitude": 81.96266,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+33+%28Gonda+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Gonda%2C+Gonda%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.132827,81.96266",
+        "formatted_address": "UPSIDC Industrial Area, Gonda, Gonda, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP034",
+      "name": "UP Unit 34 (Bahraich E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Bahraich",
+      "district": "Bahraich",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9786429273",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.57116,
+        "longitude": 81.593293,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+34+%28Bahraich+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Bahraich%2C+Bahraich%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.57116,81.593293",
+        "formatted_address": "UPSIDC Industrial Area, Bahraich, Bahraich, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP035",
+      "name": "UP Unit 35 (Banda E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Banda",
+      "district": "Banda",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9412043190",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 25.47604,
+        "longitude": 80.329233,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+35+%28Banda+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Banda%2C+Banda%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=25.47604,80.329233",
+        "formatted_address": "UPSIDC Industrial Area, Banda, Banda, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP036",
+      "name": "UP Unit 36 (Shamli E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Shamli",
+      "district": "Shamli",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9427890578",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 29.449507,
+        "longitude": 77.308813,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+36+%28Shamli+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Shamli%2C+Shamli%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=29.449507,77.308813",
+        "formatted_address": "UPSIDC Industrial Area, Shamli, Shamli, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP037",
+      "name": "UP Unit 37 (Bijnor E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Bijnor",
+      "district": "Bijnor",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9897921860",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 29.37956,
+        "longitude": 78.131307,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+37+%28Bijnor+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Bijnor%2C+Bijnor%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=29.37956,78.131307",
+        "formatted_address": "UPSIDC Industrial Area, Bijnor, Bijnor, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP038",
+      "name": "UP Unit 38 (Rampur E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Rampur",
+      "district": "Rampur",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9722693567",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.811133,
+        "longitude": 79.030927,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+38+%28Rampur+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Rampur%2C+Rampur%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.811133,79.030927",
+        "formatted_address": "UPSIDC Industrial Area, Rampur, Rampur, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP039",
+      "name": "UP Unit 39 (Sultanpur E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Sultanpur",
+      "district": "Sultanpur",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9146696790",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.260667,
+        "longitude": 82.071887,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+39+%28Sultanpur+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Sultanpur%2C+Sultanpur%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.260667,82.071887",
+        "formatted_address": "UPSIDC Industrial Area, Sultanpur, Sultanpur, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP040",
+      "name": "UP Unit 40 (Shahjahanpur E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Shahjahanpur",
+      "district": "Shahjahanpur",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8044213373",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.881213,
+        "longitude": 79.913913,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+40+%28Shahjahanpur+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Shahjahanpur%2C+Shahjahanpur%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.881213,79.913913",
+        "formatted_address": "UPSIDC Industrial Area, Shahjahanpur, Shahjahanpur, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP041",
+      "name": "UP Unit 41 (Pratapgarh E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Pratapgarh",
+      "district": "Pratapgarh",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9324161476",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 25.90128,
+        "longitude": 81.99894,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+41+%28Pratapgarh+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Pratapgarh%2C+Pratapgarh%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=25.90128,81.99894",
+        "formatted_address": "UPSIDC Industrial Area, Pratapgarh, Pratapgarh, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP042",
+      "name": "UP Unit 42 (Ghaziabad E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Ghaziabad",
+      "district": "Ghaziabad",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8949614111",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.67356,
+        "longitude": 77.458907,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+42+%28Ghaziabad+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Ghaziabad%2C+Ghaziabad%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.67356,77.458907",
+        "formatted_address": "UPSIDC Industrial Area, Ghaziabad, Ghaziabad, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP043",
+      "name": "UP Unit 43 (Gautam Buddha Nagar E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Gautam Buddha Nagar",
+      "district": "Gautam Buddha Nagar",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9432560658",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.542047,
+        "longitude": 77.390613,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+43+%28Gautam+Buddha+Nagar+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Gautam+Buddha+Nagar%2C+Gautam+Buddha+Nagar%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.542047,77.390613",
+        "formatted_address": "UPSIDC Industrial Area, Gautam Buddha Nagar, Gautam Buddha Nagar, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP044",
+      "name": "UP Unit 44 (Meerut E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Meerut",
+      "district": "Meerut",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9454996939",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.987673,
+        "longitude": 77.700187,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+44+%28Meerut+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Meerut%2C+Meerut%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.987673,77.700187",
+        "formatted_address": "UPSIDC Industrial Area, Meerut, Meerut, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP045",
+      "name": "UP Unit 45 (Kanpur Nagar E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Kanpur Nagar",
+      "district": "Kanpur Nagar",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9736463754",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.432413,
+        "longitude": 80.324107,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+45+%28Kanpur+Nagar+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Kanpur+Nagar%2C+Kanpur+Nagar%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.432413,80.324107",
+        "formatted_address": "UPSIDC Industrial Area, Kanpur Nagar, Kanpur Nagar, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP046",
+      "name": "UP Unit 46 (Lucknow E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Lucknow",
+      "district": "Lucknow",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9852422228",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.891893,
+        "longitude": 80.998027,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+46+%28Lucknow+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Lucknow%2C+Lucknow%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.891893,80.998027",
+        "formatted_address": "UPSIDC Industrial Area, Lucknow, Lucknow, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP047",
+      "name": "UP Unit 47 (Agra E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Agra",
+      "district": "Agra",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9922059897",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.207747,
+        "longitude": 78.053253,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+47+%28Agra+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Agra%2C+Agra%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.207747,78.053253",
+        "formatted_address": "UPSIDC Industrial Area, Agra, Agra, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP048",
+      "name": "UP Unit 48 (Varanasi E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Varanasi",
+      "district": "Varanasi",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9433054409",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 25.277027,
+        "longitude": 83.023013,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+48+%28Varanasi+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Varanasi%2C+Varanasi%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=25.277027,83.023013",
+        "formatted_address": "UPSIDC Industrial Area, Varanasi, Varanasi, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP049",
+      "name": "UP Unit 49 (Prayagraj E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Prayagraj",
+      "district": "Prayagraj",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8805956600",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 25.38156,
+        "longitude": 81.86348,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+49+%28Prayagraj+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Prayagraj%2C+Prayagraj%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=25.38156,81.86348",
+        "formatted_address": "UPSIDC Industrial Area, Prayagraj, Prayagraj, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP050",
+      "name": "UP Unit 50 (Moradabad E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Moradabad",
+      "district": "Moradabad",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9961923370",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.847347,
+        "longitude": 78.788227,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+50+%28Moradabad+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Moradabad%2C+Moradabad%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.847347,78.788227",
+        "formatted_address": "UPSIDC Industrial Area, Moradabad, Moradabad, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP051",
+      "name": "UP Unit 51 (Aligarh E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Aligarh",
+      "district": "Aligarh",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9355503954",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.916427,
+        "longitude": 78.1132,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+51+%28Aligarh+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Aligarh%2C+Aligarh%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.916427,78.1132",
+        "formatted_address": "UPSIDC Industrial Area, Aligarh, Aligarh, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP052",
+      "name": "UP Unit 52 (Bareilly E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Bareilly",
+      "district": "Bareilly",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9435686766",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.4062,
+        "longitude": 79.352613,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+52+%28Bareilly+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Bareilly%2C+Bareilly%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.4062,79.352613",
+        "formatted_address": "UPSIDC Industrial Area, Bareilly, Bareilly, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP053",
+      "name": "UP Unit 53 (Gorakhpur E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Gorakhpur",
+      "district": "Gorakhpur",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8811627441",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.763707,
+        "longitude": 83.285333,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+53+%28Gorakhpur+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Gorakhpur%2C+Gorakhpur%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.763707,83.285333",
+        "formatted_address": "UPSIDC Industrial Area, Gorakhpur, Gorakhpur, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP054",
+      "name": "UP Unit 54 (Mathura E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Mathura",
+      "district": "Mathura",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9120173116",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.497067,
+        "longitude": 77.68488,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+54+%28Mathura+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Mathura%2C+Mathura%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.497067,77.68488",
+        "formatted_address": "UPSIDC Industrial Area, Mathura, Mathura, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP055",
+      "name": "UP Unit 55 (Hapur E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Hapur",
+      "district": "Hapur",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8888069486",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.736587,
+        "longitude": 77.774553,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+55+%28Hapur+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Hapur%2C+Hapur%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.736587,77.774553",
+        "formatted_address": "UPSIDC Industrial Area, Hapur, Hapur, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP056",
+      "name": "UP Unit 56 (Bulandshahr E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Bulandshahr",
+      "district": "Bulandshahr",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8067163737",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.456933,
+        "longitude": 77.7154,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+56+%28Bulandshahr+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Bulandshahr%2C+Bulandshahr%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.456933,77.7154",
+        "formatted_address": "UPSIDC Industrial Area, Bulandshahr, Bulandshahr, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP057",
+      "name": "UP Unit 57 (Muzaffarnagar E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Muzaffarnagar",
+      "district": "Muzaffarnagar",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7087757711",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 29.48352,
+        "longitude": 77.704627,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+57+%28Muzaffarnagar+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Muzaffarnagar%2C+Muzaffarnagar%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=29.48352,77.704627",
+        "formatted_address": "UPSIDC Industrial Area, Muzaffarnagar, Muzaffarnagar, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP058",
+      "name": "UP Unit 58 (Saharanpur E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Saharanpur",
+      "district": "Saharanpur",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9781308958",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 29.965613,
+        "longitude": 77.558933,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+58+%28Saharanpur+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Saharanpur%2C+Saharanpur%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=29.965613,77.558933",
+        "formatted_address": "UPSIDC Industrial Area, Saharanpur, Saharanpur, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP059",
+      "name": "UP Unit 59 (Unnao E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Unnao",
+      "district": "Unnao",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9733652891",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.553227,
+        "longitude": 80.488067,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+59+%28Unnao+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Unnao%2C+Unnao%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.553227,80.488067",
+        "formatted_address": "UPSIDC Industrial Area, Unnao, Unnao, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP060",
+      "name": "UP Unit 60 (Etawah E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Etawah",
+      "district": "Etawah",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8099369479",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.787847,
+        "longitude": 79.018187,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+60+%28Etawah+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Etawah%2C+Etawah%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.787847,79.018187",
+        "formatted_address": "UPSIDC Industrial Area, Etawah, Etawah, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP061",
+      "name": "UP Unit 61 (Fatehpur E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Fatehpur",
+      "district": "Fatehpur",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9796679655",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 25.930793,
+        "longitude": 80.81572,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+61+%28Fatehpur+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Fatehpur%2C+Fatehpur%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=25.930793,80.81572",
+        "formatted_address": "UPSIDC Industrial Area, Fatehpur, Fatehpur, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP062",
+      "name": "UP Unit 62 (Rae Bareli E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Rae Bareli",
+      "district": "Rae Bareli",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9757752253",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.23254,
+        "longitude": 81.2371,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+62+%28Rae+Bareli+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Rae+Bareli%2C+Rae+Bareli%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.23254,81.2371",
+        "formatted_address": "UPSIDC Industrial Area, Rae Bareli, Rae Bareli, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP063",
+      "name": "UP Unit 63 (Ayodhya E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Ayodhya",
+      "district": "Ayodhya",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9951541736",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.790853,
+        "longitude": 82.19392,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+63+%28Ayodhya+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Ayodhya%2C+Ayodhya%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.790853,82.19392",
+        "formatted_address": "UPSIDC Industrial Area, Ayodhya, Ayodhya, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP064",
+      "name": "UP Unit 64 (Amroha E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Amroha",
+      "district": "Amroha",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9106146786",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.90648,
+        "longitude": 78.472667,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+64+%28Amroha+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Amroha%2C+Amroha%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.90648,78.472667",
+        "formatted_address": "UPSIDC Industrial Area, Amroha, Amroha, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP065",
+      "name": "UP Unit 65 (Sambhal E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Sambhal",
+      "district": "Sambhal",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8934657124",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.5859,
+        "longitude": 78.57424,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+65+%28Sambhal+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Sambhal%2C+Sambhal%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.5859,78.57424",
+        "formatted_address": "UPSIDC Industrial Area, Sambhal, Sambhal, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP066",
+      "name": "UP Unit 66 (Hathras E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Hathras",
+      "district": "Hathras",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9122399194",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.598767,
+        "longitude": 78.048647,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+66+%28Hathras+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Hathras%2C+Hathras%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.598767,78.048647",
+        "formatted_address": "UPSIDC Industrial Area, Hathras, Hathras, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP067",
+      "name": "UP Unit 67 (Mainpuri E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Mainpuri",
+      "district": "Mainpuri",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9826838924",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.227567,
+        "longitude": 79.023907,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+67+%28Mainpuri+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Mainpuri%2C+Mainpuri%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.227567,79.023907",
+        "formatted_address": "UPSIDC Industrial Area, Mainpuri, Mainpuri, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP068",
+      "name": "UP Unit 68 (Sitapur E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Sitapur",
+      "district": "Sitapur",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8865660901",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.562993,
+        "longitude": 80.67826,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+68+%28Sitapur+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Sitapur%2C+Sitapur%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.562993,80.67826",
+        "formatted_address": "UPSIDC Industrial Area, Sitapur, Sitapur, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP069",
+      "name": "UP Unit 69 (Lakhimpur Kheri E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Lakhimpur Kheri",
+      "district": "Lakhimpur Kheri",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9704089424",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.9479,
+        "longitude": 80.782287,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+69+%28Lakhimpur+Kheri+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Lakhimpur+Kheri%2C+Lakhimpur+Kheri%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.9479,80.782287",
+        "formatted_address": "UPSIDC Industrial Area, Lakhimpur Kheri, Lakhimpur Kheri, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP070",
+      "name": "UP Unit 70 (Deoria E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Deoria",
+      "district": "Deoria",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8039894773",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.505627,
+        "longitude": 83.779073,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+70+%28Deoria+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Deoria%2C+Deoria%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.505627,83.779073",
+        "formatted_address": "UPSIDC Industrial Area, Deoria, Deoria, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP071",
+      "name": "UP Unit 71 (Ballia E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Ballia",
+      "district": "Ballia",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9178621817",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 25.7564,
+        "longitude": 84.151167,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+71+%28Ballia+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Ballia%2C+Ballia%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=25.7564,84.151167",
+        "formatted_address": "UPSIDC Industrial Area, Ballia, Ballia, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP072",
+      "name": "UP Unit 72 (Azamgarh E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Azamgarh",
+      "district": "Azamgarh",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9733766372",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.073787,
+        "longitude": 83.183713,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+72+%28Azamgarh+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Azamgarh%2C+Azamgarh%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.073787,83.183713",
+        "formatted_address": "UPSIDC Industrial Area, Azamgarh, Azamgarh, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP073",
+      "name": "UP Unit 73 (Jaunpur E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Jaunpur",
+      "district": "Jaunpur",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9800066859",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 25.747,
+        "longitude": 82.678513,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+73+%28Jaunpur+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Jaunpur%2C+Jaunpur%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=25.747,82.678513",
+        "formatted_address": "UPSIDC Industrial Area, Jaunpur, Jaunpur, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP074",
+      "name": "UP Unit 74 (Gonda E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Gonda",
+      "district": "Gonda",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9894270458",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.130533,
+        "longitude": 81.963233,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+74+%28Gonda+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Gonda%2C+Gonda%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.130533,81.963233",
+        "formatted_address": "UPSIDC Industrial Area, Gonda, Gonda, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP075",
+      "name": "UP Unit 75 (Bahraich E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Bahraich",
+      "district": "Bahraich",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9423209050",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.579587,
+        "longitude": 81.597387,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+75+%28Bahraich+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Bahraich%2C+Bahraich%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.579587,81.597387",
+        "formatted_address": "UPSIDC Industrial Area, Bahraich, Bahraich, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

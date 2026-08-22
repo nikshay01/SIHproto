@@ -1,0 +1,325 @@
+{
+  "transactions": [
+    {
+      "transactionId": "EW-2026-KGGBJE",
+      "userId": "scenario1_user_1787384188574",
+      "deviceId": "apple-iphone-13",
+      "claimedDevice": {
+        "category": "Smartphone",
+        "brand": "Apple",
+        "model": "iPhone 13"
+      },
+      "detectedDevice": {
+        "category": "Smartphone",
+        "brand": "Apple",
+        "model": "iPhone 13"
+      },
+      "aiConfidence": 0.94,
+      "aiMatch": true,
+      "aiReasoning": "Optical recognition confirms structural profile consistent with Apple iPhone 13.",
+      "visualCharacteristics": "Chassis profile, materials, and form-factor match claimed specifications.",
+      "estimatedCredits": 129,
+      "verifiedCredits": 129,
+      "materialsBreakdown": [
+        {
+          "material": "gold",
+          "displayName": "Gold",
+          "amountGrams": 0.034,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.031,
+          "multiplier": 1000,
+          "creditsAwarded": 30.6
+        },
+        {
+          "material": "silver",
+          "displayName": "Silver",
+          "amountGrams": 0.35,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.315,
+          "multiplier": 10,
+          "creditsAwarded": 3.2
+        },
+        {
+          "material": "copper",
+          "displayName": "Copper",
+          "amountGrams": 15.2,
+          "recoveryRate": "92%",
+          "recoverableGrams": 13.984,
+          "multiplier": 2,
+          "creditsAwarded": 28
+        },
+        {
+          "material": "aluminium",
+          "displayName": "Aluminium",
+          "amountGrams": 22.5,
+          "recoveryRate": "95%",
+          "recoverableGrams": 21.375,
+          "multiplier": 0.5,
+          "creditsAwarded": 10.7
+        },
+        {
+          "material": "cobalt",
+          "displayName": "Cobalt",
+          "amountGrams": 11.8,
+          "recoveryRate": "88%",
+          "recoverableGrams": 10.384,
+          "multiplier": 4,
+          "creditsAwarded": 41.5
+        },
+        {
+          "material": "lithium",
+          "displayName": "Lithium",
+          "amountGrams": 3.4,
+          "recoveryRate": "85%",
+          "recoverableGrams": 2.89,
+          "multiplier": 3,
+          "creditsAwarded": 8.7
+        },
+        {
+          "material": "plastics",
+          "displayName": "Plastics",
+          "amountGrams": 35,
+          "recoveryRate": "70%",
+          "recoverableGrams": 24.5,
+          "multiplier": 0.05,
+          "creditsAwarded": 1.2
+        },
+        {
+          "material": "other",
+          "displayName": "Other",
+          "amountGrams": 85.7,
+          "recoveryRate": "60%",
+          "recoverableGrams": 51.42,
+          "multiplier": 0.1,
+          "creditsAwarded": 5.1
+        }
+      ],
+      "verificationStatus": "CREDITS_ISSUED",
+      "statusMessage": "Physically inspected and verified by Eco-Recycling Ltd (Mumbai). Credits officially awarded.",
+      "facilityVerification": {
+        "facilityId": "FAC-MH-012",
+        "facilityName": "Eco-Recycling Ltd (Mumbai)",
+        "inspectorName": "Staff Officer",
+        "inspectorNotes": "Physical device matches iPhone 13 in genuine scrap condition.",
+        "verifiedAt": "2026-08-22T07:36:29.096Z"
+      },
+      "createdAt": "2026-08-22T07:36:29.000Z",
+      "updatedAt": "2026-08-22T07:36:29.096Z",
+      "verifiedAt": "2026-08-22T07:36:29.096Z"
+    },
+    {
+      "transactionId": "EW-2026-JHHBTT",
+      "userId": "scenario1_user",
+      "deviceId": "apple-iphone-13",
+      "claimedDevice": {
+        "category": "Smartphone",
+        "brand": "Apple",
+        "model": "iPhone 13"
+      },
+      "detectedDevice": {
+        "category": "Smartphone",
+        "brand": "Apple",
+        "model": "iPhone 13"
+      },
+      "aiConfidence": 0.94,
+      "aiMatch": true,
+      "aiReasoning": "Optical recognition confirms structural profile consistent with Apple iPhone 13.",
+      "visualCharacteristics": "Chassis profile, materials, and form-factor match claimed specifications.",
+      "estimatedCredits": 129,
+      "verifiedCredits": 129,
+      "materialsBreakdown": [
+        {
+          "material": "gold",
+          "displayName": "Gold",
+          "amountGrams": 0.034,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.031,
+          "multiplier": 1000,
+          "creditsAwarded": 30.6
+        },
+        {
+          "material": "silver",
+          "displayName": "Silver",
+          "amountGrams": 0.35,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.315,
+          "multiplier": 10,
+          "creditsAwarded": 3.2
+        },
+        {
+          "material": "copper",
+          "displayName": "Copper",
+          "amountGrams": 15.2,
+          "recoveryRate": "92%",
+          "recoverableGrams": 13.984,
+          "multiplier": 2,
+          "creditsAwarded": 28
+        },
+        {
+          "material": "aluminium",
+          "displayName": "Aluminium",
+          "amountGrams": 22.5,
+          "recoveryRate": "95%",
+          "recoverableGrams": 21.375,
+          "multiplier": 0.5,
+          "creditsAwarded": 10.7
+        },
+        {
+          "material": "cobalt",
+          "displayName": "Cobalt",
+          "amountGrams": 11.8,
+          "recoveryRate": "88%",
+          "recoverableGrams": 10.384,
+          "multiplier": 4,
+          "creditsAwarded": 41.5
+        },
+        {
+          "material": "lithium",
+          "displayName": "Lithium",
+          "amountGrams": 3.4,
+          "recoveryRate": "85%",
+          "recoverableGrams": 2.89,
+          "multiplier": 3,
+          "creditsAwarded": 8.7
+        },
+        {
+          "material": "plastics",
+          "displayName": "Plastics",
+          "amountGrams": 35,
+          "recoveryRate": "70%",
+          "recoverableGrams": 24.5,
+          "multiplier": 0.05,
+          "creditsAwarded": 1.2
+        },
+        {
+          "material": "other",
+          "displayName": "Other",
+          "amountGrams": 85.7,
+          "recoveryRate": "60%",
+          "recoverableGrams": 51.42,
+          "multiplier": 0.1,
+          "creditsAwarded": 5.1
+        }
+      ],
+      "verificationStatus": "CREDITS_ISSUED",
+      "statusMessage": "Physically inspected and verified by Eco-Recycling Ltd (Mumbai). Credits officially awarded.",
+      "facilityVerification": {
+        "facilityId": "FAC-MH-012",
+        "facilityName": "Eco-Recycling Ltd (Mumbai)",
+        "inspectorName": "Staff Officer",
+        "inspectorNotes": "Physical device matches iPhone 13 in genuine scrap condition.",
+        "verifiedAt": "2026-08-22T07:36:02.525Z"
+      },
+      "createdAt": "2026-08-22T07:36:02.506Z",
+      "updatedAt": "2026-08-22T07:36:02.525Z",
+      "verifiedAt": "2026-08-22T07:36:02.525Z"
+    },
+    {
+      "transactionId": "EW-2026-WGFSGS",
+      "userId": "test-user-1",
+      "deviceId": "apple-iphone-13",
+      "claimedDevice": {
+        "category": "Smartphone",
+        "brand": "Apple",
+        "model": "iPhone 13"
+      },
+      "detectedDevice": {
+        "category": "Smartphone",
+        "brand": "Apple",
+        "model": "iPhone 13"
+      },
+      "aiConfidence": 0.94,
+      "aiMatch": true,
+      "aiReasoning": "Optical recognition confirms structural profile consistent with Apple iPhone 13.",
+      "visualCharacteristics": "Chassis profile, materials, and form-factor match claimed specifications.",
+      "estimatedCredits": 129,
+      "verifiedCredits": 129,
+      "materialsBreakdown": [
+        {
+          "material": "gold",
+          "displayName": "Gold",
+          "amountGrams": 0.034,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.031,
+          "multiplier": 1000,
+          "creditsAwarded": 30.6
+        },
+        {
+          "material": "silver",
+          "displayName": "Silver",
+          "amountGrams": 0.35,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.315,
+          "multiplier": 10,
+          "creditsAwarded": 3.2
+        },
+        {
+          "material": "copper",
+          "displayName": "Copper",
+          "amountGrams": 15.2,
+          "recoveryRate": "92%",
+          "recoverableGrams": 13.984,
+          "multiplier": 2,
+          "creditsAwarded": 28
+        },
+        {
+          "material": "aluminium",
+          "displayName": "Aluminium",
+          "amountGrams": 22.5,
+          "recoveryRate": "95%",
+          "recoverableGrams": 21.375,
+          "multiplier": 0.5,
+          "creditsAwarded": 10.7
+        },
+        {
+          "material": "cobalt",
+          "displayName": "Cobalt",
+          "amountGrams": 11.8,
+          "recoveryRate": "88%",
+          "recoverableGrams": 10.384,
+          "multiplier": 4,
+          "creditsAwarded": 41.5
+        },
+        {
+          "material": "lithium",
+          "displayName": "Lithium",
+          "amountGrams": 3.4,
+          "recoveryRate": "85%",
+          "recoverableGrams": 2.89,
+          "multiplier": 3,
+          "creditsAwarded": 8.7
+        },
+        {
+          "material": "plastics",
+          "displayName": "Plastics",
+          "amountGrams": 35,
+          "recoveryRate": "70%",
+          "recoverableGrams": 24.5,
+          "multiplier": 0.05,
+          "creditsAwarded": 1.2
+        },
+        {
+          "material": "other",
+          "displayName": "Other",
+          "amountGrams": 85.7,
+          "recoveryRate": "60%",
+          "recoverableGrams": 51.42,
+          "multiplier": 0.1,
+          "creditsAwarded": 5.1
+        }
+      ],
+      "verificationStatus": "CREDITS_ISSUED",
+      "statusMessage": "Physically inspected and verified by Delhi Clean-Tech E-Waste Recyclers. Credits officially awarded.",
+      "facilityVerification": {
+        "facilityId": "FAC-DEL-004",
+        "facilityName": "Delhi Clean-Tech E-Waste Recyclers",
+        "inspectorName": "Amit Kumar",
+        "inspectorNotes": "Physical iPhone 13 verified and accepted.",
+        "verifiedAt": "2026-08-22T07:33:23.789Z"
+      },
+      "createdAt": "2026-08-22T07:33:23.779Z",
+      "updatedAt": "2026-08-22T07:33:23.789Z",
+      "verifiedAt": "2026-08-22T07:33:23.789Z"
+    }
+  ]
+}

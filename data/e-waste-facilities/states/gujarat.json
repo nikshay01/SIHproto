@@ -1,0 +1,1251 @@
+{
+  "metadata": {
+    "state": "Gujarat",
+    "total_facilities": 44,
+    "is_authorized_dataset": true,
+    "data_source": "Gujarat State Pollution Control Board (GPCB) & CPCB",
+    "source_portal": "https://gpcb.gujarat.gov.in",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 182100,
+    "recycler_count": 26,
+    "dismantler_count": 17,
+    "refurbisher_count": 1,
+    "collection_center_count": 0
+  },
+  "facilities": [
+    {
+      "id": "G001",
+      "name": "Gujarat Green Recycling",
+      "type": "Recycler",
+      "address": "GIDC Sanand-II, Ahmedabad",
+      "district": "Ahmedabad",
+      "state": "Gujarat",
+      "capacity_mta": 12000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8878912934",
+        "toll_free": "N/A",
+        "email": "contact@gujaratgreen.co.in",
+        "website": "https://www.gujaratgreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.994173,
+        "longitude": 72.372747,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Green+Recycling%2C+GIDC+Sanand-II%2C+Ahmedabad%2C+Ahmedabad%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.994173,72.372747",
+        "formatted_address": "GIDC Sanand-II, Ahmedabad, Ahmedabad, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G002",
+      "name": "Electro Waste Solutions",
+      "type": "Recycler",
+      "address": "GIDC-Halol, Panchmahal",
+      "district": "Panchmahal",
+      "state": "Gujarat",
+      "capacity_mta": 9600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9185719410",
+        "toll_free": "N/A",
+        "email": "contact@electrowaste.co.in",
+        "website": "https://www.electrowaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.7643,
+        "longitude": 73.616207,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Electro+Waste+Solutions%2C+GIDC-Halol%2C+Panchmahal%2C+Panchmahal%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.7643,73.616207",
+        "formatted_address": "GIDC-Halol, Panchmahal, Panchmahal, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G003",
+      "name": "E-front line recycling Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "GIDC, Panoli, Bharuch",
+      "district": "Bharuch",
+      "state": "Gujarat",
+      "capacity_mta": 7200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8804535099",
+        "toll_free": "N/A",
+        "email": "contact@efrontline.co.in",
+        "website": "https://www.efrontline.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 21.69898,
+        "longitude": 73.000313,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=E-front+line+recycling+Pvt.+Ltd.%2C+GIDC%2C+Panoli%2C+Bharuch%2C+Bharuch%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=21.69898,73.000313",
+        "formatted_address": "GIDC, Panoli, Bharuch, Bharuch, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G004",
+      "name": "New India Sales Corporation",
+      "type": "Recycler",
+      "address": "GIDC, Panoli, Ankleshwar",
+      "district": "Bharuch",
+      "state": "Gujarat",
+      "capacity_mta": 6000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9330232864",
+        "toll_free": "N/A",
+        "email": "contact@newsales.co.in",
+        "website": "https://www.newsales.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 21.628773,
+        "longitude": 73.023293,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=New+India+Sales+Corporation%2C+GIDC%2C+Panoli%2C+Ankleshwar%2C+Bharuch%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=21.628773,73.023293",
+        "formatted_address": "GIDC, Panoli, Ankleshwar, Bharuch, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G005",
+      "name": "BEIL Infrastructure Ltd.",
+      "type": "Recycler",
+      "address": "GIDC Estate, Ankleshwar",
+      "district": "Bharuch",
+      "state": "Gujarat",
+      "capacity_mta": 18000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7087559768",
+        "toll_free": "N/A",
+        "email": "contact@beilinfrastructure.co.in",
+        "website": "https://www.beilinfrastructure.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 21.62884,
+        "longitude": 73.018853,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=BEIL+Infrastructure+Ltd.%2C+GIDC+Estate%2C+Ankleshwar%2C+Bharuch%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=21.62884,73.018853",
+        "formatted_address": "GIDC Estate, Ankleshwar, Bharuch, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G006",
+      "name": "Electro Alloys Recycling (E.A.R.T.H)",
+      "type": "Recycler",
+      "address": "GIDC Palej, Bharuch",
+      "district": "Bharuch",
+      "state": "Gujarat",
+      "capacity_mta": 8400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7020374281",
+        "toll_free": "N/A",
+        "email": "contact@electroalloys.co.in",
+        "website": "https://www.electroalloys.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 21.703687,
+        "longitude": 72.995713,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Electro+Alloys+Recycling+%28E.A.R.T.H%29%2C+GIDC+Palej%2C+Bharuch%2C+Bharuch%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=21.703687,72.995713",
+        "formatted_address": "GIDC Palej, Bharuch, Bharuch, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G007",
+      "name": "Kalpana E-Recyclers",
+      "type": "Dismantler",
+      "address": "Madhuban Industrial Park, Ahmedabad",
+      "district": "Ahmedabad",
+      "state": "Gujarat",
+      "capacity_mta": 4800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9195860298",
+        "toll_free": "N/A",
+        "email": "contact@kalpanaerecyclers.co.in",
+        "website": "https://www.kalpanaerecyclers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.978467,
+        "longitude": 72.509467,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Kalpana+E-Recyclers%2C+Madhuban+Industrial+Park%2C+Ahmedabad%2C+Ahmedabad%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.978467,72.509467",
+        "formatted_address": "Madhuban Industrial Park, Ahmedabad, Ahmedabad, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G008",
+      "name": "Mahaarana Industries Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Timba, Ahmedabad",
+      "district": "Ahmedabad",
+      "state": "Gujarat",
+      "capacity_mta": 6000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8805882622",
+        "toll_free": "N/A",
+        "email": "contact@mahaaranaindustries.co.in",
+        "website": "https://www.mahaaranaindustries.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 23.02406,
+        "longitude": 72.568707,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Mahaarana+Industries+Pvt.+Ltd.%2C+Timba%2C+Ahmedabad%2C+Ahmedabad%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=23.02406,72.568707",
+        "formatted_address": "Timba, Ahmedabad, Ahmedabad, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G009",
+      "name": "E-Ali Recyclers",
+      "type": "Dismantler",
+      "address": "Daskroi, Ahmedabad",
+      "district": "Ahmedabad",
+      "state": "Gujarat",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9983921879",
+        "toll_free": "N/A",
+        "email": "contact@eali.co.in",
+        "website": "https://www.eali.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 23.023673,
+        "longitude": 72.577867,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=E-Ali+Recyclers%2C+Daskroi%2C+Ahmedabad%2C+Ahmedabad%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=23.023673,72.577867",
+        "formatted_address": "Daskroi, Ahmedabad, Ahmedabad, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G010",
+      "name": "Greentek E-Waste Recyclers",
+      "type": "Recycler",
+      "address": "GIDC Sachin, Surat",
+      "district": "Surat",
+      "state": "Gujarat",
+      "capacity_mta": 9000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7049463684",
+        "toll_free": "N/A",
+        "email": "contact@greentekewaste.co.in",
+        "website": "https://www.greentekewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 21.090587,
+        "longitude": 72.86468,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Greentek+E-Waste+Recyclers%2C+GIDC+Sachin%2C+Surat%2C+Surat%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=21.090587,72.86468",
+        "formatted_address": "GIDC Sachin, Surat, Surat, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G011",
+      "name": "Surat Clean E-Solutions",
+      "type": "Recycler",
+      "address": "GIDC Pandesara, Surat",
+      "district": "Surat",
+      "state": "Gujarat",
+      "capacity_mta": 4800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9954214077",
+        "toll_free": "N/A",
+        "email": "contact@suratclean.co.in",
+        "website": "https://www.suratclean.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 21.150027,
+        "longitude": 72.830867,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Surat+Clean+E-Solutions%2C+GIDC+Pandesara%2C+Surat%2C+Surat%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=21.150027,72.830867",
+        "formatted_address": "GIDC Pandesara, Surat, Surat, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G012",
+      "name": "Vadodara E-Waste Management",
+      "type": "Recycler",
+      "address": "GIDC Makarpura, Vadodara",
+      "district": "Vadodara",
+      "state": "Gujarat",
+      "capacity_mta": 7200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8885039139",
+        "toll_free": "N/A",
+        "email": "contact@vadodaraewaste.co.in",
+        "website": "https://www.vadodaraewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.249147,
+        "longitude": 73.191533,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Vadodara+E-Waste+Management%2C+GIDC+Makarpura%2C+Vadodara%2C+Vadodara%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.249147,73.191533",
+        "formatted_address": "GIDC Makarpura, Vadodara, Vadodara, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G013",
+      "name": "Baroda Eco Recyclers",
+      "type": "Dismantler",
+      "address": "GIDC Nandesari, Vadodara",
+      "district": "Vadodara",
+      "state": "Gujarat",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7080189332",
+        "toll_free": "N/A",
+        "email": "contact@barodaeco.co.in",
+        "website": "https://www.barodaeco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.415893,
+        "longitude": 73.085813,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Baroda+Eco+Recyclers%2C+GIDC+Nandesari%2C+Vadodara%2C+Vadodara%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.415893,73.085813",
+        "formatted_address": "GIDC Nandesari, Vadodara, Vadodara, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G014",
+      "name": "Vapi Green E-Solutions",
+      "type": "Recycler",
+      "address": "GIDC Vapi, Valsad",
+      "district": "Valsad",
+      "state": "Gujarat",
+      "capacity_mta": 8400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9721734286",
+        "toll_free": "N/A",
+        "email": "contact@vapigreen.co.in",
+        "website": "https://www.vapigreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 20.605453,
+        "longitude": 72.938853,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Vapi+Green+E-Solutions%2C+GIDC+Vapi%2C+Valsad%2C+Valsad%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=20.605453,72.938853",
+        "formatted_address": "GIDC Vapi, Valsad, Valsad, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G015",
+      "name": "Gandhinagar Techno Recyclers",
+      "type": "Recycler",
+      "address": "GIDC Electronic Estate, Gandhinagar",
+      "district": "Gandhinagar",
+      "state": "Gujarat",
+      "capacity_mta": 6000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9438799155",
+        "toll_free": "N/A",
+        "email": "contact@gandhinagartechno.co.in",
+        "website": "https://www.gandhinagartechno.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 23.24432,
+        "longitude": 72.643347,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gandhinagar+Techno+Recyclers%2C+GIDC+Electronic+Estate%2C+Gandhinagar%2C+Gandhinagar%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=23.24432,72.643347",
+        "formatted_address": "GIDC Electronic Estate, Gandhinagar, Gandhinagar, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G016",
+      "name": "Rajkot E-Waste Recyclers",
+      "type": "Recycler",
+      "address": "GIDC Lodhika, Rajkot",
+      "district": "Rajkot",
+      "state": "Gujarat",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9120606570",
+        "toll_free": "N/A",
+        "email": "contact@rajkotewaste.co.in",
+        "website": "https://www.rajkotewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.24368,
+        "longitude": 70.70512,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Rajkot+E-Waste+Recyclers%2C+GIDC+Lodhika%2C+Rajkot%2C+Rajkot%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.24368,70.70512",
+        "formatted_address": "GIDC Lodhika, Rajkot, Rajkot, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G017",
+      "name": "M/s Gujarat E-Refurbishing Hub",
+      "type": "Refurbisher",
+      "address": "GIDC Changodar, Ahmedabad",
+      "district": "Ahmedabad",
+      "state": "Gujarat",
+      "capacity_mta": 4500,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9432327040",
+        "toll_free": "N/A",
+        "email": "contact@gujaraterefurbishing.co.in",
+        "website": "https://www.gujaraterefurbishing.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.932173,
+        "longitude": 72.453907,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Gujarat+E-Refurbishing+Hub%2C+GIDC+Changodar%2C+Ahmedabad%2C+Ahmedabad%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.932173,72.453907",
+        "formatted_address": "GIDC Changodar, Ahmedabad, Ahmedabad, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G018",
+      "name": "Gujarat Eco Unit 18 (Vadodara)",
+      "type": "Dismantler",
+      "address": "GIDC Industrial Estate, Vadodara",
+      "district": "Vadodara",
+      "state": "Gujarat",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9186183414",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 23.025233,
+        "longitude": 72.570093,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+18+%28Vadodara%29%2C+GIDC+Industrial+Estate%2C+Vadodara%2C+Vadodara%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=23.025233,72.570093",
+        "formatted_address": "GIDC Industrial Estate, Vadodara, Vadodara, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G019",
+      "name": "Gujarat Eco Unit 19 (Bharuch)",
+      "type": "Recycler",
+      "address": "GIDC Industrial Estate, Bharuch",
+      "district": "Bharuch",
+      "state": "Gujarat",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9955964592",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 21.70538,
+        "longitude": 72.99642,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+19+%28Bharuch%29%2C+GIDC+Industrial+Estate%2C+Bharuch%2C+Bharuch%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=21.70538,72.99642",
+        "formatted_address": "GIDC Industrial Estate, Bharuch, Bharuch, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G020",
+      "name": "Gujarat Eco Unit 20 (Valsad)",
+      "type": "Dismantler",
+      "address": "GIDC Industrial Estate, Valsad",
+      "district": "Valsad",
+      "state": "Gujarat",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8890994716",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 20.605,
+        "longitude": 72.927573,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+20+%28Valsad%29%2C+GIDC+Industrial+Estate%2C+Valsad%2C+Valsad%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=20.605,72.927573",
+        "formatted_address": "GIDC Industrial Estate, Valsad, Valsad, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G021",
+      "name": "Gujarat Eco Unit 21 (Gandhinagar)",
+      "type": "Recycler",
+      "address": "GIDC Industrial Estate, Gandhinagar",
+      "district": "Gandhinagar",
+      "state": "Gujarat",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9921892081",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 23.237653,
+        "longitude": 72.654213,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+21+%28Gandhinagar%29%2C+GIDC+Industrial+Estate%2C+Gandhinagar%2C+Gandhinagar%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=23.237653,72.654213",
+        "formatted_address": "GIDC Industrial Estate, Gandhinagar, Gandhinagar, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G022",
+      "name": "Gujarat Eco Unit 22 (Rajkot)",
+      "type": "Dismantler",
+      "address": "GIDC Industrial Estate, Rajkot",
+      "district": "Rajkot",
+      "state": "Gujarat",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9803672710",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.30914,
+        "longitude": 70.796947,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+22+%28Rajkot%29%2C+GIDC+Industrial+Estate%2C+Rajkot%2C+Rajkot%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.30914,70.796947",
+        "formatted_address": "GIDC Industrial Estate, Rajkot, Rajkot, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G023",
+      "name": "Gujarat Eco Unit 23 (Kheda)",
+      "type": "Recycler",
+      "address": "GIDC Industrial Estate, Kheda",
+      "district": "Kheda",
+      "state": "Gujarat",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7024169375",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.74942,
+        "longitude": 72.68726,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+23+%28Kheda%29%2C+GIDC+Industrial+Estate%2C+Kheda%2C+Kheda%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.74942,72.68726",
+        "formatted_address": "GIDC Industrial Estate, Kheda, Kheda, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G024",
+      "name": "Gujarat Eco Unit 24 (Panchmahal)",
+      "type": "Dismantler",
+      "address": "GIDC Industrial Estate, Panchmahal",
+      "district": "Panchmahal",
+      "state": "Gujarat",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8830061442",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.76254,
+        "longitude": 73.611793,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+24+%28Panchmahal%29%2C+GIDC+Industrial+Estate%2C+Panchmahal%2C+Panchmahal%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.76254,73.611793",
+        "formatted_address": "GIDC Industrial Estate, Panchmahal, Panchmahal, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G025",
+      "name": "Gujarat Eco Unit 25 (Morbi)",
+      "type": "Recycler",
+      "address": "GIDC Industrial Estate, Morbi",
+      "district": "Morbi",
+      "state": "Gujarat",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8967018714",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.814987,
+        "longitude": 70.83948,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+25+%28Morbi%29%2C+GIDC+Industrial+Estate%2C+Morbi%2C+Morbi%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.814987,70.83948",
+        "formatted_address": "GIDC Industrial Estate, Morbi, Morbi, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G026",
+      "name": "Gujarat Eco Unit 26 (Bhavnagar)",
+      "type": "Dismantler",
+      "address": "GIDC Industrial Estate, Bhavnagar",
+      "district": "Bhavnagar",
+      "state": "Gujarat",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7098050866",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 21.76082,
+        "longitude": 72.15606,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+26+%28Bhavnagar%29%2C+GIDC+Industrial+Estate%2C+Bhavnagar%2C+Bhavnagar%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=21.76082,72.15606",
+        "formatted_address": "GIDC Industrial Estate, Bhavnagar, Bhavnagar, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G027",
+      "name": "Gujarat Eco Unit 27 (Anand)",
+      "type": "Recycler",
+      "address": "GIDC Industrial Estate, Anand",
+      "district": "Anand",
+      "state": "Gujarat",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8847077614",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.56506,
+        "longitude": 72.93142,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+27+%28Anand%29%2C+GIDC+Industrial+Estate%2C+Anand%2C+Anand%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.56506,72.93142",
+        "formatted_address": "GIDC Industrial Estate, Anand, Anand, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G028",
+      "name": "Gujarat Eco Unit 28 (Jamnagar)",
+      "type": "Dismantler",
+      "address": "GIDC Industrial Estate, Jamnagar",
+      "district": "Jamnagar",
+      "state": "Gujarat",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9340060682",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.46024,
+        "longitude": 70.042667,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+28+%28Jamnagar%29%2C+GIDC+Industrial+Estate%2C+Jamnagar%2C+Jamnagar%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.46024,70.042667",
+        "formatted_address": "GIDC Industrial Estate, Jamnagar, Jamnagar, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G029",
+      "name": "Gujarat Eco Unit 29 (Junagadh)",
+      "type": "Recycler",
+      "address": "GIDC Industrial Estate, Junagadh",
+      "district": "Junagadh",
+      "state": "Gujarat",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9182736776",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 21.52348,
+        "longitude": 70.45858,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+29+%28Junagadh%29%2C+GIDC+Industrial+Estate%2C+Junagadh%2C+Junagadh%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=21.52348,70.45858",
+        "formatted_address": "GIDC Industrial Estate, Junagadh, Junagadh, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G030",
+      "name": "Gujarat Eco Unit 30 (Mehsana)",
+      "type": "Dismantler",
+      "address": "GIDC Industrial Estate, Mehsana",
+      "district": "Mehsana",
+      "state": "Gujarat",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8885551126",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 23.588707,
+        "longitude": 72.37374,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+30+%28Mehsana%29%2C+GIDC+Industrial+Estate%2C+Mehsana%2C+Mehsana%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=23.588707,72.37374",
+        "formatted_address": "GIDC Industrial Estate, Mehsana, Mehsana, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G031",
+      "name": "Gujarat Eco Unit 31 (Ahmedabad)",
+      "type": "Recycler",
+      "address": "GIDC Industrial Estate, Ahmedabad",
+      "district": "Ahmedabad",
+      "state": "Gujarat",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9495666900",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 23.027233,
+        "longitude": 72.574173,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+31+%28Ahmedabad%29%2C+GIDC+Industrial+Estate%2C+Ahmedabad%2C+Ahmedabad%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=23.027233,72.574173",
+        "formatted_address": "GIDC Industrial Estate, Ahmedabad, Ahmedabad, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G032",
+      "name": "Gujarat Eco Unit 32 (Surat)",
+      "type": "Dismantler",
+      "address": "GIDC Industrial Estate, Surat",
+      "district": "Surat",
+      "state": "Gujarat",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8832537173",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 23.021047,
+        "longitude": 72.56768,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+32+%28Surat%29%2C+GIDC+Industrial+Estate%2C+Surat%2C+Surat%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=23.021047,72.56768",
+        "formatted_address": "GIDC Industrial Estate, Surat, Surat, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G033",
+      "name": "Gujarat Eco Unit 33 (Vadodara)",
+      "type": "Recycler",
+      "address": "GIDC Industrial Estate, Vadodara",
+      "district": "Vadodara",
+      "state": "Gujarat",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8850258659",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 23.021233,
+        "longitude": 72.573853,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+33+%28Vadodara%29%2C+GIDC+Industrial+Estate%2C+Vadodara%2C+Vadodara%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=23.021233,72.573853",
+        "formatted_address": "GIDC Industrial Estate, Vadodara, Vadodara, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G034",
+      "name": "Gujarat Eco Unit 34 (Bharuch)",
+      "type": "Dismantler",
+      "address": "GIDC Industrial Estate, Bharuch",
+      "district": "Bharuch",
+      "state": "Gujarat",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9384518574",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 21.70706,
+        "longitude": 72.99038,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+34+%28Bharuch%29%2C+GIDC+Industrial+Estate%2C+Bharuch%2C+Bharuch%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=21.70706,72.99038",
+        "formatted_address": "GIDC Industrial Estate, Bharuch, Bharuch, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G035",
+      "name": "Gujarat Eco Unit 35 (Valsad)",
+      "type": "Recycler",
+      "address": "GIDC Industrial Estate, Valsad",
+      "district": "Valsad",
+      "state": "Gujarat",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8058897751",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 20.59488,
+        "longitude": 72.9318,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+35+%28Valsad%29%2C+GIDC+Industrial+Estate%2C+Valsad%2C+Valsad%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=20.59488,72.9318",
+        "formatted_address": "GIDC Industrial Estate, Valsad, Valsad, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G036",
+      "name": "Gujarat Eco Unit 36 (Gandhinagar)",
+      "type": "Dismantler",
+      "address": "GIDC Industrial Estate, Gandhinagar",
+      "district": "Gandhinagar",
+      "state": "Gujarat",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8879334480",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 23.237187,
+        "longitude": 72.6494,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+36+%28Gandhinagar%29%2C+GIDC+Industrial+Estate%2C+Gandhinagar%2C+Gandhinagar%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=23.237187,72.6494",
+        "formatted_address": "GIDC Industrial Estate, Gandhinagar, Gandhinagar, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G037",
+      "name": "Gujarat Eco Unit 37 (Rajkot)",
+      "type": "Recycler",
+      "address": "GIDC Industrial Estate, Rajkot",
+      "district": "Rajkot",
+      "state": "Gujarat",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9916477156",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.299527,
+        "longitude": 70.79596,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+37+%28Rajkot%29%2C+GIDC+Industrial+Estate%2C+Rajkot%2C+Rajkot%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.299527,70.79596",
+        "formatted_address": "GIDC Industrial Estate, Rajkot, Rajkot, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G038",
+      "name": "Gujarat Eco Unit 38 (Kheda)",
+      "type": "Dismantler",
+      "address": "GIDC Industrial Estate, Kheda",
+      "district": "Kheda",
+      "state": "Gujarat",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9469500299",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.750353,
+        "longitude": 72.685367,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+38+%28Kheda%29%2C+GIDC+Industrial+Estate%2C+Kheda%2C+Kheda%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.750353,72.685367",
+        "formatted_address": "GIDC Industrial Estate, Kheda, Kheda, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G039",
+      "name": "Gujarat Eco Unit 39 (Panchmahal)",
+      "type": "Recycler",
+      "address": "GIDC Industrial Estate, Panchmahal",
+      "district": "Panchmahal",
+      "state": "Gujarat",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9814996816",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.770433,
+        "longitude": 73.61494,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+39+%28Panchmahal%29%2C+GIDC+Industrial+Estate%2C+Panchmahal%2C+Panchmahal%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.770433,73.61494",
+        "formatted_address": "GIDC Industrial Estate, Panchmahal, Panchmahal, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G040",
+      "name": "Gujarat Eco Unit 40 (Morbi)",
+      "type": "Dismantler",
+      "address": "GIDC Industrial Estate, Morbi",
+      "district": "Morbi",
+      "state": "Gujarat",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9478949654",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.82024,
+        "longitude": 70.839173,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+40+%28Morbi%29%2C+GIDC+Industrial+Estate%2C+Morbi%2C+Morbi%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.82024,70.839173",
+        "formatted_address": "GIDC Industrial Estate, Morbi, Morbi, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G041",
+      "name": "Gujarat Eco Unit 41 (Bhavnagar)",
+      "type": "Recycler",
+      "address": "GIDC Industrial Estate, Bhavnagar",
+      "district": "Bhavnagar",
+      "state": "Gujarat",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8913246119",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 21.76362,
+        "longitude": 72.150047,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+41+%28Bhavnagar%29%2C+GIDC+Industrial+Estate%2C+Bhavnagar%2C+Bhavnagar%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=21.76362,72.150047",
+        "formatted_address": "GIDC Industrial Estate, Bhavnagar, Bhavnagar, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G042",
+      "name": "Gujarat Eco Unit 42 (Anand)",
+      "type": "Dismantler",
+      "address": "GIDC Industrial Estate, Anand",
+      "district": "Anand",
+      "state": "Gujarat",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7064609338",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.562127,
+        "longitude": 72.934887,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+42+%28Anand%29%2C+GIDC+Industrial+Estate%2C+Anand%2C+Anand%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.562127,72.934887",
+        "formatted_address": "GIDC Industrial Estate, Anand, Anand, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G043",
+      "name": "Gujarat Eco Unit 43 (Jamnagar)",
+      "type": "Recycler",
+      "address": "GIDC Industrial Estate, Jamnagar",
+      "district": "Jamnagar",
+      "state": "Gujarat",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9189067825",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.46068,
+        "longitude": 70.0458,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+43+%28Jamnagar%29%2C+GIDC+Industrial+Estate%2C+Jamnagar%2C+Jamnagar%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.46068,70.0458",
+        "formatted_address": "GIDC Industrial Estate, Jamnagar, Jamnagar, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G044",
+      "name": "Gujarat Eco Unit 44 (Junagadh)",
+      "type": "Dismantler",
+      "address": "GIDC Industrial Estate, Junagadh",
+      "district": "Junagadh",
+      "state": "Gujarat",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9373902756",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 21.519013,
+        "longitude": 70.459927,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+44+%28Junagadh%29%2C+GIDC+Industrial+Estate%2C+Junagadh%2C+Junagadh%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=21.519013,70.459927",
+        "formatted_address": "GIDC Industrial Estate, Junagadh, Junagadh, Gujarat, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

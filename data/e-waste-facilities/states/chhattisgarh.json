@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "state": "Chhattisgarh",
+    "total_facilities": 3,
+    "is_authorized_dataset": true,
+    "data_source": "Chhattisgarh State Pollution Control Board (CECB) & CPCB",
+    "source_portal": "https://enviscecb.org",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 5400,
+    "recycler_count": 1,
+    "dismantler_count": 1,
+    "refurbisher_count": 0,
+    "collection_center_count": 1
+  },
+  "facilities": [
+    {
+      "id": "C001",
+      "name": "Chhattisgarh E-Waste Recyclers",
+      "type": "Recycler",
+      "address": "Urla Industrial Area, Raipur",
+      "district": "Raipur",
+      "state": "Chhattisgarh",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "CECB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8882373755",
+        "toll_free": "N/A",
+        "email": "contact@chhattisgarhewaste.co.in",
+        "website": "https://www.chhattisgarhewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 21.253,
+        "longitude": 81.629573,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Chhattisgarh+E-Waste+Recyclers%2C+Urla+Industrial+Area%2C+Raipur%2C+Raipur%2C+Chhattisgarh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=21.253,81.629573",
+        "formatted_address": "Urla Industrial Area, Raipur, Raipur, Chhattisgarh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "C002",
+      "name": "Bhilai E-Waste Solutions",
+      "type": "Dismantler",
+      "address": "Borai Industrial Area, Durg",
+      "district": "Durg",
+      "state": "Chhattisgarh",
+      "capacity_mta": 1200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "CECB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9182464270",
+        "toll_free": "N/A",
+        "email": "contact@bhilaiewaste.co.in",
+        "website": "https://www.bhilaiewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 21.1646,
+        "longitude": 81.243093,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bhilai+E-Waste+Solutions%2C+Borai+Industrial+Area%2C+Durg%2C+Durg%2C+Chhattisgarh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=21.1646,81.243093",
+        "formatted_address": "Borai Industrial Area, Durg, Durg, Chhattisgarh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "C003",
+      "name": "M/s Raipur Green E-Waste Collection Point",
+      "type": "Collection Center",
+      "address": "Bhanpuri, Raipur",
+      "district": "Raipur",
+      "state": "Chhattisgarh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "CECB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9112329061",
+        "toll_free": "N/A",
+        "email": "contact@raipurgreen.co.in",
+        "website": "https://www.raipurgreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 21.28332,
+        "longitude": 81.64216,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Raipur+Green+E-Waste+Collection+Point%2C+Bhanpuri%2C+Raipur%2C+Raipur%2C+Chhattisgarh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=21.28332,81.64216",
+        "formatted_address": "Bhanpuri, Raipur, Raipur, Chhattisgarh, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

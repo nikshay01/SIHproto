@@ -1,0 +1,111 @@
+{
+  "validation_parameters": {
+    "distance_threshold_km": 1.0,
+    "total_facilities_processed": 2
+  },
+  "results": [
+    {
+      "facility_id": "AP001",
+      "facility_name": "Green Waves Environmental Solution",
+      "status": "mismatch",
+      "address": "Mindi (V), Gajuwaka (M), Visakhapatnam, Visakhapatnam, Andhra Pradesh, India",
+      "stored_coords": [
+        17.694307,
+        83.220507
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 606.428,
+      "within_threshold": false,
+      "error": null
+    },
+    {
+      "facility_id": "D001",
+      "facility_name": "Attero Recycling Pvt. Ltd.",
+      "status": "mismatch",
+      "address": "Okhla Industrial Area, Phase-II, New Delhi, South Delhi, Delhi, India",
+      "stored_coords": [
+        28.540727,
+        77.281313
+      ],
+      "geocoded_coords": [
+        20.0,
+        78.0
+      ],
+      "distance_km": 948.803,
+      "within_threshold": false,
+      "error": null
+    }
+  ],
+  "report": {
+    "summary": {
+      "total_facilities": 2,
+      "valid_coordinates": 0,
+      "mismatched_coordinates": 2,
+      "errors": 0,
+      "validation_threshold_km": 1.0
+    },
+    "mismatched_facilities": [
+      {
+        "facility_id": "D001",
+        "facility_name": "Attero Recycling Pvt. Ltd.",
+        "distance_km": 948.803,
+        "stored_coords": [
+          28.540727,
+          77.281313
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Okhla Industrial Area, Phase-II, New Delhi, South Delhi, Delhi, India"
+      },
+      {
+        "facility_id": "AP001",
+        "facility_name": "Green Waves Environmental Solution",
+        "distance_km": 606.428,
+        "stored_coords": [
+          17.694307,
+          83.220507
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Mindi (V), Gajuwaka (M), Visakhapatnam, Visakhapatnam, Andhra Pradesh, India"
+      }
+    ],
+    "all_mismatched_facilities": [
+      {
+        "facility_id": "D001",
+        "facility_name": "Attero Recycling Pvt. Ltd.",
+        "distance_km": 948.803,
+        "stored_coords": [
+          28.540727,
+          77.281313
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Okhla Industrial Area, Phase-II, New Delhi, South Delhi, Delhi, India"
+      },
+      {
+        "facility_id": "AP001",
+        "facility_name": "Green Waves Environmental Solution",
+        "distance_km": 606.428,
+        "stored_coords": [
+          17.694307,
+          83.220507
+        ],
+        "geocoded_coords": [
+          20.0,
+          78.0
+        ],
+        "address": "Mindi (V), Gajuwaka (M), Visakhapatnam, Visakhapatnam, Andhra Pradesh, India"
+      }
+    ]
+  }
+}

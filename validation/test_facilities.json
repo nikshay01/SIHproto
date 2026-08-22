@@ -1,0 +1,58 @@
+{
+  "all_facilities": [
+    {
+      "id": "AP001",
+      "name": "Green Waves Environmental Solution",
+      "type": "Dismantler",
+      "address": "Mindi (V), Gajuwaka (M), Visakhapatnam",
+      "district": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "capacity_mta": 480,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "APPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9374457641",
+        "toll_free": "N/A",
+        "email": "contact@greenwaves.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.694307,
+        "longitude": 83.220507,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Green+Waves+Environmental+Solution%2C+Mindi+%28V%29%2C+Gajuwaka+%28M%29%2C+Visakhapatnam%2C+Visakhapatnam%2C+Andhra+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.694307,83.220507",
+        "formatted_address": "Mindi (V), Gajuwaka (M), Visakhapatnam, Visakhapatnam, Andhra Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "D001",
+      "name": "Attero Recycling Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Okhla Industrial Area, Phase-II, New Delhi",
+      "district": "South Delhi",
+      "state": "Delhi",
+      "capacity_mta": 9100,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "DPCC",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-11-41825656",
+        "toll_free": "1800-102-5577",
+        "email": "info@attero.com",
+        "contact_person": "Nitin Gupta (CEO / Plant Head)"
+      },
+      "location": {
+        "latitude": 28.540727,
+        "longitude": 77.281313,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Attero+Recycling+Pvt.+Ltd.%2C+Okhla+Industrial+Area%2C+Phase-II%2C+New+Delhi%2C+South+Delhi%2C+Delhi%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.540727,77.281313",
+        "formatted_address": "Okhla Industrial Area, Phase-II, New Delhi, South Delhi, Delhi, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

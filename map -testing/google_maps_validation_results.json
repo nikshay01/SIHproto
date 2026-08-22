@@ -1,0 +1,160 @@
+{
+  "validation_parameters": {
+    "service_used": "Google Maps Geocoding API",
+    "distance_threshold_km": 2.0,
+    "total_facilities_processed": 10
+  },
+  "results": [
+    {
+      "facility_id": "AN001",
+      "facility_name": "M/s Island Green E-Waste Collection Facility",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Dollygunj Industrial Estate, Port Blair, South Andaman, Andaman and Nicobar Islands, India",
+      "stored_coords": [
+        11.643413,
+        92.719907
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "AP001",
+      "facility_name": "Green Waves Environmental Solution",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Mindi (V), Gajuwaka (M), Visakhapatnam, Visakhapatnam, Andhra Pradesh, India",
+      "stored_coords": [
+        17.694307,
+        83.220507
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "AP002",
+      "facility_name": "Veera Waste Management Systems",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "IDA, Autonagar, Visakhapatnam, Visakhapatnam, Andhra Pradesh, India",
+      "stored_coords": [
+        17.700093,
+        83.21268
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "AP003",
+      "facility_name": "Ramky E-Waste Recycling Facility",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "JNPC, Parawada, Visakhapatnam, Visakhapatnam, Andhra Pradesh, India",
+      "stored_coords": [
+        17.693387,
+        83.222013
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "AP004",
+      "facility_name": "Clean Earth Green Earth Solutions",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Jewellery Park, Machilipatnam, Krishna, Krishna, Andhra Pradesh, India",
+      "stored_coords": [
+        16.185013,
+        81.139667
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "AP005",
+      "facility_name": "Laxminarayana Recyclers LLP",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Aganampudi, Visakhapatnam, Visakhapatnam, Andhra Pradesh, India",
+      "stored_coords": [
+        17.699467,
+        83.214373
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "AP006",
+      "facility_name": "M/s Vizag E-Refurbishers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Duvvada VSEZ, Visakhapatnam, Visakhapatnam, Andhra Pradesh, India",
+      "stored_coords": [
+        17.69472,
+        83.21912
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "AR001",
+      "facility_name": "M/s Arunachal E-Waste Authorized Collection & Storage Hub",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Industrial Estate, Naharlagun, Papum Pare, Papum Pare, Arunachal Pradesh, India",
+      "stored_coords": [
+        27.110093,
+        93.692627
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "AS001",
+      "facility_name": "Assam E-Waste Recyclers & Dismantlers",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "EPIP, Amingaon, Kamrup Rural, Guwahati, Kamrup, Assam, India",
+      "stored_coords": [
+        26.194467,
+        91.687773
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "AS002",
+      "facility_name": "M/s North-East Green E-Waste Collection & Channelization Center",
+      "status": "error",
+      "error": "Google Maps geocoding failed",
+      "address": "Borbari, VIP Road, Guwahati, Kamrup, Assam, India",
+      "stored_coords": [
+        26.147247,
+        91.733653
+      ],
+      "google_maps_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    }
+  ],
+  "report": {
+    "summary": {
+      "total_facilities": 10,
+      "valid_coordinates": 0,
+      "mismatched_coordinates": 0,
+      "errors": 10,
+      "validation_threshold_km": 2.0
+    },
+    "mismatched_facilities": [],
+    "all_mismatched_facilities": []
+  }
+}

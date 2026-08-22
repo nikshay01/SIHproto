@@ -1,0 +1,47 @@
+{
+  "validation_parameters": {
+    "distance_threshold_km": 1.0,
+    "total_facilities_processed": 2
+  },
+  "results": [
+    {
+      "facility_id": "AP001",
+      "facility_name": "Green Waves Environmental Solution",
+      "status": "error",
+      "error": "Geocoding failed",
+      "address": "Mindi (V), Gajuwaka (M), Visakhapatnam, Visakhapatnam, Andhra Pradesh, India",
+      "stored_coords": [
+        17.694307,
+        83.220507
+      ],
+      "geocoded_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    },
+    {
+      "facility_id": "D001",
+      "facility_name": "Attero Recycling Pvt. Ltd.",
+      "status": "error",
+      "error": "Geocoding failed",
+      "address": "Okhla Industrial Area, Phase-II, New Delhi, South Delhi, Delhi, India",
+      "stored_coords": [
+        28.540727,
+        77.281313
+      ],
+      "geocoded_coords": null,
+      "distance_km": null,
+      "within_threshold": null
+    }
+  ],
+  "report": {
+    "summary": {
+      "total_facilities": 2,
+      "valid_coordinates": 0,
+      "mismatched_coordinates": 0,
+      "errors": 2,
+      "validation_threshold_km": 1.0
+    },
+    "mismatched_facilities": [],
+    "all_mismatched_facilities": []
+  }
+}

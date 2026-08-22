@@ -1,0 +1,1404 @@
+{
+  "all_facilities": [
+    {
+      "id": "WB007",
+      "name": "M/s City of Joy E-Refurbishers",
+      "type": "Refurbisher",
+      "address": "New Town, Rajarhat, Kolkata",
+      "district": "North 24 Parganas",
+      "state": "West Bengal",
+      "capacity_mta": 2400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "WBPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9396993871",
+        "toll_free": "N/A",
+        "email": "contact@cityof.co.in",
+        "website": "https://www.cityof.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.71692,
+        "longitude": 88.4748,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+City+of+Joy+E-Refurbishers%2C+New+Town%2C+Rajarhat%2C+Kolkata%2C+North+24+Parganas%2C+West+Bengal%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.71692,88.4748",
+        "formatted_address": "New Town, Rajarhat, Kolkata, North 24 Parganas, West Bengal, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M003",
+      "name": "Eco-Pro Environmental Services",
+      "type": "Recycler",
+      "address": "Bhosari MIDC, Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "capacity_mta": 12000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9380380480",
+        "toll_free": "N/A",
+        "email": "contact@ecoproenvironmental.co.in",
+        "website": "https://www.ecoproenvironmental.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 18.62492,
+        "longitude": 73.84968,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Eco-Pro+Environmental+Services%2C+Bhosari+MIDC%2C+Pune%2C+Pune%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=18.62492,73.84968",
+        "formatted_address": "Bhosari MIDC, Pune, Pune, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K009",
+      "name": "Yelahanka E-Recyclers LLP",
+      "type": "Recycler",
+      "address": "Yelahanka Industrial Area, Bangalore",
+      "district": "Bangalore Urban",
+      "state": "Karnataka",
+      "capacity_mta": 5400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9838756286",
+        "toll_free": "N/A",
+        "email": "contact@yelahankaerecyclers.co.in",
+        "website": "https://www.yelahankaerecyclers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 13.10498,
+        "longitude": 77.59686,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Yelahanka+E-Recyclers+LLP%2C+Yelahanka+Industrial+Area%2C+Bangalore%2C+Bangalore+Urban%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=13.10498,77.59686",
+        "formatted_address": "Yelahanka Industrial Area, Bangalore, Bangalore Urban, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "TN009",
+      "name": "M/s Global E-Waste Recyclers",
+      "type": "Recycler",
+      "address": "SIPCOT Industrial Complex, Hosur, Krishnagiri",
+      "district": "Krishnagiri",
+      "state": "Tamil Nadu",
+      "capacity_mta": 4800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8025475473",
+        "toll_free": "N/A",
+        "email": "contact@globalewaste.co.in",
+        "website": "https://www.globalewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 16.191213,
+        "longitude": 81.133173,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Global+E-Waste+Recyclers%2C+SIPCOT+Industrial+Complex%2C+Hosur%2C+Krishnagiri%2C+Krishnagiri%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=16.191213,81.133173",
+        "formatted_address": "SIPCOT Industrial Complex, Hosur, Krishnagiri, Krishnagiri, Tamil Nadu, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "WB010",
+      "name": "Siliguri Green E-Waste Collection Hub",
+      "type": "Collection Center",
+      "address": "Dabgram Industrial Area, Jalpaiguri / Siliguri",
+      "district": "Jalpaiguri",
+      "state": "West Bengal",
+      "capacity_mta": 1500,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "WBPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9337207575",
+        "toll_free": "N/A",
+        "email": "contact@siligurigreen.co.in",
+        "website": "https://www.siligurigreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.721907,
+        "longitude": 88.438747,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Siliguri+Green+E-Waste+Collection+Hub%2C+Dabgram+Industrial+Area%2C+Jalpaiguri+%2F+Siliguri%2C+Jalpaiguri%2C+West+Bengal%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.721907,88.438747",
+        "formatted_address": "Dabgram Industrial Area, Jalpaiguri / Siliguri, Jalpaiguri, West Bengal, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H030",
+      "name": "Haryana Green Unit 30 (Yamunanagar)",
+      "type": "Dismantler",
+      "address": "HSIIDC Industrial Area, Yamunanagar",
+      "district": "Yamunanagar",
+      "state": "Haryana",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9156744543",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 30.1318,
+        "longitude": 77.27064,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+30+%28Yamunanagar%29%2C+HSIIDC+Industrial+Area%2C+Yamunanagar%2C+Yamunanagar%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=30.1318,77.27064",
+        "formatted_address": "HSIIDC Industrial Area, Yamunanagar, Yamunanagar, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M038",
+      "name": "Maharashtra E-Tech Unit 38 (Latur)",
+      "type": "Dismantler",
+      "address": "MIDC Industrial Area, Latur",
+      "district": "Latur",
+      "state": "Maharashtra",
+      "capacity_mta": 720,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9439438244",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 18.41104,
+        "longitude": 76.563573,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+38+%28Latur%29%2C+MIDC+Industrial+Area%2C+Latur%2C+Latur%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=18.41104,76.563573",
+        "formatted_address": "MIDC Industrial Area, Latur, Latur, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M033",
+      "name": "Maharashtra E-Tech Unit 33 (Kolhapur)",
+      "type": "Recycler",
+      "address": "MIDC Industrial Area, Kolhapur",
+      "district": "Kolhapur",
+      "state": "Maharashtra",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9410577582",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 16.706653,
+        "longitude": 74.2405,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+33+%28Kolhapur%29%2C+MIDC+Industrial+Area%2C+Kolhapur%2C+Kolhapur%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=16.706653,74.2405",
+        "formatted_address": "MIDC Industrial Area, Kolhapur, Kolhapur, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H009",
+      "name": "Palwal E-Waste Solutions",
+      "type": "Dismantler",
+      "address": "Industrial Area, Palwal",
+      "district": "Palwal",
+      "state": "Haryana",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8857716940",
+        "toll_free": "N/A",
+        "email": "contact@palwalewaste.co.in",
+        "website": "https://www.palwalewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.153627,
+        "longitude": 77.322027,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Palwal+E-Waste+Solutions%2C+Industrial+Area%2C+Palwal%2C+Palwal%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.153627,77.322027",
+        "formatted_address": "Industrial Area, Palwal, Palwal, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H008",
+      "name": "Jhajjar E-Waste Recyclers Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "HSIIDC Industrial Area, Jhajjar",
+      "district": "Jhajjar",
+      "state": "Haryana",
+      "capacity_mta": 2400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9814450116",
+        "toll_free": "N/A",
+        "email": "contact@jhajjarewaste.co.in",
+        "website": "https://www.jhajjarewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.60708,
+        "longitude": 76.658533,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Jhajjar+E-Waste+Recyclers+Pvt.+Ltd.%2C+HSIIDC+Industrial+Area%2C+Jhajjar%2C+Jhajjar%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.60708,76.658533",
+        "formatted_address": "HSIIDC Industrial Area, Jhajjar, Jhajjar, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "JA002",
+      "name": "M/s Jammu Industrial E-Waste Center",
+      "type": "Collection Center",
+      "address": "Bari Brahmana Industrial Complex, Samba",
+      "district": "Samba",
+      "state": "Jammu and Kashmir",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "JKPCC",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8925505630",
+        "toll_free": "N/A",
+        "email": "contact@jammuindustrial.co.in",
+        "website": "https://www.jammuindustrial.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 32.6432,
+        "longitude": 74.940453,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Jammu+Industrial+E-Waste+Center%2C+Bari+Brahmana+Industrial+Complex%2C+Samba%2C+Samba%2C+Jammu+and+Kashmir%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=32.6432,74.940453",
+        "formatted_address": "Bari Brahmana Industrial Complex, Samba, Samba, Jammu and Kashmir, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "WB005",
+      "name": "Salt Lake E-Recyclers LLP",
+      "type": "Recycler",
+      "address": "Sector-V, Salt Lake, Kolkata",
+      "district": "Kolkata",
+      "state": "West Bengal",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "WBPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7088169161",
+        "toll_free": "N/A",
+        "email": "contact@saltlake.co.in",
+        "website": "https://www.saltlake.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 22.58492,
+        "longitude": 88.437573,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Salt+Lake+E-Recyclers+LLP%2C+Sector-V%2C+Salt+Lake%2C+Kolkata%2C+Kolkata%2C+West+Bengal%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=22.58492,88.437573",
+        "formatted_address": "Sector-V, Salt Lake, Kolkata, Kolkata, West Bengal, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP028",
+      "name": "UP Unit 28 (Lakhimpur Kheri E-Waste Center)",
+      "type": "Dismantler",
+      "address": "UPSIDC Industrial Area, Lakhimpur Kheri",
+      "district": "Lakhimpur Kheri",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9993121830",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 27.956233,
+        "longitude": 80.782047,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+28+%28Lakhimpur+Kheri+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Lakhimpur+Kheri%2C+Lakhimpur+Kheri%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=27.956233,80.782047",
+        "formatted_address": "UPSIDC Industrial Area, Lakhimpur Kheri, Lakhimpur Kheri, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K014",
+      "name": "Bangalore Tech Valley Recyclers",
+      "type": "Recycler",
+      "address": "Peenya 2nd Phase, Bangalore",
+      "district": "Bangalore Urban",
+      "state": "Karnataka",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8914913483",
+        "toll_free": "N/A",
+        "email": "contact@bangaloretech.co.in",
+        "website": "https://www.bangaloretech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 13.03506,
+        "longitude": 77.52328,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bangalore+Tech+Valley+Recyclers%2C+Peenya+2nd+Phase%2C+Bangalore%2C+Bangalore+Urban%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=13.03506,77.52328",
+        "formatted_address": "Peenya 2nd Phase, Bangalore, Bangalore Urban, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K028",
+      "name": "Karnataka Green Facility 28 (Dakshina Kannada)",
+      "type": "Dismantler",
+      "address": "KIADB Industrial Area, Dakshina Kannada",
+      "district": "Dakshina Kannada",
+      "state": "Karnataka",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7081658189",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 12.9768,
+        "longitude": 77.589587,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+28+%28Dakshina+Kannada%29%2C+KIADB+Industrial+Area%2C+Dakshina+Kannada%2C+Dakshina+Kannada%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.9768,77.589587",
+        "formatted_address": "KIADB Industrial Area, Dakshina Kannada, Dakshina Kannada, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M020",
+      "name": "Maharashtra E-Tech Unit 20 (Osmanabad)",
+      "type": "Dismantler",
+      "address": "MIDC Industrial Area, Osmanabad",
+      "district": "Osmanabad",
+      "state": "Maharashtra",
+      "capacity_mta": 720,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8831911456",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 18.17958,
+        "longitude": 76.04386,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+20+%28Osmanabad%29%2C+MIDC+Industrial+Area%2C+Osmanabad%2C+Osmanabad%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=18.17958,76.04386",
+        "formatted_address": "MIDC Industrial Area, Osmanabad, Osmanabad, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H014",
+      "name": "Haryana Green Unit 14 (Faridabad)",
+      "type": "Dismantler",
+      "address": "HSIIDC Industrial Area, Faridabad",
+      "district": "Faridabad",
+      "state": "Haryana",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9762219161",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.371893,
+        "longitude": 77.313533,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+14+%28Faridabad%29%2C+HSIIDC+Industrial+Area%2C+Faridabad%2C+Faridabad%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.371893,77.313533",
+        "formatted_address": "HSIIDC Industrial Area, Faridabad, Faridabad, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP063",
+      "name": "UP Unit 63 (Ayodhya E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Ayodhya",
+      "district": "Ayodhya",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9951541736",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.790853,
+        "longitude": 82.19392,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+63+%28Ayodhya+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Ayodhya%2C+Ayodhya%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.790853,82.19392",
+        "formatted_address": "UPSIDC Industrial Area, Ayodhya, Ayodhya, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "T001",
+      "name": "M/s Tripura E-Waste Collection & Storage Facility",
+      "type": "Collection Center",
+      "address": "Bodhjungnagar Industrial Growth Centre, Agartala",
+      "district": "West Tripura",
+      "state": "Tripura",
+      "capacity_mta": 750,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB-TR",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9782128987",
+        "toll_free": "N/A",
+        "email": "contact@tripuraewaste.co.in",
+        "website": "https://www.tripuraewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 23.89652,
+        "longitude": 91.347787,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Tripura+E-Waste+Collection+%26+Storage+Facility%2C+Bodhjungnagar+Industrial+Growth+Centre%2C+Agartala%2C+West+Tripura%2C+Tripura%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=23.89652,91.347787",
+        "formatted_address": "Bodhjungnagar Industrial Growth Centre, Agartala, West Tripura, Tripura, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP065",
+      "name": "UP Unit 65 (Sambhal E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Sambhal",
+      "district": "Sambhal",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8934657124",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.5859,
+        "longitude": 78.57424,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+65+%28Sambhal+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Sambhal%2C+Sambhal%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.5859,78.57424",
+        "formatted_address": "UPSIDC Industrial Area, Sambhal, Sambhal, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K001",
+      "name": "Clean Kerala Co. E-Waste Center",
+      "type": "Recycler",
+      "address": "Edayar Industrial Area, Ernakulam",
+      "district": "Ernakulam",
+      "state": "Kerala",
+      "capacity_mta": 1800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB-KL",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9830670499",
+        "toll_free": "N/A",
+        "email": "contact@cleankerala.co.in",
+        "website": "https://www.cleankerala.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 9.988053,
+        "longitude": 76.30026,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Clean+Kerala+Co.+E-Waste+Center%2C+Edayar+Industrial+Area%2C+Ernakulam%2C+Ernakulam%2C+Kerala%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=9.988053,76.30026",
+        "formatted_address": "Edayar Industrial Area, Ernakulam, Ernakulam, Kerala, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G018",
+      "name": "Gujarat Eco Unit 18 (Vadodara)",
+      "type": "Dismantler",
+      "address": "GIDC Industrial Estate, Vadodara",
+      "district": "Vadodara",
+      "state": "Gujarat",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9186183414",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 23.025233,
+        "longitude": 72.570093,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+18+%28Vadodara%29%2C+GIDC+Industrial+Estate%2C+Vadodara%2C+Vadodara%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=23.025233,72.570093",
+        "formatted_address": "GIDC Industrial Estate, Vadodara, Vadodara, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K029",
+      "name": "Karnataka Green Facility 29 (Davangere)",
+      "type": "Recycler",
+      "address": "KIADB Industrial Area, Davangere",
+      "district": "Davangere",
+      "state": "Karnataka",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7067980552",
+        "toll_free": "N/A",
+        "email": "contact@karnatakagreen.co.in",
+        "website": "https://www.karnatakagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 14.464627,
+        "longitude": 75.9274,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Karnataka+Green+Facility+29+%28Davangere%29%2C+KIADB+Industrial+Area%2C+Davangere%2C+Davangere%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=14.464627,75.9274",
+        "formatted_address": "KIADB Industrial Area, Davangere, Davangere, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H012",
+      "name": "Haryana Green Unit 12 (Hisar)",
+      "type": "Dismantler",
+      "address": "HSIIDC Industrial Area, Hisar",
+      "district": "Hisar",
+      "state": "Haryana",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9154998341",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 29.151733,
+        "longitude": 75.72184,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+12+%28Hisar%29%2C+HSIIDC+Industrial+Area%2C+Hisar%2C+Hisar%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=29.151733,75.72184",
+        "formatted_address": "HSIIDC Industrial Area, Hisar, Hisar, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H045",
+      "name": "Haryana Green Unit 45 (Karnal)",
+      "type": "Recycler",
+      "address": "HSIIDC Industrial Area, Karnal",
+      "district": "Karnal",
+      "state": "Haryana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9995195908",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 29.69444,
+        "longitude": 76.99764,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+45+%28Karnal%29%2C+HSIIDC+Industrial+Area%2C+Karnal%2C+Karnal%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=29.69444,76.99764",
+        "formatted_address": "HSIIDC Industrial Area, Karnal, Karnal, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R017",
+      "name": "M/s Rajasthan Green E-Recyclers",
+      "type": "Recycler",
+      "address": "RIICO, Neemrana, Alwar",
+      "district": "Alwar",
+      "state": "Rajasthan",
+      "capacity_mta": 7200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9777746777",
+        "toll_free": "N/A",
+        "email": "contact@rajasthangreen.co.in",
+        "website": "https://www.rajasthangreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.000933,
+        "longitude": 76.386567,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Rajasthan+Green+E-Recyclers%2C+RIICO%2C+Neemrana%2C+Alwar%2C+Alwar%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.000933,76.386567",
+        "formatted_address": "RIICO, Neemrana, Alwar, Alwar, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R020",
+      "name": "M/s Jaipur Eco E-Recyclers LLP",
+      "type": "Refurbisher",
+      "address": "VKI Area, Road No. 14, Jaipur",
+      "district": "Jaipur",
+      "state": "Rajasthan",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9857845193",
+        "toll_free": "N/A",
+        "email": "contact@jaipureco.co.in",
+        "website": "https://www.jaipureco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.979533,
+        "longitude": 75.76308,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Jaipur+Eco+E-Recyclers+LLP%2C+VKI+Area%2C+Road+No.+14%2C+Jaipur%2C+Jaipur%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.979533,75.76308",
+        "formatted_address": "VKI Area, Road No. 14, Jaipur, Jaipur, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "D012",
+      "name": "M/s Okhla Phase-III E-Waste Node",
+      "type": "Dismantler",
+      "address": "Okhla Phase-III, New Delhi",
+      "district": "South Delhi",
+      "state": "Delhi",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "DPCC",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9982592396",
+        "toll_free": "N/A",
+        "email": "contact@okhlaphaseiii.co.in",
+        "website": "https://www.okhlaphaseiii.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.537447,
+        "longitude": 77.275353,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Okhla+Phase-III+E-Waste+Node%2C+Okhla+Phase-III%2C+New+Delhi%2C+South+Delhi%2C+Delhi%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.537447,77.275353",
+        "formatted_address": "Okhla Phase-III, New Delhi, South Delhi, Delhi, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "T001",
+      "name": "Earth Sense Recycle Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "APIIC Industrial Park, Rangareddy",
+      "district": "Rangareddy",
+      "state": "Telangana",
+      "capacity_mta": 22775,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-40-23000555",
+        "toll_free": "1800-200-3373",
+        "email": "info@earthsenserecycle.com",
+        "website": "https://www.earthsense.in",
+        "contact_person": "Operations Director"
+      },
+      "location": {
+        "latitude": 17.18788,
+        "longitude": 78.438227,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Earth+Sense+Recycle+Pvt.+Ltd.%2C+APIIC+Industrial+Park%2C+Rangareddy%2C+Rangareddy%2C+Telangana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.18788,78.438227",
+        "formatted_address": "APIIC Industrial Park, Rangareddy, Rangareddy, Telangana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M009",
+      "name": "Nashik Green E-Solutions Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Satpur MIDC, Nashik",
+      "district": "Nashik",
+      "state": "Maharashtra",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9939833874",
+        "toll_free": "N/A",
+        "email": "contact@nashikgreen.co.in",
+        "website": "https://www.nashikgreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.97408,
+        "longitude": 73.73924,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Nashik+Green+E-Solutions+Pvt.+Ltd.%2C+Satpur+MIDC%2C+Nashik%2C+Nashik%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.97408,73.73924",
+        "formatted_address": "Satpur MIDC, Nashik, Nashik, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M021",
+      "name": "Maharashtra E-Tech Unit 21 (Beed)",
+      "type": "Recycler",
+      "address": "MIDC Industrial Area, Beed",
+      "district": "Beed",
+      "state": "Maharashtra",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9989815718",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 18.990753,
+        "longitude": 75.759753,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+21+%28Beed%29%2C+MIDC+Industrial+Area%2C+Beed%2C+Beed%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=18.990753,75.759753",
+        "formatted_address": "MIDC Industrial Area, Beed, Beed, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H019",
+      "name": "Haryana Green Unit 19 (Rewari)",
+      "type": "Recycler",
+      "address": "HSIIDC Industrial Area, Rewari",
+      "district": "Rewari",
+      "state": "Haryana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8064740265",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.18256,
+        "longitude": 76.6168,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+19+%28Rewari%29%2C+HSIIDC+Industrial+Area%2C+Rewari%2C+Rewari%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.18256,76.6168",
+        "formatted_address": "HSIIDC Industrial Area, Rewari, Rewari, Haryana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "TN003",
+      "name": "M/s Shri Raam Recycling",
+      "type": "Recycler",
+      "address": "SIDCO Industrial Estate, SIPCOT Industrial Complex, Gummidipoondi",
+      "district": "Tiruvallur",
+      "state": "Tamil Nadu",
+      "capacity_mta": 504,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9197814266",
+        "toll_free": "N/A",
+        "email": "contact@shriraam.co.in",
+        "website": "https://www.shriraam.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 13.408573,
+        "longitude": 80.127573,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Shri+Raam+Recycling%2C+SIDCO+Industrial+Estate%2C+SIPCOT+Industrial+Complex%2C+Gummidipoondi%2C+Tiruvallur%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=13.408573,80.127573",
+        "formatted_address": "SIDCO Industrial Estate, SIPCOT Industrial Complex, Gummidipoondi, Tiruvallur, Tamil Nadu, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "T011",
+      "name": "Telangana Eco Unit 11 (Sangareddy)",
+      "type": "Recycler",
+      "address": "TSIIC Industrial Estate, Sangareddy",
+      "district": "Sangareddy",
+      "state": "Telangana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9809167877",
+        "toll_free": "N/A",
+        "email": "contact@telanganaeco.co.in",
+        "website": "https://www.telanganaeco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.543747,
+        "longitude": 78.198093,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Telangana+Eco+Unit+11+%28Sangareddy%29%2C+TSIIC+Industrial+Estate%2C+Sangareddy%2C+Sangareddy%2C+Telangana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.543747,78.198093",
+        "formatted_address": "TSIIC Industrial Estate, Sangareddy, Sangareddy, Telangana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "T019",
+      "name": "Telangana Eco Unit 19 (Nalgonda)",
+      "type": "Recycler",
+      "address": "TSIIC Industrial Estate, Nalgonda",
+      "district": "Nalgonda",
+      "state": "Telangana",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8943500027",
+        "toll_free": "N/A",
+        "email": "contact@telanganaeco.co.in",
+        "website": "https://www.telanganaeco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.052407,
+        "longitude": 79.26664,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Telangana+Eco+Unit+19+%28Nalgonda%29%2C+TSIIC+Industrial+Estate%2C+Nalgonda%2C+Nalgonda%2C+Telangana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.052407,79.26664",
+        "formatted_address": "TSIIC Industrial Estate, Nalgonda, Nalgonda, Telangana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP057",
+      "name": "UP Unit 57 (Muzaffarnagar E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Muzaffarnagar",
+      "district": "Muzaffarnagar",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-7087757711",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 29.48352,
+        "longitude": 77.704627,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+57+%28Muzaffarnagar+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Muzaffarnagar%2C+Muzaffarnagar%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=29.48352,77.704627",
+        "formatted_address": "UPSIDC Industrial Area, Muzaffarnagar, Muzaffarnagar, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M031",
+      "name": "Maharashtra E-Tech Unit 31 (Nagpur)",
+      "type": "Recycler",
+      "address": "MIDC Industrial Area, Nagpur",
+      "district": "Nagpur",
+      "state": "Maharashtra",
+      "capacity_mta": 4200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9903826900",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.08264,
+        "longitude": 72.874593,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+31+%28Nagpur%29%2C+MIDC+Industrial+Area%2C+Nagpur%2C+Nagpur%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.08264,72.874593",
+        "formatted_address": "MIDC Industrial Area, Nagpur, Nagpur, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "T010",
+      "name": "M/s Cyberabad E-Refurbishers",
+      "type": "Refurbisher",
+      "address": "HITEC City, Madhapur, Hyderabad",
+      "district": "Hyderabad",
+      "state": "Telangana",
+      "capacity_mta": 5000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9737113629",
+        "toll_free": "N/A",
+        "email": "contact@cyberabaderefurbishers.co.in",
+        "website": "https://www.cyberabaderefurbishers.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 17.444987,
+        "longitude": 78.383347,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Cyberabad+E-Refurbishers%2C+HITEC+City%2C+Madhapur%2C+Hyderabad%2C+Hyderabad%2C+Telangana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=17.444987,78.383347",
+        "formatted_address": "HITEC City, Madhapur, Hyderabad, Hyderabad, Telangana, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M044",
+      "name": "Maharashtra E-Tech Unit 44 (Wardha)",
+      "type": "Dismantler",
+      "address": "MIDC Industrial Area, Wardha",
+      "district": "Wardha",
+      "state": "Maharashtra",
+      "capacity_mta": 720,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9465490135",
+        "toll_free": "N/A",
+        "email": "contact@maharashtraetech.co.in",
+        "website": "https://www.maharashtraetech.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 20.745353,
+        "longitude": 78.596467,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maharashtra+E-Tech+Unit+44+%28Wardha%29%2C+MIDC+Industrial+Area%2C+Wardha%2C+Wardha%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=20.745353,78.596467",
+        "formatted_address": "MIDC Industrial Area, Wardha, Wardha, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP055",
+      "name": "UP Unit 55 (Hapur E-Waste Center)",
+      "type": "Recycler",
+      "address": "UPSIDC Industrial Area, Hapur",
+      "district": "Hapur",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 3000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8888069486",
+        "toll_free": "N/A",
+        "email": "contact@upunit.co.in",
+        "website": "https://www.upunit.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.736587,
+        "longitude": 77.774553,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=UP+Unit+55+%28Hapur+E-Waste+Center%29%2C+UPSIDC+Industrial+Area%2C+Hapur%2C+Hapur%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.736587,77.774553",
+        "formatted_address": "UPSIDC Industrial Area, Hapur, Hapur, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "R009",
+      "name": "M/s Hulladek PWL E-Waste Collection Facility",
+      "type": "Collection Center",
+      "address": "Plot No. F-142, RIICO Industrial Area, Bindayka, Sirsi, Jaipur",
+      "district": "Jaipur",
+      "state": "Rajasthan",
+      "capacity_mta": 1200,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "RSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8813919256",
+        "toll_free": "N/A",
+        "email": "contact@hulladekpwl.co.in",
+        "website": "https://www.hulladekpwl.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.918093,
+        "longitude": 75.787273,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Hulladek+PWL+E-Waste+Collection+Facility%2C+Plot+No.+F-142%2C+RIICO+Industrial+Area%2C+Bindayka%2C+Sirsi%2C+Jaipur%2C+Jaipur%2C+Rajasthan%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.918093,75.787273",
+        "formatted_address": "Plot No. F-142, RIICO Industrial Area, Bindayka, Sirsi, Jaipur, Jaipur, Rajasthan, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M002",
+      "name": "Enviro-Care Recycling Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "TTC Industrial Area, Pawane MIDC, Navi Mumbai",
+      "district": "Thane",
+      "state": "Maharashtra",
+      "capacity_mta": 18000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9453538102",
+        "toll_free": "N/A",
+        "email": "contact@envirocare.co.in",
+        "website": "https://www.envirocare.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 19.082333,
+        "longitude": 73.033773,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Enviro-Care+Recycling+Pvt.+Ltd.%2C+TTC+Industrial+Area%2C+Pawane+MIDC%2C+Navi+Mumbai%2C+Thane%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=19.082333,73.033773",
+        "formatted_address": "TTC Industrial Area, Pawane MIDC, Navi Mumbai, Thane, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP017",
+      "name": "Awadh E-Waste Solutions Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "Sitapur Road Industrial Area, Lucknow",
+      "district": "Lucknow",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 2400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9742042595",
+        "toll_free": "N/A",
+        "email": "contact@awadhewaste.co.in",
+        "website": "https://www.awadhewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 26.883253,
+        "longitude": 80.995013,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Awadh+E-Waste+Solutions+Pvt.+Ltd.%2C+Sitapur+Road+Industrial+Area%2C+Lucknow%2C+Lucknow%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=26.883253,80.995013",
+        "formatted_address": "Sitapur Road Industrial Area, Lucknow, Lucknow, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "TN007",
+      "name": "Trishyiraya Recycling India Pvt. Ltd.",
+      "type": "Recycler",
+      "address": "SIDCO Industrial Estate, Guindy, Chennai",
+      "district": "Chennai",
+      "state": "Tamil Nadu",
+      "capacity_mta": 8400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "TNPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8869387503",
+        "toll_free": "N/A",
+        "email": "contact@trishyiraya.co.in",
+        "website": "https://www.trishyiraya.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 13.004013,
+        "longitude": 80.20748,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Trishyiraya+Recycling+India+Pvt.+Ltd.%2C+SIDCO+Industrial+Estate%2C+Guindy%2C+Chennai%2C+Chennai%2C+Tamil+Nadu%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=13.004013,80.20748",
+        "formatted_address": "SIDCO Industrial Estate, Guindy, Chennai, Chennai, Tamil Nadu, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "G032",
+      "name": "Gujarat Eco Unit 32 (Surat)",
+      "type": "Dismantler",
+      "address": "GIDC Industrial Estate, Surat",
+      "district": "Surat",
+      "state": "Gujarat",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "GPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8832537173",
+        "toll_free": "N/A",
+        "email": "contact@gujarateco.co.in",
+        "website": "https://www.gujarateco.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 23.021047,
+        "longitude": 72.56768,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gujarat+Eco+Unit+32+%28Surat%29%2C+GIDC+Industrial+Estate%2C+Surat%2C+Surat%2C+Gujarat%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=23.021047,72.56768",
+        "formatted_address": "GIDC Industrial Estate, Surat, Surat, Gujarat, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "N001",
+      "name": "M/s Nagaland State E-Waste Collection Facility",
+      "type": "Collection Center",
+      "address": "NIDC Industrial Estate, Dimapur",
+      "district": "Dimapur",
+      "state": "Nagaland",
+      "capacity_mta": 600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "NPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9969098299",
+        "toll_free": "N/A",
+        "email": "contact@nagalandstate.co.in",
+        "website": "https://www.nagalandstate.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 25.911773,
+        "longitude": 93.73104,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Nagaland+State+E-Waste+Collection+Facility%2C+NIDC+Industrial+Estate%2C+Dimapur%2C+Dimapur%2C+Nagaland%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=25.911773,93.73104",
+        "formatted_address": "NIDC Industrial Estate, Dimapur, Dimapur, Nagaland, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "K018",
+      "name": "M/s Silicon City Refurbishers",
+      "type": "Refurbisher",
+      "address": "Koramangala Industrial Layout, Bangalore",
+      "district": "Bangalore Urban",
+      "state": "Karnataka",
+      "capacity_mta": 3600,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "KSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9915916072",
+        "toll_free": "N/A",
+        "email": "contact@siliconcity.co.in",
+        "website": "https://www.siliconcity.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 12.941573,
+        "longitude": 77.61858,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Silicon+City+Refurbishers%2C+Koramangala+Industrial+Layout%2C+Bangalore%2C+Bangalore+Urban%2C+Karnataka%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=12.941573,77.61858",
+        "formatted_address": "Koramangala Industrial Layout, Bangalore, Bangalore Urban, Karnataka, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "M006",
+      "name": "Pune E-Waste Management LLP",
+      "type": "Recycler",
+      "address": "Chakan MIDC, Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "capacity_mta": 8400,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8831677301",
+        "toll_free": "N/A",
+        "email": "contact@puneewaste.co.in",
+        "website": "https://www.puneewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 18.76216,
+        "longitude": 73.858933,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Pune+E-Waste+Management+LLP%2C+Chakan+MIDC%2C+Pune%2C+Pune%2C+Maharashtra%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=18.76216,73.858933",
+        "formatted_address": "Chakan MIDC, Pune, Pune, Maharashtra, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "UP001",
+      "name": "Attero Recycling Pvt. Ltd. (UP Center)",
+      "type": "Recycler",
+      "address": "Ecotech-III, Greater Noida",
+      "district": "Gautam Buddha Nagar",
+      "state": "Uttar Pradesh",
+      "capacity_mta": 36000,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "UPPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-120-4088888",
+        "toll_free": "1800-102-9882",
+        "email": "info@attero.in",
+        "website": "https://www.attero.in",
+        "contact_person": "Nitin Gupta (CEO / Plant Head)"
+      },
+      "location": {
+        "latitude": 28.47312,
+        "longitude": 77.50364,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Attero+Recycling+Pvt.+Ltd.+%28UP+Center%29%2C+Ecotech-III%2C+Greater+Noida%2C+Gautam+Buddha+Nagar%2C+Uttar+Pradesh%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.47312,77.50364",
+        "formatted_address": "Ecotech-III, Greater Noida, Gautam Buddha Nagar, Uttar Pradesh, India"
+      },
+      "status": "Active"
+    },
+    {
+      "id": "H038",
+      "name": "Haryana Green Unit 38 (Faridabad)",
+      "type": "Dismantler",
+      "address": "HSIIDC Industrial Area, Faridabad",
+      "district": "Faridabad",
+      "state": "Haryana",
+      "capacity_mta": 900,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "HSPCB",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-8071666851",
+        "toll_free": "N/A",
+        "email": "contact@haryanagreen.co.in",
+        "website": "https://www.haryanagreen.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 28.3644,
+        "longitude": 77.318147,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Haryana+Green+Unit+38+%28Faridabad%29%2C+HSIIDC+Industrial+Area%2C+Faridabad%2C+Faridabad%2C+Haryana%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=28.3644,77.318147",
+        "formatted_address": "HSIIDC Industrial Area, Faridabad, Faridabad, Haryana, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

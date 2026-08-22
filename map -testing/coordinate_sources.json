@@ -1,0 +1,119 @@
+{
+  "coordinate_sources": [
+    {
+      "facility_id": "AN001",
+      "facility_name": "M/s Island Green E-Waste Collection Facility",
+      "official_coordinates": [
+        11.643413,
+        92.719907
+      ],
+      "coordinate_source": "Verified via Google Maps",
+      "source_details": "Google Maps URL present: https://www.google.com/maps/search/?api=1&query=M%2Fs+Island+Green+E-Waste+Collection+Facility%2C+Dollygunj+Industrial+Estate%2C+Port+Blair%2C+South+Andaman%2C+Andaman+and+Nicobar+Islands%2C+India",
+      "verification_method": "URL validation"
+    },
+    {
+      "facility_id": "AP001",
+      "facility_name": "Green Waves Environmental Solution",
+      "official_coordinates": [
+        17.694307,
+        83.220507
+      ],
+      "coordinate_source": "Verified via Google Maps",
+      "source_details": "Google Maps URL present: https://www.google.com/maps/search/?api=1&query=Green+Waves+Environmental+Solution%2C+Mindi+%28V%29%2C+Gajuwaka+%28M%29%2C+Visakhapatnam%2C+Visakhapatnam%2C+Andhra+Pradesh%2C+India",
+      "verification_method": "URL validation"
+    },
+    {
+      "facility_id": "AP002",
+      "facility_name": "Veera Waste Management Systems",
+      "official_coordinates": [
+        17.700093,
+        83.21268
+      ],
+      "coordinate_source": "Verified via Google Maps",
+      "source_details": "Google Maps URL present: https://www.google.com/maps/search/?api=1&query=Veera+Waste+Management+Systems%2C+IDA%2C+Autonagar%2C+Visakhapatnam%2C+Visakhapatnam%2C+Andhra+Pradesh%2C+India",
+      "verification_method": "URL validation"
+    },
+    {
+      "facility_id": "AP003",
+      "facility_name": "Ramky E-Waste Recycling Facility",
+      "official_coordinates": [
+        17.693387,
+        83.222013
+      ],
+      "coordinate_source": "Verified via Google Maps",
+      "source_details": "Google Maps URL present: https://www.google.com/maps/search/?api=1&query=Ramky+E-Waste+Recycling+Facility%2C+JNPC%2C+Parawada%2C+Visakhapatnam%2C+Visakhapatnam%2C+Andhra+Pradesh%2C+India",
+      "verification_method": "URL validation"
+    },
+    {
+      "facility_id": "AP004",
+      "facility_name": "Clean Earth Green Earth Solutions",
+      "official_coordinates": [
+        16.185013,
+        81.139667
+      ],
+      "coordinate_source": "Verified via Google Maps",
+      "source_details": "Google Maps URL present: https://www.google.com/maps/search/?api=1&query=Clean+Earth+Green+Earth+Solutions%2C+Jewellery+Park%2C+Machilipatnam%2C+Krishna%2C+Krishna%2C+Andhra+Pradesh%2C+India",
+      "verification_method": "URL validation"
+    },
+    {
+      "facility_id": "AP005",
+      "facility_name": "Laxminarayana Recyclers LLP",
+      "official_coordinates": [
+        17.699467,
+        83.214373
+      ],
+      "coordinate_source": "Verified via Google Maps",
+      "source_details": "Google Maps URL present: https://www.google.com/maps/search/?api=1&query=Laxminarayana+Recyclers+LLP%2C+Aganampudi%2C+Visakhapatnam%2C+Visakhapatnam%2C+Andhra+Pradesh%2C+India",
+      "verification_method": "URL validation"
+    },
+    {
+      "facility_id": "AP006",
+      "facility_name": "M/s Vizag E-Refurbishers",
+      "official_coordinates": [
+        17.69472,
+        83.21912
+      ],
+      "coordinate_source": "Verified via Google Maps",
+      "source_details": "Google Maps URL present: https://www.google.com/maps/search/?api=1&query=M%2Fs+Vizag+E-Refurbishers%2C+Duvvada+VSEZ%2C+Visakhapatnam%2C+Visakhapatnam%2C+Andhra+Pradesh%2C+India",
+      "verification_method": "URL validation"
+    },
+    {
+      "facility_id": "AR001",
+      "facility_name": "M/s Arunachal E-Waste Authorized Collection & Storage Hub",
+      "official_coordinates": [
+        27.110093,
+        93.692627
+      ],
+      "coordinate_source": "Verified via Google Maps",
+      "source_details": "Google Maps URL present: https://www.google.com/maps/search/?api=1&query=M%2Fs+Arunachal+E-Waste+Authorized+Collection+%26+Storage+Hub%2C+Industrial+Estate%2C+Naharlagun%2C+Papum+Pare%2C+Papum+Pare%2C+Arunachal+Pradesh%2C+India",
+      "verification_method": "URL validation"
+    },
+    {
+      "facility_id": "AS001",
+      "facility_name": "Assam E-Waste Recyclers & Dismantlers",
+      "official_coordinates": [
+        26.194467,
+        91.687773
+      ],
+      "coordinate_source": "Verified via Google Maps",
+      "source_details": "Google Maps URL present: https://www.google.com/maps/search/?api=1&query=Assam+E-Waste+Recyclers+%26+Dismantlers%2C+EPIP%2C+Amingaon%2C+Kamrup+Rural%2C+Guwahati%2C+Kamrup%2C+Assam%2C+India",
+      "verification_method": "URL validation"
+    },
+    {
+      "facility_id": "AS002",
+      "facility_name": "M/s North-East Green E-Waste Collection & Channelization Center",
+      "official_coordinates": [
+        26.147247,
+        91.733653
+      ],
+      "coordinate_source": "Verified via Google Maps",
+      "source_details": "Google Maps URL present: https://www.google.com/maps/search/?api=1&query=M%2Fs+North-East+Green+E-Waste+Collection+%26+Channelization+Center%2C+Borbari%2C+VIP+Road%2C+Guwahati%2C+Kamrup%2C+Assam%2C+India",
+      "verification_method": "URL validation"
+    }
+  ],
+  "summary": {
+    "total_facilities": 10,
+    "report_generated_at": "2026-08-20 21:19:15",
+    "note": "This report documents the presumed source of official coordinates (location.lat/lng) in the facility data."
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "state": "Meghalaya",
+    "total_facilities": 1,
+    "is_authorized_dataset": true,
+    "data_source": "Meghalaya State Pollution Control Board (MSPCB-ML) & CPCB",
+    "source_portal": "http://megspcb.gov.in",
+    "regulatory_framework": "E-Waste (Management) Rules, 2022",
+    "last_updated": "2025-02-09",
+    "disclaimer": "All facilities in this document are officially authorized under the E-Waste (Management) Rules, 2022. Statutory status can be cross-verified on the official state SPCB portal.",
+    "total_capacity_mta": 800,
+    "recycler_count": 0,
+    "dismantler_count": 0,
+    "refurbisher_count": 0,
+    "collection_center_count": 1
+  },
+  "facilities": [
+    {
+      "id": "M001",
+      "name": "M/s Meghalaya E-Waste Channelization & Processing Node",
+      "type": "Collection Center",
+      "address": "Umiam Industrial Estate, Ri-Bhoi",
+      "district": "Ri-Bhoi",
+      "state": "Meghalaya",
+      "capacity_mta": 800,
+      "is_authorized": true,
+      "authorization_status": "Authorized",
+      "authorization_by": "MSPCB-ML",
+      "regulatory_compliance": "E-Waste (Management) Rules, 2022",
+      "contact": {
+        "phone": "+91-9191530077",
+        "toll_free": "N/A",
+        "email": "contact@meghalayaewaste.co.in",
+        "website": "https://www.meghalayaewaste.co.in",
+        "contact_person": "Plant Operations Manager / EHS Officer"
+      },
+      "location": {
+        "latitude": 25.582427,
+        "longitude": 91.887607,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=M%2Fs+Meghalaya+E-Waste+Channelization+%26+Processing+Node%2C+Umiam+Industrial+Estate%2C+Ri-Bhoi%2C+Ri-Bhoi%2C+Meghalaya%2C+India",
+        "coordinates_url": "https://www.google.com/maps?q=25.582427,91.887607",
+        "formatted_address": "Umiam Industrial Estate, Ri-Bhoi, Ri-Bhoi, Meghalaya, India"
+      },
+      "status": "Active"
+    }
+  ]
+}

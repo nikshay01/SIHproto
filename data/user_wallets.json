@@ -1,0 +1,52 @@
+{
+  "wallets": {
+    "test-user-1": {
+      "userId": "test-user-1",
+      "estimatedCredits": 0,
+      "verifiedCredits": 129,
+      "redeemedCredits": 50,
+      "availableCredits": 79,
+      "redemptions": [
+        {
+          "redemptionId": "RDM-1787384003807-783",
+          "rewardId": "green-voucher-100",
+          "rewardTitle": "₹100 Green Eco-Voucher",
+          "creditsSpent": 50,
+          "couponCode": "ECO-689189",
+          "timestamp": "2026-08-22T07:33:23.807Z"
+        }
+      ],
+      "createdAt": "2026-08-22T07:33:23.223Z",
+      "lastUpdated": "2026-08-22T07:33:23.807Z"
+    },
+    "scenario1_user": {
+      "userId": "scenario1_user",
+      "estimatedCredits": 0,
+      "verifiedCredits": 129,
+      "redeemedCredits": 0,
+      "availableCredits": 129,
+      "redemptions": [],
+      "createdAt": "2026-08-22T07:36:02.507Z",
+      "lastUpdated": "2026-08-22T07:36:02.525Z"
+    },
+    "scenario1_user_1787384188574": {
+      "userId": "scenario1_user_1787384188574",
+      "estimatedCredits": 0,
+      "verifiedCredits": 129,
+      "redeemedCredits": 50,
+      "availableCredits": 79,
+      "redemptions": [
+        {
+          "redemptionId": "RDM-1787384189156-206",
+          "rewardId": "tree-planting",
+          "rewardTitle": "Plant 1 Native Tree",
+          "creditsSpent": 50,
+          "couponCode": "ECO-701477",
+          "timestamp": "2026-08-22T07:36:29.156Z"
+        }
+      ],
+      "createdAt": "2026-08-22T07:36:29.016Z",
+      "lastUpdated": "2026-08-22T07:36:29.156Z"
+    }
+  }
+}
