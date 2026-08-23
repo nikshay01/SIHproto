@@ -20,6 +20,7 @@ import FacilityTerminal from "./components/facility/FacilityTerminal.jsx";
 import WalletDashboard from "./components/wallet/WalletDashboard.jsx";
 import EvaluateScanner from "./components/evaluate/EvaluateScanner.jsx";
 import HazardGrid from "./components/learn/HazardGrid.jsx";
+import NearestFacilities from "./components/facility/NearestFacilities.jsx";
 
 // Modals
 import FacilityDetailModal from "./components/modals/FacilityDetailModal.jsx";
@@ -95,6 +96,12 @@ function AppContent() {
               onOpenPickup={(item) => setPickupFacility({ name: "Authorized Partner Recycler", item })}
               onNavigate={handleNavigate}
             />
+          </div>
+        )}
+
+        {activeSection === "nearest" && (
+          <div className="nearest-view-stack animate-fadeIn">
+            <NearestFacilities />
           </div>
         )}
 

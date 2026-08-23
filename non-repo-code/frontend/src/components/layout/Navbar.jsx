@@ -36,6 +36,7 @@ export default function Navbar({ activeSection, onNavigate, onOpenMetrics }) {
     { id: "facility", label: "Facility Portal", icon: Building2 },
     { id: "wallet", label: "My Wallet", icon: Wallet },
     { id: "evaluate", label: "Evaluate", icon: Cpu },
+    { id: "nearest", label: "Nearest Facilities", icon: MapPin },
     { id: "learn", label: "Learn", icon: Leaf }
   ];
 

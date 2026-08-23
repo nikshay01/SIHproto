@@ -248,7 +248,7 @@ export default function Stage2CameraCapture({ claimedDevice, onCaptureImage, onB
         .viewport-screen {
           position: relative;
           width: 100%;
-          height: 380px;
+          padding-top: 75%; /* 4:3 aspect ratio */
           border-radius: var(--radius-lg);
           background: #000000;
           overflow: hidden;
@@ -256,6 +256,13 @@ export default function Stage2CameraCapture({ claimedDevice, onCaptureImage, onB
           align-items: center;
           justify-content: center;
           border: 1px solid var(--border-card);
+        }
+        .viewport-screen > * {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
         }
         .camera-video {
           width: 100%;

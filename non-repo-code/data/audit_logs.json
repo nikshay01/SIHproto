@@ -1,6 +1,22 @@
 {
   "logs": [
     {
+      "logId": "AUD-1787479058428-105",
+      "timestamp": "2026-08-23T09:57:38.428Z",
+      "transactionId": null,
+      "userId": "Rahul Sharma",
+      "actor": "USER",
+      "action": "SCHEDULE_DOORSTEP_PICKUP",
+      "previousStatus": null,
+      "newStatus": "SCHEDULED",
+      "details": {
+        "ticketId": "PU-609537",
+        "facilityName": "Authorized Partner Recycler",
+        "pickupDate": "2026-08-24",
+        "itemType": "Laptops, Batteries & Smartphones"
+      }
+    },
+    {
       "logId": "AUD-1787470766879-973",
       "timestamp": "2026-08-23T07:39:26.879Z",
       "transactionId": "EW-2026-BHC458",

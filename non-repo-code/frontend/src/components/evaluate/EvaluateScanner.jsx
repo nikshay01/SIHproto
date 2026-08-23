@@ -400,6 +400,25 @@ export default function EvaluateScanner({ onOpenCert, onOpenPickup, onNavigate }
           gap: 10px;
           margin-top: 8px;
         }
+        .viewport-screen {
+          position: relative;
+          width: 100%;
+          padding-top: 75%; /* 4:3 aspect ratio */
+          border-radius: var(--radius-lg);
+          background: #000000;
+          overflow: hidden;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid var(--border-card);
+        }
+        .viewport-screen > * {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
         @media (max-width: 1024px) {
           .evaluate-grid-layout {
             grid-template-columns: 1fr;

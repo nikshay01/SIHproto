@@ -45,6 +45,33 @@ router.get("/list", async (req, res, next) => {
   }
 });
 
+router.get("/nearest", async (req, res, next) => {
+  try {
+    const { lat, lng } = req.query;
+    const userLat = lat ? Number(lat) : null;
+    const userLng = lng ? Number(lng) : null;
+
+    if (userLat === null || userLng === null) {
+      return res.status(400).json({ ok: false, error: "Latitude and longitude are required" });
+    }
+
+    const result = await queryFacilities({
+      userLat,
+      userLng,
+      sortBy: "distance_asc",
+      limit: 5,
+      offset: 0
+    });
+
+    res.json({
+      ok: true,
+      ...result
+    });
+  } catch (err) {
+    next(err);
+  }
+});
+
 router.get("/states", (req, res) => {
   const summaries = getStateSummaries();
   res.json({
