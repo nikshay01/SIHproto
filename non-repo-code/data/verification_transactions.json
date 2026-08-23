@@ -1,0 +1,937 @@
+{
+  "transactions": [
+    {
+      "transactionId": "EW-2026-BHC458",
+      "userId": "guest-user",
+      "deviceId": "samsung-galaxy-s23",
+      "claimedDevice": {
+        "category": "Smartphone",
+        "brand": "Samsung",
+        "model": "Galaxy S23"
+      },
+      "detectedDevice": {
+        "category": "smartphone",
+        "brand": "Samsung",
+        "model": "Galaxy S23"
+      },
+      "aiConfidence": 0.9,
+      "aiMatch": true,
+      "aiReasoning": "camera layout, notch, chassis edges, and aspect ratio match the Galaxy S23 model",
+      "visualCharacteristics": "rectangular shape with rounded edges, flat back, camera layout on top left side, notch at top center of screen, smooth and rounded chassis edges, silver-colored logo on back, wide aspect ratio, thin bezels on sides and top, slightly thicker bezel at bottom",
+      "estimatedCredits": 133,
+      "verifiedCredits": 0,
+      "materialsBreakdown": [
+        {
+          "material": "gold",
+          "displayName": "Gold",
+          "amountGrams": 0.032,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.029,
+          "multiplier": 1000,
+          "creditsAwarded": 28.8
+        },
+        {
+          "material": "silver",
+          "displayName": "Silver",
+          "amountGrams": 0.36,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.324,
+          "multiplier": 10,
+          "creditsAwarded": 3.2
+        },
+        {
+          "material": "copper",
+          "displayName": "Copper",
+          "amountGrams": 15.8,
+          "recoveryRate": "92%",
+          "recoverableGrams": 14.536,
+          "multiplier": 2,
+          "creditsAwarded": 29.1
+        },
+        {
+          "material": "aluminium",
+          "displayName": "Aluminium",
+          "amountGrams": 26,
+          "recoveryRate": "95%",
+          "recoverableGrams": 24.7,
+          "multiplier": 0.5,
+          "creditsAwarded": 12.4
+        },
+        {
+          "material": "cobalt",
+          "displayName": "Cobalt",
+          "amountGrams": 12.5,
+          "recoveryRate": "88%",
+          "recoverableGrams": 11,
+          "multiplier": 4,
+          "creditsAwarded": 44
+        },
+        {
+          "material": "lithium",
+          "displayName": "Lithium",
+          "amountGrams": 3.7,
+          "recoveryRate": "85%",
+          "recoverableGrams": 3.145,
+          "multiplier": 3,
+          "creditsAwarded": 9.4
+        },
+        {
+          "material": "plastics",
+          "displayName": "Plastics",
+          "amountGrams": 28,
+          "recoveryRate": "70%",
+          "recoverableGrams": 19.6,
+          "multiplier": 0.05,
+          "creditsAwarded": 1
+        },
+        {
+          "material": "other",
+          "displayName": "Other",
+          "amountGrams": 82,
+          "recoveryRate": "60%",
+          "recoverableGrams": 49.2,
+          "multiplier": 0.1,
+          "creditsAwarded": 4.9
+        }
+      ],
+      "verificationStatus": "PENDING_RECYCLING",
+      "statusMessage": "Device confirmed with high visual confidence.",
+      "facilityVerification": null,
+      "createdAt": "2026-08-23T07:39:26.673Z",
+      "updatedAt": "2026-08-23T07:39:26.673Z",
+      "verifiedAt": null
+    },
+    {
+      "transactionId": "EW-2026-4WN8RE",
+      "userId": "guest-user",
+      "deviceId": "apple-macbook-air-m2",
+      "claimedDevice": {
+        "category": "Laptop",
+        "brand": "Apple",
+        "model": "MacBook Air M2 13.6\""
+      },
+      "detectedDevice": {
+        "category": "Smartphone",
+        "brand": "Xiaomi",
+        "model": "Xiaomi 12T Pro"
+      },
+      "aiConfidence": 1,
+      "aiMatch": false,
+      "aiReasoning": "The device shown is a smartphone with a camera layout, notch, and logo consistent with the Xiaomi 12T Pro.",
+      "visualCharacteristics": "Two cameras on the back, one larger than the other, and a small notch at the top of the screen.",
+      "estimatedCredits": 0,
+      "verifiedCredits": 0,
+      "materialsBreakdown": [
+        {
+          "material": "gold",
+          "displayName": "Gold",
+          "amountGrams": 0.12,
+          "recoveryRate": "92%",
+          "recoverableGrams": 0.11,
+          "multiplier": 1000,
+          "creditsAwarded": 110.4
+        },
+        {
+          "material": "silver",
+          "displayName": "Silver",
+          "amountGrams": 1.45,
+          "recoveryRate": "90%",
+          "recoverableGrams": 1.305,
+          "multiplier": 10,
+          "creditsAwarded": 13.1
+        },
+        {
+          "material": "copper",
+          "displayName": "Copper",
+          "amountGrams": 165,
+          "recoveryRate": "95%",
+          "recoverableGrams": 156.75,
+          "multiplier": 2,
+          "creditsAwarded": 313.5
+        },
+        {
+          "material": "aluminium",
+          "displayName": "Aluminium",
+          "amountGrams": 680,
+          "recoveryRate": "98%",
+          "recoverableGrams": 666.4,
+          "multiplier": 0.5,
+          "creditsAwarded": 333.2
+        },
+        {
+          "material": "cobalt",
+          "displayName": "Cobalt",
+          "amountGrams": 45,
+          "recoveryRate": "90%",
+          "recoverableGrams": 40.5,
+          "multiplier": 4,
+          "creditsAwarded": 162
+        },
+        {
+          "material": "lithium",
+          "displayName": "Lithium",
+          "amountGrams": 14.5,
+          "recoveryRate": "88%",
+          "recoverableGrams": 12.76,
+          "multiplier": 3,
+          "creditsAwarded": 38.3
+        },
+        {
+          "material": "plastics",
+          "displayName": "Plastics",
+          "amountGrams": 95,
+          "recoveryRate": "75%",
+          "recoverableGrams": 71.25,
+          "multiplier": 0.05,
+          "creditsAwarded": 3.6
+        },
+        {
+          "material": "other",
+          "displayName": "Other",
+          "amountGrams": 239,
+          "recoveryRate": "65%",
+          "recoverableGrams": 155.35,
+          "multiplier": 0.1,
+          "creditsAwarded": 15.5
+        }
+      ],
+      "verificationStatus": "AI_VERIFICATION_FAILED",
+      "statusMessage": "Device mismatch detected. You claimed Apple MacBook Air M2 13.6\", but visual analysis detected Xiaomi Xiaomi 12T Pro.",
+      "facilityVerification": null,
+      "createdAt": "2026-08-23T06:58:03.411Z",
+      "updatedAt": "2026-08-23T06:58:03.411Z",
+      "verifiedAt": null
+    },
+    {
+      "transactionId": "EW-2026-Y7SVW7",
+      "userId": "test-agent-user",
+      "deviceId": "apple-iphone-13",
+      "claimedDevice": {
+        "category": "Smartphone",
+        "brand": "Apple",
+        "model": "iPhone 13"
+      },
+      "detectedDevice": {
+        "category": "Smartphone",
+        "brand": "Apple",
+        "model": "iPhone 13"
+      },
+      "aiConfidence": 0.94,
+      "aiMatch": true,
+      "aiReasoning": "Optical recognition confirms structural profile consistent with Apple iPhone 13.",
+      "visualCharacteristics": "Chassis profile, materials, and form-factor match claimed specifications.",
+      "estimatedCredits": 129,
+      "verifiedCredits": 0,
+      "materialsBreakdown": [
+        {
+          "material": "gold",
+          "displayName": "Gold",
+          "amountGrams": 0.034,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.031,
+          "multiplier": 1000,
+          "creditsAwarded": 30.6
+        },
+        {
+          "material": "silver",
+          "displayName": "Silver",
+          "amountGrams": 0.35,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.315,
+          "multiplier": 10,
+          "creditsAwarded": 3.2
+        },
+        {
+          "material": "copper",
+          "displayName": "Copper",
+          "amountGrams": 15.2,
+          "recoveryRate": "92%",
+          "recoverableGrams": 13.984,
+          "multiplier": 2,
+          "creditsAwarded": 28
+        },
+        {
+          "material": "aluminium",
+          "displayName": "Aluminium",
+          "amountGrams": 22.5,
+          "recoveryRate": "95%",
+          "recoverableGrams": 21.375,
+          "multiplier": 0.5,
+          "creditsAwarded": 10.7
+        },
+        {
+          "material": "cobalt",
+          "displayName": "Cobalt",
+          "amountGrams": 11.8,
+          "recoveryRate": "88%",
+          "recoverableGrams": 10.384,
+          "multiplier": 4,
+          "creditsAwarded": 41.5
+        },
+        {
+          "material": "lithium",
+          "displayName": "Lithium",
+          "amountGrams": 3.4,
+          "recoveryRate": "85%",
+          "recoverableGrams": 2.89,
+          "multiplier": 3,
+          "creditsAwarded": 8.7
+        },
+        {
+          "material": "plastics",
+          "displayName": "Plastics",
+          "amountGrams": 35,
+          "recoveryRate": "70%",
+          "recoverableGrams": 24.5,
+          "multiplier": 0.05,
+          "creditsAwarded": 1.2
+        },
+        {
+          "material": "other",
+          "displayName": "Other",
+          "amountGrams": 85.7,
+          "recoveryRate": "60%",
+          "recoverableGrams": 51.42,
+          "multiplier": 0.1,
+          "creditsAwarded": 5.1
+        }
+      ],
+      "verificationStatus": "PENDING_RECYCLING",
+      "statusMessage": "Device confirmed with high visual confidence.",
+      "facilityVerification": null,
+      "createdAt": "2026-08-23T05:14:59.280Z",
+      "updatedAt": "2026-08-23T05:14:59.280Z",
+      "verifiedAt": null
+    },
+    {
+      "transactionId": "EW-2026-X8NWE3",
+      "userId": "user_mkk4id2",
+      "deviceId": "apple-macbook-air-m2",
+      "claimedDevice": {
+        "category": "Laptop",
+        "brand": "Apple",
+        "model": "MacBook Air M2 13.6\""
+      },
+      "detectedDevice": {
+        "category": "Laptop",
+        "brand": "Apple",
+        "model": "MacBook Air M2 13.6\""
+      },
+      "aiConfidence": 0.94,
+      "aiMatch": true,
+      "aiReasoning": "Optical recognition confirms structural profile consistent with Apple MacBook Air M2 13.6\".",
+      "visualCharacteristics": "Chassis profile, materials, and form-factor match claimed specifications.",
+      "estimatedCredits": 990,
+      "verifiedCredits": 0,
+      "materialsBreakdown": [
+        {
+          "material": "gold",
+          "displayName": "Gold",
+          "amountGrams": 0.12,
+          "recoveryRate": "92%",
+          "recoverableGrams": 0.11,
+          "multiplier": 1000,
+          "creditsAwarded": 110.4
+        },
+        {
+          "material": "silver",
+          "displayName": "Silver",
+          "amountGrams": 1.45,
+          "recoveryRate": "90%",
+          "recoverableGrams": 1.305,
+          "multiplier": 10,
+          "creditsAwarded": 13.1
+        },
+        {
+          "material": "copper",
+          "displayName": "Copper",
+          "amountGrams": 165,
+          "recoveryRate": "95%",
+          "recoverableGrams": 156.75,
+          "multiplier": 2,
+          "creditsAwarded": 313.5
+        },
+        {
+          "material": "aluminium",
+          "displayName": "Aluminium",
+          "amountGrams": 680,
+          "recoveryRate": "98%",
+          "recoverableGrams": 666.4,
+          "multiplier": 0.5,
+          "creditsAwarded": 333.2
+        },
+        {
+          "material": "cobalt",
+          "displayName": "Cobalt",
+          "amountGrams": 45,
+          "recoveryRate": "90%",
+          "recoverableGrams": 40.5,
+          "multiplier": 4,
+          "creditsAwarded": 162
+        },
+        {
+          "material": "lithium",
+          "displayName": "Lithium",
+          "amountGrams": 14.5,
+          "recoveryRate": "88%",
+          "recoverableGrams": 12.76,
+          "multiplier": 3,
+          "creditsAwarded": 38.3
+        },
+        {
+          "material": "plastics",
+          "displayName": "Plastics",
+          "amountGrams": 95,
+          "recoveryRate": "75%",
+          "recoverableGrams": 71.25,
+          "multiplier": 0.05,
+          "creditsAwarded": 3.6
+        },
+        {
+          "material": "other",
+          "displayName": "Other",
+          "amountGrams": 239,
+          "recoveryRate": "65%",
+          "recoverableGrams": 155.35,
+          "multiplier": 0.1,
+          "creditsAwarded": 15.5
+        }
+      ],
+      "verificationStatus": "PENDING_RECYCLING",
+      "statusMessage": "Device confirmed with high visual confidence.",
+      "facilityVerification": null,
+      "createdAt": "2026-08-23T04:48:28.651Z",
+      "updatedAt": "2026-08-23T04:48:28.651Z",
+      "verifiedAt": null
+    },
+    {
+      "transactionId": "EW-2026-78NYQR",
+      "userId": "user_mkk4id2",
+      "deviceId": "apple-iphone-13",
+      "claimedDevice": {
+        "category": "Smartphone",
+        "brand": "Apple",
+        "model": "iPhone 13"
+      },
+      "detectedDevice": {
+        "category": "Smartphone",
+        "brand": "Apple",
+        "model": "iPhone 13"
+      },
+      "aiConfidence": 0.94,
+      "aiMatch": true,
+      "aiReasoning": "Optical recognition confirms structural profile consistent with Apple iPhone 13.",
+      "visualCharacteristics": "Chassis profile, materials, and form-factor match claimed specifications.",
+      "estimatedCredits": 129,
+      "verifiedCredits": 129,
+      "materialsBreakdown": [
+        {
+          "material": "gold",
+          "displayName": "Gold",
+          "amountGrams": 0.034,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.031,
+          "multiplier": 1000,
+          "creditsAwarded": 30.6
+        },
+        {
+          "material": "silver",
+          "displayName": "Silver",
+          "amountGrams": 0.35,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.315,
+          "multiplier": 10,
+          "creditsAwarded": 3.2
+        },
+        {
+          "material": "copper",
+          "displayName": "Copper",
+          "amountGrams": 15.2,
+          "recoveryRate": "92%",
+          "recoverableGrams": 13.984,
+          "multiplier": 2,
+          "creditsAwarded": 28
+        },
+        {
+          "material": "aluminium",
+          "displayName": "Aluminium",
+          "amountGrams": 22.5,
+          "recoveryRate": "95%",
+          "recoverableGrams": 21.375,
+          "multiplier": 0.5,
+          "creditsAwarded": 10.7
+        },
+        {
+          "material": "cobalt",
+          "displayName": "Cobalt",
+          "amountGrams": 11.8,
+          "recoveryRate": "88%",
+          "recoverableGrams": 10.384,
+          "multiplier": 4,
+          "creditsAwarded": 41.5
+        },
+        {
+          "material": "lithium",
+          "displayName": "Lithium",
+          "amountGrams": 3.4,
+          "recoveryRate": "85%",
+          "recoverableGrams": 2.89,
+          "multiplier": 3,
+          "creditsAwarded": 8.7
+        },
+        {
+          "material": "plastics",
+          "displayName": "Plastics",
+          "amountGrams": 35,
+          "recoveryRate": "70%",
+          "recoverableGrams": 24.5,
+          "multiplier": 0.05,
+          "creditsAwarded": 1.2
+        },
+        {
+          "material": "other",
+          "displayName": "Other",
+          "amountGrams": 85.7,
+          "recoveryRate": "60%",
+          "recoverableGrams": 51.42,
+          "multiplier": 0.1,
+          "creditsAwarded": 5.1
+        }
+      ],
+      "verificationStatus": "CREDITS_ISSUED",
+      "statusMessage": "Physically inspected and verified by M/s Island Green E-Waste Collection Facility (South Andaman). Credits officially awarded.",
+      "facilityVerification": {
+        "facilityId": "AA001",
+        "facilityName": "M/s Island Green E-Waste Collection Facility (South Andaman)",
+        "inspectorName": "Staff Officer",
+        "inspectorNotes": "Physical device confirmed and accepted for scientific recycling.",
+        "verifiedAt": "2026-08-22T08:14:16.925Z"
+      },
+      "createdAt": "2026-08-22T08:02:28.108Z",
+      "updatedAt": "2026-08-22T08:14:16.925Z",
+      "verifiedAt": "2026-08-22T08:14:16.925Z"
+    },
+    {
+      "transactionId": "EW-2026-CV2YBN",
+      "userId": "user_mkk4id2",
+      "deviceId": "apple-iphone-13",
+      "claimedDevice": {
+        "category": "Smartphone",
+        "brand": "Apple",
+        "model": "iPhone 13"
+      },
+      "detectedDevice": {
+        "category": "Smartphone",
+        "brand": "Apple",
+        "model": "iPhone 13"
+      },
+      "aiConfidence": 1,
+      "aiMatch": true,
+      "aiReasoning": "diagonal dual camera layout, notch, green logo on the back, rounded chassis edges, USB-C port, 19.5:9 aspect ratio, thin bezel",
+      "visualCharacteristics": "diagonal dual camera layout, notch, green logo on the back, rounded chassis edges, USB-C port, 19.5:9 aspect ratio, thin bezel",
+      "estimatedCredits": 129,
+      "verifiedCredits": 0,
+      "materialsBreakdown": [
+        {
+          "material": "gold",
+          "displayName": "Gold",
+          "amountGrams": 0.034,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.031,
+          "multiplier": 1000,
+          "creditsAwarded": 30.6
+        },
+        {
+          "material": "silver",
+          "displayName": "Silver",
+          "amountGrams": 0.35,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.315,
+          "multiplier": 10,
+          "creditsAwarded": 3.2
+        },
+        {
+          "material": "copper",
+          "displayName": "Copper",
+          "amountGrams": 15.2,
+          "recoveryRate": "92%",
+          "recoverableGrams": 13.984,
+          "multiplier": 2,
+          "creditsAwarded": 28
+        },
+        {
+          "material": "aluminium",
+          "displayName": "Aluminium",
+          "amountGrams": 22.5,
+          "recoveryRate": "95%",
+          "recoverableGrams": 21.375,
+          "multiplier": 0.5,
+          "creditsAwarded": 10.7
+        },
+        {
+          "material": "cobalt",
+          "displayName": "Cobalt",
+          "amountGrams": 11.8,
+          "recoveryRate": "88%",
+          "recoverableGrams": 10.384,
+          "multiplier": 4,
+          "creditsAwarded": 41.5
+        },
+        {
+          "material": "lithium",
+          "displayName": "Lithium",
+          "amountGrams": 3.4,
+          "recoveryRate": "85%",
+          "recoverableGrams": 2.89,
+          "multiplier": 3,
+          "creditsAwarded": 8.7
+        },
+        {
+          "material": "plastics",
+          "displayName": "Plastics",
+          "amountGrams": 35,
+          "recoveryRate": "70%",
+          "recoverableGrams": 24.5,
+          "multiplier": 0.05,
+          "creditsAwarded": 1.2
+        },
+        {
+          "material": "other",
+          "displayName": "Other",
+          "amountGrams": 85.7,
+          "recoveryRate": "60%",
+          "recoverableGrams": 51.42,
+          "multiplier": 0.1,
+          "creditsAwarded": 5.1
+        }
+      ],
+      "verificationStatus": "PENDING_RECYCLING",
+      "statusMessage": "Device confirmed with high visual confidence.",
+      "facilityVerification": null,
+      "createdAt": "2026-08-22T07:51:09.167Z",
+      "updatedAt": "2026-08-22T07:51:09.167Z",
+      "verifiedAt": null
+    },
+    {
+      "transactionId": "EW-2026-KGGBJE",
+      "userId": "scenario1_user_1787384188574",
+      "deviceId": "apple-iphone-13",
+      "claimedDevice": {
+        "category": "Smartphone",
+        "brand": "Apple",
+        "model": "iPhone 13"
+      },
+      "detectedDevice": {
+        "category": "Smartphone",
+        "brand": "Apple",
+        "model": "iPhone 13"
+      },
+      "aiConfidence": 0.94,
+      "aiMatch": true,
+      "aiReasoning": "Optical recognition confirms structural profile consistent with Apple iPhone 13.",
+      "visualCharacteristics": "Chassis profile, materials, and form-factor match claimed specifications.",
+      "estimatedCredits": 129,
+      "verifiedCredits": 129,
+      "materialsBreakdown": [
+        {
+          "material": "gold",
+          "displayName": "Gold",
+          "amountGrams": 0.034,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.031,
+          "multiplier": 1000,
+          "creditsAwarded": 30.6
+        },
+        {
+          "material": "silver",
+          "displayName": "Silver",
+          "amountGrams": 0.35,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.315,
+          "multiplier": 10,
+          "creditsAwarded": 3.2
+        },
+        {
+          "material": "copper",
+          "displayName": "Copper",
+          "amountGrams": 15.2,
+          "recoveryRate": "92%",
+          "recoverableGrams": 13.984,
+          "multiplier": 2,
+          "creditsAwarded": 28
+        },
+        {
+          "material": "aluminium",
+          "displayName": "Aluminium",
+          "amountGrams": 22.5,
+          "recoveryRate": "95%",
+          "recoverableGrams": 21.375,
+          "multiplier": 0.5,
+          "creditsAwarded": 10.7
+        },
+        {
+          "material": "cobalt",
+          "displayName": "Cobalt",
+          "amountGrams": 11.8,
+          "recoveryRate": "88%",
+          "recoverableGrams": 10.384,
+          "multiplier": 4,
+          "creditsAwarded": 41.5
+        },
+        {
+          "material": "lithium",
+          "displayName": "Lithium",
+          "amountGrams": 3.4,
+          "recoveryRate": "85%",
+          "recoverableGrams": 2.89,
+          "multiplier": 3,
+          "creditsAwarded": 8.7
+        },
+        {
+          "material": "plastics",
+          "displayName": "Plastics",
+          "amountGrams": 35,
+          "recoveryRate": "70%",
+          "recoverableGrams": 24.5,
+          "multiplier": 0.05,
+          "creditsAwarded": 1.2
+        },
+        {
+          "material": "other",
+          "displayName": "Other",
+          "amountGrams": 85.7,
+          "recoveryRate": "60%",
+          "recoverableGrams": 51.42,
+          "multiplier": 0.1,
+          "creditsAwarded": 5.1
+        }
+      ],
+      "verificationStatus": "CREDITS_ISSUED",
+      "statusMessage": "Physically inspected and verified by Eco-Recycling Ltd (Mumbai). Credits officially awarded.",
+      "facilityVerification": {
+        "facilityId": "FAC-MH-012",
+        "facilityName": "Eco-Recycling Ltd (Mumbai)",
+        "inspectorName": "Staff Officer",
+        "inspectorNotes": "Physical device matches iPhone 13 in genuine scrap condition.",
+        "verifiedAt": "2026-08-22T07:36:29.096Z"
+      },
+      "createdAt": "2026-08-22T07:36:29.000Z",
+      "updatedAt": "2026-08-22T07:36:29.096Z",
+      "verifiedAt": "2026-08-22T07:36:29.096Z"
+    },
+    {
+      "transactionId": "EW-2026-JHHBTT",
+      "userId": "scenario1_user",
+      "deviceId": "apple-iphone-13",
+      "claimedDevice": {
+        "category": "Smartphone",
+        "brand": "Apple",
+        "model": "iPhone 13"
+      },
+      "detectedDevice": {
+        "category": "Smartphone",
+        "brand": "Apple",
+        "model": "iPhone 13"
+      },
+      "aiConfidence": 0.94,
+      "aiMatch": true,
+      "aiReasoning": "Optical recognition confirms structural profile consistent with Apple iPhone 13.",
+      "visualCharacteristics": "Chassis profile, materials, and form-factor match claimed specifications.",
+      "estimatedCredits": 129,
+      "verifiedCredits": 129,
+      "materialsBreakdown": [
+        {
+          "material": "gold",
+          "displayName": "Gold",
+          "amountGrams": 0.034,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.031,
+          "multiplier": 1000,
+          "creditsAwarded": 30.6
+        },
+        {
+          "material": "silver",
+          "displayName": "Silver",
+          "amountGrams": 0.35,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.315,
+          "multiplier": 10,
+          "creditsAwarded": 3.2
+        },
+        {
+          "material": "copper",
+          "displayName": "Copper",
+          "amountGrams": 15.2,
+          "recoveryRate": "92%",
+          "recoverableGrams": 13.984,
+          "multiplier": 2,
+          "creditsAwarded": 28
+        },
+        {
+          "material": "aluminium",
+          "displayName": "Aluminium",
+          "amountGrams": 22.5,
+          "recoveryRate": "95%",
+          "recoverableGrams": 21.375,
+          "multiplier": 0.5,
+          "creditsAwarded": 10.7
+        },
+        {
+          "material": "cobalt",
+          "displayName": "Cobalt",
+          "amountGrams": 11.8,
+          "recoveryRate": "88%",
+          "recoverableGrams": 10.384,
+          "multiplier": 4,
+          "creditsAwarded": 41.5
+        },
+        {
+          "material": "lithium",
+          "displayName": "Lithium",
+          "amountGrams": 3.4,
+          "recoveryRate": "85%",
+          "recoverableGrams": 2.89,
+          "multiplier": 3,
+          "creditsAwarded": 8.7
+        },
+        {
+          "material": "plastics",
+          "displayName": "Plastics",
+          "amountGrams": 35,
+          "recoveryRate": "70%",
+          "recoverableGrams": 24.5,
+          "multiplier": 0.05,
+          "creditsAwarded": 1.2
+        },
+        {
+          "material": "other",
+          "displayName": "Other",
+          "amountGrams": 85.7,
+          "recoveryRate": "60%",
+          "recoverableGrams": 51.42,
+          "multiplier": 0.1,
+          "creditsAwarded": 5.1
+        }
+      ],
+      "verificationStatus": "CREDITS_ISSUED",
+      "statusMessage": "Physically inspected and verified by Eco-Recycling Ltd (Mumbai). Credits officially awarded.",
+      "facilityVerification": {
+        "facilityId": "FAC-MH-012",
+        "facilityName": "Eco-Recycling Ltd (Mumbai)",
+        "inspectorName": "Staff Officer",
+        "inspectorNotes": "Physical device matches iPhone 13 in genuine scrap condition.",
+        "verifiedAt": "2026-08-22T07:36:02.525Z"
+      },
+      "createdAt": "2026-08-22T07:36:02.506Z",
+      "updatedAt": "2026-08-22T07:36:02.525Z",
+      "verifiedAt": "2026-08-22T07:36:02.525Z"
+    },
+    {
+      "transactionId": "EW-2026-WGFSGS",
+      "userId": "test-user-1",
+      "deviceId": "apple-iphone-13",
+      "claimedDevice": {
+        "category": "Smartphone",
+        "brand": "Apple",
+        "model": "iPhone 13"
+      },
+      "detectedDevice": {
+        "category": "Smartphone",
+        "brand": "Apple",
+        "model": "iPhone 13"
+      },
+      "aiConfidence": 0.94,
+      "aiMatch": true,
+      "aiReasoning": "Optical recognition confirms structural profile consistent with Apple iPhone 13.",
+      "visualCharacteristics": "Chassis profile, materials, and form-factor match claimed specifications.",
+      "estimatedCredits": 129,
+      "verifiedCredits": 129,
+      "materialsBreakdown": [
+        {
+          "material": "gold",
+          "displayName": "Gold",
+          "amountGrams": 0.034,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.031,
+          "multiplier": 1000,
+          "creditsAwarded": 30.6
+        },
+        {
+          "material": "silver",
+          "displayName": "Silver",
+          "amountGrams": 0.35,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.315,
+          "multiplier": 10,
+          "creditsAwarded": 3.2
+        },
+        {
+          "material": "copper",
+          "displayName": "Copper",
+          "amountGrams": 15.2,
+          "recoveryRate": "92%",
+          "recoverableGrams": 13.984,
+          "multiplier": 2,
+          "creditsAwarded": 28
+        },
+        {
+          "material": "aluminium",
+          "displayName": "Aluminium",
+          "amountGrams": 22.5,
+          "recoveryRate": "95%",
+          "recoverableGrams": 21.375,
+          "multiplier": 0.5,
+          "creditsAwarded": 10.7
+        },
+        {
+          "material": "cobalt",
+          "displayName": "Cobalt",
+          "amountGrams": 11.8,
+          "recoveryRate": "88%",
+          "recoverableGrams": 10.384,
+          "multiplier": 4,
+          "creditsAwarded": 41.5
+        },
+        {
+          "material": "lithium",
+          "displayName": "Lithium",
+          "amountGrams": 3.4,
+          "recoveryRate": "85%",
+          "recoverableGrams": 2.89,
+          "multiplier": 3,
+          "creditsAwarded": 8.7
+        },
+        {
+          "material": "plastics",
+          "displayName": "Plastics",
+          "amountGrams": 35,
+          "recoveryRate": "70%",
+          "recoverableGrams": 24.5,
+          "multiplier": 0.05,
+          "creditsAwarded": 1.2
+        },
+        {
+          "material": "other",
+          "displayName": "Other",
+          "amountGrams": 85.7,
+          "recoveryRate": "60%",
+          "recoverableGrams": 51.42,
+          "multiplier": 0.1,
+          "creditsAwarded": 5.1
+        }
+      ],
+      "verificationStatus": "CREDITS_ISSUED",
+      "statusMessage": "Physically inspected and verified by Delhi Clean-Tech E-Waste Recyclers. Credits officially awarded.",
+      "facilityVerification": {
+        "facilityId": "FAC-DEL-004",
+        "facilityName": "Delhi Clean-Tech E-Waste Recyclers",
+        "inspectorName": "Amit Kumar",
+        "inspectorNotes": "Physical iPhone 13 verified and accepted.",
+        "verifiedAt": "2026-08-22T07:33:23.789Z"
+      },
+      "createdAt": "2026-08-22T07:33:23.779Z",
+      "updatedAt": "2026-08-22T07:33:23.789Z",
+      "verifiedAt": "2026-08-22T07:33:23.789Z"
+    }
+  ]
+}

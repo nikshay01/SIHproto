@@ -1,0 +1,333 @@
+{
+  "logs": [
+    {
+      "logId": "AUD-1787470766879-973",
+      "timestamp": "2026-08-23T07:39:26.879Z",
+      "transactionId": "EW-2026-BHC458",
+      "userId": "guest-user",
+      "actor": "USER",
+      "action": "CLAIM_AND_AI_VERIFY",
+      "previousStatus": "PENDING_AI_VERIFICATION",
+      "newStatus": "PENDING_RECYCLING",
+      "details": {
+        "claimed": "Samsung Galaxy S23",
+        "detected": "Samsung Galaxy S23",
+        "confidence": 0.9,
+        "estimatedCredits": 133
+      }
+    },
+    {
+      "logId": "AUD-1787468363360-311",
+      "timestamp": "2026-08-23T06:59:23.360Z",
+      "transactionId": null,
+      "userId": "Rahul Sharma",
+      "actor": "USER",
+      "action": "SCHEDULE_DOORSTEP_PICKUP",
+      "previousStatus": null,
+      "newStatus": "SCHEDULED",
+      "details": {
+        "ticketId": "PU-226404",
+        "facilityName": "Authorized Partner Recycler",
+        "pickupDate": "2026-08-24",
+        "itemType": "Laptops, Batteries & Smartphones"
+      }
+    },
+    {
+      "logId": "AUD-1787468283724-864",
+      "timestamp": "2026-08-23T06:58:03.724Z",
+      "transactionId": "EW-2026-4WN8RE",
+      "userId": "guest-user",
+      "actor": "USER",
+      "action": "CLAIM_AND_AI_VERIFY",
+      "previousStatus": "PENDING_AI_VERIFICATION",
+      "newStatus": "AI_VERIFICATION_FAILED",
+      "details": {
+        "claimed": "Apple MacBook Air M2 13.6\"",
+        "detected": "Xiaomi Xiaomi 12T Pro",
+        "confidence": 1,
+        "estimatedCredits": 0
+      }
+    },
+    {
+      "logId": "AUD-1787462099701-475",
+      "timestamp": "2026-08-23T05:14:59.701Z",
+      "transactionId": null,
+      "userId": "Rahul Sharma",
+      "actor": "USER",
+      "action": "SCHEDULE_DOORSTEP_PICKUP",
+      "previousStatus": null,
+      "newStatus": "SCHEDULED",
+      "details": {
+        "ticketId": "PU-486100",
+        "facilityName": "ETCO E-Waste Recyclers",
+        "pickupDate": "2026-08-25",
+        "itemType": "Old Laptop & Smartphone"
+      }
+    },
+    {
+      "logId": "AUD-1787462099587-802",
+      "timestamp": "2026-08-23T05:14:59.587Z",
+      "transactionId": null,
+      "userId": "test-agent-user",
+      "actor": "USER",
+      "action": "REDEEM_CREDITS",
+      "previousStatus": null,
+      "newStatus": null,
+      "details": {
+        "redemptionId": "RDM-1787462099558-384",
+        "rewardId": "plant-tree",
+        "rewardTitle": "Plant 1 Native Tree",
+        "creditsSpent": 30,
+        "couponCode": "ECO-819357",
+        "status": "ACTIVE",
+        "redeemedAt": "2026-08-23T05:14:59.558Z"
+      }
+    },
+    {
+      "logId": "AUD-1787462099512-784",
+      "timestamp": "2026-08-23T05:14:59.512Z",
+      "transactionId": "EW-2026-Y7SVW7",
+      "userId": "test-agent-user",
+      "actor": "FACILITY:FAC-DEL-004",
+      "action": "FACILITY_PHYSICAL_VERIFY_AND_AWARD_CREDITS",
+      "previousStatus": "PENDING_RECYCLING",
+      "newStatus": "CREDITS_ISSUED",
+      "details": {
+        "facilityId": "FAC-DEL-004",
+        "facilityName": "ETCO E-Waste Recyclers Pvt Ltd",
+        "creditsAwarded": 129,
+        "newWalletAvailable": 129
+      }
+    },
+    {
+      "logId": "AUD-1787462099389-786",
+      "timestamp": "2026-08-23T05:14:59.389Z",
+      "transactionId": "EW-2026-Y7SVW7",
+      "userId": "test-agent-user",
+      "actor": "USER",
+      "action": "CLAIM_AND_AI_VERIFY",
+      "previousStatus": "PENDING_AI_VERIFICATION",
+      "newStatus": "PENDING_RECYCLING",
+      "details": {
+        "claimed": "Apple iPhone 13",
+        "detected": "Apple iPhone 13",
+        "confidence": 0.94,
+        "estimatedCredits": 129
+      }
+    },
+    {
+      "logId": "AUD-1787460508653-543",
+      "timestamp": "2026-08-23T04:48:28.653Z",
+      "transactionId": "EW-2026-X8NWE3",
+      "userId": "user_mkk4id2",
+      "actor": "USER",
+      "action": "CLAIM_AND_AI_VERIFY",
+      "previousStatus": "PENDING_AI_VERIFICATION",
+      "newStatus": "PENDING_RECYCLING",
+      "details": {
+        "claimed": "Apple MacBook Air M2 13.6\"",
+        "detected": "Apple MacBook Air M2 13.6\"",
+        "confidence": 0.94,
+        "estimatedCredits": 990
+      }
+    },
+    {
+      "logId": "AUD-1787386927390-321",
+      "timestamp": "2026-08-22T08:22:07.390Z",
+      "transactionId": null,
+      "userId": "user_mkk4id2",
+      "actor": "USER",
+      "action": "REDEEM_CREDITS",
+      "previousStatus": null,
+      "newStatus": null,
+      "details": {
+        "redemptionId": "RDM-1787386927389-915",
+        "rewardId": "plant-tree",
+        "rewardTitle": "Plant 1 Native Tree",
+        "creditsSpent": 30,
+        "couponCode": "ECO-555374",
+        "timestamp": "2026-08-22T08:22:07.389Z"
+      }
+    },
+    {
+      "logId": "AUD-1787386456928-23",
+      "timestamp": "2026-08-22T08:14:16.928Z",
+      "transactionId": "EW-2026-78NYQR",
+      "userId": "user_mkk4id2",
+      "actor": "FACILITY:AA001",
+      "action": "FACILITY_PHYSICAL_VERIFY_AND_AWARD_CREDITS",
+      "previousStatus": "PENDING_RECYCLING",
+      "newStatus": "CREDITS_ISSUED",
+      "details": {
+        "facilityId": "AA001",
+        "facilityName": "M/s Island Green E-Waste Collection Facility (South Andaman)",
+        "creditsAwarded": 129,
+        "newWalletAvailable": 129
+      }
+    },
+    {
+      "logId": "AUD-1787385748111-495",
+      "timestamp": "2026-08-22T08:02:28.111Z",
+      "transactionId": "EW-2026-78NYQR",
+      "userId": "user_mkk4id2",
+      "actor": "USER",
+      "action": "CLAIM_AND_AI_VERIFY",
+      "previousStatus": "PENDING_AI_VERIFICATION",
+      "newStatus": "PENDING_RECYCLING",
+      "details": {
+        "claimed": "Apple iPhone 13",
+        "detected": "Apple iPhone 13",
+        "confidence": 0.94,
+        "estimatedCredits": 129
+      }
+    },
+    {
+      "logId": "AUD-1787385069169-730",
+      "timestamp": "2026-08-22T07:51:09.169Z",
+      "transactionId": "EW-2026-CV2YBN",
+      "userId": "user_mkk4id2",
+      "actor": "USER",
+      "action": "CLAIM_AND_AI_VERIFY",
+      "previousStatus": "PENDING_AI_VERIFICATION",
+      "newStatus": "PENDING_RECYCLING",
+      "details": {
+        "claimed": "Apple iPhone 13",
+        "detected": "Apple iPhone 13",
+        "confidence": 1,
+        "estimatedCredits": 129
+      }
+    },
+    {
+      "logId": "AUD-1787384189164-915",
+      "timestamp": "2026-08-22T07:36:29.164Z",
+      "transactionId": null,
+      "userId": "scenario1_user_1787384188574",
+      "actor": "USER",
+      "action": "REDEEM_CREDITS",
+      "previousStatus": null,
+      "newStatus": null,
+      "details": {
+        "redemptionId": "RDM-1787384189156-206",
+        "rewardId": "tree-planting",
+        "rewardTitle": "Plant 1 Native Tree",
+        "creditsSpent": 50,
+        "couponCode": "ECO-701477",
+        "timestamp": "2026-08-22T07:36:29.156Z"
+      }
+    },
+    {
+      "logId": "AUD-1787384189105-505",
+      "timestamp": "2026-08-22T07:36:29.105Z",
+      "transactionId": "EW-2026-KGGBJE",
+      "userId": "scenario1_user_1787384188574",
+      "actor": "FACILITY:FAC-MH-012",
+      "action": "FACILITY_PHYSICAL_VERIFY_AND_AWARD_CREDITS",
+      "previousStatus": "PENDING_RECYCLING",
+      "newStatus": "CREDITS_ISSUED",
+      "details": {
+        "facilityId": "FAC-MH-012",
+        "facilityName": "Eco-Recycling Ltd (Mumbai)",
+        "creditsAwarded": 129,
+        "newWalletAvailable": 129
+      }
+    },
+    {
+      "logId": "AUD-1787384189043-281",
+      "timestamp": "2026-08-22T07:36:29.043Z",
+      "transactionId": "EW-2026-KGGBJE",
+      "userId": "scenario1_user_1787384188574",
+      "actor": "USER",
+      "action": "CLAIM_AND_AI_VERIFY",
+      "previousStatus": "PENDING_AI_VERIFICATION",
+      "newStatus": "PENDING_RECYCLING",
+      "details": {
+        "claimed": "Apple iPhone 13",
+        "detected": "Apple iPhone 13",
+        "confidence": 0.94,
+        "estimatedCredits": 129
+      }
+    },
+    {
+      "logId": "AUD-1787384162526-2",
+      "timestamp": "2026-08-22T07:36:02.526Z",
+      "transactionId": "EW-2026-JHHBTT",
+      "userId": "scenario1_user",
+      "actor": "FACILITY:FAC-MH-012",
+      "action": "FACILITY_PHYSICAL_VERIFY_AND_AWARD_CREDITS",
+      "previousStatus": "PENDING_RECYCLING",
+      "newStatus": "CREDITS_ISSUED",
+      "details": {
+        "facilityId": "FAC-MH-012",
+        "facilityName": "Eco-Recycling Ltd (Mumbai)",
+        "creditsAwarded": 129,
+        "newWalletAvailable": 129
+      }
+    },
+    {
+      "logId": "AUD-1787384162508-154",
+      "timestamp": "2026-08-22T07:36:02.508Z",
+      "transactionId": "EW-2026-JHHBTT",
+      "userId": "scenario1_user",
+      "actor": "USER",
+      "action": "CLAIM_AND_AI_VERIFY",
+      "previousStatus": "PENDING_AI_VERIFICATION",
+      "newStatus": "PENDING_RECYCLING",
+      "details": {
+        "claimed": "Apple iPhone 13",
+        "detected": "Apple iPhone 13",
+        "confidence": 0.94,
+        "estimatedCredits": 129
+      }
+    },
+    {
+      "logId": "AUD-1787384003808-402",
+      "timestamp": "2026-08-22T07:33:23.808Z",
+      "transactionId": null,
+      "userId": "test-user-1",
+      "actor": "USER",
+      "action": "REDEEM_CREDITS",
+      "previousStatus": null,
+      "newStatus": null,
+      "details": {
+        "redemptionId": "RDM-1787384003807-783",
+        "rewardId": "green-voucher-100",
+        "rewardTitle": "₹100 Green Eco-Voucher",
+        "creditsSpent": 50,
+        "couponCode": "ECO-689189",
+        "timestamp": "2026-08-22T07:33:23.807Z"
+      }
+    },
+    {
+      "logId": "AUD-1787384003790-348",
+      "timestamp": "2026-08-22T07:33:23.790Z",
+      "transactionId": "EW-2026-WGFSGS",
+      "userId": "test-user-1",
+      "actor": "FACILITY:FAC-DEL-004",
+      "action": "FACILITY_PHYSICAL_VERIFY_AND_AWARD_CREDITS",
+      "previousStatus": "PENDING_RECYCLING",
+      "newStatus": "CREDITS_ISSUED",
+      "details": {
+        "facilityId": "FAC-DEL-004",
+        "facilityName": "Delhi Clean-Tech E-Waste Recyclers",
+        "creditsAwarded": 129,
+        "newWalletAvailable": 129
+      }
+    },
+    {
+      "logId": "AUD-1787384003780-826",
+      "timestamp": "2026-08-22T07:33:23.780Z",
+      "transactionId": "EW-2026-WGFSGS",
+      "userId": "test-user-1",
+      "actor": "USER",
+      "action": "CLAIM_AND_AI_VERIFY",
+      "previousStatus": "PENDING_AI_VERIFICATION",
+      "newStatus": "PENDING_RECYCLING",
+      "details": {
+        "claimed": "Apple iPhone 13",
+        "detected": "Apple iPhone 13",
+        "confidence": 0.94,
+        "estimatedCredits": 129
+      }
+    }
+  ]
+}

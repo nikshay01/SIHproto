@@ -1,0 +1,117 @@
+{
+  "wallets": {
+    "test-user-1": {
+      "userId": "test-user-1",
+      "estimatedCredits": 0,
+      "verifiedCredits": 129,
+      "redeemedCredits": 50,
+      "availableCredits": 79,
+      "redemptions": [
+        {
+          "redemptionId": "RDM-1787384003807-783",
+          "rewardId": "green-voucher-100",
+          "rewardTitle": "₹100 Green Eco-Voucher",
+          "creditsSpent": 50,
+          "couponCode": "ECO-689189",
+          "timestamp": "2026-08-22T07:33:23.807Z"
+        }
+      ],
+      "createdAt": "2026-08-22T07:33:23.223Z",
+      "lastUpdated": "2026-08-22T07:33:23.807Z"
+    },
+    "scenario1_user": {
+      "userId": "scenario1_user",
+      "estimatedCredits": 0,
+      "verifiedCredits": 129,
+      "redeemedCredits": 0,
+      "availableCredits": 129,
+      "redemptions": [],
+      "createdAt": "2026-08-22T07:36:02.507Z",
+      "lastUpdated": "2026-08-22T07:36:02.525Z"
+    },
+    "scenario1_user_1787384188574": {
+      "userId": "scenario1_user_1787384188574",
+      "estimatedCredits": 0,
+      "verifiedCredits": 129,
+      "redeemedCredits": 50,
+      "availableCredits": 79,
+      "redemptions": [
+        {
+          "redemptionId": "RDM-1787384189156-206",
+          "rewardId": "tree-planting",
+          "rewardTitle": "Plant 1 Native Tree",
+          "creditsSpent": 50,
+          "couponCode": "ECO-701477",
+          "timestamp": "2026-08-22T07:36:29.156Z"
+        }
+      ],
+      "createdAt": "2026-08-22T07:36:29.016Z",
+      "lastUpdated": "2026-08-22T07:36:29.156Z"
+    },
+    "user_mkk4id2": {
+      "userId": "user_mkk4id2",
+      "estimatedCredits": 1119,
+      "verifiedCredits": 129,
+      "redeemedCredits": 30,
+      "availableCredits": 99,
+      "redemptions": [
+        {
+          "redemptionId": "RDM-1787386927389-915",
+          "rewardId": "plant-tree",
+          "rewardTitle": "Plant 1 Native Tree",
+          "creditsSpent": 30,
+          "couponCode": "ECO-555374",
+          "timestamp": "2026-08-22T08:22:07.389Z"
+        }
+      ],
+      "createdAt": "2026-08-22T07:45:55.580Z",
+      "lastUpdated": "2026-08-23T04:48:28.651Z"
+    },
+    "user_d7pt0rq": {
+      "userId": "user_d7pt0rq",
+      "estimatedCredits": 0,
+      "verifiedCredits": 0,
+      "redeemedCredits": 0,
+      "availableCredits": 0,
+      "redemptions": [],
+      "createdAt": "2026-08-23T04:41:47.638Z",
+      "lastUpdated": "2026-08-23T04:41:47.638Z"
+    },
+    "test-agent-user": {
+      "_id": "6a8a81d3183f5425ecea0f76",
+      "userId": "test-agent-user",
+      "estimatedCredits": 0,
+      "verifiedCredits": 129,
+      "redeemedCredits": 30,
+      "availableCredits": 99,
+      "redemptions": [
+        {
+          "redemptionId": "RDM-1787462099558-384",
+          "rewardId": "plant-tree",
+          "rewardTitle": "Plant 1 Native Tree",
+          "creditsSpent": 30,
+          "couponCode": "ECO-819357",
+          "status": "ACTIVE",
+          "redeemedAt": "2026-08-23T05:14:59.558Z"
+        }
+      ],
+      "createdAt": "2026-08-23T05:14:59.344Z",
+      "updatedAt": "2026-08-23T05:14:59.491Z",
+      "__v": 0,
+      "lastUpdated": "2026-08-23T05:14:59.558Z"
+    },
+    "guest-user": {
+      "_id": "6a8a857b183f5425ecea0f8b",
+      "userId": "guest-user",
+      "estimatedCredits": 133,
+      "verifiedCredits": 0,
+      "redeemedCredits": 0,
+      "availableCredits": 0,
+      "redemptions": [],
+      "createdAt": "2026-08-23T05:30:35.602Z",
+      "updatedAt": "2026-08-23T05:30:35.602Z",
+      "__v": 0,
+      "lastUpdated": "2026-08-23T07:39:26.673Z"
+    }
+  }
+}
