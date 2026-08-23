@@ -47,6 +47,35 @@
       ],
       "createdAt": "2026-08-22T07:36:29.016Z",
       "lastUpdated": "2026-08-22T07:36:29.156Z"
+    },
+    "user_mkk4id2": {
+      "userId": "user_mkk4id2",
+      "estimatedCredits": 1119,
+      "verifiedCredits": 129,
+      "redeemedCredits": 30,
+      "availableCredits": 99,
+      "redemptions": [
+        {
+          "redemptionId": "RDM-1787386927389-915",
+          "rewardId": "plant-tree",
+          "rewardTitle": "Plant 1 Native Tree",
+          "creditsSpent": 30,
+          "couponCode": "ECO-555374",
+          "timestamp": "2026-08-22T08:22:07.389Z"
+        }
+      ],
+      "createdAt": "2026-08-22T07:45:55.580Z",
+      "lastUpdated": "2026-08-23T04:48:28.651Z"
+    },
+    "user_d7pt0rq": {
+      "userId": "user_d7pt0rq",
+      "estimatedCredits": 0,
+      "verifiedCredits": 0,
+      "redeemedCredits": 0,
+      "availableCredits": 0,
+      "redemptions": [],
+      "createdAt": "2026-08-23T04:41:47.638Z",
+      "lastUpdated": "2026-08-23T04:41:47.638Z"
     }
   }
 }

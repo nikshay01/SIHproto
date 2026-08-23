@@ -1,6 +1,88 @@
 {
   "logs": [
     {
+      "logId": "AUD-1787460508653-543",
+      "timestamp": "2026-08-23T04:48:28.653Z",
+      "transactionId": "EW-2026-X8NWE3",
+      "userId": "user_mkk4id2",
+      "actor": "USER",
+      "action": "CLAIM_AND_AI_VERIFY",
+      "previousStatus": "PENDING_AI_VERIFICATION",
+      "newStatus": "PENDING_RECYCLING",
+      "details": {
+        "claimed": "Apple MacBook Air M2 13.6\"",
+        "detected": "Apple MacBook Air M2 13.6\"",
+        "confidence": 0.94,
+        "estimatedCredits": 990
+      }
+    },
+    {
+      "logId": "AUD-1787386927390-321",
+      "timestamp": "2026-08-22T08:22:07.390Z",
+      "transactionId": null,
+      "userId": "user_mkk4id2",
+      "actor": "USER",
+      "action": "REDEEM_CREDITS",
+      "previousStatus": null,
+      "newStatus": null,
+      "details": {
+        "redemptionId": "RDM-1787386927389-915",
+        "rewardId": "plant-tree",
+        "rewardTitle": "Plant 1 Native Tree",
+        "creditsSpent": 30,
+        "couponCode": "ECO-555374",
+        "timestamp": "2026-08-22T08:22:07.389Z"
+      }
+    },
+    {
+      "logId": "AUD-1787386456928-23",
+      "timestamp": "2026-08-22T08:14:16.928Z",
+      "transactionId": "EW-2026-78NYQR",
+      "userId": "user_mkk4id2",
+      "actor": "FACILITY:AA001",
+      "action": "FACILITY_PHYSICAL_VERIFY_AND_AWARD_CREDITS",
+      "previousStatus": "PENDING_RECYCLING",
+      "newStatus": "CREDITS_ISSUED",
+      "details": {
+        "facilityId": "AA001",
+        "facilityName": "M/s Island Green E-Waste Collection Facility (South Andaman)",
+        "creditsAwarded": 129,
+        "newWalletAvailable": 129
+      }
+    },
+    {
+      "logId": "AUD-1787385748111-495",
+      "timestamp": "2026-08-22T08:02:28.111Z",
+      "transactionId": "EW-2026-78NYQR",
+      "userId": "user_mkk4id2",
+      "actor": "USER",
+      "action": "CLAIM_AND_AI_VERIFY",
+      "previousStatus": "PENDING_AI_VERIFICATION",
+      "newStatus": "PENDING_RECYCLING",
+      "details": {
+        "claimed": "Apple iPhone 13",
+        "detected": "Apple iPhone 13",
+        "confidence": 0.94,
+        "estimatedCredits": 129
+      }
+    },
+    {
+      "logId": "AUD-1787385069169-730",
+      "timestamp": "2026-08-22T07:51:09.169Z",
+      "transactionId": "EW-2026-CV2YBN",
+      "userId": "user_mkk4id2",
+      "actor": "USER",
+      "action": "CLAIM_AND_AI_VERIFY",
+      "previousStatus": "PENDING_AI_VERIFICATION",
+      "newStatus": "PENDING_RECYCLING",
+      "details": {
+        "claimed": "Apple iPhone 13",
+        "detected": "Apple iPhone 13",
+        "confidence": 1,
+        "estimatedCredits": 129
+      }
+    },
+    {
       "logId": "AUD-1787384189164-915",
       "timestamp": "2026-08-22T07:36:29.164Z",
       "transactionId": null,
