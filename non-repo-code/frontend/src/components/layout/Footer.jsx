@@ -140,6 +140,34 @@ export default function Footer({ onNavigate }) {
           font-size: 0.8rem;
           color: var(--text-dim);
         }
+        @media (max-width: 768px) {
+          .footer-root {
+            padding: 32px 16px 20px 16px;
+          }
+          .footer-top {
+            flex-direction: column;
+            gap: 24px;
+          }
+          .footer-brand {
+            max-width: 100%;
+          }
+          .footer-links-grid {
+            gap: 24px;
+            flex-wrap: wrap;
+          }
+          .footer-bottom {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+            font-size: 0.75rem;
+          }
+        }
+        @media (max-width: 480px) {
+          .footer-links-grid {
+            flex-direction: column;
+            gap: 20px;
+          }
+        }
       `}</style>
     </footer>
   );

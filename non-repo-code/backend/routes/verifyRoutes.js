@@ -1,5 +1,5 @@
 import express from "express";
-import { verifyDeviceImage, classifyGeneralEwasteImage } from "../services/aiVisionService.js";
+import { verifyDeviceImage, classifyGeneralEwasteImage, generateEwasteEducationalContent } from "../services/aiVisionService.js";
 import { getDeviceById, findDeviceByBrandAndModel } from "../services/deviceService.js";
 import { calculateDeviceCredits } from "../services/creditEngine.js";
 import {
@@ -88,6 +88,15 @@ router.post("/claim-and-verify", async (req, res, next) => {
       materialsBreakdown: creditCalculation.materials,
       deviceId: targetDevice.id || targetDevice.deviceId || null
     });
+
+    // Generate educational content for the detected device
+    const educationalContent = await generateEwasteEducationalContent(
+      aiResult.detectedDevice.model || `${aiResult.detectedDevice.brand} ${aiResult.detectedDevice.model}`,
+      aiResult.detectedDevice.category
+    );
+
+    // Attach educational content to aiResult for frontend consumption
+    aiResult.educationalContent = educationalContent;
 
     const userWallet = await getOrCreateWallet(userId);
 

@@ -30,7 +30,7 @@ export async function connectDatabase() {
 
   try {
     console.log("Connecting to MongoDB Atlas Cluster...");
-    
+
     // Set Mongoose connection options
     const conn = await mongoose.connect(MONGODB_URI, {
       serverSelectionTimeoutMS: 5000,
@@ -57,7 +57,7 @@ export async function connectDatabase() {
     DB_STATE.errorCount++;
     console.warn(`! MongoDB Connection Notice (${connectionAttempts}/${MAX_ATTEMPTS}): ${err.message}`);
     console.log("⚡ Activating High-Availability In-Memory Resilient Store with Local Snapshot Sync.");
-    
+
     DB_STATE.connected = false;
     DB_STATE.mode = "in-memory-fallback";
     return DB_STATE;
@@ -91,7 +91,7 @@ async function autoSeedDatabase() {
         const raw = fs.readFileSync(fixedFacilitiesPath, "utf-8");
         const json = JSON.parse(raw);
         const facilities = json.all_facilities || [];
-        
+
         // Map to GeoJSON format for 2dsphere indexing
         const formatted = facilities.map(f => ({
           facilityId: f.id,

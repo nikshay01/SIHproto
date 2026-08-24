@@ -11,7 +11,8 @@ import {
   ShieldCheck,
   Coins,
   Leaf,
-  Layers
+  Layers,
+  Info
 } from "lucide-react";
 import { analyzeGeneralImage } from "../../services/api.js";
 
@@ -23,9 +24,13 @@ export default function EvaluateScanner({ onOpenCert, onOpenPickup, onNavigate }
   const [cameraActive, setCameraActive] = useState(false);
   const [stream, setStream] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [generalTip, setGeneralTip] = useState("");
+  const [fetchingGeneralTip, setFetchingGeneralTip] = useState(false);
   const [analysisResult, setAnalysisResult] = useState(null);
   const [error, setError] = useState(null);
   const [dragOver, setDragOver] = useState(false);
+  const [educationalContent, setEducationalContent] = useState(null);
+  const [fetchingEducation, setFetchingEducation] = useState(false);
 
   const startCamera = async () => {
     try {
@@ -48,6 +53,46 @@ export default function EvaluateScanner({ onOpenCert, onOpenPickup, onNavigate }
       setStream(null);
     }
     setCameraActive(false);
+  };
+
+  // Fetch educational content about e-waste item using NVIDIA NIM via backend API
+  const fetchEducationalContent = async (itemName, category) => {
+    if (!itemName) return;
+
+    setFetchingEducation(true);
+    try {
+      const response = await fetch(`/api/system/educate?item=${encodeURIComponent(itemName)}&category=${encodeURIComponent(category || '')}`);
+      if (!response.ok) {
+        throw new Error(`Failed to fetch educational content: ${response.status}`);
+      }
+      const data = await response.json();
+      setEducationalContent(data);
+    } catch (err) {
+      console.warn("Failed to fetch educational content:", err.message);
+      setEducationalContent(null);
+    } finally {
+      setFetchingEducation(false);
+    }
+  };
+
+  // Fetch general educational tip while image is being verified
+  const fetchGeneralEducationalTip = async () => {
+    setFetchingGeneralTip(true);
+    try {
+      const response = await fetch(`/api/system/educate?item=general+e-waste`);
+      if (!response.ok) {
+        throw new Error(`Failed to fetch general tip: ${response.status}`);
+      }
+      const data = await response.json();
+      // Extract a single tip from the content array or use a default
+      const tip = data.content?.[0] || "Recycling e-waste conserves resources and protects the environment.";
+      setGeneralTip(tip);
+    } catch (err) {
+      console.warn("Failed to fetch general educational tip:", err.message);
+      setGeneralTip("Recycling electronics helps recover valuable materials and reduces environmental impact.");
+    } finally {
+      setFetchingGeneralTip(false);
+    }
   };
 
   const handleCapture = () => {
@@ -79,9 +124,19 @@ export default function EvaluateScanner({ onOpenCert, onOpenPickup, onNavigate }
   const runClassification = async (dataUrl) => {
     setLoading(true);
     setError(null);
+    setGeneralTip("");
+    setEducationalContent(null);
+    setFetchingEducation(false);
+    // Fetch general educational tip while classifying
+    fetchGeneralEducationalTip();
     try {
       const res = await analyzeGeneralImage(dataUrl);
       setAnalysisResult(res);
+
+      // Fetch specific educational content based on classification
+      if (res.item) {
+        fetchEducationalContent(res.item, res.category);
+      }
     } catch (err) {
       setError(err.response?.data?.error || err.message || "Classification failed");
     } finally {
@@ -89,6 +144,7 @@ export default function EvaluateScanner({ onOpenCert, onOpenPickup, onNavigate }
     }
   };
 
+  
   useEffect(() => {
     return () => {
       if (stream) stream.getTracks().forEach((track) => track.stop());
@@ -214,6 +270,17 @@ export default function EvaluateScanner({ onOpenCert, onOpenPickup, onNavigate }
               <Sparkles size={32} className="animate-spin text-primary mb-2" />
               <h4>Analyzing Image with NVIDIA Llama 3.2 Vision...</h4>
               <p className="text-xs text-muted">Classifying electronic components & physical condition</p>
+              {generalTip && !fetchingGeneralTip && (
+                <div className="educational-tip mt-3 p-3 bg-muted rounded">
+                  <Info size={20} className="mr-2 text-primary" />
+                  <span className="text-sm text-muted">{generalTip}</span>
+                </div>
+              )}
+              {fetchingGeneralTip && (
+                <div className="educational-tip mt-3 text-center text-sm text-muted">
+                  Loading educational tip...
+                </div>
+              )}
             </div>
           ) : error ? (
             <div className="error-alert-banner">
@@ -281,6 +348,42 @@ export default function EvaluateScanner({ onOpenCert, onOpenPickup, onNavigate }
                 </div>
                 <p className="text-xs text-muted mt-2">{analysisResult.description}</p>
               </div>
+
+              {/* Educational Content */}
+              {educationalContent && !fetchingEducation && (
+                <div className="educational-content mt-6 p-4 bg-muted rounded">
+                  <div className="flex items-start mb-3">
+                    <Info size={24} className="mr-3 mt-0.5 text-primary" />
+                    <div>
+                      <h4 className="font-semibold text-primary">{educationalContent.title}</h4>
+                      <p className="text-sm text-muted">
+                        Learn about the environmental impact and recycling importance of
+                        {analysisResult.item}
+                      </p>
+                    </div>
+                  </div>
+                  <div className="space-y-3">
+                    {educationalContent.content.map((point, index) => (
+                      <div key={index} className="flex items-start text-sm text-muted">
+                        <span className="mr-2 mt-0.5 text-primary">•</span>
+                        <span>{point}</span>
+                      </div>
+                    ))}
+                    {educationalContent.impact && (
+                      <div className="pt-3 border-t border-subtle">
+                        <p className="font-medium text-primary">
+                          Environmental Impact: {educationalContent.impact}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )}
+              {fetchingEducation && (
+                <div className="educational-loading mt-6 text-center text-sm text-muted">
+                  Loading educational information...
+                </div>
+              )}
 
               {/* Action Buttons */}
               <div className="evaluate-action-buttons">
@@ -423,6 +526,24 @@ export default function EvaluateScanner({ onOpenCert, onOpenPickup, onNavigate }
           .evaluate-grid-layout {
             grid-template-columns: 1fr;
           }
+        }
+
+        .educational-tip {
+          display: flex;
+          align-items: center;
+        }
+
+        .educational-content {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .educational-content h4 {
+          margin: 0 0 8px 0;
+        }
+
+        .educational-loading {
+          padding: 16px;
         }
       `}</style>
     </div>

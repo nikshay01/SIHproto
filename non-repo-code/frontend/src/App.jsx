@@ -3,6 +3,7 @@ import { ThemeProvider } from "./context/ThemeContext.jsx";
 import { LocationProvider } from "./context/LocationContext.jsx";
 import { WalletProvider } from "./context/WalletContext.jsx";
 import { FacilityProvider } from "./context/FacilityContext.jsx";
+import { AuthProvider } from "./context/AuthContext.jsx";
 
 // Layout Components
 import Navbar from "./components/layout/Navbar.jsx";
@@ -28,6 +29,8 @@ import PickupScheduleModal from "./components/modals/PickupScheduleModal.jsx";
 import EprCertificateModal from "./components/modals/EprCertificateModal.jsx";
 import QrReceiptModal from "./components/modals/QrReceiptModal.jsx";
 import HazardDetailModal from "./components/modals/HazardDetailModal.jsx";
+import AuthModal from "./components/auth/AuthModal.jsx";
+import ProfileModal from "./components/profile/ProfileModal.jsx";
 
 function AppContent() {
   const [activeSection, setActiveSection] = useState("landing");
@@ -119,6 +122,12 @@ function AppContent() {
       {/* GLOBAL MODALS */}
       {/* =================================================================== */}
       
+      {/* User Auth Modal */}
+      <AuthModal />
+
+      {/* User Profile Modal */}
+      <ProfileModal onNavigate={handleNavigate} />
+
       {/* Architecture & Sharding Telemetry Modal */}
       <SystemMetricsModal
         isOpen={metricsModalOpen}
@@ -171,13 +180,15 @@ function AppContent() {
 export default function App() {
   return (
     <ThemeProvider>
-      <LocationProvider>
-        <WalletProvider>
-          <FacilityProvider>
-            <AppContent />
-          </FacilityProvider>
-        </WalletProvider>
-      </LocationProvider>
+      <AuthProvider>
+        <LocationProvider>
+          <WalletProvider>
+            <FacilityProvider>
+              <AppContent />
+            </FacilityProvider>
+          </WalletProvider>
+        </LocationProvider>
+      </AuthProvider>
     </ThemeProvider>
   );
 }

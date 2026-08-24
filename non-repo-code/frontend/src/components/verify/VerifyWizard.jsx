@@ -14,6 +14,7 @@ export default function VerifyWizard({ onNavigate }) {
   const [claimedDevice, setClaimedDevice] = useState(null);
   const [capturedImage, setCapturedImage] = useState(null);
   const [verificationResult, setVerificationResult] = useState(null);
+  const [educationalContent, setEducationalContent] = useState(null);
   const [errorMessage, setErrorMessage] = useState(null);
 
   // Stage 1 -> 2
@@ -40,6 +41,10 @@ export default function VerifyWizard({ onNavigate }) {
 
       if (res.ok) {
         setVerificationResult(res);
+        // Extract educational content from verification result if available
+        if (res.aiVerification && res.aiVerification.educationalContent) {
+          setEducationalContent(res.aiVerification.educationalContent);
+        }
         await refreshWallet();
         setCurrentStage(4);
       } else {
@@ -143,10 +148,26 @@ export default function VerifyWizard({ onNavigate }) {
           display: flex;
           flex-direction: column;
           gap: 28px;
+          padding: 0 16px;
+          box-sizing: border-box;
+          width: 100%;
+        }
+        .verify-header {
+          text-align: center;
+          padding: 0 16px;
+          margin-bottom: 20px;
         }
         .verify-header h2 {
-          font-size: 2rem;
+          font-size: 1.8rem;
           margin-bottom: 6px;
+          line-height: 1.2;
+        }
+        .verify-header p {
+          font-size: 0.95rem;
+          line-height: 1.5;
+          color: var(--text-secondary);
+          max-width: 600px;
+          margin: 0 auto;
         }
         .stepper-bar {
           display: flex;
@@ -156,11 +177,17 @@ export default function VerifyWizard({ onNavigate }) {
           border: 1px solid var(--border-card);
           border-radius: var(--radius-full);
           padding: 12px 24px;
+          flex-wrap: wrap;
+          gap: 8px;
+          margin-bottom: 24px;
         }
         .step-node {
           display: flex;
+          flex-direction: column;
           align-items: center;
-          gap: 8px;
+          gap: 4px;
+          min-width: 60px;
+          flex: 1;
         }
         .step-circle {
           width: 28px;
@@ -174,11 +201,15 @@ export default function VerifyWizard({ onNavigate }) {
           font-weight: 700;
           font-size: 0.8rem;
           border: 1px solid var(--border-subtle);
+          flex-shrink: 0;
         }
         .step-label {
-          font-size: 0.825rem;
+          font-size: 0.75rem;
           font-weight: 600;
           color: var(--text-muted);
+          text-align: center;
+          margin-top: 4px;
+          line-height: 1.2;
         }
         .step-node.active .step-circle {
           background: var(--primary);
@@ -197,7 +228,6 @@ export default function VerifyWizard({ onNavigate }) {
           flex: 1;
           height: 2px;
           background: var(--border-subtle);
-          margin: 0 12px;
         }
         .step-connector.active {
           background: var(--primary);
@@ -211,13 +241,120 @@ export default function VerifyWizard({ onNavigate }) {
           font-size: 0.875rem;
           font-weight: 600;
           text-align: center;
+          margin-bottom: 16px;
         }
-        @media (max-width: 640px) {
-          .step-label {
-            display: none;
+        .stage-content-wrap {
+          flex: 1;
+          width: 100%;
+        }
+        @media (max-width: 768px) {
+          .verify-wizard-root {
+            gap: 20px;
+            padding: 0 12px;
+          }
+          .verify-header {
+            margin-bottom: 16px;
+            padding: 0 12px;
+          }
+          .verify-header h2 {
+            font-size: 1.5rem;
+          }
+          .verify-header p {
+            font-size: 0.85rem;
           }
           .stepper-bar {
-            padding: 8px 16px;
+            padding: 10px 16px;
+            gap: 6px;
+          }
+          .step-node {
+            min-width: 50px;
+          }
+          .step-circle {
+            width: 24px;
+            height: 24px;
+            font-size: 0.7rem;
+          }
+          .step-label {
+            font-size: 0.65rem;
+          }
+          .error-alert-banner {
+            padding: 10px 14px;
+            font-size: 0.8rem;
+          }
+          .stage-content-wrap {
+            padding: 0 8px;
+          }
+        }
+        @media (max-width: 480px) {
+          .verify-wizard-root {
+            gap: 16px;
+            padding: 0 8px;
+          }
+          .verify-header {
+            margin-bottom: 12px;
+            padding: 0 8px;
+          }
+          .verify-header h2 {
+            font-size: 1.3rem;
+          }
+          .verify-header p {
+            font-size: 0.8rem;
+          }
+          .stepper-bar {
+            flex-direction: column;
+            align-items: stretch;
+          }
+          .step-node {
+            flex-direction: row;
+            width: 100%;
+            justify-content: flex-start;
+            gap: 8px;
+            padding: 6px 0;
+            border-bottom: 1px solid var(--border-subtle);
+            min-width: auto;
+          }
+          .step-node:last-child {
+            border-bottom: none;
+          }
+          .step-circle {
+            width: 24px;
+            height: 24px;
+            font-size: 0.75rem;
+          }
+          .step-label {
+            font-size: 0.7rem;
+            text-align: left;
+            margin-top: 2px;
+          }
+          .step-connector {
+            display: none;
+          }
+          .error-alert-banner {
+            padding: 8px 12px;
+            font-size: 0.75rem;
+            margin-bottom: 12px;
+          }
+          .stage-content-wrap {
+            padding: 0 4px;
+          }
+        }
+        @media (max-width: 360px) {
+          .verify-header h2 {
+            font-size: 1.1rem;
+          }
+          .verify-header p {
+            font-size: 0.75rem;
+          }
+          .step-circle {
+            width: 20px;
+            height: 20px;
+            font-size: 0.65rem;
+          }
+          .step-label {
+            font-size: 0.6rem;
+          }
+          .error-alert-banner {
+            font-size: 0.7rem;
           }
         }
       `}</style>

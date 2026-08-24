@@ -20,6 +20,7 @@ import facilityRoutes from "./routes/facilityRoutes.js";
 import walletRoutes from "./routes/walletRoutes.js";
 import pickupRoutes from "./routes/pickupRoutes.js";
 import auditRoutes from "./routes/auditRoutes.js";
+import authRoutes from "./routes/authRoutes.js";
 import { classifyGeneralEwasteImage } from "./services/aiVisionService.js";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -50,6 +51,7 @@ app.use("/api", rateLimiter(120, 60000));
 // API ROUTE MOUNTING
 // ============================================================================
 app.use("/api", healthRoutes);
+app.use("/api/auth", authRoutes);
 app.use("/api/system", systemRoutes);
 app.use("/api/devices", deviceRoutes);
 app.use("/api/verify", verifyRoutes);

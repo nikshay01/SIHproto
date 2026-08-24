@@ -197,6 +197,107 @@ function extractJsonObject(text) {
   }
 }
 
+/**
+ * Generate Educational Content for E-Waste Item
+ * Uses NVIDIA NIM to create educational information about e-waste recycling
+ */
+export async function generateEwasteEducationalContent(itemName, category) {
+  if (!NVIDIA_API_KEY) {
+    // Fallback when NVIDIA API is not available
+    return {
+      title: `${itemName} Recycling Information`,
+      content: [
+        `Recycling ${itemName.toLowerCase()} helps recover valuable materials and prevents environmental contamination.`,
+        `Proper e-waste recycling conserves natural resources and reduces the need for mining.`,
+        `Many electronics contain hazardous materials that require specialized handling.`,
+        `Recycling one ${itemName.toLowerCase()} can save significant energy compared to manufacturing from raw materials.`
+      ],
+      impact: `Recycling ${itemName.toLowerCase()} reduces landfill waste and recovers precious metals for reuse in new products.`
+    };
+  }
+
+  const prompt = `You are an environmental educator specializing in e-waste recycling and circular economy.
+
+Provide educational information about recycling the following electronic item:
+- Item: ${itemName}
+- Category: ${category}
+
+Include:
+1. Key facts about materials recoverable from this item
+2. Environmental benefits of proper recycling
+3. Statistics about e-waste and this specific item type
+4. How recycling contributes to circular economy
+5. Any specific handling considerations for this item type
+
+OUTPUT STRICT RULES:
+1. Return ONLY a single raw JSON object.
+2. No markdown formatting, no backticks, no code fences.
+3. Follow this exact JSON structure:
+{
+  "title": "string",
+  "content": ["string", "string", "string", "string"],
+  "impact": "string"
+}
+
+Make the content engaging, accurate, and suitable for general public education about responsible e-waste disposal.`;
+
+  try {
+    const response = await axios.post(
+      "https://integrate.api.nvidia.com/v1/chat/completions",
+      {
+        model: "meta/llama-3.2-11b-vision-instruct",
+        messages: [
+          {
+            role: "user",
+            content: [
+              { type: "text", text: prompt }
+            ]
+          }
+        ],
+        max_tokens: 800,
+        temperature: 0.3
+      },
+      {
+        headers: {
+          Authorization: `Bearer ${NVIDIA_API_KEY}`,
+          "Content-Type": "application/json"
+        },
+        timeout: 15000
+      }
+    );
+
+    const rawContent = response.data?.choices?.[0]?.message?.content;
+    if (!rawContent) throw new Error("Empty model response from NVIDIA Vision.");
+
+    const parsed = extractJsonObject(rawContent);
+    if (!parsed) throw new Error("Failed to parse AI vision output.");
+
+    return {
+      title: String(parsed.title || `${itemName} Recycling Guide`),
+      content: Array.isArray(parsed.content) ? parsed.content.slice(0, 4) : [
+        `Learn about recycling ${itemName.toLowerCase()}`,
+        `Discover environmental benefits of proper e-waste disposal`,
+        `Understand how recycling supports circular economy`,
+        `Find out what materials can be recovered from this item`
+      ],
+      impact: String(parsed.impact || `Recycling ${itemName.toLowerCase()} helps protect the environment and conserve resources.`)
+    };
+  } catch (err) {
+    console.warn("NVIDIA Vision API call error for educational content, falling back to heuristic:", err.message);
+    // Fallback educational content
+    return {
+      title: `${itemName} Recycling Information`,
+      content: [
+        `Recycling ${itemName.toLowerCase()} recovers valuable materials like metals, plastics, and glass.`,
+        `Proper e-waste processing prevents hazardous substances from entering landfills and waterways.`,
+        `The global e-waste problem is growing, making responsible recycling more important than ever.`,
+        `Recycling electronics saves energy compared to extracting and processing virgin materials.`
+      ],
+      impact: `By recycling ${itemName.toLowerCase()}, you contribute to reducing environmental pollution and supporting sustainable resource management.`
+    };
+  }
+}
+
 function normalizeAndApplyRules(claimedCategory, claimedBrand, claimedModel, rawAiOutput) {
   const detectedCategory = rawAiOutput?.detectedDevice?.category || claimedCategory || "Electronics";
   const detectedBrand = rawAiOutput?.detectedDevice?.brand || claimedBrand || "Unknown";
@@ -283,3 +384,10 @@ function heuristicDeviceVerification(claimedCategory, claimedBrand, claimedModel
     reasoning: `Optical recognition confirms structural profile consistent with ${claimedBrand} ${claimedModel}.`
   });
 }
+
+// Export remaining non-inline functions
+export {
+  normalizeAndApplyRules,
+  heuristicDeviceVerification,
+  extractJsonObject
+};

@@ -3,6 +3,7 @@ import os from "os";
 import { getShardTopologyMetrics } from "../services/shardRouter.js";
 import { facilityCache, deviceCache, geoDistanceCache } from "../services/cacheService.js";
 import { DB_STATE } from "../config/database.js";
+import { generateEwasteEducationalContent } from "../services/aiVisionService.js";
 
 const router = express.Router();
 
@@ -59,6 +60,16 @@ router.get("/topology", (req, res) => {
     },
     shards
   });
+});
+
+router.get("/educate", async (req, res, next) => {
+  try {
+    const { item, category } = req.query;
+    const educationalContent = await generateEwasteEducationalContent(item || null, category || null);
+    res.json({ ok: true, ...educationalContent });
+  } catch (err) {
+    next(err);
+  }
 });
 
 export default router;

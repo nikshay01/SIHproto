@@ -225,6 +225,8 @@ export default function Stage2CameraCapture({ claimedDevice, onCaptureImage, onB
           display: flex;
           flex-wrap: wrap;
           gap: 8px;
+          justify-content: center;
+          margin-bottom: 16px;
         }
         .guide-pill {
           padding: 6px 14px;
@@ -335,6 +337,9 @@ export default function Stage2CameraCapture({ claimedDevice, onCaptureImage, onB
           display: flex;
           align-items: center;
           gap: 12px;
+          flex-wrap: wrap;
+          justify-content: center;
+          margin-top: 12px;
         }
         .dropzone-box {
           border: 2px dashed var(--border-card);
@@ -356,6 +361,89 @@ export default function Stage2CameraCapture({ claimedDevice, onCaptureImage, onB
           display: flex;
           flex-direction: column;
           font-size: 0.88rem;
+          align-items: center;
+        }
+        @media (max-width: 768px) {
+          .guidance-bar {
+            gap: 6px;
+            margin-bottom: 12px;
+          }
+          .guide-pill {
+            padding: 4px 10px;
+            font-size: 0.7rem;
+          }
+          .viewport-screen {
+            padding-top: 100%; /* 1:1 aspect ratio for tablets */
+          }
+          .viewfinder-brackets {
+            inset: 25px;
+          }
+          .viewfinder-tag {
+            font-size: 0.7rem;
+            padding: 3px 8px;
+          }
+          .btn-switch-cam {
+            width: 34px;
+            height: 34px;
+            top: 10px;
+            right: 10px;
+          }
+          .camera-controls-bar {
+            gap: 10px;
+            flex-wrap: wrap;
+          }
+          .dropzone-box {
+            padding: 16px;
+            gap: 10px;
+          }
+          .dropzone-text {
+            font-size: 0.8rem;
+          }
+        }
+        @media (max-width: 480px) {
+          .guidance-bar {
+            gap: 4px;
+            margin-bottom: 8px;
+          }
+          .guide-pill {
+            padding: 3px 8px;
+            font-size: 0.65rem;
+          }
+          .viewport-screen {
+            padding-top: 100%; /* 1:1 aspect ratio for phones */
+          }
+          .viewfinder-brackets {
+            inset: 15px;
+          }
+          .viewfinder-tag {
+            font-size: 0.65rem;
+            padding: 2px 6px;
+          }
+          .btn-switch-cam {
+            width: 30px;
+            height: 30px;
+            top: 8px;
+            right: 8px;
+          }
+          .camera-controls-bar {
+            gap: 8px;
+          }
+          .dropzone-box {
+            padding: 12px;
+            gap: 8px;
+          }
+          .dropzone-text {
+            font-size: 0.75rem;
+          }
+          .stage-card-head {
+            gap: 2px;
+          }
+          .stage-title {
+            font-size: 1.1rem;
+          }
+          .stage-subtitle {
+            font-size: 0.8rem;
+          }
         }
       `}</style>
     </div>

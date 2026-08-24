@@ -18,6 +18,7 @@ import confetti from "canvas-confetti";
 export default function Stage4ResultToken({ verificationResult, onReset, onNavigate }) {
   const qrCanvasRef = useRef(null);
   const [copied, setCopied] = useState(false);
+  const [showEducation, setShowEducation] = useState(false);
 
   const {
     transaction,
@@ -439,12 +440,95 @@ export default function Stage4ResultToken({ verificationResult, onReset, onNavig
           font-size: 0.7rem;
           color: var(--text-muted);
         }
+        .educational-section {
+          margin-top: 24px;
+          width: 100%;
+          border-top: 1px solid var(--border-card);
+          padding-top: 16px;
+        }
+        .educational-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 12px;
+          flex-wrap: wrap;
+        }
+        .educational-header h3 {
+          font-size: 1.1rem;
+          font-weight: 600;
+          color: var(--text-primary);
+          margin: 0;
+        }
+        .btn-toggle {
+          background: none;
+          border: none;
+          font-size: 1.5rem;
+          line-height: 1;
+          cursor: pointer;
+          color: var(--text-muted);
+          padding: 0 4px;
+        }
+        .educational-content {
+          display: none;
+          animation: fadeIn 0.3s ease-out;
+        }
+        .educational-content.visible {
+          display: block;
+        }
+        .educational-title h4 {
+          font-size: 1rem;
+          font-weight: 600;
+          margin-bottom: 8px;
+          color: var(--text-primary);
+        }
+        .educational-body {
+          font-size: 0.85rem;
+          color: var(--text-secondary);
+          line-height: 1.6;
+          margin-bottom: 12px;
+        }
+        .educational-body p {
+          margin: 4px 0;
+        }
+        .educational-impact {
+          font-size: 0.8rem;
+          font-style: italic;
+          color: var(--text-muted);
+          border-top: 1px solid var(--border-subtle);
+          padding-top: 8px;
+        }
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
+            transform: translateY(-10px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
         @media (max-width: 768px) {
           .comparison-grid {
             grid-template-columns: 1fr;
           }
           .diff-arrow {
             text-align: center;
+          }
+          .educational-section {
+            margin-top: 20px;
+            padding-top: 12px;
+          }
+          .educational-header h3 {
+            font-size: 1rem;
+          }
+          .educational-title h4 {
+            font-size: 0.95rem;
+          }
+          .educational-body {
+            font-size: 0.8rem;
+          }
+          .educational-impact {
+            font-size: 0.75rem;
           }
         }
       `}</style>

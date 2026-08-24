@@ -190,6 +190,33 @@ export default function LocatorView({ onOpenDetail }) {
             max-height: 400px;
           }
         }
+        @media (max-width: 768px) {
+          .locator-header-bar {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 12px;
+          }
+          .locator-main-title {
+            font-size: 1.4rem;
+          }
+          .locator-map-panel {
+            height: 360px;
+          }
+          .locator-sidebar-panel {
+            padding: 14px;
+          }
+          .cards-scroll-container {
+            max-height: 350px;
+          }
+        }
+        @media (max-width: 480px) {
+          .locator-map-panel {
+            height: 300px;
+          }
+          .locator-sidebar-panel {
+            padding: 10px;
+          }
+        }
       `}</style>
     </div>
   );

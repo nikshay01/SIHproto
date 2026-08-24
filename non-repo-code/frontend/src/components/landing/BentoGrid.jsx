@@ -156,6 +156,12 @@ export default function BentoGrid({ onNavigate }) {
           .bento-featured {
             grid-column: span 1;
           }
+          .bento-section {
+            margin: 24px 0;
+          }
+          .bento-card {
+            padding: 20px;
+          }
         }
       `}</style>
     </section>

@@ -65,6 +65,7 @@ export default function LandingHero({ onNavigate }) {
           padding: 48px 0 32px 0;
           max-width: 860px;
           margin: 0 auto;
+          width: 100%;
         }
         .hero-badge {
           display: inline-flex;
@@ -151,6 +152,9 @@ export default function LandingHero({ onNavigate }) {
           background: var(--primary-hover);
         }
         @media (max-width: 768px) {
+          .hero-section {
+            padding: 32px 0 24px 0;
+          }
           .hero-title {
             font-size: 2.35rem;
           }
@@ -162,6 +166,35 @@ export default function LandingHero({ onNavigate }) {
           }
           .hero-cta-group .btn {
             width: 100%;
+          }
+          .hero-search-box {
+            max-width: 100%;
+          }
+        }
+        @media (max-width: 480px) {
+          .hero-section {
+            padding: 24px 0 16px 0;
+          }
+          .hero-title {
+            font-size: 1.9rem;
+          }
+          .hero-badge {
+            font-size: 0.78rem;
+            padding: 5px 12px;
+          }
+          .hero-search-box {
+            flex-wrap: wrap;
+            border-radius: var(--radius-lg);
+            padding: 10px 14px;
+            gap: 8px;
+          }
+          .search-input {
+            width: 100%;
+          }
+          .search-btn {
+            width: 100%;
+            justify-content: center;
+            border-radius: var(--radius-md);
           }
         }
       `}</style>

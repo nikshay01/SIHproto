@@ -8,25 +8,29 @@ import {
   Wallet,
   Cpu,
   Leaf,
-  Coins,
   LocateFixed,
   Sun,
   Moon,
   Download,
   Menu,
   X,
-  Activity
+  Activity,
+  User as UserIcon,
+  LogIn,
+  ShieldCheck
 } from "lucide-react";
 import { useTheme } from "../../context/ThemeContext.jsx";
 import { useLocation } from "../../context/LocationContext.jsx";
 import { useWallet } from "../../context/WalletContext.jsx";
 import { useFacilities } from "../../context/FacilityContext.jsx";
+import { useAuth } from "../../context/AuthContext.jsx";
 
 export default function Navbar({ activeSection, onNavigate, onOpenMetrics }) {
   const { theme, toggleTheme, isDark } = useTheme();
   const { requestLocation, locationLabel, loadingLocation, hasLocation } = useLocation();
-  const { availableCredits } = useWallet();
+  const { userId } = useWallet();
   const { facilities } = useFacilities();
+  const { user, isAuthenticated, openAuthModal, openProfileModal } = useAuth();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navItems = [
@@ -59,13 +63,13 @@ export default function Navbar({ activeSection, onNavigate, onOpenMetrics }) {
     <header className="navbar-root">
       <div className="navbar-container">
         {/* Brand */}
-        <div className="navbar-brand" onClick={() => handleNavClick("landing")}>
+        <div className="navbar-brand" onClick={() => handleNavClick("landing")} role="button" tabIndex={0}>
           <div className="brand-icon-box">
-            <Recycle className="brand-icon" size={22} />
+            <Recycle size={22} className="text-secondary" />
           </div>
           <div className="brand-text-group">
-            <span className="brand-title">Eco-Locate</span>
-            <span className="brand-subtitle">E-Cycle India</span>
+            <span className="brand-title">e locate</span>
+            <span className="brand-subtitle">National E-Waste Circular Hub</span>
           </div>
         </div>
 
@@ -89,16 +93,33 @@ export default function Navbar({ activeSection, onNavigate, onOpenMetrics }) {
 
         {/* Right Actions */}
         <div className="navbar-actions">
-          {/* Live Wallet Credits Pill */}
-          <button
-            className="wallet-pill-btn"
-            onClick={() => handleNavClick("wallet")}
-            title="Available Reward Credits"
-          >
-            <Coins size={16} className="text-secondary" />
-            <span className="wallet-pill-val">{availableCredits}</span>
-            <span className="wallet-pill-lbl">Credits</span>
-          </button>
+          {/* User Auth Profile Pill or Sign In Button */}
+          {isAuthenticated && user ? (
+            <button
+              className="user-profile-nav-pill"
+              onClick={openProfileModal}
+              title="View Eco-Profile & Badges"
+            >
+              {user.avatar ? (
+                <img src={user.avatar} alt={user.name} className="user-nav-avatar" />
+              ) : (
+                <div className="user-nav-avatar-fallback">
+                  {user.name.split(" ").map(n => n[0]).join("").slice(0, 2).toUpperCase()}
+                </div>
+              )}
+              <span className="user-nav-name">{user.name.split(" ")[0]}</span>
+              <ShieldCheck size={13} className="text-secondary" />
+            </button>
+          ) : (
+            <button
+              className="btn-signin-nav"
+              onClick={() => openAuthModal("signin")}
+              title="Sign In / Register"
+            >
+              <LogIn size={15} />
+              <span>Sign In</span>
+            </button>
+          )}
 
           {/* Near Me GPS Trigger */}
           <button
@@ -120,7 +141,7 @@ export default function Navbar({ activeSection, onNavigate, onOpenMetrics }) {
 
           {/* System Architecture & Telemetry Modal Trigger */}
           <button
-            className="btn-icon"
+            className="btn-icon navbar-desktop-only"
             onClick={onOpenMetrics}
             title="Inspect System Design Architecture (Cluster, 6 Shards, Cache)"
           >
@@ -133,7 +154,7 @@ export default function Navbar({ activeSection, onNavigate, onOpenMetrics }) {
           </button>
 
           {/* Export Dataset */}
-          <button className="btn-icon" onClick={handleExportData} title="Export current facility records as JSON">
+          <button className="btn-icon navbar-desktop-only" onClick={handleExportData} title="Export current facility records as JSON">
             <Download size={18} />
           </button>
 
@@ -151,6 +172,30 @@ export default function Navbar({ activeSection, onNavigate, onOpenMetrics }) {
       {/* Mobile Drawer Menu */}
       {mobileMenuOpen && (
         <div className="mobile-drawer">
+          {/* Mobile User Profile Section */}
+          <div className="mobile-user-box">
+            {isAuthenticated && user ? (
+              <div className="mobile-user-profile-card" onClick={() => { openProfileModal(); setMobileMenuOpen(false); }}>
+                <div className="user-nav-avatar-fallback">
+                  {user.name.split(" ").map(n => n[0]).join("").slice(0, 2).toUpperCase()}
+                </div>
+                <div className="mobile-user-meta">
+                  <div className="mobile-user-name">{user.name}</div>
+                  <div className="mobile-user-email">{user.email}</div>
+                </div>
+                <button className="mobile-view-profile-btn">Profile</button>
+              </div>
+            ) : (
+              <button
+                className="mobile-signin-btn"
+                onClick={() => { openAuthModal("signin"); setMobileMenuOpen(false); }}
+              >
+                <LogIn size={16} />
+                <span>Sign In / Create Account</span>
+              </button>
+            )}
+          </div>
+
           <div className="mobile-drawer-links">
             {navItems.map((item) => {
               const Icon = item.icon;
@@ -199,6 +244,7 @@ export default function Navbar({ activeSection, onNavigate, onOpenMetrics }) {
           gap: 10px;
           cursor: pointer;
           user-select: none;
+          flex-shrink: 0;
         }
         .brand-icon-box {
           width: 38px;
@@ -210,6 +256,7 @@ export default function Navbar({ activeSection, onNavigate, onOpenMetrics }) {
           align-items: center;
           justify-content: center;
           border: 1px solid var(--primary-border);
+          flex-shrink: 0;
         }
         .brand-text-group {
           display: flex;
@@ -236,6 +283,7 @@ export default function Navbar({ activeSection, onNavigate, onOpenMetrics }) {
           padding: 4px 6px;
           border-radius: var(--radius-full);
           border: 1px solid var(--border-subtle);
+          overflow-x: auto;
         }
         .nav-item-btn {
           display: flex;
@@ -247,6 +295,7 @@ export default function Navbar({ activeSection, onNavigate, onOpenMetrics }) {
           font-weight: 600;
           color: var(--text-secondary);
           transition: all var(--transition-fast);
+          white-space: nowrap;
         }
         .nav-item-btn:hover {
           color: var(--text-primary);
@@ -264,6 +313,7 @@ export default function Navbar({ activeSection, onNavigate, onOpenMetrics }) {
           display: flex;
           align-items: center;
           gap: 8px;
+          flex-shrink: 0;
         }
         .wallet-pill-btn {
           display: flex;
@@ -277,6 +327,7 @@ export default function Navbar({ activeSection, onNavigate, onOpenMetrics }) {
           font-weight: 700;
           color: var(--primary);
           transition: transform var(--transition-fast);
+          white-space: nowrap;
         }
         .wallet-pill-btn:hover {
           transform: translateY(-1px);
@@ -302,16 +353,130 @@ export default function Navbar({ activeSection, onNavigate, onOpenMetrics }) {
           overflow: hidden;
           text-overflow: ellipsis;
         }
-        .btn-icon-active {
-          background: var(--primary-light) !important;
-          color: var(--primary) !important;
-          border-color: var(--primary-border) !important;
+        .user-profile-nav-pill {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          padding: 4px 10px 4px 6px;
+          background: var(--bg-surface-elevated);
+          border: 1px solid var(--border-card);
+          border-radius: var(--radius-full);
+          cursor: pointer;
+          transition: all 0.2s ease;
+          color: var(--text-primary);
+        }
+        .user-profile-nav-pill:hover {
+          border-color: var(--color-primary);
+          background: var(--bg-surface-card);
+          transform: translateY(-1px);
+        }
+        .user-nav-avatar {
+          width: 26px;
+          height: 26px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+        .user-nav-avatar-fallback {
+          width: 26px;
+          height: 26px;
+          border-radius: 50%;
+          background: rgba(163, 177, 138, 0.25);
+          color: var(--color-primary);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 0.72rem;
+          font-weight: 700;
+          flex-shrink: 0;
+        }
+        .user-nav-name {
+          font-size: 0.84rem;
+          font-weight: 600;
+          max-width: 90px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        .btn-signin-nav {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          padding: 6px 14px;
+          background: var(--color-primary);
+          color: #0c0d0f;
+          border: none;
+          border-radius: var(--radius-full);
+          font-size: 0.82rem;
+          font-weight: 700;
+          cursor: pointer;
+          transition: all 0.2s ease;
+        }
+        .btn-signin-nav:hover {
+          opacity: 0.92;
+          transform: translateY(-1px);
+          box-shadow: 0 2px 8px rgba(163, 177, 138, 0.25);
+        }
+        .mobile-user-box {
+          padding-bottom: 12px;
+          margin-bottom: 12px;
+          border-bottom: 1px solid var(--border-subtle);
+        }
+        .mobile-user-profile-card {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          padding: 8px 12px;
+          background: var(--bg-surface-elevated);
+          border-radius: var(--radius-md);
+          cursor: pointer;
+        }
+        .mobile-user-meta {
+          flex: 1;
+          overflow: hidden;
+        }
+        .mobile-user-name {
+          font-size: 0.88rem;
+          font-weight: 600;
+          color: var(--text-primary);
+        }
+        .mobile-user-email {
+          font-size: 0.74rem;
+          color: var(--text-dim);
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        .mobile-view-profile-btn {
+          padding: 4px 10px;
+          background: var(--color-primary);
+          color: #0c0d0f;
+          border: none;
+          border-radius: var(--radius-sm);
+          font-size: 0.75rem;
+          font-weight: 700;
+        }
+        .mobile-signin-btn {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 8px;
+          padding: 10px;
+          background: var(--color-primary);
+          color: #0c0d0f;
+          border: none;
+          border-radius: var(--radius-md);
+          font-size: 0.88rem;
+          font-weight: 700;
+          cursor: pointer;
         }
         .mobile-menu-toggle {
           display: none;
         }
         .mobile-drawer {
           display: none;
+        }
+        .navbar-desktop-only {
+          display: flex;
         }
         @media (max-width: 1024px) {
           .navbar-links {
@@ -331,6 +496,8 @@ export default function Navbar({ activeSection, onNavigate, onOpenMetrics }) {
             box-shadow: var(--shadow-lg);
             padding: 16px 20px;
             animation: slideUp 200ms ease-out;
+            max-height: calc(100vh - 68px);
+            overflow-y: auto;
           }
           .mobile-drawer-links {
             display: flex;
@@ -347,11 +514,63 @@ export default function Navbar({ activeSection, onNavigate, onOpenMetrics }) {
             font-weight: 600;
             color: var(--text-primary);
             background: var(--bg-muted);
+            width: 100%;
           }
           .mobile-nav-btn.active {
             background: var(--primary-light);
             color: var(--primary);
             border: 1px solid var(--primary-border);
+          }
+          /* Hide location pill on tablet/mobile to save space */
+          .location-pill {
+            display: none;
+          }
+          /* Hide export & metrics buttons on mobile */
+          .navbar-desktop-only {
+            display: none;
+          }
+        }
+        @media (max-width: 640px) {
+          .navbar-root {
+            height: 60px;
+          }
+          .mobile-drawer {
+            top: 60px;
+            max-height: calc(100vh - 60px);
+          }
+          .navbar-container {
+            padding: 0 16px;
+            gap: 8px;
+          }
+          .brand-title {
+            font-size: 1rem;
+          }
+          .brand-subtitle {
+            display: none;
+          }
+          .wallet-pill-lbl {
+            display: none;
+          }
+          .wallet-pill-btn {
+            padding: 6px 10px;
+            font-size: 0.8rem;
+          }
+          .navbar-actions {
+            gap: 5px;
+          }
+        }
+        @media (max-width: 380px) {
+          .navbar-container {
+            padding: 0 12px;
+            gap: 6px;
+          }
+          .brand-icon-box {
+            width: 32px;
+            height: 32px;
+          }
+          .wallet-pill-btn {
+            padding: 5px 8px;
+            font-size: 0.75rem;
           }
         }
       `}</style>

@@ -129,6 +129,20 @@ export default function HowItWorks() {
           .how-card {
             padding: 24px 16px;
           }
+          .how-title {
+            font-size: 1.4rem;
+          }
+          .how-it-works-section {
+            margin: 24px 0;
+          }
+        }
+        @media (max-width: 480px) {
+          .legal-banner {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 8px;
+            font-size: 0.8rem;
+          }
         }
       `}</style>
     </section>
