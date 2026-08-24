@@ -1,5 +1,5 @@
 import React from "react";
-import { Bookmark, MapPin, Building, Phone, ExternalLink, Navigation } from "lucide-react";
+import { Bookmark, MapPin, Building, Phone, ExternalLink, Navigation, CheckCircle2 } from "lucide-react";
 import { formatDistance, getGoogleMapsUrl } from "../../services/geoUtils.js";
 
 export default function FacilityCard({ facility, isSaved, onToggleSave, onSelect, onOpenDetail }) {
@@ -20,6 +20,8 @@ export default function FacilityCard({ facility, isSaved, onToggleSave, onSelect
     facility.location?.latitude,
     facility.location?.longitude
   );
+
+  const acceptedTypes = facility.acceptedEwasteTypes || facility.accepted_ewaste_types || [];
 
   return (
     <div
@@ -59,6 +61,23 @@ export default function FacilityCard({ facility, isSaved, onToggleSave, onSelect
         <MapPin size={14} className="flex-shrink-0 text-muted" />
         <span>{facility.district ? `${facility.district}, ` : ""}{facility.state}</span>
       </p>
+
+      {/* Accepted E-Waste Streams Preview */}
+      {acceptedTypes.length > 0 && (
+        <div className="accepted-chips-preview">
+          <span className="accepted-chips-label">Accepts:</span>
+          {acceptedTypes.slice(0, 2).map((item, idx) => (
+            <span key={idx} className="accepted-chip-tag">
+              {item}
+            </span>
+          ))}
+          {acceptedTypes.length > 2 && (
+            <span className="accepted-chip-more">
+              +{acceptedTypes.length - 2} more
+            </span>
+          )}
+        </div>
+      )}
 
       <div className="facility-meta-row">
         <div className="capacity-stat">
@@ -138,15 +157,47 @@ export default function FacilityCard({ facility, isSaved, onToggleSave, onSelect
           gap: 6px;
           font-size: 0.85rem;
           color: var(--text-secondary);
-          line-height: 1.4;
+        }
+        .accepted-chips-preview {
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          gap: 6px;
+          padding: 6px 8px;
+          background: var(--bg-surface-elevated);
+          border-radius: var(--radius-sm);
+          border: 1px solid var(--border-subtle);
+        }
+        .accepted-chips-label {
+          font-size: 0.7rem;
+          font-weight: 700;
+          color: var(--text-dim);
+          text-transform: uppercase;
+          letter-spacing: 0.04em;
+        }
+        .accepted-chip-tag {
+          font-size: 0.72rem;
+          background: rgba(163, 177, 138, 0.12);
+          color: var(--color-primary);
+          padding: 2px 6px;
+          border-radius: 4px;
+          font-weight: 500;
+          white-space: nowrap;
+          max-width: 140px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        .accepted-chip-more {
+          font-size: 0.68rem;
+          color: var(--text-muted);
+          font-weight: 600;
         }
         .facility-meta-row {
           display: flex;
           align-items: center;
           justify-content: space-between;
-          padding-top: 10px;
+          padding-top: 6px;
           border-top: 1px solid var(--border-subtle);
-          margin-top: 4px;
         }
         .capacity-stat {
           display: flex;
@@ -154,35 +205,35 @@ export default function FacilityCard({ facility, isSaved, onToggleSave, onSelect
         }
         .stat-k {
           font-size: 0.7rem;
-          text-transform: uppercase;
           color: var(--text-muted);
-          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 0.05em;
         }
         .stat-v {
-          font-size: 0.88rem;
+          font-size: 0.9rem;
           font-weight: 700;
           color: var(--text-primary);
         }
         .card-btn-group {
           display: flex;
           align-items: center;
-          gap: 6px;
+          gap: 8px;
         }
         .card-mini-btn {
-          width: 30px;
-          height: 30px;
-          border-radius: var(--radius-sm);
-          background: var(--bg-muted);
-          border: 1px solid var(--border-card);
+          width: 32px;
+          height: 32px;
           display: flex;
           align-items: center;
           justify-content: center;
-          color: var(--text-secondary);
+          background: var(--bg-surface-elevated);
+          border: 1px solid var(--border-card);
+          border-radius: var(--radius-sm);
+          color: var(--text-muted);
           transition: all var(--transition-fast);
         }
         .card-mini-btn:hover {
-          color: var(--primary);
-          background: var(--bg-hover);
+          color: var(--text-primary);
+          border-color: var(--primary);
         }
       `}</style>
     </div>

@@ -15,6 +15,7 @@ router.get("/list", async (req, res, next) => {
     const {
       state,
       type,
+      ewasteType,
       minCapacity,
       search,
       userLat,
@@ -27,6 +28,7 @@ router.get("/list", async (req, res, next) => {
     const result = await queryFacilities({
       state,
       type,
+      ewasteType,
       minCapacity: Number(minCapacity) || 0,
       search,
       userLat: userLat ? Number(userLat) : null,

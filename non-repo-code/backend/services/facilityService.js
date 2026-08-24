@@ -7,7 +7,7 @@ import Facility from "../models/Facility.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const FIXED_DATASET_PATH = path.join(__dirname, "../../data/e-waste-facilities/all_facilities_fixed.json");
+const FIXED_DATASET_PATH = path.join(__dirname, "../data/e-waste-facilities/all_facilities_fixed.json");
 
 let inMemoryFacilities = [];
 let datasetMetadata = {};
@@ -15,8 +15,12 @@ let stateWiseSummary = [];
 
 function loadFixedDataset() {
   try {
-    if (fs.existsSync(FIXED_DATASET_PATH)) {
-      const raw = fs.readFileSync(FIXED_DATASET_PATH, "utf-8");
+    const actualPath = fs.existsSync(FIXED_DATASET_PATH)
+      ? FIXED_DATASET_PATH
+      : path.join(__dirname, "../../data/e-waste-facilities/all_facilities_fixed.json");
+
+    if (fs.existsSync(actualPath)) {
+      const raw = fs.readFileSync(actualPath, "utf-8");
       const json = JSON.parse(raw);
       datasetMetadata = json.metadata || {};
       stateWiseSummary = json.state_wise_summary || [];
@@ -34,6 +38,13 @@ function loadFixedDataset() {
         authorizationStatus: f.authorization_status || "Authorized",
         authorizationBy: f.authorization_by || "SPCB / CPCB",
         regulatoryCompliance: f.regulatory_compliance || "E-Waste (Management) Rules, 2022",
+        acceptedEwasteTypes: f.accepted_ewaste_types || f.acceptedEwasteTypes || [],
+        accepted_ewaste_types: f.accepted_ewaste_types || f.acceptedEwasteTypes || [],
+        acceptedCategories: f.accepted_categories || f.acceptedCategories || [],
+        accepted_categories: f.accepted_categories || f.acceptedCategories || [],
+        hazardousMaterialsHandled: f.hazardous_materials_handled || f.hazardousMaterialsHandled || [],
+        hazardous_materials_handled: f.hazardous_materials_handled || f.hazardousMaterialsHandled || [],
+        specializations: f.specializations || [],
         contact: {
           phone: f.contact?.phone || "",
           tollFree: f.contact?.toll_free || "",
@@ -99,6 +110,13 @@ export async function getAllFacilities() {
         authorizationStatus: f.authorizationStatus,
         authorizationBy: f.authorizationBy,
         regulatoryCompliance: f.regulatoryCompliance,
+        acceptedEwasteTypes: f.acceptedEwasteTypes || [],
+        accepted_ewaste_types: f.acceptedEwasteTypes || [],
+        acceptedCategories: f.acceptedCategories || [],
+        accepted_categories: f.acceptedCategories || [],
+        hazardousMaterialsHandled: f.hazardousMaterialsHandled || [],
+        hazardous_materials_handled: f.hazardousMaterialsHandled || [],
+        specializations: f.specializations || [],
         contact: f.contact,
         location: {
           latitude: f.location?.latitude || (f.location?.coordinates ? f.location.coordinates[1] : 20.5937),
@@ -123,6 +141,7 @@ export async function getAllFacilities() {
 export async function queryFacilities({
   state = null,
   type = null,
+  ewasteType = null,
   minCapacity = 0,
   search = "",
   userLat = null,
@@ -143,13 +162,24 @@ export async function queryFacilities({
     list = list.filter(f => f.type.toLowerCase() === type.toLowerCase());
   }
 
-  // 3. Filter by Capacity
+  // 3. Filter by Accepted E-Waste Type or Category
+  if (ewasteType && ewasteType !== "ALL") {
+    const target = ewasteType.toLowerCase();
+    list = list.filter(f => {
+      const types = (f.acceptedEwasteTypes || []).map(t => t.toLowerCase());
+      const cats = (f.acceptedCategories || []).map(c => c.toLowerCase());
+      return types.some(t => t.includes(target) || target.includes(t)) ||
+             cats.some(c => c.includes(target) || target.includes(c));
+    });
+  }
+
+  // 4. Filter by Capacity
   const minCapNum = Number(minCapacity) || 0;
   if (minCapNum > 0) {
     list = list.filter(f => (f.capacityMta || f.capacity_mta || 0) >= minCapNum);
   }
 
-  // 4. Global Text Search
+  // 5. Global Text Search
   if (search && search.trim()) {
     const q = search.trim().toLowerCase();
     list = list.filter(f =>
@@ -158,11 +188,13 @@ export async function queryFacilities({
       (f.district && f.district.toLowerCase().includes(q)) ||
       (f.state && f.state.toLowerCase().includes(q)) ||
       (f.facilityId && f.facilityId.toLowerCase().includes(q)) ||
-      (f.type && f.type.toLowerCase().includes(q))
+      (f.type && f.type.toLowerCase().includes(q)) ||
+      (f.acceptedEwasteTypes && f.acceptedEwasteTypes.some(t => t.toLowerCase().includes(q))) ||
+      (f.specializations && f.specializations.some(s => s.toLowerCase().includes(q)))
     );
   }
 
-  // 5. Calculate Distances if user location provided
+  // 6. Calculate Distances if user location provided
   const hasUserCoords = userLat != null && userLng != null;
   list = list.map(f => {
     let distanceKm = null;
@@ -181,7 +213,7 @@ export async function queryFacilities({
     };
   });
 
-  // 6. Sort
+  // 7. Sort
   list.sort((a, b) => {
     switch (sortBy) {
       case "distance_asc":

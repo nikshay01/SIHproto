@@ -10,6 +10,15 @@ const apiClient = axios.create({
   timeout: 35000
 });
 
+// Attach JWT token to requests if available
+apiClient.interceptors.request.use((config) => {
+  const token = localStorage.getItem("elocate_token");
+  if (token) {
+    config.headers.Authorization = `Bearer ${token}`;
+  }
+  return config;
+}, (error) => Promise.reject(error));
+
 // System & Health
 export const getHealth = async () => (await apiClient.get("/health")).data;
 export const getSystemMetrics = async () => (await apiClient.get("/system/metrics")).data;
@@ -28,6 +37,17 @@ export const getTransactionById = async (id) => (await apiClient.get(`/verify/tr
 export const getUserTransactions = async (userId) => (await apiClient.get(`/verify/user/${userId}`)).data;
 export const facilityConfirmTransaction = async (payload) => (await apiClient.post("/verify/facility-confirm", payload)).data;
 export const facilityRejectTransaction = async (payload) => (await apiClient.post("/verify/facility-reject", payload)).data;
+export const generateEwasteEducationalContent = async (itemName, category) => {
+  try {
+    return (await apiClient.post("/verify/educational", { itemName, category })).data;
+  } catch {
+    return {
+      title: `${itemName || "E-Waste"} Recycling Guide`,
+      category: category || "Electronics",
+      summary: "Responsible recycling prevents toxic heavy metal leakage and recovers precious raw materials."
+    };
+  }
+};
 
 // Facilities
 export const getFacilities = async (params) => (await apiClient.get("/facility/list", { params })).data;
@@ -37,6 +57,12 @@ export const getFacilityById = async (id) => (await apiClient.get(`/facility/${i
 // Wallet & Rewards
 export const getUserWallet = async (userId) => (await apiClient.get(`/wallet/${userId}`)).data;
 export const redeemCredits = async (payload) => (await apiClient.post("/wallet/redeem", payload)).data;
+
+// User Auth & Profile
+export const loginUser = async (credentials) => (await apiClient.post("/auth/login", credentials)).data;
+export const registerUser = async (data) => (await apiClient.post("/auth/register", data)).data;
+export const getMyProfile = async () => (await apiClient.get("/auth/me")).data;
+export const updateMyProfile = async (data) => (await apiClient.put("/auth/profile", data)).data;
 
 // Pickups & Logistics
 export const schedulePickup = async (payload) => (await apiClient.post("/pickup/schedule", payload)).data;

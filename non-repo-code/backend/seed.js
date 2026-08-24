@@ -24,53 +24,56 @@ async function seed() {
 
     // ── 1. Facilities ──
     const Facility = (await import("./models/Facility.js")).default;
-    const existingFacilities = await Facility.countDocuments();
-    console.log(`[Facilities] Current count: ${existingFacilities}`);
-    
-    if (existingFacilities === 0) {
-      const facilitiesPath = fs.existsSync(path.join(__dirname, "data/e-waste-facilities/all_facilities_fixed.json"))
-        ? path.join(__dirname, "data/e-waste-facilities/all_facilities_fixed.json")
-        : path.join(__dirname, "../data/e-waste-facilities/all_facilities_fixed.json");
+    // Re-seed facilities with new acceptedEwasteTypes dataset
+    await Facility.deleteMany({});
+    console.log("[Facilities] Cleared existing collection for re-seed.");
 
-      if (fs.existsSync(facilitiesPath)) {
-        const rawFacilities = fs.readFileSync(facilitiesPath, "utf-8");
-        const facilityJson = JSON.parse(rawFacilities);
-        const facilities = facilityJson.all_facilities || [];
+    const facilitiesPath = fs.existsSync(path.join(__dirname, "data/e-waste-facilities/all_facilities_fixed.json"))
+      ? path.join(__dirname, "data/e-waste-facilities/all_facilities_fixed.json")
+      : path.join(__dirname, "../data/e-waste-facilities/all_facilities_fixed.json");
 
-        const formatted = facilities.map(f => ({
-          facilityId: f.id,
-          name: f.name,
-          type: f.type,
-          address: f.address,
-          district: f.district,
-          state: f.state,
-          capacityMta: f.capacity_mta || 0,
-          isAuthorized: f.is_authorized ?? true,
-          authorizationStatus: f.authorization_status || "Authorized",
-          authorizationBy: f.authorization_by || "SPCB / CPCB",
-          regulatoryCompliance: f.regulatory_compliance || "E-Waste (Management) Rules, 2022",
-          contact: {
-            phone: f.contact?.phone || "",
-            tollFree: f.contact?.toll_free || "",
-            email: f.contact?.email || "",
-            website: f.contact?.website || "",
-            contactPerson: f.contact?.contact_person || ""
-          },
-          location: {
-            type: "Point",
-            coordinates: [f.location?.longitude || 78.9629, f.location?.latitude || 20.5937],
-            latitude: f.location?.latitude || 20.5937,
-            longitude: f.location?.longitude || 78.9629,
-            googleMapsUrl: f.location?.google_maps_url || "",
-            formattedAddress: f.location?.formatted_address || f.address
-          },
-          status: f.status || "Active",
-          shardKey: f.state
-        }));
+    if (fs.existsSync(facilitiesPath)) {
+      const rawFacilities = fs.readFileSync(facilitiesPath, "utf-8");
+      const facilityJson = JSON.parse(rawFacilities);
+      const facilities = facilityJson.all_facilities || [];
 
-        await Facility.insertMany(formatted, { ordered: false });
-        console.log(`✓ Seeded ${formatted.length} facilities!\n`);
-      }
+      const formatted = facilities.map(f => ({
+        facilityId: f.id,
+        name: f.name,
+        type: f.type,
+        address: f.address,
+        district: f.district,
+        state: f.state,
+        capacityMta: f.capacity_mta || 0,
+        isAuthorized: f.is_authorized ?? true,
+        authorizationStatus: f.authorization_status || "Authorized",
+        authorizationBy: f.authorization_by || "SPCB / CPCB",
+        regulatoryCompliance: f.regulatory_compliance || "E-Waste (Management) Rules, 2022",
+        acceptedEwasteTypes: f.accepted_ewaste_types || f.acceptedEwasteTypes || [],
+        acceptedCategories: f.accepted_categories || f.acceptedCategories || [],
+        hazardousMaterialsHandled: f.hazardous_materials_handled || f.hazardousMaterialsHandled || [],
+        specializations: f.specializations || [],
+        contact: {
+          phone: f.contact?.phone || "",
+          tollFree: f.contact?.toll_free || "",
+          email: f.contact?.email || "",
+          website: f.contact?.website || "",
+          contactPerson: f.contact?.contact_person || ""
+        },
+        location: {
+          type: "Point",
+          coordinates: [f.location?.longitude || 78.9629, f.location?.latitude || 20.5937],
+          latitude: f.location?.latitude || 20.5937,
+          longitude: f.location?.longitude || 78.9629,
+          googleMapsUrl: f.location?.google_maps_url || "",
+          formattedAddress: f.location?.formatted_address || f.address
+        },
+        status: f.status || "Active",
+        shardKey: f.state
+      }));
+
+      await Facility.insertMany(formatted, { ordered: false });
+      console.log(`✓ Re-seeded ${formatted.length} facilities with accepted e-waste types!\n`);
     }
 
     // ── 2. Device Compositions ──

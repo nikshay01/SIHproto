@@ -1,12 +1,15 @@
 import React, { createContext, useContext, useState, useEffect, useCallback } from "react";
 import { getUserWallet } from "../services/api.js";
+import { useAuth } from "./AuthContext.jsx";
 
 const WalletContext = createContext();
 
 export function WalletProvider({ children }) {
-  const [userId, setUserId] = useState("guest-user");
+  const { user } = useAuth();
+  const currentUserId = user?.userId || "guest-user";
+  const [userId, setUserId] = useState(currentUserId);
   const [wallet, setWallet] = useState({
-    userId: "guest-user",
+    userId: currentUserId,
     estimatedCredits: 0,
     verifiedCredits: 0,
     redeemedCredits: 0,
@@ -15,6 +18,11 @@ export function WalletProvider({ children }) {
   });
   const [transactions, setTransactions] = useState([]);
   const [loading, setLoading] = useState(false);
+
+  // Keep userId in sync with logged-in user
+  useEffect(() => {
+    setUserId(user?.userId || "guest-user");
+  }, [user]);
 
   const refreshWallet = useCallback(async () => {
     setLoading(true);
@@ -61,3 +69,4 @@ export function useWallet() {
   if (!context) throw new Error("useWallet must be used within WalletProvider");
   return context;
 }
+export default WalletContext;

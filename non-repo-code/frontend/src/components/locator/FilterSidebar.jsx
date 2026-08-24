@@ -1,5 +1,5 @@
 import React from "react";
-import { Search, RotateCcw, X, Bookmark, Filter } from "lucide-react";
+import { Search, RotateCcw, X, Bookmark, Filter, Recycle } from "lucide-react";
 import { useFacilities } from "../../context/FacilityContext.jsx";
 
 export default function FilterSidebar() {
@@ -9,6 +9,8 @@ export default function FilterSidebar() {
     setSelectedState,
     selectedType,
     setSelectedType,
+    selectedEwasteType,
+    setSelectedEwasteType,
     minCapacity,
     setMinCapacity,
     searchQuery,
@@ -40,7 +42,7 @@ export default function FilterSidebar() {
         <Search size={16} className="search-icon-sm" />
         <input
           type="text"
-          placeholder="Search by name, city, state..."
+          placeholder="Search by name, city, state, accepted item..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           className="search-input-sm"
@@ -87,6 +89,26 @@ export default function FilterSidebar() {
           </select>
         </div>
 
+        {/* Accepted E-Waste Stream Dropdown */}
+        <div className="input-group">
+          <label className="input-label">Accepted E-Waste</label>
+          <select
+            value={selectedEwasteType}
+            onChange={(e) => setSelectedEwasteType(e.target.value)}
+            className="input-field select-sm"
+          >
+            <option value="ALL">All E-Waste Streams</option>
+            <option value="Smartphones">Smartphones & Tablets</option>
+            <option value="Laptops">Laptops & Computers</option>
+            <option value="Batteries">Batteries & Power Storage</option>
+            <option value="Televisions">Televisions & Displays</option>
+            <option value="Solar">Solar PV Panels & Modules</option>
+            <option value="Refrigerators">Large Home Appliances</option>
+            <option value="Small Household">Small Appliances</option>
+            <option value="Circuit Boards">Cables & PCBs</option>
+          </select>
+        </div>
+
         {/* Min Capacity */}
         <div className="input-group">
           <label className="input-label">Min. Capacity</label>
@@ -104,8 +126,8 @@ export default function FilterSidebar() {
         </div>
 
         {/* Sort By */}
-        <div className="input-group">
-          <label className="input-label">Sort By</label>
+        <div className="input-group full-width-sm">
+          <label className="input-label">Sort Order</label>
           <select
             value={sortBy}
             onChange={(e) => setSortBy(e.target.value)}
@@ -183,16 +205,21 @@ export default function FilterSidebar() {
           gap: 8px;
         }
         .sidebar-title-group h3 {
-          font-size: 1.05rem;
+          font-size: 1rem;
           font-weight: 700;
+          margin: 0;
+          color: var(--text-primary);
         }
         .btn-text-sm {
           display: flex;
           align-items: center;
           gap: 4px;
-          font-size: 0.8rem;
+          background: transparent;
+          border: none;
           color: var(--text-muted);
+          font-size: 0.8rem;
           font-weight: 600;
+          cursor: pointer;
           transition: color var(--transition-fast);
         }
         .btn-text-sm:hover {
@@ -211,32 +238,64 @@ export default function FilterSidebar() {
         }
         .search-input-sm {
           width: 100%;
-          padding: 9px 34px 9px 34px;
-          background: var(--bg-surface);
-          border: 1px solid var(--border-card);
+          padding: 10px 36px 10px 36px;
           border-radius: var(--radius-md);
-          font-size: 0.875rem;
+          background: var(--bg-surface-elevated);
+          border: 1px solid var(--border-card);
           color: var(--text-primary);
+          font-size: 0.85rem;
           outline: none;
           transition: border-color var(--transition-fast);
         }
         .search-input-sm:focus {
-          border-color: var(--border-focus);
+          border-color: var(--primary);
         }
         .btn-clear-search {
           position: absolute;
           right: 10px;
+          background: transparent;
+          border: none;
           color: var(--text-muted);
+          cursor: pointer;
+          display: flex;
+          align-items: center;
           padding: 2px;
+        }
+        .btn-clear-search:hover {
+          color: var(--text-primary);
         }
         .filter-controls-grid {
           display: grid;
           grid-template-columns: 1fr 1fr;
-          gap: 10px;
+          gap: 12px;
+        }
+        .full-width-sm {
+          grid-column: span 2;
+        }
+        .input-group {
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
+        }
+        .input-label {
+          font-size: 0.75rem;
+          font-weight: 600;
+          color: var(--text-secondary);
+          text-transform: uppercase;
+          letter-spacing: 0.03em;
         }
         .select-sm {
           padding: 8px 10px;
-          font-size: 0.84rem;
+          border-radius: var(--radius-sm);
+          font-size: 0.82rem;
+          background: var(--bg-surface-elevated);
+          border: 1px solid var(--border-card);
+          color: var(--text-primary);
+          outline: none;
+          cursor: pointer;
+        }
+        .select-sm:focus {
+          border-color: var(--primary);
         }
         .filter-chips-row {
           display: flex;
@@ -244,30 +303,35 @@ export default function FilterSidebar() {
           gap: 6px;
         }
         .chip-btn {
-          display: inline-flex;
+          display: flex;
           align-items: center;
           gap: 5px;
           padding: 5px 10px;
           border-radius: var(--radius-full);
-          font-size: 0.76rem;
-          font-weight: 600;
-          background: var(--bg-muted);
-          border: 1px solid var(--border-card);
+          border: 1px solid var(--border-subtle);
+          background: var(--bg-surface-elevated);
           color: var(--text-secondary);
+          font-size: 0.75rem;
+          font-weight: 500;
+          cursor: pointer;
           transition: all var(--transition-fast);
         }
         .chip-btn:hover {
-          background: var(--bg-hover);
           color: var(--text-primary);
+          border-color: var(--border-card);
         }
         .chip-btn.active {
           background: var(--primary-light);
           color: var(--primary);
           border-color: var(--primary-border);
+          font-weight: 700;
         }
         @media (max-width: 640px) {
           .filter-controls-grid {
             grid-template-columns: 1fr;
+          }
+          .full-width-sm {
+            grid-column: span 1;
           }
         }
       `}</style>

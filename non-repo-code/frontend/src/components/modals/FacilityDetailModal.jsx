@@ -13,7 +13,13 @@ import {
   Copy,
   Check,
   ShieldCheck,
-  Navigation
+  Navigation,
+  Recycle,
+  AlertTriangle,
+  Sparkles,
+  Layers,
+  Cpu,
+  BatteryCharging
 } from "lucide-react";
 import { formatDistance, getGoogleMapsUrl } from "../../services/geoUtils.js";
 import { useFacilities } from "../../context/FacilityContext.jsx";
@@ -34,6 +40,18 @@ export default function FacilityDetailModal({ facility, isOpen, onClose, onBookP
     facility.location?.longitude
   );
 
+  const acceptedTypes = facility.acceptedEwasteTypes || facility.accepted_ewaste_types || [
+    "Smartphones & Tablets",
+    "Laptops & Computers",
+    "Cables & Circuit Boards",
+    "Batteries & Power Banks",
+    "Televisions & Monitory Displays"
+  ];
+
+  const acceptedCats = facility.acceptedCategories || facility.accepted_categories || ["ITEW", "CEEW", "Batteries"];
+  const hazardousHandled = facility.hazardousMaterialsHandled || facility.hazardous_materials_handled || ["Lead", "PCBs", "Lithium"];
+  const specializations = facility.specializations || ["Statutory Authorized Recycling Under E-Waste Rules 2022"];
+
   const handleCopy = (text, key) => {
     if (!text) return;
     navigator.clipboard.writeText(text);
@@ -42,8 +60,9 @@ export default function FacilityDetailModal({ facility, isOpen, onClose, onBookP
   };
 
   return (
-    <div className="modal-overlay" onClick={onClose}>
-      <div className="modal-container modal-container-lg" onClick={(e) => e.stopPropagation()}>
+    <div className="modal-overlay animate-fadeIn" onClick={onClose}>
+      <div className="modal-container modal-container-lg animate-slideUp" onClick={(e) => e.stopPropagation()}>
+        {/* Header */}
         <div className="modal-header">
           <div className="modal-title-group">
             <div className="flex items-center gap-2 mb-1">
@@ -59,13 +78,15 @@ export default function FacilityDetailModal({ facility, isOpen, onClose, onBookP
             <h3 className="modal-main-title">{facility.name}</h3>
             <p className="modal-auth-pill">
               <ShieldCheck size={14} className="text-primary" />
-              <span>{facility.authorizationBy || "SPCB / CPCB Authorized"}</span>
+              <span>{facility.authorizationBy || "SPCB / CPCB Authorized Unit"}</span>
             </p>
           </div>
           <button className="btn-icon" onClick={onClose}><X size={18} /></button>
         </div>
 
+        {/* Modal Body */}
         <div className="modal-body space-y-6">
+          {/* Main Info Grid */}
           <div className="modal-info-grid">
             {/* Left: Operational Specs */}
             <div className="info-section-card">
@@ -162,8 +183,66 @@ export default function FacilityDetailModal({ facility, isOpen, onClose, onBookP
               </div>
             </div>
           </div>
+
+          {/* Dedicated Section: Accepted E-Waste Types & Streams */}
+          <div className="info-section-card full-width-card">
+            <div className="section-head-with-badge">
+              <div className="flex items-center gap-2">
+                <Recycle size={18} className="text-primary" />
+                <h4>Accepted E-Waste Streams & Authorized Scope</h4>
+              </div>
+              <div className="cpcb-category-chips">
+                {acceptedCats.map((cat, idx) => (
+                  <span key={idx} className="cpcb-cat-badge">
+                    {cat}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div className="accepted-items-grid">
+              {acceptedTypes.map((item, idx) => (
+                <div key={idx} className="accepted-item-card">
+                  <div className="accepted-item-bullet" />
+                  <span className="accepted-item-text">{item}</span>
+                </div>
+              ))}
+            </div>
+
+            {/* Specializations & Hazardous Handling Sub-Row */}
+            <div className="facility-safety-row">
+              <div className="safety-block">
+                <div className="safety-head">
+                  <Sparkles size={14} className="text-primary" />
+                  <span>Technical Specializations</span>
+                </div>
+                <div className="safety-tags-list">
+                  {specializations.map((spec, idx) => (
+                    <span key={idx} className="specialization-tag">
+                      {spec}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="safety-block">
+                <div className="safety-head">
+                  <AlertTriangle size={14} className="text-secondary" />
+                  <span>Safe Hazardous Materials Processing</span>
+                </div>
+                <div className="safety-tags-list">
+                  {hazardousHandled.map((haz, idx) => (
+                    <span key={idx} className="hazard-safe-tag">
+                      ✓ {haz}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
+        {/* Footer Actions */}
         <div className="modal-footer">
           <a
             href={gmapsUrl}
@@ -183,82 +262,212 @@ export default function FacilityDetailModal({ facility, isOpen, onClose, onBookP
             }}
           >
             <Truck size={16} />
-            <span>Book Doorstep Pickup</span>
+            <span>Schedule Doorstep Pickup</span>
           </button>
         </div>
-      </div>
 
-      <style>{`
-        .modal-title-group {
-          display: flex;
-          flex-direction: column;
-          gap: 2px;
-        }
-        .modal-main-title {
-          font-size: 1.3rem;
-        }
-        .btn-bookmark-modal {
-          color: var(--text-muted);
-          padding: 4px;
-        }
-        .btn-bookmark-modal.saved {
-          color: var(--accent-gold);
-        }
-        .modal-auth-pill {
-          display: flex;
-          align-items: center;
-          gap: 6px;
-          font-size: 0.8rem;
-          color: var(--text-secondary);
-        }
-        .modal-info-grid {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          gap: 20px;
-        }
-        .info-section-card {
-          background: var(--bg-muted);
-          border: 1px solid var(--border-card);
-          border-radius: var(--radius-md);
-          padding: 18px;
-          display: flex;
-          flex-direction: column;
-          gap: 10px;
-        }
-        .info-section-card h4 {
-          font-size: 0.85rem;
-          text-transform: uppercase;
-          letter-spacing: 0.04em;
-          color: var(--text-secondary);
-          margin-bottom: 4px;
-        }
-        .info-row {
-          display: flex;
-          justify-content: space-between;
-          align-items: flex-start;
-          gap: 12px;
-          font-size: 0.85rem;
-          padding: 6px 0;
-          border-bottom: 1px solid var(--border-subtle);
-        }
-        .info-k {
-          color: var(--text-muted);
-          flex-shrink: 0;
-        }
-        .info-v {
-          text-align: right;
-          word-break: break-word;
-        }
-        .btn-copy-sm {
-          color: var(--text-muted);
-          padding: 2px;
-        }
-        @media (max-width: 768px) {
-          .modal-info-grid {
-            grid-template-columns: 1fr;
+        <style>{`
+          .btn-bookmark-modal {
+            background: var(--bg-surface-elevated);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-muted);
+            width: 28px;
+            height: 28px;
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all var(--transition-fast);
           }
-        }
-      `}</style>
+          .btn-bookmark-modal:hover, .btn-bookmark-modal.saved {
+            color: var(--accent-gold);
+            border-color: var(--accent-gold);
+          }
+          .modal-title-group {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+          }
+          .modal-main-title {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: var(--text-primary);
+          }
+          .modal-auth-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.8rem;
+            color: var(--primary);
+            font-weight: 600;
+          }
+          .modal-info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+          }
+          .info-section-card {
+            background: var(--bg-surface-elevated);
+            border: 1px solid var(--border-card);
+            border-radius: var(--radius-lg);
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+          }
+          .full-width-card {
+            grid-column: span 2;
+          }
+          .info-section-card h4 {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            font-weight: 700;
+            border-bottom: 1px solid var(--border-subtle);
+            padding-bottom: 8px;
+            margin: 0;
+          }
+          .info-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 12px;
+            font-size: 0.85rem;
+          }
+          .info-k {
+            color: var(--text-muted);
+            flex-shrink: 0;
+          }
+          .info-v {
+            color: var(--text-primary);
+            text-align: right;
+            word-break: break-word;
+          }
+          .btn-copy-sm {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-sm);
+            padding: 2px 6px;
+            color: var(--text-muted);
+            cursor: pointer;
+          }
+          .section-head-with-badge {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+            border-bottom: 1px solid var(--border-subtle);
+            padding-bottom: 8px;
+          }
+          .section-head-with-badge h4 {
+            border-bottom: none;
+            padding-bottom: 0;
+          }
+          .cpcb-category-chips {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            flex-wrap: wrap;
+          }
+          .cpcb-cat-badge {
+            background: rgba(163, 177, 138, 0.15);
+            color: var(--color-primary);
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 2px 8px;
+            border-radius: 999px;
+            border: 1px solid rgba(163, 177, 138, 0.25);
+          }
+          .accepted-items-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 8px;
+            margin-top: 4px;
+          }
+          .accepted-item-card {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 12px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md);
+          }
+          .accepted-item-bullet {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--color-primary);
+            flex-shrink: 0;
+          }
+          .accepted-item-text {
+            font-size: 0.82rem;
+            font-weight: 500;
+            color: var(--text-primary);
+          }
+          .facility-safety-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+            margin-top: 10px;
+            padding-top: 12px;
+            border-top: 1px solid var(--border-subtle);
+          }
+          .safety-block {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+          }
+          .safety-head {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.76rem;
+            font-weight: 700;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+          }
+          .safety-tags-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+          }
+          .specialization-tag {
+            font-size: 0.72rem;
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-primary);
+            padding: 3px 8px;
+            border-radius: 4px;
+          }
+          .hazard-safe-tag {
+            font-size: 0.72rem;
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid rgba(34, 197, 94, 0.25);
+            color: #22c55e;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+          }
+          @media (max-width: 640px) {
+            .modal-info-grid {
+              grid-template-columns: 1fr;
+            }
+            .full-width-card {
+              grid-column: span 1;
+            }
+            .facility-safety-row {
+              grid-template-columns: 1fr;
+            }
+            .accepted-items-grid {
+              grid-template-columns: 1fr;
+            }
+          }
+        `}</style>
+      </div>
     </div>
   );
 }

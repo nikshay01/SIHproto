@@ -15,6 +15,7 @@ export function FacilityProvider({ children }) {
   // Filters State
   const [selectedState, setSelectedState] = useState("ALL");
   const [selectedType, setSelectedType] = useState("ALL");
+  const [selectedEwasteType, setSelectedEwasteType] = useState("ALL");
   const [minCapacity, setMinCapacity] = useState(0);
   const [searchQuery, setSearchQuery] = useState("");
   const [sortBy, setSortBy] = useState("distance_asc");
@@ -41,6 +42,7 @@ export function FacilityProvider({ children }) {
         getFacilities({
           state: selectedState !== "ALL" ? selectedState : undefined,
           type: selectedType !== "ALL" ? selectedType : undefined,
+          ewasteType: selectedEwasteType !== "ALL" ? selectedEwasteType : undefined,
           minCapacity: minCapacity > 0 ? minCapacity : undefined,
           search: searchQuery.trim() || undefined,
           userLat: coords?.latitude,
@@ -62,7 +64,7 @@ export function FacilityProvider({ children }) {
     } finally {
       setLoading(false);
     }
-  }, [selectedState, selectedType, minCapacity, searchQuery, sortBy, coords]);
+  }, [selectedState, selectedType, selectedEwasteType, minCapacity, searchQuery, sortBy, coords]);
 
   useEffect(() => {
     fetchFacilitiesData();
@@ -106,6 +108,7 @@ export function FacilityProvider({ children }) {
   const resetFilters = () => {
     setSelectedState("ALL");
     setSelectedType("ALL");
+    setSelectedEwasteType("ALL");
     setMinCapacity(0);
     setSearchQuery("");
     setSortBy("distance_asc");
@@ -124,6 +127,8 @@ export function FacilityProvider({ children }) {
         setSelectedState,
         selectedType,
         setSelectedType,
+        selectedEwasteType,
+        setSelectedEwasteType,
         minCapacity,
         setMinCapacity,
         searchQuery,
@@ -136,12 +141,12 @@ export function FacilityProvider({ children }) {
         savedIds,
         toggleBookmark,
         isBookmarked,
-        resetFilters,
         selectedFacility,
         setSelectedFacility,
         detailModalFacility,
         setDetailModalFacility,
-        refetch: fetchFacilitiesData
+        resetFilters,
+        refreshFacilities: fetchFacilitiesData
       }}
     >
       {children}
@@ -151,6 +156,9 @@ export function FacilityProvider({ children }) {
 
 export function useFacilities() {
   const context = useContext(FacilityContext);
-  if (!context) throw new Error("useFacilities must be used within FacilityProvider");
+  if (!context) {
+    throw new Error("useFacilities must be used within a FacilityProvider");
+  }
   return context;
 }
+export default FacilityContext;

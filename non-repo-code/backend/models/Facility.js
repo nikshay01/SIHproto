@@ -81,6 +81,24 @@ const FacilitySchema = new mongoose.Schema({
     default: "Active",
     enum: ["Active", "Inactive", "Suspended"]
   },
+  acceptedEwasteTypes: {
+    type: [String],
+    default: [],
+    index: true
+  },
+  acceptedCategories: {
+    type: [String],
+    default: [],
+    index: true
+  },
+  hazardousMaterialsHandled: {
+    type: [String],
+    default: []
+  },
+  specializations: {
+    type: [String],
+    default: []
+  },
   shardKey: {
     type: String,
     index: true
@@ -92,7 +110,7 @@ const FacilitySchema = new mongoose.Schema({
 // Indexes for high performance queries
 FacilitySchema.index({ "location": "2dsphere" }); // Geospatial 2dsphere index
 FacilitySchema.index({ state: 1, type: 1, capacityMta: -1 });
-FacilitySchema.index({ name: "text", address: "text", district: "text", state: "text" });
+FacilitySchema.index({ name: "text", address: "text", district: "text", state: "text", acceptedEwasteTypes: "text" });
 
 const Facility = mongoose.model("Facility", FacilitySchema);
 export default Facility;
