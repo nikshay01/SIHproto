@@ -1,6 +1,309 @@
 {
   "transactions": [
     {
+      "transactionId": "EW-2026-7TVGAV",
+      "userId": "usr_6f1272148073",
+      "deviceId": "apple-iphone-13",
+      "claimedDevice": {
+        "category": "Smartphone",
+        "brand": "Apple",
+        "model": "iPhone 13"
+      },
+      "detectedDevice": {
+        "category": "Smartphone",
+        "brand": "Samsung",
+        "model": "Galaxy S22 Ultra"
+      },
+      "aiConfidence": 1,
+      "aiMatch": false,
+      "aiReasoning": "The camera layout, notch/pill/cutout, aspect ratio, and bezel thickness are consistent with the Samsung Galaxy S22 Ultra.",
+      "visualCharacteristics": "Two cameras on the top left, a small notch at the top center, a silver-colored frame around the screen, an aspect ratio of 19.5:9, and a relatively thin bezel.",
+      "estimatedCredits": 0,
+      "verifiedCredits": 0,
+      "materialsBreakdown": [
+        {
+          "material": "gold",
+          "displayName": "Gold",
+          "amountGrams": 0.034,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.031,
+          "multiplier": 1000,
+          "creditsAwarded": 30.6
+        },
+        {
+          "material": "silver",
+          "displayName": "Silver",
+          "amountGrams": 0.35,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.315,
+          "multiplier": 10,
+          "creditsAwarded": 3.2
+        },
+        {
+          "material": "copper",
+          "displayName": "Copper",
+          "amountGrams": 15.2,
+          "recoveryRate": "92%",
+          "recoverableGrams": 13.984,
+          "multiplier": 2,
+          "creditsAwarded": 28
+        },
+        {
+          "material": "aluminium",
+          "displayName": "Aluminium",
+          "amountGrams": 22.5,
+          "recoveryRate": "95%",
+          "recoverableGrams": 21.375,
+          "multiplier": 0.5,
+          "creditsAwarded": 10.7
+        },
+        {
+          "material": "cobalt",
+          "displayName": "Cobalt",
+          "amountGrams": 11.8,
+          "recoveryRate": "88%",
+          "recoverableGrams": 10.384,
+          "multiplier": 4,
+          "creditsAwarded": 41.5
+        },
+        {
+          "material": "lithium",
+          "displayName": "Lithium",
+          "amountGrams": 3.4,
+          "recoveryRate": "85%",
+          "recoverableGrams": 2.89,
+          "multiplier": 3,
+          "creditsAwarded": 8.7
+        },
+        {
+          "material": "plastics",
+          "displayName": "Plastics",
+          "amountGrams": 35,
+          "recoveryRate": "70%",
+          "recoverableGrams": 24.5,
+          "multiplier": 0.05,
+          "creditsAwarded": 1.2
+        },
+        {
+          "material": "other",
+          "displayName": "Other",
+          "amountGrams": 85.7,
+          "recoveryRate": "60%",
+          "recoverableGrams": 51.42,
+          "multiplier": 0.1,
+          "creditsAwarded": 5.1
+        }
+      ],
+      "verificationStatus": "AI_VERIFICATION_FAILED",
+      "statusMessage": "Device mismatch detected. You claimed Apple iPhone 13, but visual analysis detected Samsung Galaxy S22 Ultra.",
+      "facilityVerification": null,
+      "createdAt": "2026-08-25T04:19:59.103Z",
+      "updatedAt": "2026-08-25T04:19:59.103Z",
+      "verifiedAt": null
+    },
+    {
+      "transactionId": "EW-2026-44RX7M",
+      "userId": "guest-user",
+      "deviceId": "apple-iphone-13",
+      "claimedDevice": {
+        "category": "Smartphone",
+        "brand": "Apple",
+        "model": "iPhone 13"
+      },
+      "detectedDevice": {
+        "category": "smartphone",
+        "brand": "Xiaomi",
+        "model": "Redmi Note 12 Pro 5G"
+      },
+      "aiConfidence": 0.8,
+      "aiMatch": false,
+      "aiReasoning": "camera layout, notch, port type, chassis edges, aspect ratio",
+      "visualCharacteristics": "dual-camera setup, notch, USB-C port, rounded chassis edges, aspect ratio",
+      "estimatedCredits": 0,
+      "verifiedCredits": 0,
+      "materialsBreakdown": [
+        {
+          "material": "gold",
+          "displayName": "Gold",
+          "amountGrams": 0.034,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.031,
+          "multiplier": 1000,
+          "creditsAwarded": 30.6
+        },
+        {
+          "material": "silver",
+          "displayName": "Silver",
+          "amountGrams": 0.35,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.315,
+          "multiplier": 10,
+          "creditsAwarded": 3.2
+        },
+        {
+          "material": "copper",
+          "displayName": "Copper",
+          "amountGrams": 15.2,
+          "recoveryRate": "92%",
+          "recoverableGrams": 13.984,
+          "multiplier": 2,
+          "creditsAwarded": 28
+        },
+        {
+          "material": "aluminium",
+          "displayName": "Aluminium",
+          "amountGrams": 22.5,
+          "recoveryRate": "95%",
+          "recoverableGrams": 21.375,
+          "multiplier": 0.5,
+          "creditsAwarded": 10.7
+        },
+        {
+          "material": "cobalt",
+          "displayName": "Cobalt",
+          "amountGrams": 11.8,
+          "recoveryRate": "88%",
+          "recoverableGrams": 10.384,
+          "multiplier": 4,
+          "creditsAwarded": 41.5
+        },
+        {
+          "material": "lithium",
+          "displayName": "Lithium",
+          "amountGrams": 3.4,
+          "recoveryRate": "85%",
+          "recoverableGrams": 2.89,
+          "multiplier": 3,
+          "creditsAwarded": 8.7
+        },
+        {
+          "material": "plastics",
+          "displayName": "Plastics",
+          "amountGrams": 35,
+          "recoveryRate": "70%",
+          "recoverableGrams": 24.5,
+          "multiplier": 0.05,
+          "creditsAwarded": 1.2
+        },
+        {
+          "material": "other",
+          "displayName": "Other",
+          "amountGrams": 85.7,
+          "recoveryRate": "60%",
+          "recoverableGrams": 51.42,
+          "multiplier": 0.1,
+          "creditsAwarded": 5.1
+        }
+      ],
+      "verificationStatus": "AI_VERIFICATION_FAILED",
+      "statusMessage": "Device mismatch detected. You claimed Apple iPhone 13, but visual analysis detected Xiaomi Redmi Note 12 Pro 5G.",
+      "facilityVerification": null,
+      "createdAt": "2026-08-24T19:29:24.006Z",
+      "updatedAt": "2026-08-24T19:29:24.006Z",
+      "verifiedAt": null
+    },
+    {
+      "transactionId": "EW-2026-572889",
+      "userId": "guest-user",
+      "deviceId": "apple-iphone-13",
+      "claimedDevice": {
+        "category": "Smartphone",
+        "brand": "Apple",
+        "model": "iPhone 13"
+      },
+      "detectedDevice": {
+        "category": "Smartphone",
+        "brand": "Apple",
+        "model": "iPhone 13"
+      },
+      "aiConfidence": 1,
+      "aiMatch": true,
+      "aiReasoning": "Camera layout, notch, chassis edges, aspect ratio, bezel thickness",
+      "visualCharacteristics": "Camera layout, notch, chassis edges, aspect ratio, bezel thickness",
+      "estimatedCredits": 129,
+      "verifiedCredits": 0,
+      "materialsBreakdown": [
+        {
+          "material": "gold",
+          "displayName": "Gold",
+          "amountGrams": 0.034,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.031,
+          "multiplier": 1000,
+          "creditsAwarded": 30.6
+        },
+        {
+          "material": "silver",
+          "displayName": "Silver",
+          "amountGrams": 0.35,
+          "recoveryRate": "90%",
+          "recoverableGrams": 0.315,
+          "multiplier": 10,
+          "creditsAwarded": 3.2
+        },
+        {
+          "material": "copper",
+          "displayName": "Copper",
+          "amountGrams": 15.2,
+          "recoveryRate": "92%",
+          "recoverableGrams": 13.984,
+          "multiplier": 2,
+          "creditsAwarded": 28
+        },
+        {
+          "material": "aluminium",
+          "displayName": "Aluminium",
+          "amountGrams": 22.5,
+          "recoveryRate": "95%",
+          "recoverableGrams": 21.375,
+          "multiplier": 0.5,
+          "creditsAwarded": 10.7
+        },
+        {
+          "material": "cobalt",
+          "displayName": "Cobalt",
+          "amountGrams": 11.8,
+          "recoveryRate": "88%",
+          "recoverableGrams": 10.384,
+          "multiplier": 4,
+          "creditsAwarded": 41.5
+        },
+        {
+          "material": "lithium",
+          "displayName": "Lithium",
+          "amountGrams": 3.4,
+          "recoveryRate": "85%",
+          "recoverableGrams": 2.89,
+          "multiplier": 3,
+          "creditsAwarded": 8.7
+        },
+        {
+          "material": "plastics",
+          "displayName": "Plastics",
+          "amountGrams": 35,
+          "recoveryRate": "70%",
+          "recoverableGrams": 24.5,
+          "multiplier": 0.05,
+          "creditsAwarded": 1.2
+        },
+        {
+          "material": "other",
+          "displayName": "Other",
+          "amountGrams": 85.7,
+          "recoveryRate": "60%",
+          "recoverableGrams": 51.42,
+          "multiplier": 0.1,
+          "creditsAwarded": 5.1
+        }
+      ],
+      "verificationStatus": "PENDING_RECYCLING",
+      "statusMessage": "Device confirmed with high visual confidence.",
+      "facilityVerification": null,
+      "createdAt": "2026-08-24T19:23:44.309Z",
+      "updatedAt": "2026-08-24T19:23:44.309Z",
+      "verifiedAt": null
+    },
+    {
       "transactionId": "EW-2026-BHC458",
       "userId": "guest-user",
       "deviceId": "samsung-galaxy-s23",

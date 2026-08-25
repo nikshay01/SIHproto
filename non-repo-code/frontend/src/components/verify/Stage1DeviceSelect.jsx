@@ -6,19 +6,30 @@ export default function Stage1DeviceSelect({ onSelectDevice }) {
   const [categories, setCategories] = useState([]);
   const [brands, setBrands] = useState([]);
   const [models, setModels] = useState([]);
-  
+
   const [selectedCategory, setSelectedCategory] = useState("Smartphone");
   const [selectedBrand, setSelectedBrand] = useState("Apple");
   const [selectedModelId, setSelectedModelId] = useState("");
   const [selectedDevice, setSelectedDevice] = useState(null);
   const [loading, setLoading] = useState(false);
 
+  // Manual input fields
+  const [manualBrand, setManualBrand] = useState("");
+  const [manualModel, setManualModel] = useState("");
+  const [manualWeight, setManualWeight] = useState("");
+  const [manualReleaseYear, setManualReleaseYear] = useState("");
+  const [manualVisualFeatures, setManualVisualFeatures] = useState("");
+
   // Load Categories on mount
   useEffect(() => {
     async function loadCats() {
       try {
         const res = await getDeviceCategories();
-        if (res.ok) setCategories(res.categories || []);
+        if (res.ok) {
+          // Add Manual category at the end
+          const categoriesWithManual = [...(res.categories || []), "Manual"];
+          setCategories(categoriesWithManual);
+        }
       } catch (err) {
         console.warn("Failed to load categories:", err.message);
       }
@@ -26,8 +37,9 @@ export default function Stage1DeviceSelect({ onSelectDevice }) {
     loadCats();
   }, []);
 
-  // Load Brands when Category changes
+  // Load Brands when Category changes (skip for Manual)
   useEffect(() => {
+    if (selectedCategory === "Manual") return;
     async function loadBrandsList() {
       try {
         const res = await getDeviceBrands(selectedCategory);
@@ -44,8 +56,9 @@ export default function Stage1DeviceSelect({ onSelectDevice }) {
     if (selectedCategory) loadBrandsList();
   }, [selectedCategory]);
 
-  // Load Models when Category or Brand changes
+  // Load Models when Category or Brand changes (skip for Manual)
   useEffect(() => {
+    if (selectedCategory === "Manual") return;
     async function loadModelsList() {
       setLoading(true);
       try {
@@ -65,8 +78,9 @@ export default function Stage1DeviceSelect({ onSelectDevice }) {
     if (selectedCategory && selectedBrand) loadModelsList();
   }, [selectedCategory, selectedBrand]);
 
-  // Fetch full device metadata when model selected
+  // Fetch full device metadata when model selected (skip for Manual)
   useEffect(() => {
+    if (selectedCategory === "Manual") return;
     async function fetchDetails() {
       if (!selectedModelId) return;
       try {
@@ -82,17 +96,36 @@ export default function Stage1DeviceSelect({ onSelectDevice }) {
   }, [selectedModelId]);
 
   const handleProceed = () => {
-    if (selectedDevice) {
-      onSelectDevice(selectedDevice);
+    let deviceToSend;
+    if (selectedCategory === "Manual") {
+      // Validate manual inputs
+      if (!manualBrand || !manualModel || !manualWeight) {
+        // TODO: show error
+        return;
+      }
+      deviceToSend = {
+        category: "Manual",
+        brand: manualBrand,
+        model: manualModel,
+        weightGrams: parseFloat(manualWeight) || 0,
+        releaseYear: manualReleaseYear ? parseInt(manualReleaseYear) : null,
+        visualFeatures: manualVisualFeatures || "",
+        isManual: true
+      };
     } else {
-      // Fallback
-      onSelectDevice({
-        category: selectedCategory,
-        brand: selectedBrand,
-        model: models.find(m => m.id === selectedModelId)?.model || "Standard Device",
-        calculatedCredits: 129
-      });
+      if (selectedDevice) {
+        deviceToSend = selectedDevice;
+      } else {
+        // Fallback
+        deviceToSend = {
+          category: selectedCategory,
+          brand: selectedBrand,
+          model: models.find(m => m.id === selectedModelId)?.model || "Standard Device",
+          calculatedCredits: 129
+        };
+      }
     }
+    onSelectDevice(deviceToSend);
   };
 
   return (
@@ -116,7 +149,17 @@ export default function Stage1DeviceSelect({ onSelectDevice }) {
           <label className="input-label">1. Device Category</label>
           <select
             value={selectedCategory}
-            onChange={(e) => setSelectedCategory(e.target.value)}
+            onChange={(e) => {
+              setSelectedCategory(e.target.value);
+              // Clear manual inputs when switching away from Manual
+              if (e.target.value !== "Manual") {
+                setManualBrand("");
+                setManualModel("");
+                setManualWeight("");
+                setManualReleaseYear("");
+                setManualVisualFeatures("");
+              }
+            }}
             className="input-field"
           >
             {categories.map((cat) => (
@@ -125,40 +168,103 @@ export default function Stage1DeviceSelect({ onSelectDevice }) {
           </select>
         </div>
 
-        {/* Brand */}
-        <div className="input-group">
-          <label className="input-label">2. Brand</label>
-          <select
-            value={selectedBrand}
-            onChange={(e) => setSelectedBrand(e.target.value)}
-            className="input-field"
-          >
-            {brands.map((b) => (
-              <option key={b} value={b}>{b}</option>
-            ))}
-          </select>
-        </div>
+        {selectedCategory === "Manual" ? (
+          <>
+            {/* Manual Brand */}
+            <div className="input-group">
+              <label className="input-label">2. Brand</label>
+              <input
+                value={manualBrand}
+                onChange={(e) => setManualBrand(e.target.value)}
+                placeholder="e.g., Apple, Samsung, Dell"
+                className="input-field"
+              />
+            </div>
 
-        {/* Model */}
-        <div className="input-group">
-          <label className="input-label">3. Specific Model</label>
-          <select
-            value={selectedModelId}
-            onChange={(e) => setSelectedModelId(e.target.value)}
-            className="input-field"
-            disabled={loading || models.length === 0}
-          >
-            {models.map((m) => (
-              <option key={m.id} value={m.id}>
-                {m.model} ({m.calculatedCredits || 0} Credits)
-              </option>
-            ))}
-          </select>
-        </div>
+            {/* Manual Model */}
+            <div className="input-group">
+              <label className="input-label">3. Model</label>
+              <input
+                value={manualModel}
+                onChange={(e) => setManualModel(e.target.value)}
+                placeholder="e.g., iPhone 13, Inspiron 15"
+                className="input-field"
+              />
+            </div>
+
+            {/* Manual Weight (grams) */}
+            <div className="input-group">
+              <label className="input-label">4. Weight (grams)</label>
+              <input
+                value={manualWeight}
+                onChange={(e) => setManualWeight(e.target.value)}
+                type="number"
+                placeholder="e.g., 200"
+                className="input-field"
+              />
+            </div>
+
+            {/* Manual Release Year (optional) */}
+            <div className="input-group">
+              <label className="input-label">5. Release Year (optional)</label>
+              <input
+                value={manualReleaseYear}
+                onChange={(e) => setManualReleaseYear(e.target.value)}
+                type="number"
+                placeholder="e.g., 2022"
+                className="input-field"
+              />
+            </div>
+
+            {/* Manual Visual Features (optional) */}
+            <div className="input-group">
+              <label className="input-label">6. Visual Features (optional)</label>
+              <input
+                value={manualVisualFeatures}
+                onChange={(e) => setManualVisualFeatures(e.target.value)}
+                placeholder="e.g., Dual camera, USB-C port"
+                className="input-field"
+              />
+            </div>
+          </>
+        ) : (
+          <>
+            {/* Brand */}
+            <div className="input-group">
+              <label className="input-label">2. Brand</label>
+              <select
+                value={selectedBrand}
+                onChange={(e) => setSelectedBrand(e.target.value)}
+                className="input-field"
+              >
+                {brands.map((b) => (
+                  <option key={b} value={b}>{b}</option>
+                ))}
+              </select>
+            </div>
+
+            {/* Model */}
+            <div className="input-group">
+              <label className="input-label">3. Specific Model</label>
+              <select
+                value={selectedModelId}
+                onChange={(e) => setSelectedModelId(e.target.value)}
+                className="input-field"
+                disabled={loading || models.length === 0}
+              >
+                {models.map((m) => (
+                  <option key={m.id} value={m.id}>
+                    {m.model} ({m.calculatedCredits || 0} Credits)
+                  </option>
+                ))}
+              </select>
+            </div>
+          </>
+        )}
       </div>
 
       {/* Selected Device Preview Card */}
-      {selectedDevice && (
+      {selectedDevice && !selectedDevice.isManual && (
         <div className="claimed-device-preview">
           <div className="device-meta-left">
             <div className="device-badge-tag">CLAIMED DEVICE</div>
@@ -181,11 +287,44 @@ export default function Stage1DeviceSelect({ onSelectDevice }) {
         </div>
       )}
 
+      {/* Manual Device Preview */}
+      {selectedCategory === "Manual" && manualBrand && manualModel && (
+        <div className="claimed-device-preview">
+          <div className="device-meta-left">
+            <div className="device-badge-tag">MANUAL DEVICE</div>
+            <h4 className="preview-title">{manualBrand} {manualModel}</h4>
+            <p className="preview-features">
+              {manualVisualFeatures || "Standard chassis profile and integrated electronic circuitry."}
+            </p>
+            <div className="preview-weight font-mono text-xs text-muted">
+              Weight: {manualWeight}g • Release: {manualReleaseYear || "N/A"}
+            </div>
+          </div>
+
+          <div className="device-credits-right">
+            <span className="credits-label">Estimated Potential</span>
+            <div className="credits-big font-mono">
+              <strong> Calculating...</strong>
+              <small>Credits</small>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Action Row */}
       <div className="stage-actions-row">
         <button className="btn btn-primary btn-lg w-full" onClick={handleProceed}>
-          <span>Confirm Claim & Proceed to Optical Scan</span>
-          <ArrowRight size={18} />
+          {selectedCategory === "Manual" ? (
+            <>
+              <span>Confirm Manual Entry & Proceed to Evaluation</span>
+              <ArrowRight size={18} />
+            </>
+          ) : (
+            <>
+              <span>Confirm Claim & Proceed to Optical Scan</span>
+              <ArrowRight size={18} />
+            </>
+          )}
         </button>
       </div>
 

@@ -14,14 +14,38 @@
       "releaseYear": 2021,
       "weightGrams": 174,
       "materials": {
-        "gold": { "amountGrams": 0.034, "recoveryRate": 0.90 },
-        "silver": { "amountGrams": 0.35, "recoveryRate": 0.90 },
-        "copper": { "amountGrams": 15.2, "recoveryRate": 0.92 },
-        "aluminium": { "amountGrams": 22.5, "recoveryRate": 0.95 },
-        "cobalt": { "amountGrams": 11.8, "recoveryRate": 0.88 },
-        "lithium": { "amountGrams": 3.4, "recoveryRate": 0.85 },
-        "plastics": { "amountGrams": 35.0, "recoveryRate": 0.70 },
-        "other": { "amountGrams": 85.7, "recoveryRate": 0.60 }
+        "gold": {
+          "amountGrams": 0.034,
+          "recoveryRate": 0.90
+        },
+        "silver": {
+          "amountGrams": 0.35,
+          "recoveryRate": 0.90
+        },
+        "copper": {
+          "amountGrams": 15.2,
+          "recoveryRate": 0.92
+        },
+        "aluminium": {
+          "amountGrams": 22.5,
+          "recoveryRate": 0.95
+        },
+        "cobalt": {
+          "amountGrams": 11.8,
+          "recoveryRate": 0.88
+        },
+        "lithium": {
+          "amountGrams": 3.4,
+          "recoveryRate": 0.85
+        },
+        "plastics": {
+          "amountGrams": 35.0,
+          "recoveryRate": 0.70
+        },
+        "other": {
+          "amountGrams": 85.7,
+          "recoveryRate": 0.60
+        }
       },
       "visualFeatures": "Diagonal dual camera lenses on square bump, flat aluminium chassis edges, lightning port, ceramic shield face."
     },
@@ -33,14 +57,38 @@
       "releaseYear": 2019,
       "weightGrams": 194,
       "materials": {
-        "gold": { "amountGrams": 0.028, "recoveryRate": 0.88 },
-        "silver": { "amountGrams": 0.28, "recoveryRate": 0.88 },
-        "copper": { "amountGrams": 14.1, "recoveryRate": 0.90 },
-        "aluminium": { "amountGrams": 28.0, "recoveryRate": 0.92 },
-        "cobalt": { "amountGrams": 10.5, "recoveryRate": 0.85 },
-        "lithium": { "amountGrams": 3.1, "recoveryRate": 0.82 },
-        "plastics": { "amountGrams": 40.0, "recoveryRate": 0.68 },
-        "other": { "amountGrams": 98.0, "recoveryRate": 0.58 }
+        "gold": {
+          "amountGrams": 0.028,
+          "recoveryRate": 0.88
+        },
+        "silver": {
+          "amountGrams": 0.28,
+          "recoveryRate": 0.88
+        },
+        "copper": {
+          "amountGrams": 14.1,
+          "recoveryRate": 0.90
+        },
+        "aluminium": {
+          "amountGrams": 28.0,
+          "recoveryRate": 0.92
+        },
+        "cobalt": {
+          "amountGrams": 10.5,
+          "recoveryRate": 0.85
+        },
+        "lithium": {
+          "amountGrams": 3.1,
+          "recoveryRate": 0.82
+        },
+        "plastics": {
+          "amountGrams": 40.0,
+          "recoveryRate": 0.68
+        },
+        "other": {
+          "amountGrams": 98.0,
+          "recoveryRate": 0.58
+        }
       },
       "visualFeatures": "Vertical dual camera arrangement on square camera bump, curved anodized aluminium frame edges, lightning port."
     },
@@ -52,14 +100,38 @@
       "releaseYear": 2022,
       "weightGrams": 206,
       "materials": {
-        "gold": { "amountGrams": 0.040, "recoveryRate": 0.92 },
-        "silver": { "amountGrams": 0.42, "recoveryRate": 0.90 },
-        "copper": { "amountGrams": 18.5, "recoveryRate": 0.94 },
-        "aluminium": { "amountGrams": 15.0, "recoveryRate": 0.95 },
-        "cobalt": { "amountGrams": 13.2, "recoveryRate": 0.90 },
-        "lithium": { "amountGrams": 3.8, "recoveryRate": 0.88 },
-        "plastics": { "amountGrams": 32.0, "recoveryRate": 0.72 },
-        "other": { "amountGrams": 123.0, "recoveryRate": 0.65 }
+        "gold": {
+          "amountGrams": 0.040,
+          "recoveryRate": 0.92
+        },
+        "silver": {
+          "amountGrams": 0.42,
+          "recoveryRate": 0.90
+        },
+        "copper": {
+          "amountGrams": 18.5,
+          "recoveryRate": 0.94
+        },
+        "aluminium": {
+          "amountGrams": 15.0,
+          "recoveryRate": 0.95
+        },
+        "cobalt": {
+          "amountGrams": 13.2,
+          "recoveryRate": 0.90
+        },
+        "lithium": {
+          "amountGrams": 3.8,
+          "recoveryRate": 0.88
+        },
+        "plastics": {
+          "amountGrams": 32.0,
+          "recoveryRate": 0.72
+        },
+        "other": {
+          "amountGrams": 123.0,
+          "recoveryRate": 0.65
+        }
       },
       "visualFeatures": "Triple camera system with LiDAR scanner, Dynamic Island pill cutout on front screen, stainless steel flat frame."
     },
@@ -71,14 +143,38 @@
       "releaseYear": 2023,
       "weightGrams": 171,
       "materials": {
-        "gold": { "amountGrams": 0.036, "recoveryRate": 0.92 },
-        "silver": { "amountGrams": 0.38, "recoveryRate": 0.90 },
-        "copper": { "amountGrams": 16.0, "recoveryRate": 0.94 },
-        "aluminium": { "amountGrams": 24.0, "recoveryRate": 0.95 },
-        "cobalt": { "amountGrams": 12.0, "recoveryRate": 0.90 },
-        "lithium": { "amountGrams": 3.6, "recoveryRate": 0.88 },
-        "plastics": { "amountGrams": 30.0, "recoveryRate": 0.75 },
-        "other": { "amountGrams": 85.0, "recoveryRate": 0.65 }
+        "gold": {
+          "amountGrams": 0.036,
+          "recoveryRate": 0.92
+        },
+        "silver": {
+          "amountGrams": 0.38,
+          "recoveryRate": 0.90
+        },
+        "copper": {
+          "amountGrams": 16.0,
+          "recoveryRate": 0.94
+        },
+        "aluminium": {
+          "amountGrams": 24.0,
+          "recoveryRate": 0.95
+        },
+        "cobalt": {
+          "amountGrams": 12.0,
+          "recoveryRate": 0.90
+        },
+        "lithium": {
+          "amountGrams": 3.6,
+          "recoveryRate": 0.88
+        },
+        "plastics": {
+          "amountGrams": 30.0,
+          "recoveryRate": 0.75
+        },
+        "other": {
+          "amountGrams": 85.0,
+          "recoveryRate": 0.65
+        }
       },
       "visualFeatures": "Dynamic Island on front, USB-C port at bottom, color-infused back glass with contoured edges, diagonal dual rear cameras."
     },
@@ -90,14 +186,38 @@
       "releaseYear": 2023,
       "weightGrams": 168,
       "materials": {
-        "gold": { "amountGrams": 0.032, "recoveryRate": 0.90 },
-        "silver": { "amountGrams": 0.36, "recoveryRate": 0.90 },
-        "copper": { "amountGrams": 15.8, "recoveryRate": 0.92 },
-        "aluminium": { "amountGrams": 26.0, "recoveryRate": 0.95 },
-        "cobalt": { "amountGrams": 12.5, "recoveryRate": 0.88 },
-        "lithium": { "amountGrams": 3.7, "recoveryRate": 0.85 },
-        "plastics": { "amountGrams": 28.0, "recoveryRate": 0.70 },
-        "other": { "amountGrams": 82.0, "recoveryRate": 0.60 }
+        "gold": {
+          "amountGrams": 0.032,
+          "recoveryRate": 0.90
+        },
+        "silver": {
+          "amountGrams": 0.36,
+          "recoveryRate": 0.90
+        },
+        "copper": {
+          "amountGrams": 15.8,
+          "recoveryRate": 0.92
+        },
+        "aluminium": {
+          "amountGrams": 26.0,
+          "recoveryRate": 0.95
+        },
+        "cobalt": {
+          "amountGrams": 12.5,
+          "recoveryRate": 0.88
+        },
+        "lithium": {
+          "amountGrams": 3.7,
+          "recoveryRate": 0.85
+        },
+        "plastics": {
+          "amountGrams": 28.0,
+          "recoveryRate": 0.70
+        },
+        "other": {
+          "amountGrams": 82.0,
+          "recoveryRate": 0.60
+        }
       },
       "visualFeatures": "Triple individual floating camera rings aligned vertically on flat back glass, centered punch-hole camera on front screen."
     },
@@ -109,14 +229,38 @@
       "releaseYear": 2021,
       "weightGrams": 169,
       "materials": {
-        "gold": { "amountGrams": 0.029, "recoveryRate": 0.88 },
-        "silver": { "amountGrams": 0.32, "recoveryRate": 0.88 },
-        "copper": { "amountGrams": 14.5, "recoveryRate": 0.90 },
-        "aluminium": { "amountGrams": 23.0, "recoveryRate": 0.92 },
-        "cobalt": { "amountGrams": 11.2, "recoveryRate": 0.86 },
-        "lithium": { "amountGrams": 3.4, "recoveryRate": 0.84 },
-        "plastics": { "amountGrams": 42.0, "recoveryRate": 0.68 },
-        "other": { "amountGrams": 74.5, "recoveryRate": 0.58 }
+        "gold": {
+          "amountGrams": 0.029,
+          "recoveryRate": 0.88
+        },
+        "silver": {
+          "amountGrams": 0.32,
+          "recoveryRate": 0.88
+        },
+        "copper": {
+          "amountGrams": 14.5,
+          "recoveryRate": 0.90
+        },
+        "aluminium": {
+          "amountGrams": 23.0,
+          "recoveryRate": 0.92
+        },
+        "cobalt": {
+          "amountGrams": 11.2,
+          "recoveryRate": 0.86
+        },
+        "lithium": {
+          "amountGrams": 3.4,
+          "recoveryRate": 0.84
+        },
+        "plastics": {
+          "amountGrams": 42.0,
+          "recoveryRate": 0.68
+        },
+        "other": {
+          "amountGrams": 74.5,
+          "recoveryRate": 0.58
+        }
       },
       "visualFeatures": "Contour-cut camera housing wrapping smoothly into the frame with 3 vertical lenses, polycarbonate Glasstic back."
     },
@@ -128,14 +272,38 @@
       "releaseYear": 2022,
       "weightGrams": 197,
       "materials": {
-        "gold": { "amountGrams": 0.030, "recoveryRate": 0.90 },
-        "silver": { "amountGrams": 0.34, "recoveryRate": 0.90 },
-        "copper": { "amountGrams": 16.2, "recoveryRate": 0.92 },
-        "aluminium": { "amountGrams": 32.0, "recoveryRate": 0.95 },
-        "cobalt": { "amountGrams": 11.9, "recoveryRate": 0.88 },
-        "lithium": { "amountGrams": 3.5, "recoveryRate": 0.85 },
-        "plastics": { "amountGrams": 34.0, "recoveryRate": 0.70 },
-        "other": { "amountGrams": 99.0, "recoveryRate": 0.60 }
+        "gold": {
+          "amountGrams": 0.030,
+          "recoveryRate": 0.90
+        },
+        "silver": {
+          "amountGrams": 0.34,
+          "recoveryRate": 0.90
+        },
+        "copper": {
+          "amountGrams": 16.2,
+          "recoveryRate": 0.92
+        },
+        "aluminium": {
+          "amountGrams": 32.0,
+          "recoveryRate": 0.95
+        },
+        "cobalt": {
+          "amountGrams": 11.9,
+          "recoveryRate": 0.88
+        },
+        "lithium": {
+          "amountGrams": 3.5,
+          "recoveryRate": 0.85
+        },
+        "plastics": {
+          "amountGrams": 34.0,
+          "recoveryRate": 0.70
+        },
+        "other": {
+          "amountGrams": 99.0,
+          "recoveryRate": 0.60
+        }
       },
       "visualFeatures": "Distinctive horizontal metal camera visor across upper back with pill-and-dot camera cutouts, glossy back glass."
     },
@@ -147,14 +315,38 @@
       "releaseYear": 2023,
       "weightGrams": 205,
       "materials": {
-        "gold": { "amountGrams": 0.031, "recoveryRate": 0.90 },
-        "silver": { "amountGrams": 0.35, "recoveryRate": 0.90 },
-        "copper": { "amountGrams": 17.0, "recoveryRate": 0.92 },
-        "aluminium": { "amountGrams": 29.0, "recoveryRate": 0.95 },
-        "cobalt": { "amountGrams": 12.8, "recoveryRate": 0.88 },
-        "lithium": { "amountGrams": 3.9, "recoveryRate": 0.85 },
-        "plastics": { "amountGrams": 36.0, "recoveryRate": 0.70 },
-        "other": { "amountGrams": 106.0, "recoveryRate": 0.60 }
+        "gold": {
+          "amountGrams": 0.031,
+          "recoveryRate": 0.90
+        },
+        "silver": {
+          "amountGrams": 0.35,
+          "recoveryRate": 0.90
+        },
+        "copper": {
+          "amountGrams": 17.0,
+          "recoveryRate": 0.92
+        },
+        "aluminium": {
+          "amountGrams": 29.0,
+          "recoveryRate": 0.95
+        },
+        "cobalt": {
+          "amountGrams": 12.8,
+          "recoveryRate": 0.88
+        },
+        "lithium": {
+          "amountGrams": 3.9,
+          "recoveryRate": 0.85
+        },
+        "plastics": {
+          "amountGrams": 36.0,
+          "recoveryRate": 0.70
+        },
+        "other": {
+          "amountGrams": 106.0,
+          "recoveryRate": 0.60
+        }
       },
       "visualFeatures": "Large circular camera module blending into the side frame with Hasselblad branding, curved display edges."
     },
@@ -166,14 +358,38 @@
       "releaseYear": 2022,
       "weightGrams": 1240,
       "materials": {
-        "gold": { "amountGrams": 0.12, "recoveryRate": 0.92 },
-        "silver": { "amountGrams": 1.45, "recoveryRate": 0.90 },
-        "copper": { "amountGrams": 165.0, "recoveryRate": 0.95 },
-        "aluminium": { "amountGrams": 680.0, "recoveryRate": 0.98 },
-        "cobalt": { "amountGrams": 45.0, "recoveryRate": 0.90 },
-        "lithium": { "amountGrams": 14.5, "recoveryRate": 0.88 },
-        "plastics": { "amountGrams": 95.0, "recoveryRate": 0.75 },
-        "other": { "amountGrams": 239.0, "recoveryRate": 0.65 }
+        "gold": {
+          "amountGrams": 0.12,
+          "recoveryRate": 0.92
+        },
+        "silver": {
+          "amountGrams": 1.45,
+          "recoveryRate": 0.90
+        },
+        "copper": {
+          "amountGrams": 165.0,
+          "recoveryRate": 0.95
+        },
+        "aluminium": {
+          "amountGrams": 680.0,
+          "recoveryRate": 0.98
+        },
+        "cobalt": {
+          "amountGrams": 45.0,
+          "recoveryRate": 0.90
+        },
+        "lithium": {
+          "amountGrams": 14.5,
+          "recoveryRate": 0.88
+        },
+        "plastics": {
+          "amountGrams": 95.0,
+          "recoveryRate": 0.75
+        },
+        "other": {
+          "amountGrams": 239.0,
+          "recoveryRate": 0.65
+        }
       },
       "visualFeatures": "Flat uniform unibody aluminium chassis, MagSafe 3 charging port, display notch at top of screen, dual USB-C ports on left."
     },
@@ -185,14 +401,38 @@
       "releaseYear": 2023,
       "weightGrams": 1600,
       "materials": {
-        "gold": { "amountGrams": 0.16, "recoveryRate": 0.94 },
-        "silver": { "amountGrams": 1.90, "recoveryRate": 0.92 },
-        "copper": { "amountGrams": 210.0, "recoveryRate": 0.95 },
-        "aluminium": { "amountGrams": 850.0, "recoveryRate": 0.98 },
-        "cobalt": { "amountGrams": 62.0, "recoveryRate": 0.90 },
-        "lithium": { "amountGrams": 18.2, "recoveryRate": 0.88 },
-        "plastics": { "amountGrams": 110.0, "recoveryRate": 0.75 },
-        "other": { "amountGrams": 348.0, "recoveryRate": 0.65 }
+        "gold": {
+          "amountGrams": 0.16,
+          "recoveryRate": 0.94
+        },
+        "silver": {
+          "amountGrams": 1.90,
+          "recoveryRate": 0.92
+        },
+        "copper": {
+          "amountGrams": 210.0,
+          "recoveryRate": 0.95
+        },
+        "aluminium": {
+          "amountGrams": 850.0,
+          "recoveryRate": 0.98
+        },
+        "cobalt": {
+          "amountGrams": 62.0,
+          "recoveryRate": 0.90
+        },
+        "lithium": {
+          "amountGrams": 18.2,
+          "recoveryRate": 0.88
+        },
+        "plastics": {
+          "amountGrams": 110.0,
+          "recoveryRate": 0.75
+        },
+        "other": {
+          "amountGrams": 348.0,
+          "recoveryRate": 0.65
+        }
       },
       "visualFeatures": "Thicker aluminum chassis with side ventilation grilles, HDMI port, SD card slot, notch display, all-black keyboard well."
     },
@@ -204,14 +444,38 @@
       "releaseYear": 2022,
       "weightGrams": 1170,
       "materials": {
-        "gold": { "amountGrams": 0.11, "recoveryRate": 0.90 },
-        "silver": { "amountGrams": 1.30, "recoveryRate": 0.90 },
-        "copper": { "amountGrams": 150.0, "recoveryRate": 0.94 },
-        "aluminium": { "amountGrams": 620.0, "recoveryRate": 0.96 },
-        "cobalt": { "amountGrams": 42.0, "recoveryRate": 0.88 },
-        "lithium": { "amountGrams": 13.0, "recoveryRate": 0.85 },
-        "plastics": { "amountGrams": 120.0, "recoveryRate": 0.72 },
-        "other": { "amountGrams": 223.5, "recoveryRate": 0.62 }
+        "gold": {
+          "amountGrams": 0.11,
+          "recoveryRate": 0.90
+        },
+        "silver": {
+          "amountGrams": 1.30,
+          "recoveryRate": 0.90
+        },
+        "copper": {
+          "amountGrams": 150.0,
+          "recoveryRate": 0.94
+        },
+        "aluminium": {
+          "amountGrams": 620.0,
+          "recoveryRate": 0.96
+        },
+        "cobalt": {
+          "amountGrams": 42.0,
+          "recoveryRate": 0.88
+        },
+        "lithium": {
+          "amountGrams": 13.0,
+          "recoveryRate": 0.85
+        },
+        "plastics": {
+          "amountGrams": 120.0,
+          "recoveryRate": 0.72
+        },
+        "other": {
+          "amountGrams": 223.5,
+          "recoveryRate": 0.62
+        }
       },
       "visualFeatures": "Machined CNC aluminium lid and base, carbon fiber or woven glass palm rest, ultra-thin InfinityEdge display bezels."
     },
@@ -223,14 +487,38 @@
       "releaseYear": 2022,
       "weightGrams": 1320,
       "materials": {
-        "gold": { "amountGrams": 0.13, "recoveryRate": 0.90 },
-        "silver": { "amountGrams": 1.40, "recoveryRate": 0.90 },
-        "copper": { "amountGrams": 175.0, "recoveryRate": 0.94 },
-        "aluminium": { "amountGrams": 420.0, "recoveryRate": 0.95 },
-        "cobalt": { "amountGrams": 48.0, "recoveryRate": 0.88 },
-        "lithium": { "amountGrams": 15.0, "recoveryRate": 0.85 },
-        "plastics": { "amountGrams": 280.0, "recoveryRate": 0.75 },
-        "other": { "amountGrams": 380.0, "recoveryRate": 0.62 }
+        "gold": {
+          "amountGrams": 0.13,
+          "recoveryRate": 0.90
+        },
+        "silver": {
+          "amountGrams": 1.40,
+          "recoveryRate": 0.90
+        },
+        "copper": {
+          "amountGrams": 175.0,
+          "recoveryRate": 0.94
+        },
+        "aluminium": {
+          "amountGrams": 420.0,
+          "recoveryRate": 0.95
+        },
+        "cobalt": {
+          "amountGrams": 48.0,
+          "recoveryRate": 0.88
+        },
+        "lithium": {
+          "amountGrams": 15.0,
+          "recoveryRate": 0.85
+        },
+        "plastics": {
+          "amountGrams": 280.0,
+          "recoveryRate": 0.75
+        },
+        "other": {
+          "amountGrams": 380.0,
+          "recoveryRate": 0.62
+        }
       },
       "visualFeatures": "Matte black chassis, red TrackPoint nub in center of keyboard, dual mouse clickers above trackpad, ThinkPad logo with illuminated red dot."
     },
@@ -242,14 +530,38 @@
       "releaseYear": 2021,
       "weightGrams": 1750,
       "materials": {
-        "gold": { "amountGrams": 0.10, "recoveryRate": 0.88 },
-        "silver": { "amountGrams": 1.20, "recoveryRate": 0.88 },
-        "copper": { "amountGrams": 185.0, "recoveryRate": 0.92 },
-        "aluminium": { "amountGrams": 450.0, "recoveryRate": 0.94 },
-        "cobalt": { "amountGrams": 44.0, "recoveryRate": 0.85 },
-        "lithium": { "amountGrams": 14.0, "recoveryRate": 0.82 },
-        "plastics": { "amountGrams": 460.0, "recoveryRate": 0.70 },
-        "other": { "amountGrams": 595.0, "recoveryRate": 0.58 }
+        "gold": {
+          "amountGrams": 0.10,
+          "recoveryRate": 0.88
+        },
+        "silver": {
+          "amountGrams": 1.20,
+          "recoveryRate": 0.88
+        },
+        "copper": {
+          "amountGrams": 185.0,
+          "recoveryRate": 0.92
+        },
+        "aluminium": {
+          "amountGrams": 450.0,
+          "recoveryRate": 0.94
+        },
+        "cobalt": {
+          "amountGrams": 44.0,
+          "recoveryRate": 0.85
+        },
+        "lithium": {
+          "amountGrams": 14.0,
+          "recoveryRate": 0.82
+        },
+        "plastics": {
+          "amountGrams": 460.0,
+          "recoveryRate": 0.70
+        },
+        "other": {
+          "amountGrams": 595.0,
+          "recoveryRate": 0.58
+        }
       },
       "visualFeatures": "Silver plastic and aluminium composite casing, numeric keypad on right, circular HP logo on lid, drop-down hinge design."
     },
@@ -261,14 +573,38 @@
       "releaseYear": 2022,
       "weightGrams": 466,
       "materials": {
-        "gold": { "amountGrams": 0.055, "recoveryRate": 0.92 },
-        "silver": { "amountGrams": 0.65, "recoveryRate": 0.90 },
-        "copper": { "amountGrams": 42.0, "recoveryRate": 0.94 },
-        "aluminium": { "amountGrams": 190.0, "recoveryRate": 0.96 },
-        "cobalt": { "amountGrams": 24.0, "recoveryRate": 0.90 },
-        "lithium": { "amountGrams": 7.5, "recoveryRate": 0.88 },
-        "plastics": { "amountGrams": 38.0, "recoveryRate": 0.75 },
-        "other": { "amountGrams": 164.0, "recoveryRate": 0.65 }
+        "gold": {
+          "amountGrams": 0.055,
+          "recoveryRate": 0.92
+        },
+        "silver": {
+          "amountGrams": 0.65,
+          "recoveryRate": 0.90
+        },
+        "copper": {
+          "amountGrams": 42.0,
+          "recoveryRate": 0.94
+        },
+        "aluminium": {
+          "amountGrams": 190.0,
+          "recoveryRate": 0.96
+        },
+        "cobalt": {
+          "amountGrams": 24.0,
+          "recoveryRate": 0.90
+        },
+        "lithium": {
+          "amountGrams": 7.5,
+          "recoveryRate": 0.88
+        },
+        "plastics": {
+          "amountGrams": 38.0,
+          "recoveryRate": 0.75
+        },
+        "other": {
+          "amountGrams": 164.0,
+          "recoveryRate": 0.65
+        }
       },
       "visualFeatures": "Square dual camera module with LiDAR sensor on back corner, flat sides with magnetic Apple Pencil charger, USB-C port, quad speakers."
     },
@@ -280,14 +616,38 @@
       "releaseYear": 2022,
       "weightGrams": 503,
       "materials": {
-        "gold": { "amountGrams": 0.048, "recoveryRate": 0.90 },
-        "silver": { "amountGrams": 0.58, "recoveryRate": 0.90 },
-        "copper": { "amountGrams": 38.5, "recoveryRate": 0.92 },
-        "aluminium": { "amountGrams": 215.0, "recoveryRate": 0.95 },
-        "cobalt": { "amountGrams": 26.0, "recoveryRate": 0.88 },
-        "lithium": { "amountGrams": 8.0, "recoveryRate": 0.85 },
-        "plastics": { "amountGrams": 42.0, "recoveryRate": 0.70 },
-        "other": { "amountGrams": 173.0, "recoveryRate": 0.60 }
+        "gold": {
+          "amountGrams": 0.048,
+          "recoveryRate": 0.90
+        },
+        "silver": {
+          "amountGrams": 0.58,
+          "recoveryRate": 0.90
+        },
+        "copper": {
+          "amountGrams": 38.5,
+          "recoveryRate": 0.92
+        },
+        "aluminium": {
+          "amountGrams": 215.0,
+          "recoveryRate": 0.95
+        },
+        "cobalt": {
+          "amountGrams": 26.0,
+          "recoveryRate": 0.88
+        },
+        "lithium": {
+          "amountGrams": 8.0,
+          "recoveryRate": 0.85
+        },
+        "plastics": {
+          "amountGrams": 42.0,
+          "recoveryRate": 0.70
+        },
+        "other": {
+          "amountGrams": 173.0,
+          "recoveryRate": 0.60
+        }
       },
       "visualFeatures": "Armor aluminum back with black magnetic S Pen strip extending downward from pill-shaped dual camera module."
     },
@@ -299,12 +659,30 @@
       "releaseYear": 2022,
       "weightGrams": 4480,
       "materials": {
-        "gold": { "amountGrams": 0.08, "recoveryRate": 0.88 },
-        "silver": { "amountGrams": 1.10, "recoveryRate": 0.88 },
-        "copper": { "amountGrams": 320.0, "recoveryRate": 0.92 },
-        "aluminium": { "amountGrams": 650.0, "recoveryRate": 0.95 },
-        "plastics": { "amountGrams": 1650.0, "recoveryRate": 0.75 },
-        "other": { "amountGrams": 1858.0, "recoveryRate": 0.60 }
+        "gold": {
+          "amountGrams": 0.08,
+          "recoveryRate": 0.88
+        },
+        "silver": {
+          "amountGrams": 1.10,
+          "recoveryRate": 0.88
+        },
+        "copper": {
+          "amountGrams": 320.0,
+          "recoveryRate": 0.92
+        },
+        "aluminium": {
+          "amountGrams": 650.0,
+          "recoveryRate": 0.95
+        },
+        "plastics": {
+          "amountGrams": 1650.0,
+          "recoveryRate": 0.75
+        },
+        "other": {
+          "amountGrams": 1858.0,
+          "recoveryRate": 0.60
+        }
       },
       "visualFeatures": "Platinum silver rear finish, ultra-thin 4-sided bezel, joystick menu controller on bottom right rear, extensive hub ports."
     },
@@ -316,12 +694,30 @@
       "releaseYear": 2022,
       "weightGrams": 13900,
       "materials": {
-        "gold": { "amountGrams": 0.15, "recoveryRate": 0.85 },
-        "silver": { "amountGrams": 2.20, "recoveryRate": 0.85 },
-        "copper": { "amountGrams": 780.0, "recoveryRate": 0.90 },
-        "aluminium": { "amountGrams": 1450.0, "recoveryRate": 0.92 },
-        "plastics": { "amountGrams": 5200.0, "recoveryRate": 0.70 },
-        "other": { "amountGrams": 6467.0, "recoveryRate": 0.55 }
+        "gold": {
+          "amountGrams": 0.15,
+          "recoveryRate": 0.85
+        },
+        "silver": {
+          "amountGrams": 2.20,
+          "recoveryRate": 0.85
+        },
+        "copper": {
+          "amountGrams": 780.0,
+          "recoveryRate": 0.90
+        },
+        "aluminium": {
+          "amountGrams": 1450.0,
+          "recoveryRate": 0.92
+        },
+        "plastics": {
+          "amountGrams": 5200.0,
+          "recoveryRate": 0.70
+        },
+        "other": {
+          "amountGrams": 6467.0,
+          "recoveryRate": 0.55
+        }
       },
       "visualFeatures": "Slim-look textured plastic back panel with cable routing channels, two side-mounted stand feet, center bottom Samsung badge."
     },
@@ -333,12 +729,30 @@
       "releaseYear": 2021,
       "weightGrams": 8500,
       "materials": {
-        "gold": { "amountGrams": 0.35, "recoveryRate": 0.92 },
-        "silver": { "amountGrams": 3.80, "recoveryRate": 0.90 },
-        "copper": { "amountGrams": 1250.0, "recoveryRate": 0.95 },
-        "aluminium": { "amountGrams": 1800.0, "recoveryRate": 0.96 },
-        "plastics": { "amountGrams": 1400.0, "recoveryRate": 0.75 },
-        "other": { "amountGrams": 4045.0, "recoveryRate": 0.65 }
+        "gold": {
+          "amountGrams": 0.35,
+          "recoveryRate": 0.92
+        },
+        "silver": {
+          "amountGrams": 3.80,
+          "recoveryRate": 0.90
+        },
+        "copper": {
+          "amountGrams": 1250.0,
+          "recoveryRate": 0.95
+        },
+        "aluminium": {
+          "amountGrams": 1800.0,
+          "recoveryRate": 0.96
+        },
+        "plastics": {
+          "amountGrams": 1400.0,
+          "recoveryRate": 0.75
+        },
+        "other": {
+          "amountGrams": 4045.0,
+          "recoveryRate": 0.65
+        }
       },
       "visualFeatures": "Steel and tempered glass ATX mid-tower chassis with motherboard I/O shield, dedicated graphics card slots, internal PSU fan."
     },
@@ -350,12 +764,30 @@
       "releaseYear": 2020,
       "weightGrams": 9600,
       "materials": {
-        "gold": { "amountGrams": 0.05, "recoveryRate": 0.85 },
-        "silver": { "amountGrams": 0.80, "recoveryRate": 0.85 },
-        "copper": { "amountGrams": 450.0, "recoveryRate": 0.90 },
-        "aluminium": { "amountGrams": 620.0, "recoveryRate": 0.92 },
-        "plastics": { "amountGrams": 5800.0, "recoveryRate": 0.70 },
-        "other": { "amountGrams": 2729.0, "recoveryRate": 0.55 }
+        "gold": {
+          "amountGrams": 0.05,
+          "recoveryRate": 0.85
+        },
+        "silver": {
+          "amountGrams": 0.80,
+          "recoveryRate": 0.85
+        },
+        "copper": {
+          "amountGrams": 450.0,
+          "recoveryRate": 0.90
+        },
+        "aluminium": {
+          "amountGrams": 620.0,
+          "recoveryRate": 0.92
+        },
+        "plastics": {
+          "amountGrams": 5800.0,
+          "recoveryRate": 0.70
+        },
+        "other": {
+          "amountGrams": 2729.0,
+          "recoveryRate": 0.55
+        }
       },
       "visualFeatures": "White and charcoal industrial plastic shell, flatbed document glass on top with ADF feeder, front toner cartridge door."
     },
@@ -367,12 +799,30 @@
       "releaseYear": 2020,
       "weightGrams": 680,
       "materials": {
-        "gold": { "amountGrams": 0.22, "recoveryRate": 0.95 },
-        "silver": { "amountGrams": 2.10, "recoveryRate": 0.92 },
-        "copper": { "amountGrams": 160.0, "recoveryRate": 0.96 },
-        "aluminium": { "amountGrams": 75.0, "recoveryRate": 0.94 },
-        "plastics": { "amountGrams": 85.0, "recoveryRate": 0.60 },
-        "other": { "amountGrams": 357.0, "recoveryRate": 0.55 }
+        "gold": {
+          "amountGrams": 0.22,
+          "recoveryRate": 0.95
+        },
+        "silver": {
+          "amountGrams": 2.10,
+          "recoveryRate": 0.92
+        },
+        "copper": {
+          "amountGrams": 160.0,
+          "recoveryRate": 0.96
+        },
+        "aluminium": {
+          "amountGrams": 75.0,
+          "recoveryRate": 0.94
+        },
+        "plastics": {
+          "amountGrams": 85.0,
+          "recoveryRate": 0.60
+        },
+        "other": {
+          "amountGrams": 357.0,
+          "recoveryRate": 0.55
+        }
       },
       "visualFeatures": "Green/black FR4 fiberglass circuit board populated with CPU socket, PCIe slots, DIMM RAM slots, capacitors, and VRM heatsinks."
     },
@@ -384,12 +834,535 @@
       "releaseYear": 2022,
       "weightGrams": 240,
       "materials": {
-        "copper": { "amountGrams": 65.0, "recoveryRate": 0.94 },
-        "aluminium": { "amountGrams": 28.0, "recoveryRate": 0.92 },
-        "plastics": { "amountGrams": 95.0, "recoveryRate": 0.70 },
-        "other": { "amountGrams": 52.0, "recoveryRate": 0.50 }
+        "copper": {
+          "amountGrams": 65.0,
+          "recoveryRate": 0.94
+        },
+        "aluminium": {
+          "amountGrams": 28.0,
+          "recoveryRate": 0.92
+        },
+        "plastics": {
+          "amountGrams": 95.0,
+          "recoveryRate": 0.70
+        },
+        "other": {
+          "amountGrams": 52.0,
+          "recoveryRate": 0.50
+        }
       },
       "visualFeatures": "Rectangular black or white flame-retardant plastic brick with AC prongs or detachable 2/3-pin power cord and DC/USB-C lead."
+    },
+    {
+      "id": "xiaomi-redmi-note-12-pro",
+      "category": "Smartphone",
+      "brand": "Xiaomi",
+      "model": "Redmi Note 12 Pro",
+      "releaseYear": 2022,
+      "weightGrams": 202,
+      "materials": {
+        "gold": {
+          "amountGrams": 0.033,
+          "recoveryRate": 0.90
+        },
+        "silver": {
+          "amountGrams": 0.34,
+          "recoveryRate": 0.90
+        },
+        "copper": {
+          "amountGrams": 15.6,
+          "recoveryRate": 0.92
+        },
+        "aluminium": {
+          "amountGrams": 25.0,
+          "recoveryRate": 0.95
+        },
+        "cobalt": {
+          "amountGrams": 12.2,
+          "recoveryRate": 0.88
+        },
+        "lithium": {
+          "amountGrams": 3.6,
+          "recoveryRate": 0.85
+        },
+        "plastics": {
+          "amountGrams": 29.0,
+          "recoveryRate": 0.70
+        },
+        "other": {
+          "amountGrams": 81.6,
+          "recoveryRate": 0.60
+        }
+      },
+      "visualFeatures": "Quad camera setup with large main sensor, punch-hole display, plastic frame with glossy finish, side-mounted fingerprint sensor."
+    },
+    {
+      "id": "oneplus-nord-2t",
+      "category": "Smartphone",
+      "brand": "OnePlus",
+      "model": "Nord 2T",
+      "releaseYear": 2022,
+      "weightGrams": 190,
+      "materials": {
+        "gold": {
+          "amountGrams": 0.030,
+          "recoveryRate": 0.90
+        },
+        "silver": {
+          "amountGrams": 0.32,
+          "recoveryRate": 0.90
+        },
+        "copper": {
+          "amountGrams": 14.8,
+          "recoveryRate": 0.92
+        },
+        "aluminium": {
+          "amountGrams": 27.0,
+          "recoveryRate": 0.95
+        },
+        "cobalt": {
+          "amountGrams": 11.5,
+          "recoveryRate": 0.88
+        },
+        "lithium": {
+          "amountGrams": 3.3,
+          "recoveryRate": 0.85
+        },
+        "plastics": {
+          "amountGrams": 31.0,
+          "recoveryRate": 0.70
+        },
+        "other": {
+          "amountGrams": 79.0,
+          "recoveryRate": 0.60
+        }
+      },
+      "visualFeatures": "Triple camera system with Hasselblad branding, fluid AMOLED display, plastic frame, alert slider on side."
+    },
+    {
+      "id": "google-pixel-6a",
+      "category": "Smartphone",
+      "brand": "Google",
+      "model": "Pixel 6a",
+      "releaseYear": 2022,
+      "weightGrams": 178,
+      "materials": {
+        "gold": {
+          "amountGrams": 0.029,
+          "recoveryRate": 0.90
+        },
+        "silver": {
+          "amountGrams": 0.33,
+          "recoveryRate": 0.90
+        },
+        "copper": {
+          "amountGrams": 14.9,
+          "recoveryRate": 0.92
+        },
+        "aluminium": {
+          "amountGrams": 30.0,
+          "recoveryRate": 0.95
+        },
+        "cobalt": {
+          "amountGrams": 11.7,
+          "recoveryRate": 0.88
+        },
+        "lithium": {
+          "amountGrams": 3.4,
+          "recoveryRate": 0.85
+        },
+        "plastics": {
+          "amountGrams": 33.0,
+          "recoveryRate": 0.70
+        },
+        "other": {
+          "amountGrams": 81.8,
+          "recoveryRate": 0.60
+        }
+      },
+      "visualFeatures": "Dual camera system with wide and ultrawide lenses, centered punch-hole display, two-tone plastic frame, in-display fingerprint sensor."
+    },
+    {
+      "id": "samsung-galaxy-a53",
+      "category": "Smartphone",
+      "brand": "Samsung",
+      "model": "Galaxy A53 5G",
+      "releaseYear": 2022,
+      "weightGrams": 189,
+      "materials": {
+        "gold": {
+          "amountGrams": 0.030,
+          "recoveryRate": 0.90
+        },
+        "silver": {
+          "amountGrams": 0.33,
+          "recoveryRate": 0.90
+        },
+        "copper": {
+          "amountGrams": 14.9,
+          "recoveryRate": 0.92
+        },
+        "aluminium": {
+          "amountGrams": 24.0,
+          "recoveryRate": 0.95
+        },
+        "cobalt": {
+          "amountGrams": 11.8,
+          "recoveryRate": 0.88
+        },
+        "lithium": {
+          "amountGrams": 3.5,
+          "recoveryRate": 0.85
+        },
+        "plastics": {
+          "amountGrams": 30.0,
+          "recoveryRate": 0.70
+        },
+        "other": {
+          "amountGrams": 83.9,
+          "recoveryRate": 0.60
+        }
+      },
+      "visualFeatures": "Quad camera setup, punch-hole display, plastic frame with glossy finish, side-mounted fingerprint sensor, IP67 water resistance."
+    },
+    {
+      "id": "lenovo-ideapad-3",
+      "category": "Laptop",
+      "brand": "Lenovo",
+      "model": "IdeaPad 3 15\"",
+      "releaseYear": 2022,
+      "weightGrams": 1650,
+      "materials": {
+        "gold": {
+          "amountGrams": 0.15,
+          "recoveryRate": 0.90
+        },
+        "silver": {
+          "amountGrams": 1.60,
+          "recoveryRate": 0.90
+        },
+        "copper": {
+          "amountGrams": 180.0,
+          "recoveryRate": 0.94
+        },
+        "aluminium": {
+          "amountGrams": 400.0,
+          "recoveryRate": 0.95
+        },
+        "cobalt": {
+          "amountGrams": 50.0,
+          "recoveryRate": 0.88
+        },
+        "lithium": {
+          "amountGrams": 16.0,
+          "recoveryRate": 0.85
+        },
+        "plastics": {
+          "amountGrams": 300.0,
+          "recoveryRate": 0.72
+        },
+        "other": {
+          "amountGrams": 607.0,
+          "recoveryRate": 0.62
+        }
+      },
+      "visualFeatures": "Plastic chassis with textured finish, traditional hinge design, HDMI port, USB-A and USB-C ports, numeric keypad."
+    },
+    {
+      "id": "asus-vivobook-15",
+      "category": "Laptop",
+      "brand": "ASUS",
+      "model": "VivoBook 15 X515",
+      "releaseYear": 2021,
+      "weightGrams": 1600,
+      "materials": {
+        "gold": {
+          "amountGrams": 0.14,
+          "recoveryRate": 0.90
+        },
+        "silver": {
+          "amountGrams": 1.50,
+          "recoveryRate": 0.90
+        },
+        "copper": {
+          "amountGrams": 175.0,
+          "recoveryRate": 0.94
+        },
+        "aluminium": {
+          "amountGrams": 380.0,
+          "recoveryRate": 0.95
+        },
+        "cobalt": {
+          "amountGrams": 48.0,
+          "recoveryRate": 0.88
+        },
+        "lithium": {
+          "amountGrams": 15.0,
+          "recoveryRate": 0.85
+        },
+        "plastics": {
+          "amountGrams": 290.0,
+          "recoveryRate": 0.72
+        },
+        "other": {
+          "amountGrams": 591.5,
+          "recoveryRate": 0.62
+        }
+      },
+      "visualFeatures": "Plastic chassis with concentric circle design on lid, ergo lift hinge, fingerprint sensor, USB-C and USB-A ports, HDMI."
+    },
+    {
+      "id": "apple-ipad-air-5",
+      "category": "Tablet",
+      "brand": "Apple",
+      "model": "iPad Air 5th Gen 10.9\"",
+      "releaseYear": 2022,
+      "weightGrams": 461,
+      "materials": {
+        "gold": {
+          "amountGrams": 0.053,
+          "recoveryRate": 0.92
+        },
+        "silver": {
+          "amountGrams": 0.63,
+          "recoveryRate": 0.90
+        },
+        "copper": {
+          "amountGrams": 41.0,
+          "recoveryRate": 0.94
+        },
+        "aluminium": {
+          "amountGrams": 185.0,
+          "recoveryRate": 0.96
+        },
+        "cobalt": {
+          "amountGrams": 23.5,
+          "recoveryRate": 0.90
+        },
+        "lithium": {
+          "amountGrams": 7.3,
+          "recoveryRate": 0.88
+        },
+        "plastics": {
+          "amountGrams": 37.0,
+          "recoveryRate": 0.75
+        },
+        "other": {
+          "amountGrams": 163.2,
+          "recoveryRate": 0.65
+        }
+      },
+      "visualFeatures": "Liquid Retina display with True Tone, Touch ID in top button, USB-C port, magnetic connector for Apple Pencil, flat edges design."
+    },
+    {
+      "id": "dell-se2422h",
+      "category": "Monitor",
+      "brand": "Dell",
+      "model": "SE2422H 24\" FHD",
+      "releaseYear": 2021,
+      "weightGrams": 3120,
+      "materials": {
+        "gold": {
+          "amountGrams": 0.06,
+          "recoveryRate": 0.88
+        },
+        "silver": {
+          "amountGrams": 0.90,
+          "recoveryRate": 0.88
+        },
+        "copper": {
+          "amountGrams": 240.0,
+          "recoveryRate": 0.92
+        },
+        "aluminium": {
+          "amountGrams": 450.0,
+          "recoveryRate": 0.95
+        },
+        "plastics": {
+          "amountGrams": 1150.0,
+          "recoveryRate": 0.75
+        },
+        "other": {
+          "amountGrams": 1270.0,
+          "recoveryRate": 0.60
+        }
+      },
+      "visualFeatures": "Borderless design on three sides, tilt-adjustable stand, HDMI and VGA ports, cable management hole in stand base."
+    },
+    {
+      "id": "lg-32ul950-w",
+      "category": "Monitor",
+      "brand": "LG",
+      "model": "32UL950-W 32\" 4K USB-C",
+      "releaseYear": 2020,
+      "weightGrams": 6800,
+      "materials": {
+        "gold": {
+          "amountGrams": 0.12,
+          "recoveryRate": 0.88
+        },
+        "silver": {
+          "amountGrams": 2.00,
+          "recoveryRate": 0.88
+        },
+        "copper": {
+          "amountGrams": 520.0,
+          "recoveryRate": 0.92
+        },
+        "aluminium": {
+          "amountGrams": 950.0,
+          "recoveryRate": 0.95
+        },
+        "plastics": {
+          "amountGrams": 2200.0,
+          "recoveryRate": 0.75
+        },
+        "other": {
+          "amountGrams": 3113.9,
+          "recoveryRate": 0.60
+        }
+      },
+      "visualFeatures": "Nano IPS display with DCI-P3 98%, Thunderbolt 3 and USB-C ports, height/tilt/swivel adjustable stand, USB hub."
+    },
+    {
+      "id": "canon-pixma-ts6320",
+      "category": "Printer",
+      "brand": "Canon",
+      "model": "PIXMA TS6320 Wireless All-in-One",
+      "releaseYear": 2020,
+      "weightGrams": 6200,
+      "materials": {
+        "gold": {
+          "amountGrams": 0.04,
+          "recoveryRate": 0.85
+        },
+        "silver": {
+          "amountGrams": 0.70,
+          "recoveryRate": 0.85
+        },
+        "copper": {
+          "amountGrams": 380.0,
+          "recoveryRate": 0.90
+        },
+        "aluminium": {
+          "amountGrams": 500.0,
+          "recoveryRate": 0.92
+        },
+        "plastics": {
+          "amountGrams": 4800.0,
+          "recoveryRate": 0.70
+        },
+        "other": {
+          "amountGrams": 515.3,
+          "recoveryRate": 0.55
+        }
+      },
+      "visualFeatures": "Compact all-in-one design, color touchscreen LCD, front paper loading, wireless connectivity, auto duplex printing."
+    },
+    {
+      "id": "sony-wh-1000xm5",
+      "category": "Audio",
+      "brand": "Sony",
+      "model": "WH-1000XM5 Wireless Noise Cancelling",
+      "releaseYear": 2022,
+      "weightGrams": 250,
+      "materials": {
+        "gold": {
+          "amountGrams": 0.01,
+          "recoveryRate": 0.85
+        },
+        "silver": {
+          "amountGrams": 0.15,
+          "recoveryRate": 0.85
+        },
+        "copper": {
+          "amountGrams": 15.0,
+          "recoveryRate": 0.90
+        },
+        "aluminium": {
+          "amountGrams": 80.0,
+          "recoveryRate": 0.92
+        },
+        "plastics": {
+          "amountGrams": 150.0,
+          "recoveryRate": 0.70
+        },
+        "other": {
+          "amountGrams": 54.9,
+          "recoveryRate": 0.55
+        }
+      },
+      "visualFeatures": "Over-ear headphones with soft leather-like earcups, sliding headband, touch controls on earcups, folding design for portability."
+    },
+    {
+      "id": "nintendo-switch-oled",
+      "category": "Gaming Console",
+      "brand": "Nintendo",
+      "model": "Switch OLED Model",
+      "releaseYear": 2021,
+      "weightGrams": 320,
+      "materials": {
+        "gold": {
+          "amountGrams": 0.02,
+          "recoveryRate": 0.85
+        },
+        "silver": {
+          "amountGrams": 0.25,
+          "recoveryRate": 0.85
+        },
+        "copper": {
+          "amountGrams": 20.0,
+          "recoveryRate": 0.90
+        },
+        "aluminium": {
+          "amountGrams": 120.0,
+          "recoveryRate": 0.92
+        },
+        "plastics": {
+          "amountGrams": 150.0,
+          "recoveryRate": 0.70
+        },
+        "other": {
+          "amountGrams": 109.8,
+          "recoveryRate": 0.55
+        }
+      },
+      "visualFeatures": "OLED screen with vibrant colors, adjustable wide stand, enhanced audio, dock with LAN port, improved Joy-Con controllers."
+    },
+    {
+      "id": "logitech-mx-master-3s",
+      "category": "Computer Peripherals",
+      "brand": "Logitech",
+      "model": "MX Master 3S Advanced Wireless Mouse",
+      "releaseYear": 2022,
+      "weightGrams": 141,
+      "materials": {
+        "gold": {
+          "amountGrams": 0.005,
+          "recoveryRate": 0.85
+        },
+        "silver": {
+          "amountGrams": 0.08,
+          "recoveryRate": 0.85
+        },
+        "copper": {
+          "amountGrams": 8.5,
+          "recoveryRate": 0.90
+        },
+        "aluminium": {
+          "amountGrams": 40.0,
+          "recoveryRate": 0.92
+        },
+        "plastics": {
+          "amountGrams": 85.0,
+          "recoveryRate": 0.70
+        },
+        "other": {
+          "amountGrams": 10.4,
+          "recoveryRate": 0.55
+        }
+      },
+      "visualFeatures": "Ergonomic sculpted shape, thumb wheel, USB-C charging, multi-device connectivity, glass-coated darkfield sensor."
     }
   ]
 }

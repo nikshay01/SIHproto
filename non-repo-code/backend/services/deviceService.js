@@ -19,13 +19,24 @@ function loadLocalDatabase() {
       const json = JSON.parse(raw);
       metadata = json.metadata || {};
       inMemoryDevices = (json.devices || []).map(device => {
-        const creditInfo = calculateDeviceCredits(device);
-        return {
-          ...device,
-          calculatedCredits: creditInfo.estimatedCredits,
-          recoverableMaterials: creditInfo.materials,
-          environmentalImpact: creditInfo.environmentalImpact
-        };
+        try {
+          const creditInfo = calculateDeviceCredits(device);
+          return {
+            ...device,
+            calculatedCredits: creditInfo.estimatedCredits,
+            recoverableMaterials: creditInfo.materials,
+            environmentalImpact: creditInfo.environmentalImpact
+          };
+        } catch (mapErr) {
+          console.warn(`Failed to calculate credits for device ${device.id || device.model}:`, mapErr.message);
+          // Return device without calculated fields
+          return {
+            ...device,
+            calculatedCredits: 0,
+            recoverableMaterials: {},
+            environmentalImpact: {}
+          };
+        }
       });
     }
   } catch (err) {

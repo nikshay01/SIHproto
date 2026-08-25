@@ -1,7 +1,7 @@
 import express from "express";
 import { verifyDeviceImage, classifyGeneralEwasteImage, generateEwasteEducationalContent } from "../services/aiVisionService.js";
 import { getDeviceById, findDeviceByBrandAndModel } from "../services/deviceService.js";
-import { calculateDeviceCredits } from "../services/creditEngine.js";
+import { calculateDeviceCredits, evaluateManualDevice } from "../services/creditEngine.js";
 import {
   createVerificationTransaction,
   getTransactionById,
@@ -107,6 +107,54 @@ router.post("/claim-and-verify", async (req, res, next) => {
       creditCalculation,
       wallet: userWallet
     });
+  } catch (err) {
+    next(err);
+  }
+});
+
+/**
+ * Evaluate Manually Entered Device Specifications
+ */
+router.post("/evaluate-manual", async (req, res, next) => {
+  try {
+    const {
+      userId = "guest-user",
+      category,
+      brand,
+      model,
+      weightGrams,
+      releaseYear,
+      visualFeatures
+    } = req.body;
+
+    // Validate required fields
+    if (!category || !brand || !model || weightGrams === undefined) {
+      return res.status(400).json({
+        ok: false,
+        error: "Missing required fields: category, brand, model, and weightGrams are required"
+      });
+    }
+
+    const result = await evaluateManualDevice({
+      userId,
+      device: {
+        category,
+        brand,
+        model,
+        weightGrams: Number(weightGrams),
+        releaseYear: releaseYear ? Number(releaseYear) : null,
+        visualFeatures: visualFeatures || ""
+      }
+    });
+
+    if (result.ok) {
+      res.json(result);
+    } else {
+      res.status(400).json({
+        ok: false,
+        error: result.error || "Manual device evaluation failed"
+      });
+    }
   } catch (err) {
     next(err);
   }

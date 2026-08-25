@@ -7,6 +7,7 @@ import "leaflet.markercluster";
 import { LocateFixed, RotateCcw } from "lucide-react";
 import { useTheme } from "../../context/ThemeContext.jsx";
 import { useFacilities } from "../../context/FacilityContext.jsx";
+import { useLocation } from "../../context/LocationContext.jsx";
 import { formatDistance, getGoogleMapsUrl } from "../../services/geoUtils.js";
 
 const DEFAULT_CENTER = [22.3511, 78.6677]; // All-India Geographic Center
@@ -15,7 +16,8 @@ const DEFAULT_ZOOM = 5;
 export default function LeafletMap() {
   const { isDark } = useTheme();
   const { facilities, selectedFacility, setSelectedFacility, setDetailModalFacility } = useFacilities();
-  
+  const { coords } = useLocation();
+
   const mapContainerRef = useRef(null);
   const mapInstanceRef = useRef(null);
   const markerClusterGroupRef = useRef(null);
@@ -171,6 +173,19 @@ export default function LeafletMap() {
       }
     }
   }, [selectedFacility]);
+
+  // Auto-center on user location when available and no facility selected
+  useEffect(() => {
+    const map = mapInstanceRef.current;
+    if (!map || !coords || selectedFacility) return;
+
+    const lat = coords.latitude;
+    const lng = coords.longitude;
+
+    if (lat != null && lng != null) {
+      map.flyTo([lat, lng], 13, { duration: 1.2 });
+    }
+  }, [coords, selectedFacility]);
 
   const handleRecenter = () => {
     if (mapInstanceRef.current) {

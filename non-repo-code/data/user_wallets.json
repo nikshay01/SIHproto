@@ -101,17 +101,51 @@
       "lastUpdated": "2026-08-23T05:14:59.558Z"
     },
     "guest-user": {
-      "_id": "6a8a857b183f5425ecea0f8b",
+      "_id": "6a8bdf91087d2868aa4e1fed",
       "userId": "guest-user",
-      "estimatedCredits": 133,
-      "verifiedCredits": 0,
-      "redeemedCredits": 0,
-      "availableCredits": 0,
-      "redemptions": [],
-      "createdAt": "2026-08-23T05:30:35.602Z",
-      "updatedAt": "2026-08-23T05:30:35.602Z",
+      "estimatedCredits": 249,
+      "verifiedCredits": 280,
+      "redeemedCredits": 50,
+      "availableCredits": 350,
+      "redemptions": [
+        {
+          "redemptionId": "red_eco_501",
+          "rewardId": "eco-voucher-50",
+          "rewardTitle": "GreenEarth ₹50 Store Voucher",
+          "creditsSpent": 50,
+          "couponCode": "ECOGREEN-88219",
+          "status": "ACTIVE",
+          "redeemedAt": "2026-08-24T06:07:13.855Z"
+        }
+      ],
+      "shardKey": "National",
       "__v": 0,
-      "lastUpdated": "2026-08-23T07:39:26.673Z"
+      "createdAt": "2026-08-24T06:07:13.951Z",
+      "updatedAt": "2026-08-24T19:23:44.401Z"
+    },
+    "usr_6f1272148073": {
+      "_id": "6a8c4439f5732d727fc00b07",
+      "userId": "usr_6f1272148073",
+      "estimatedCredits": 50,
+      "verifiedCredits": 100,
+      "redeemedCredits": 30,
+      "availableCredits": 120,
+      "shardKey": "National",
+      "redemptions": [
+        {
+          "redemptionId": "RDM-1787631649719-576",
+          "rewardId": "plant-tree",
+          "rewardTitle": "Plant 1 Native Tree",
+          "creditsSpent": 30,
+          "couponCode": "ECO-618395",
+          "status": "ACTIVE",
+          "redeemedAt": "2026-08-25T04:20:49.719Z"
+        }
+      ],
+      "createdAt": "2026-08-24T13:16:41.733Z",
+      "updatedAt": "2026-08-24T13:16:41.733Z",
+      "__v": 0,
+      "lastUpdated": "2026-08-25T04:20:49.719Z"
     }
   }
 }

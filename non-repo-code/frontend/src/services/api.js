@@ -33,6 +33,7 @@ export const getDeviceById = async (id) => (await apiClient.get(`/devices/${id}`
 
 // Verification & Anti-Fraud
 export const claimAndVerifyDevice = async (payload) => (await apiClient.post("/verify/claim-and-verify", payload)).data;
+export const evaluateManualDevice = async (payload) => (await apiClient.post("/verify/evaluate-manual", payload)).data;
 export const getTransactionById = async (id) => (await apiClient.get(`/verify/transaction/${id}`)).data;
 export const getUserTransactions = async (userId) => (await apiClient.get(`/verify/user/${userId}`)).data;
 export const facilityConfirmTransaction = async (payload) => (await apiClient.post("/verify/facility-confirm", payload)).data;

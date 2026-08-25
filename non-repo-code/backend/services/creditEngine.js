@@ -85,7 +85,7 @@ export function calculateCreditsFromMaterials(materials = {}) {
 
 /**
  * Calculate credits for a device object
- * @param {Object} device 
+ * @param {Object} device
  */
 export function calculateDeviceCredits(device) {
   if (!device || !device.materials) {
@@ -98,6 +98,94 @@ export function calculateDeviceCredits(device) {
     };
   }
   return calculateCreditsFromMaterials(device.materials);
+}
+
+/**
+ * Evaluate a manually entered device and calculate its estimated credits
+ * @param {Object} params - Contains userId and device details
+ * @returns {Object} Evaluation result with credits and metadata
+ */
+export async function evaluateManualDevice(params) {
+  const { userId, device } = params;
+
+  if (!device) {
+    throw new Error("Device details are required");
+  }
+
+  // Calculate credits for the manual device
+  const creditCalculation = calculateDeviceCredits(device);
+
+  // Create a verification transaction record for the manual device
+  // Similar to the claim-and-verify route but for manual entry
+  const transaction = await createVerificationTransaction({
+    userId,
+    claimedDevice: {
+      category: device.category || "Manual Entry",
+      brand: device.brand || "Unknown",
+      model: device.model || "Unknown"
+    },
+    detectedDevice: {
+      category: device.category || "Manual Entry",
+      brand: device.brand || "Unknown",
+      model: device.model || "Unknown"
+    },
+    aiVerification: {
+      claimedDevice: {
+        category: device.category || "Manual Entry",
+        brand: device.brand || "Unknown",
+        model: device.model || "Unknown"
+      },
+      detectedDevice: {
+        category: device.category || "Manual Entry",
+        brand: device.brand || "Unknown",
+        model: device.model || "Unknown"
+      },
+      visualCharacteristics: "Manual device entry - specifications provided by user",
+      match: true, // For manual entry, we assume the user knows what they entered
+      confidence: 0.95, // High confidence since it's user-provided
+      verificationStatus: "MANUAL_ENTRY_VERIFIED",
+      statusMessage: "Device specifications manually entered by user",
+      reasoning: "Device details provided directly by user for evaluation"
+    },
+    estimatedCredits: creditCalculation.estimatedCredits,
+    materialsBreakdown: creditCalculation.materials,
+    deviceId: null // Manual devices don't have a database ID
+  });
+
+  // Generate educational content for the device
+  const educationalContent = await generateEwasteEducationalContent(
+    `${device.brand || "Unknown"} ${device.model || "Unknown Device"}`,
+    device.category || "Electronics"
+  );
+
+  // Get or create wallet for the user
+  const userWallet = await getOrCreateWallet(userId);
+
+  return {
+    ok: true,
+    transaction,
+    aiVerification: {
+      claimedDevice: {
+        category: device.category || "Manual Entry",
+        brand: device.brand || "Unknown",
+        model: device.model || "Unknown"
+      },
+      detectedDevice: {
+        category: device.category || "Manual Entry",
+        brand: device.brand || "Unknown",
+        model: device.model || "Unknown"
+      },
+      visualCharacteristics: "Manual device entry - specifications provided by user",
+      match: true,
+      confidence: 0.95,
+      verificationStatus: "MANUAL_ENTRY_VERIFIED",
+      statusMessage: "Device specifications manually entered by user",
+      reasoning: "Device details provided directly by user for evaluation",
+      educationalContent
+    },
+    creditCalculation,
+    wallet: userWallet
+  };
 }
 
 function capitalize(str) {

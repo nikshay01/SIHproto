@@ -124,7 +124,10 @@ export default function Navbar({ activeSection, onNavigate, onOpenMetrics }) {
           {/* Near Me GPS Trigger */}
           <button
             className={`btn-icon ${hasLocation ? "btn-icon-active" : ""}`}
-            onClick={requestLocation}
+            onClick={() => {
+              requestLocation();
+              onNavigate("locate");
+            }}
             title={locationLabel || "Sort facilities by GPS proximity"}
             disabled={loadingLocation}
           >

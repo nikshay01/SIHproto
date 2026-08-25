@@ -1,6 +1,105 @@
 {
   "logs": [
     {
+      "logId": "AUD-1787631649765-562",
+      "timestamp": "2026-08-25T04:20:49.765Z",
+      "transactionId": null,
+      "userId": "usr_6f1272148073",
+      "actor": "USER",
+      "action": "REDEEM_CREDITS",
+      "previousStatus": null,
+      "newStatus": null,
+      "details": {
+        "redemptionId": "RDM-1787631649719-576",
+        "rewardId": "plant-tree",
+        "rewardTitle": "Plant 1 Native Tree",
+        "creditsSpent": 30,
+        "couponCode": "ECO-618395",
+        "status": "ACTIVE",
+        "redeemedAt": "2026-08-25T04:20:49.719Z"
+      }
+    },
+    {
+      "logId": "AUD-1787631599189-205",
+      "timestamp": "2026-08-25T04:19:59.189Z",
+      "transactionId": "EW-2026-7TVGAV",
+      "userId": "usr_6f1272148073",
+      "actor": "USER",
+      "action": "CLAIM_AND_AI_VERIFY",
+      "previousStatus": "PENDING_AI_VERIFICATION",
+      "newStatus": "AI_VERIFICATION_FAILED",
+      "details": {
+        "claimed": "Apple iPhone 13",
+        "detected": "Samsung Galaxy S22 Ultra",
+        "confidence": 1,
+        "estimatedCredits": 0
+      }
+    },
+    {
+      "logId": "AUD-1787631551321-709",
+      "timestamp": "2026-08-25T04:19:11.321Z",
+      "transactionId": null,
+      "userId": "Rahul Sharma",
+      "actor": "USER",
+      "action": "SCHEDULE_DOORSTEP_PICKUP",
+      "previousStatus": null,
+      "newStatus": "SCHEDULED",
+      "details": {
+        "ticketId": "PU-532456",
+        "facilityName": "Vadodara E-Waste Management",
+        "pickupDate": "2026-08-26",
+        "itemType": "Laptops, Batteries & Smartphones"
+      }
+    },
+    {
+      "logId": "AUD-1787599764061-812",
+      "timestamp": "2026-08-24T19:29:24.062Z",
+      "transactionId": "EW-2026-44RX7M",
+      "userId": "guest-user",
+      "actor": "USER",
+      "action": "CLAIM_AND_AI_VERIFY",
+      "previousStatus": "PENDING_AI_VERIFICATION",
+      "newStatus": "AI_VERIFICATION_FAILED",
+      "details": {
+        "claimed": "Apple iPhone 13",
+        "detected": "Xiaomi Redmi Note 12 Pro 5G",
+        "confidence": 0.8,
+        "estimatedCredits": 0
+      }
+    },
+    {
+      "logId": "AUD-1787599424448-288",
+      "timestamp": "2026-08-24T19:23:44.448Z",
+      "transactionId": "EW-2026-572889",
+      "userId": "guest-user",
+      "actor": "USER",
+      "action": "CLAIM_AND_AI_VERIFY",
+      "previousStatus": "PENDING_AI_VERIFICATION",
+      "newStatus": "PENDING_RECYCLING",
+      "details": {
+        "claimed": "Apple iPhone 13",
+        "detected": "Apple iPhone 13",
+        "confidence": 1,
+        "estimatedCredits": 129
+      }
+    },
+    {
+      "logId": "AUD-1787594934241-594",
+      "timestamp": "2026-08-24T18:08:54.242Z",
+      "transactionId": null,
+      "userId": "Rahul Sharma",
+      "actor": "USER",
+      "action": "SCHEDULE_DOORSTEP_PICKUP",
+      "previousStatus": null,
+      "newStatus": "SCHEDULED",
+      "details": {
+        "ticketId": "PU-713830",
+        "facilityName": "Vadodara E-Waste Management",
+        "pickupDate": "2026-08-25",
+        "itemType": "Laptops, Batteries & Smartphones"
+      }
+    },
+    {
       "logId": "AUD-1787479058428-105",
       "timestamp": "2026-08-23T09:57:38.428Z",
       "transactionId": null,
